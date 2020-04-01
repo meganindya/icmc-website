@@ -5,6 +5,7 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1;
+  background: #38b1ff;
 }
 
 .content-wrapper {
@@ -21,7 +22,7 @@ html, body {
   display: block;
   min-height: 2.5rem;
   border-bottom: 1px solid #ddd;
-  background: #eee;
+  background: aliceblue;
 }
 
 .header-links {
@@ -71,7 +72,7 @@ nav {
   min-height: 4rem;
   z-index: 99;
   font-family: 'Baloo Thambi 2', cursive;
-  background: aliceblue;
+  background: white;
   box-shadow: 0 .25rem .25rem rgba(127, 127, 127, .25);
 }
 
