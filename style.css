@@ -118,10 +118,10 @@ nav .logos span {
 }
 
 nav .logos .nav-logo-separator {
-  height: 80%;
-  width: .25rem;
+  height: 60%;
+  width: .125rem;
   margin-left: 1rem;
-  background: #ccc;
+  background: rgba(25, 25, 112, 0.5);
 }
 
 nav .nav-links {
