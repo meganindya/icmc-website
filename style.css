@@ -189,7 +189,6 @@ nav .nav-links ul li .active::before {
 
 .banner-container {
   height: calc(100vh - 104px);
-  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -262,9 +261,8 @@ nav .nav-links ul li .active::before {
   height: 4rem;
   margin-right: 1rem;
   border-radius: .5rem;
+  border: 1px solid #38b1ff;
   font-size: 2.75rem;
-  font-family: 'Baloo Thambi 2', cursive;
-  font-family: 'Gotu', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   color: #ccc;
   background: #333;
@@ -307,7 +305,7 @@ nav .nav-links ul li .active::before {
   display: block;
 }
 
-.scroll .scroll-btn {
+.scroll #scroll-btn {
   width: 3.18rem;
   height: 5rem;
   margin: auto;
@@ -315,11 +313,7 @@ nav .nav-links ul li .active::before {
   background: url("images/scroll.gif") no-repeat;
   background-position: 50%;
   background-size: auto 100%;
-}
-
-.scroll .scroll-btn a {
-  height: 100%;
-  display: block;
+  cursor: pointer;
 }
 
 

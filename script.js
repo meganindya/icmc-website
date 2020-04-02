@@ -16,20 +16,32 @@ $(document).ready(function () {
         var now = new Date().getTime();
         var distance = countDownDate - now;
 
-        if (distance < 0)
-            clearInterval(x);
-
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-        document.getElementById('days').innerHTML = days;
-        document.getElementById('hours').innerHTML = hours;
-        document.getElementById('mins').innerHTML = mins;
+        document.getElementById('days').innerHTML = makeDoubleDigit(days);
+        document.getElementById('hours').innerHTML = makeDoubleDigit(hours);
+        document.getElementById('mins').innerHTML = makeDoubleDigit(mins);
+
+        if (distance < 0)
+            clearInterval(x);
     };
+
+    var makeDoubleDigit = num => {
+        return (num.toString().length > 1 ? num : "0" + num);
+    }
 
     setCountdown();
     var x = setInterval(function() {
         setCountdown();
-    }, 5000);
+    }, 60000);
+
+    $('#scroll-btn').click(() => {
+        var top = $('#info').position().top - 128;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
 });
