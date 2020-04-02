@@ -89,7 +89,7 @@ nav .container {
 
 nav .logos {
   position: absolute;
-  left: 0;
+  left: .25rem;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -149,15 +149,15 @@ nav .nav-links ul li:last-of-type {
   margin: 0;
 }
 
-nav .nav-links ul li a {
+nav .nav-links ul li div {
   position: relative;
-  padding: 1.21875rem 0;
+  padding: 1.5rem 0;
   color: #666;
-  text-decoration: none;
+  cursor: pointer;
   transition: all 0.5s ease;
 }
 
-nav .nav-links ul li a::before {
+nav .nav-links ul li div::before {
   position: absolute;
   top: 0;
   right: 50%;
@@ -169,14 +169,14 @@ nav .nav-links ul li a::before {
   transition: all 0.25s ease;
 }
 
-nav .nav-links ul li a:hover,
-nav .nav-links ul li a:focus,
+nav .nav-links ul li div:hover,
+nav .nav-links ul li div:focus,
 nav .nav-links ul li .active {
   color: #333;
 }
 
-nav .nav-links ul li a:hover::before,
-nav .nav-links ul li a:focus::before,
+nav .nav-links ul li div:hover::before,
+nav .nav-links ul li div:focus::before,
 nav .nav-links ul li .active::before {
   right: -2px;
   left: -2px;
