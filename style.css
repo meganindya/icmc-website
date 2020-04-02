@@ -187,17 +187,139 @@ nav .nav-links ul li .active::before {
 /* ========================= */
 /* CONTENT */
 
-.content .container {
-  padding-top: 2rem;
+.banner-container {
+  height: calc(100vh - 104px);
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .banner {
+  position: relative;
   display: block;
   width: 100%;
-  height: 600px;
+  height: 36rem;
   border-radius: .5rem;
-  background: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background: url("images/banner-temp-1.png"), white;
+  background-size: cover;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+}
+
+.banner > * {
+  position: absolute;
+}
+
+.banner h1 {
+  top: 3rem;
+  left: 3rem;
+}
+
+.banner h1 p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.banner h1 p:last-of-type {
+  position: absolute;
+  left: 5rem;
+  color: #005;
+}
+
+.banner h3 {
+  top: 11rem;
+  left: 8rem;
+}
+
+.banner h2 {
+  top: 16rem;
+  left: 5rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.banner h2 p:first-of-type {
+  color: #666;
+}
+
+.banner h2 p:last-of-type {
+  width: 30rem;
+  color: #333;
+}
+
+.banner .countdown {
+  top: 26rem;
+  left: 8rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner .countdown .countdown-box {
+  position: relative;
+  width: 6rem;
+  height: 4rem;
+  margin-right: 1rem;
+  border-radius: .5rem;
+  font-size: 2.75rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-family: 'Gotu', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ccc;
+  background: #333;
+}
+
+.banner .countdown .countdown-box:last-of-type {
+  margin-right: 0;
+}
+
+.banner .countdown .countdown-box span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner .countdown .countdown-box::after {
+  position: absolute;
+  bottom: -1.5rem;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.banner .countdown .countdown-box:nth-of-type(1)::after {
+  content: "days";
+}
+
+.banner .countdown .countdown-box:nth-of-type(2)::after {
+  content: "hours";
+}
+
+.banner .countdown .countdown-box:nth-of-type(3)::after {
+  content: "mins";
+}
+
+.scroll {
+  height: 5rem;
+  display: block;
+}
+
+.scroll .scroll-btn {
+  width: 3.18rem;
+  height: 5rem;
+  margin: auto;
+  border-radius: 1.5rem;
+  background: url("images/scroll.gif") no-repeat;
+  background-position: 50%;
+  background-size: auto 100%;
+}
+
+.scroll .scroll-btn a {
+  height: 100%;
+  display: block;
 }
 
 
