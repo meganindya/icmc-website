@@ -55,4 +55,20 @@ $(document).ready(function () {
             behavior: 'smooth'
         });
     });
+
+    $('#l_home').click(() => {
+        var top = 0;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
+
+    $('#l_about').click(() => {
+        var top = $('#about').position().top - 96;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
 });
