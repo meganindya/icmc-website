@@ -9,6 +9,17 @@ $(document).ready(function () {
             $('#navbar').removeClass('navbar-fixed');
             $('#content-body').css("margin-top", "0");
         }
+
+        var reached = $(window).height() + $(window).scrollTop();
+        var aboutCutTop = $('#about').position().top;
+
+        if ((aboutCutTop + 102) < reached) {
+            $('#l_home').removeClass('active');
+            $('#l_about').addClass('active');
+        } else {
+            $('#l_home').addClass('active');
+            $('#l_about').removeClass('active');
+        }
     });
 
     var countDownDate = new Date("Mar 15, 2021 11:00:00").getTime();
@@ -38,7 +49,7 @@ $(document).ready(function () {
     }, 60000);
 
     $('#scroll-btn').click(() => {
-        var top = $('#info').position().top - 128;
+        var top = $('#info').position().top - 96;
         window.scrollTo({
             top: top,
             behavior: 'smooth'
