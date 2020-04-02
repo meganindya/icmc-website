@@ -494,6 +494,7 @@ nav .nav-links ul li .active::before {
 
 #about .info-body p {
   text-align: justify;
+  line-height: 1.4;
 }
 
 
@@ -760,6 +761,39 @@ nav .nav-links ul li .active::before {
 #trax .speakers .chair .chair-body p {
   margin-left: 0;
   text-align: center;
+}
+
+
+/* ========================= */
+/* GUIDELINES */
+
+#guide {
+  width: 100%;
+  display: block;
+  border-radius: .5rem;
+  margin-top: 4rem;
+  background: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+}
+
+#guide .info-body {
+  padding: 3rem;
+}
+
+#guide .info-body p {
+  text-align: justify;
+  line-height: 1.4;
+}
+
+#guide .info-body p a {
+  text-decoration: none;
+  color: #00bbff;
+  transition: all 0.5s ease;
+}
+
+#guide .info-body p a:hover,
+#guide .info-body p a:focus {
+  color: #38b1ff;
 }
 
 

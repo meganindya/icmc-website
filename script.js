@@ -12,8 +12,8 @@ $(document).ready(function () {
 
         var reached = $(window).scrollTop() - 64 + ($(window).height() >> 1);
         var tops = [];
-        var elems = [ $('#about'), $('#speak'), $('#comm'), $('#trax'), $('#foot') ];
-        var links = [ $('#l_about'), $('#l_speak'), $('#l_comm'), $('#l_trax'), $('#foot') ];
+        var elems = [ $('#about'), $('#speak'), $('#comm'), $('#trax'), $('#guide'), $('#reg'), $('#foot') ];
+        var links = [ $('#l_about'), $('#l_speak'), $('#l_comm'), $('#l_trax'), $('#l_guide'), $('#l_reg'), $('#foot') ];
         
         $('#l_home').removeClass('active');
         for (var i = 0; i < elems.length; i++) {
@@ -105,6 +105,22 @@ $(document).ready(function () {
 
     $('#l_trax').click(() => {
         var top = $('#trax').position().top - 64;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
+
+    $('#l_guide').click(() => {
+        var top = $('#guide').position().top - 64;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
+
+    $('#l_reg').click(() => {
+        var top = $('#reg').position().top - 64;
         window.scrollTo({
             top: top,
             behavior: 'smooth'
