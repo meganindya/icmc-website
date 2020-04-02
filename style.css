@@ -1,17 +1,16 @@
-html, body {
+body {
   position: relative;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   line-height: 1;
-  background: #38b1ff;
+  background: url("images/overlay.png"), #38b1ff;
 }
 
-.content-wrapper {
-  min-height: 100vh;
-  width: 100%;
-  padding-bottom: 6rem;
+
+.content {
+  margin-bottom: 6rem;
 }
 
 
@@ -201,8 +200,9 @@ nav .nav-links ul li .active::before {
   height: 36rem;
   border-radius: .5rem;
   font-family: 'Alegreya Sans SC', sans-serif;
-  background: url("images/banner-temp-1.png"), white;
-  background-size: cover;
+  background: url("images/banner-temp-1.png") no-repeat, white;
+  background-size: auto 100%;
+  background-position: 100% 50%;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
 }
 
@@ -326,6 +326,11 @@ nav .nav-links ul li .active::before {
   margin-top: 4.25rem;
   clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background: white;
+}
+
+.separator:last-of-type {
+  width: 33%;
+  margin: 6rem auto;
 }
 
 
@@ -570,7 +575,7 @@ nav .nav-links ul li .active::before {
 
 #speak .speakers .speaker:hover {
   transform: translateY(-.5rem);
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .25);
 }
 
 #speak .speakers .speaker .speak-photo {
@@ -735,7 +740,7 @@ nav .nav-links ul li .active::before {
 
 
 /* ========================= */
-/* COMMITTEE */
+/* TRACKS */
 
 #trax {
   display: block;
@@ -746,7 +751,7 @@ nav .nav-links ul li .active::before {
   width: 100%;
 }
 
-.chair .chair-head {
+#trax .chair .chair-head {
   height: 4.5rem;
   display: grid;
   align-items: center;
@@ -754,7 +759,7 @@ nav .nav-links ul li .active::before {
   border-bottom: 1px solid #ccc;
 }
 
-.chair .chair-head h4 {
+#trax .chair .chair-head h4 {
   margin: 0;
   padding: 0 2rem;
   font-family: 'Baloo Thambi 2', cursive;
@@ -810,13 +815,44 @@ nav .nav-links ul li .active::before {
 
 
 /* ========================= */
+/* REGISTRATION */
+
+#reg {
+  width: 100%;
+  display: block;
+  border-radius: .5rem;
+  margin-top: 4rem;
+  background: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+}
+
+#reg .info-body {
+  padding: 3rem;
+}
+
+#reg .info-body p {
+  text-align: justify;
+  line-height: 1.4;
+}
+
+#reg .info-body p a {
+  text-decoration: none;
+  color: #00bbff;
+  transition: all 0.5s ease;
+}
+
+#reg .info-body p a:hover,
+#reg .info-body p a:focus {
+  color: #38b1ff;
+}
+
+
+/* ========================= */
 /* FOOTER */
 
 footer {
-  position: relative;
-  bottom: 4rem;
-  width: 100%;
   height: 4rem;
+  margin-bottom: 2rem;
   display: grid;
   align-items: center;
   justify-content: center;
