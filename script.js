@@ -10,20 +10,35 @@ $(document).ready(function () {
             $('#content-body').css("margin-top", "0");
         }
 
-        var reached = $(window).height() + $(window).scrollTop();
-        var aboutCutTop = $('#about').position().top;
-
-        if ((aboutCutTop + 102) < reached) {
-            $('#l_home').removeClass('active');
-            $('#l_about').addClass('active');
-        } else {
-            $('#l_home').addClass('active');
-            $('#l_about').removeClass('active');
+        var reached = $(window).scrollTop() - 64 + ($(window).height() >> 1);
+        var tops = [];
+        var elems = [ $('#about'), $('#speak'), $('#foot') ];
+        var links = [ $('#l_about'), $('#l_speak'), $('#foot') ];
+        
+        $('#l_home').removeClass('active');
+        for (var i = 0; i < elems.length; i++) {
+            tops[i] = elems[i].position().top;
+            links[i].removeClass('active');
         }
+
+        var index = -1;
+        for (var i = 0; i < tops.length - 1; i++) {
+            if (reached < tops[0])
+                break;
+            if (reached >= tops[i] && reached < tops[i + 1]) {
+                index = i;
+                break;
+            }
+        }
+
+        if (index == -1)
+            $('#l_home').addClass('active');
+        else
+            links[index].addClass('active');
     });
 
     var countDownDate = new Date("Mar 15, 2021 11:00:00").getTime();
-    var setCountdown = function() {
+    var setCountdown = function () {
         var now = new Date().getTime();
         var distance = countDownDate - now;
 
@@ -44,7 +59,7 @@ $(document).ready(function () {
     }
 
     setCountdown();
-    var x = setInterval(function() {
+    var x = setInterval(function () {
         setCountdown();
     }, 60000);
 
@@ -65,7 +80,15 @@ $(document).ready(function () {
     });
 
     $('#l_about').click(() => {
-        var top = $('#about').position().top - 96;
+        var top = $('#about').position().top - 64;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
+
+    $('#l_speak').click(() => {
+        var top = $('#speak').position().top - 64;
         window.scrollTo({
             top: top,
             behavior: 'smooth'
