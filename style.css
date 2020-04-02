@@ -524,7 +524,7 @@ nav .nav-links ul li .active::before {
   background: white;
 }
 
-#speak .speakers {
+.speakers {
   display: block;
   margin-top: 2rem;
 }
@@ -616,6 +616,128 @@ nav .nav-links ul li .active::before {
 #speak .speakers .speaker .speak-info a:nth-of-type(4):hover,
 #speak .speakers .speaker .speak-info a:nth-of-type(4):focus {
   color: #00bbff;
+}
+
+
+/* ========================= */
+/* COMMITTEE */
+
+#comm {
+  display: block;
+  margin-top: 4rem;
+}
+
+.bubble {
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble h4 {
+  margin: 0;
+  padding: 0.8125rem 2rem;
+  border-radius: .5rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.15rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #333;
+  background: white;
+}
+
+#comm .speakers .chair {
+  width: calc(50% - 1rem);
+  float: left;
+  margin-top: 2rem;
+  border-radius: .5rem;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+#comm .speakers .chair:nth-of-type(1),
+#comm .speakers .chair:nth-of-type(2) {
+  margin-top: 0;
+}
+
+#comm .speakers .chair:nth-of-type(odd) {
+  margin-right: 1rem;
+}
+
+#comm .speakers .chair:nth-of-type(even) {
+  margin-left: 1rem;
+}
+
+#comm .speakers .chair:hover {
+  /*transform: translateY(-.5rem);*/
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.25);
+}
+
+#comm .speakers .chair .chair-head {
+  height: 2.5rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#comm .speakers .chair .chair-head h4 {
+  margin: 0;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #333;
+}
+
+#comm .speakers .chair .chair-body {
+  margin-top: .5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  color: #666;
+}
+
+#comm .speakers .chair .chair-body p {
+  margin: .5rem 1rem;
+}
+
+#comm .speakers .chair .chair-body p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+#comm .speakers .chair:last-of-type {
+  width: 100%;
+  margin-left: 0;
+}
+
+#comm .speakers .chair:last-of-type .chair-body {
+  margin-bottom: .75rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#comm .speakers .chair .chair-body .left p:first-of-type,
+#comm .speakers .chair .chair-body .right p:first-of-type {
+  margin-left: 4rem;
+  margin-bottom: .75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#comm .speakers .chair .chair-body .left,
+#comm .speakers .chair .chair-body .right {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#comm .speakers .chair .chair-body .left {
+  border-right: 1px solid #eee;
+}
+
+#comm .speakers .chair .chair-body .left p:last-of-type {
+  margin-bottom: .5rem;
 }
 
 
