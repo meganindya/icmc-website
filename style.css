@@ -318,6 +318,18 @@ nav .nav-links ul li .active::before {
 
 
 /* ========================= */
+/* SEPARATOR */
+
+.separator {
+  height: .25rem;
+  display: block;
+  margin-top: 4.25rem;
+  clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: white;
+}
+
+
+/* ========================= */
 /* INFO */
 
 #info {
