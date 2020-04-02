@@ -12,8 +12,8 @@ $(document).ready(function () {
 
         var reached = $(window).scrollTop() - 64 + ($(window).height() >> 1);
         var tops = [];
-        var elems = [ $('#about'), $('#speak'), $('#comm'), $('#foot') ];
-        var links = [ $('#l_about'), $('#l_speak'), $('#l_comm'), $('#foot') ];
+        var elems = [ $('#about'), $('#speak'), $('#comm'), $('#trax'), $('#foot') ];
+        var links = [ $('#l_about'), $('#l_speak'), $('#l_comm'), $('#l_trax'), $('#foot') ];
         
         $('#l_home').removeClass('active');
         for (var i = 0; i < elems.length; i++) {
@@ -103,11 +103,16 @@ $(document).ready(function () {
         });
     });
 
+    $('#l_trax').click(() => {
+        var top = $('#trax').position().top - 64;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
+
     var chairs = $('.chair');
-    for (var i = 0; i < chairs.length - 2; i += 2) {
-        if ((i + 1) >= chairs.length)
-            break;
-        
+    for (var i = 0; i < 6; i += 2) {
         var h1 = $(chairs[i]).height(), h2 = $(chairs[i + 1]).height();
         var max = h1 > h2 ? h1 : h2;
 
