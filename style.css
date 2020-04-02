@@ -318,7 +318,7 @@ nav .nav-links ul li .active::before {
 
 
 /* ========================= */
-/* FOOTER */
+/* INFO */
 
 #info {
   width: 100%;
@@ -343,7 +343,7 @@ nav .nav-links ul li .active::before {
   margin-left: 1rem;
 }
 
-#info .info-block .info-head {
+.info-block .info-head {
   height: 3rem;
   display: grid;
   align-items: center;
@@ -351,7 +351,7 @@ nav .nav-links ul li .active::before {
   border-bottom: 1px solid #ccc;
 }
 
-#info .info-block .info-head h4 {
+.info-block .info-head h4 {
   margin: 0;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 1.15rem;
@@ -360,7 +360,7 @@ nav .nav-links ul li .active::before {
   color: #333;
 }
 
-#info .info-block .info-body {
+.info-block .info-body {
   height: calc(100% - 48px);
   display: block;
   font-family: 'Gotu', sans-serif;
@@ -464,6 +464,36 @@ nav .nav-links ul li .active::before {
   margin: 1rem 10%;
   font-size: .9rem;
   text-align: center;
+}
+
+
+/* ========================= */
+/* ABOUT */
+
+#about {
+  width: 100%;
+  display: block;
+  border-radius: .5rem;
+  margin-top: 4rem;
+  background: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+}
+
+#about .info-body {
+  padding: 2rem;
+}
+
+#about .info-body div {
+  width: 16rem;
+  height: 16rem;
+  float: left;
+  margin: 0 2rem 2rem 0;
+  background: url("images/logo-icmc.png");
+  background-size: cover;
+}
+
+#about .info-body p {
+  text-align: justify;
 }
 
 
