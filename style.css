@@ -158,7 +158,6 @@ nav .nav-links ul li a {
   transition: all 0.5s ease;
 }
 
-nav .nav-links ul li a::before,
 nav .nav-links ul li a::before {
   position: absolute;
   top: 0;
@@ -172,12 +171,14 @@ nav .nav-links ul li a::before {
 }
 
 nav .nav-links ul li a:hover,
-nav .nav-links ul li a:active {
+nav .nav-links ul li a:focus,
+nav .nav-links ul li .active {
   color: #333;
 }
 
 nav .nav-links ul li a:hover::before,
-nav .nav-links ul li a:active::before {
+nav .nav-links ul li a:focus::before,
+nav .nav-links ul li .active::before {
   right: -2px;
   left: -2px;
 }
