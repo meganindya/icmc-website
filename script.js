@@ -2,12 +2,30 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(window).scrollTop() >= 40) {
             $('#navbar').addClass('navbar-fixed');
-            $('#content-body').css("margin-top", "64px");
+            $('#content-body').css('margin-top', '64px');
+            $('nav').css('background', '#333');
+            $('#logo-iiests').css({
+                'background':'url("images/logo-iiests-white.png") no-repeat',
+                'background-size':'auto 90%',
+                'background-position':'50% 50%'
+            });
+            $('nav .logos span').css('color', '#ccc');
+            $('nav .nav-links ul li div').css('color', '#ccc');
+            $('.active').css('color', '#80ebff');
         }
 
         if ($(window).scrollTop() < 40) {
             $('#navbar').removeClass('navbar-fixed');
-            $('#content-body').css("margin-top", "0");
+            $('#content-body').css('margin-top', '0');
+            $('nav').css('background', 'white');
+            $('#logo-iiests').css({
+                'background':'url("images/logo-iiests.png") no-repeat',
+                'background-size':'auto 90%',
+                'background-position':'50% 50%'
+            });
+            $('nav .logos span').css('color', '#333');
+            $('nav .nav-links ul li div').css('color', '#666');
+            $('.active').css('color', '#333');
         }
 
         var reached = $(window).scrollTop() - 64 + ($(window).height() >> 1);
@@ -37,9 +55,16 @@ $(document).ready(function () {
             links[index].addClass('active');
         
         if ($(window).scrollTop() > 64)
-            $('#btn-top').css({"opacity":".75", "transition":"opacity .75s ease-out"});
+            $('#btn-top').css({
+                "opacity":".75",
+                "visibility":"visible",
+                "transition":"all .75s ease-out"
+            });
         else
-            $('#btn-top').css("opacity", "0");
+            $('#btn-top').css({
+                "opacity":"0",
+                "visibility":"hidden"
+        });
     });
 
     var countDownDate = new Date("Mar 15, 2021 11:00:00").getTime();

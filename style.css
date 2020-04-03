@@ -26,7 +26,8 @@ body {
   background-size: cover;
   cursor: pointer;
   opacity: 0;
-  transition: opacity 1s ease-in;
+  visibility: hidden;
+  transition: all 1s ease-in;
 }
 
 
@@ -89,6 +90,7 @@ nav {
   font-family: 'Baloo Thambi 2', cursive;
   background: white;
   box-shadow: 0 .25rem .25rem rgba(127, 127, 127, .25);
+  transition: all 0.5s ease;
 }
 
 .navbar-fixed {
@@ -118,19 +120,21 @@ nav .logos .logo {
   margin: 0 1rem;
 }
 
-nav .logos .logo:nth-of-type(1) {
+#logo-icmc {
   background: url("images/logo-icmc.png");
   background-size: cover;
 }
 
-nav .logos .logo:nth-of-type(3) {
+#logo-iiests {
   background: url("images/logo-iiests.png");
   background-size: cover;
 }
 
 nav .logos span {
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: large;
   font-weight: bold;
+  color: #333;
 }
 
 nav .logos .nav-logo-separator {
@@ -185,8 +189,6 @@ nav .nav-links ul li div::before {
   transition: all 0.25s ease;
 }
 
-nav .nav-links ul li div:hover,
-nav .nav-links ul li div:focus,
 nav .nav-links ul li .active {
   color: #333;
 }
@@ -329,6 +331,7 @@ nav .nav-links ul li .active::before {
   background: url("images/scroll.gif") no-repeat;
   background-position: 50%;
   background-size: auto 100%;
+  filter: drop-shadow(0 0 .25rem rgba(0, 0, 0, .5));
   cursor: pointer;
 }
 
@@ -382,6 +385,8 @@ nav .nav-links ul li .active::before {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #ccc;
+  border-radius: .5rem .5rem 0 0;
+  background: #333;
 }
 
 .info-block .info-head h4 {
@@ -390,7 +395,7 @@ nav .nav-links ul li .active::before {
   font-size: 1.15rem;
   font-weight: bolder;
   text-align: center;
-  color: #333;
+  color: #80ebff;
 }
 
 .info-block .info-body {
@@ -556,6 +561,7 @@ nav .nav-links ul li .active::before {
   text-align: center;
   color: #333;
   background: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
 }
 
 .speakers {
@@ -602,7 +608,7 @@ nav .nav-links ul li .active::before {
   border-radius: .5rem;
   display: block;
   margin: 0 .5rem;
-  background: url("images/sillhouette.png") no-repeat, #00b1ff;
+  background: url("images/sillhouette.png") no-repeat, #00bbff;
   background-size: auto 100%;
   background-position: 50% 50%;
 }
@@ -622,14 +628,24 @@ nav .nav-links ul li .active::before {
   color: #666;
 }
 
+#speak .speakers .speaker .speak-info p:nth-of-type(1)::before,
+#speak .speakers .speaker .speak-info p:nth-of-type(3)::before {
+  width: 1rem;
+  content: " ";
+  display: inline-block;
+}
+
 #speak .speakers .speaker .speak-info p:nth-of-type(1) {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: .25rem;
+  padding: .25rem 0;
+  border-radius: .25rem;
   font-weight: bold;
-  color: #333;
+  color: #80ebff;
+  background: #333;
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(2) {
+  margin-top: .25rem;
   margin-bottom: 1rem;
 }
 
@@ -695,6 +711,11 @@ nav .nav-links ul li .active::before {
   border-bottom: 1px solid #ccc;
 }
 
+#comm .chair .chair-head {
+  border-radius: .5rem .5rem 0 0;
+  background: #333;
+}
+
 .chair .chair-head h4 {
   margin: 0;
   font-family: 'Baloo Thambi 2', cursive;
@@ -702,6 +723,10 @@ nav .nav-links ul li .active::before {
   font-weight: bolder;
   text-align: center;
   color: #333;
+}
+
+#comm .chair .chair-head h4 {
+  color: #80ebff;
 }
 
 .chair .chair-body {
@@ -793,7 +818,15 @@ nav .nav-links ul li .active::before {
 
 #trax .speakers .chair .chair-body p {
   margin-left: 0;
+  margin-right: 0;
+  padding: 0 1rem;
   text-align: center;
+}
+
+#trax .speakers .chair .chair-body p:first-of-type {
+  margin: 0 0 .5rem 0;
+  padding: .5rem 1rem;
+  background: #eee;
 }
 
 
