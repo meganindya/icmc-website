@@ -35,6 +35,11 @@ $(document).ready(function () {
             $('#l_home').addClass('active');
         else
             links[index].addClass('active');
+        
+        if ($(window).scrollTop() > 64)
+            $('#btn-top').css({"opacity":".75", "transition":"opacity .75s ease-out"});
+        else
+            $('#btn-top').css("opacity", "0");
     });
 
     var countDownDate = new Date("Mar 15, 2021 11:00:00").getTime();
@@ -135,4 +140,12 @@ $(document).ready(function () {
         $(chairs[i]).css("height", max);
         $(chairs[i + 1]).css("height", max);
     }
+
+    $('#btn-top').click(() => {
+        var top = 0;
+        window.scrollTo({
+            top: top,
+            behavior: 'smooth'
+        });
+    });
 });
