@@ -525,7 +525,8 @@ nav .nav-links ul li .active::before {
   width: 16rem;
   height: 16rem;
   float: left;
-  margin: 0 2rem 2rem 0;
+  margin: 0 2rem 1.5rem 0;
+  transform: translateY(.5rem);
   background: url("images/logo-icmc.png");
   background-size: cover;
 }
