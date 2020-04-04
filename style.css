@@ -1101,7 +1101,7 @@ nav .nav-links ul li .active::before {
 }
 
 #trax .speakers .chair .chair-body {
-  margin-bottom: .75rem;
+  margin-bottom: 1.25rem;
   display: flex;
   flex-direction: row;
 }
@@ -1114,6 +1114,8 @@ nav .nav-links ul li .active::before {
 }
 
 #trax .speakers .chair .chair-body p:first-of-type {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.1rem;
   margin: 0 0 .5rem 0;
   padding: .5rem 1rem;
   background: #eee;
@@ -1192,7 +1194,7 @@ nav .nav-links ul li .active::before {
 }
 
 .reg-details table {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .reg-details > table th {
@@ -1202,12 +1204,12 @@ nav .nav-links ul li .active::before {
   text-align: center;
 }
 
-.reg-details > table td {
+.reg-details table td {
   width: 50%;
 }
 
-.reg-details > table th:nth-of-type(odd),
-.reg-details > table td:nth-of-type(odd) {
+.reg-details table th:nth-of-type(odd),
+.reg-details table td:nth-of-type(odd) {
   border-right: 1px solid #eee;
 }
 
@@ -1221,19 +1223,28 @@ nav .nav-links ul li .active::before {
 }
 
 #neft {
+  margin-bottom: 0;
   padding: 0;
 }
 
+#neft table {
+  margin: 0;
+}
+
 .reg-details > table table td:nth-of-type(odd) {
-  width: 30%;
+  width: 25%;
 }
 
 .reg-details > table table td:nth-of-type(even) {
-  width: 70%;
+  width: 75%;
 }
 
 .reg-details > table table td {
   padding: .5rem;
+}
+
+#neft td {
+  padding: .5rem 1rem;
 }
 
 #neft td:nth-of-type(odd) {
@@ -1254,7 +1265,8 @@ nav .nav-links ul li .active::before {
 }
 
 #demdraft {
-  padding: 1rem;
+  vertical-align: top;
+  padding: .35rem 1rem 0 1rem;
 }
 
 #demdraft p {
