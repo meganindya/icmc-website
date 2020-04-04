@@ -1,5 +1,7 @@
 $(document).ready(function () {
     $(window).scroll(function () {
+        toggleCollapseBar();
+
         if ($(window).scrollTop() >= 40) {
             $('#navbar').addClass('navbar-fixed');
             $('#content-body').css('margin-top', '64px');
@@ -172,5 +174,40 @@ $(document).ready(function () {
             top: top,
             behavior: 'smooth'
         });
+    });
+
+    var collmenu = -1;
+    var c_links = [ $('#venue'), $('#pconf'), $('#spons'), $('#contc') ];
+    var toggleCollapseBar = function(i) {
+        $('.header-links ul li div').css('color', '#666');
+        if ($('#collbar').height() === 0) {
+            $('#collbar').css('height', $(window).height() - 104);
+            collmenu = i;
+            c_links[i].css('color', '#333');
+        } else {
+            if (collmenu == i) {
+                $('#collbar').css('height', '0');
+                collmenu = -1;
+            } else {
+                collmenu = i;
+                c_links[i].css('color', '#333');
+            }
+        }
+    };
+
+    $('#venue').click(() => {
+        toggleCollapseBar(0);
+    });
+
+    $('#pconf').click(() => {
+        toggleCollapseBar(1);
+    });
+
+    $('#spons').click(() => {
+        toggleCollapseBar(2);
+    });
+
+    $('#contc').click(() => {
+        toggleCollapseBar(3);
     });
 });

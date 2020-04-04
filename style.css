@@ -67,16 +67,31 @@ body {
   border-right: none;
 }
 
-.header-links ul li a {
+.header-links ul li div {
   font-size: 0.9rem;
   color: #666;
-  text-decoration: none;
+  cursor: pointer;
   transition: all 0.5s ease;
 }
 
-.header-links ul li a:hover,
-.header-links ul li a:active {
+.header-links ul li div:hover,
+.header-links ul li div:active {
   color: #333;
+}
+
+
+/* ========================= */
+/* COLLAPSE BAR */
+
+#collbar {
+  background: #333;
+  transition: all 0.5s ease;
+}
+
+#coll-context {
+  /*height: 20rem;*/
+  display: block;
+  background: white;
 }
 
 
