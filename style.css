@@ -117,6 +117,12 @@ body {
 #c_ven {
   width: 100%;
   height: 40rem;
+  transition: all 0.5s ease;
+}
+
+#c_ven:hover,
+#c_ven:focus {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, .25);
 }
 
 #c_ven > div {
@@ -254,6 +260,11 @@ body {
   border-radius: 0 0 0.5rem 0;
 }
 
+#c_prv tr td:hover:nth-of-type(even),
+#c_prv tr td:focus:nth-of-type(even) {
+  background: rgba(0, 123, 234, .25);
+}
+
 #c_prv a {
   color: #80ebff;
   text-decoration: none;
@@ -334,6 +345,12 @@ body {
   border-radius: .5rem;
   font-family: 'Baloo Thambi 2', cursive;
   background: #333;
+  transition: all 0.5s ease;
+}
+
+#c_con div:hover,
+#c_con div:focus {
+  background: #494949;
 }
 
 #c_con p:first-of-type {
@@ -389,7 +406,7 @@ nav .logos {
 nav .logos .logo {
   width: 2.75rem;
   height: 2.75rem;
-  margin: 0 1rem;
+  margin: 0 .75rem;
 }
 
 #logo-icmc {
@@ -412,7 +429,7 @@ nav .logos span {
 nav .logos .nav-logo-separator {
   height: 60%;
   width: .125rem;
-  margin-left: 1rem;
+  margin-left: .75rem;
   background: #00bbff;
 }
 
