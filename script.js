@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('#coll-context').hide();
     $(window).scroll(function () {
         toggleCollapseBar();
 
@@ -182,11 +183,13 @@ $(document).ready(function () {
         $('.header-links ul li div').css('color', '#666');
         if ($('#collbar').height() === 0) {
             $('#collbar').css('height', $(window).height() - 104);
+            $('#coll-context').show(500);
             collmenu = i;
             c_links[i].css('color', '#333');
         } else {
             if (collmenu == i) {
                 $('#collbar').css('height', '0');
+                $('#coll-context').hide(500);
                 collmenu = -1;
             } else {
                 collmenu = i;
@@ -194,6 +197,16 @@ $(document).ready(function () {
             }
         }
     };
+
+    for (var i = 0; i < c_links.length; i++)
+        $(c_links[i]).hover(
+            function() {
+                $(this).css('color', '#333');
+            },
+            function() {
+                $(this).css('color', '#666');
+            }
+        );
 
     $('#venue').click(() => {
         toggleCollapseBar(0);
