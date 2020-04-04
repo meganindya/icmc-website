@@ -1,10 +1,25 @@
 $(document).ready(function () {
-    $('#coll-context').hide();
+    $(window).resize(function() {
+        if ($('#collbar').height() != 0) {
+            $('#collbar').css('height', $(window).height() - 104);
+            $('#coll-context').css('height', $(window).height() - 104);
+        }
+    });
+
     $(window).scroll(function () {
-        toggleCollapseBar();
+        if ($('#collbar').height() != 0) {
+            $('#coll-context .card').hide(200);
+            setTimeout(() => {
+                $('#coll-context').css('height', '0');
+                $('#collbar').css('height', '0');
+                window.scrollTo(0, 0);
+            }, 200);
+
+            return;
+        }
 
         if ($(window).scrollTop() >= 40) {
-            $('#navbar').addClass('navbar-fixed');
+            $('#navbar').addClass('fixed');
             $('#content-body').css('margin-top', '64px');
             $('nav').css('background', '#333');
             $('#logo-iiests').css({
@@ -18,7 +33,7 @@ $(document).ready(function () {
         }
 
         if ($(window).scrollTop() < 40) {
-            $('#navbar').removeClass('navbar-fixed');
+            $('#navbar').removeClass('fixed');
             $('#content-body').css('margin-top', '0');
             $('nav').css('background', 'white');
             $('#logo-iiests').css({
@@ -177,21 +192,32 @@ $(document).ready(function () {
         });
     });
 
+    $('#coll-context .card').hide();
     var collmenu = -1;
     var c_links = [ $('#venue'), $('#pconf'), $('#spons'), $('#contc') ];
+    var cards = [ $('#c_ven'), $('#c_prv'), $('#c_spn'), $('#c_con') ];
     var toggleCollapseBar = function(i) {
         $('.header-links ul li div').css('color', '#666');
         if ($('#collbar').height() === 0) {
             $('#collbar').css('height', $(window).height() - 104);
-            $('#coll-context').show(500);
+            $('#coll-context').css('height', $(window).height() - 104);
+            setTimeout(() => {
+                cards[i].show(200);
+            }, 250);
             collmenu = i;
+
             c_links[i].css('color', '#333');
         } else {
             if (collmenu == i) {
-                $('#collbar').css('height', '0');
-                $('#coll-context').hide(500);
+                $('#coll-context .card').hide(200);
+                setTimeout(() => {
+                    $('#coll-context').css('height', '0');
+                    $('#collbar').css('height', '0');
+                }, 200);
                 collmenu = -1;
             } else {
+                cards[i].show(200);
+                cards[collmenu].hide(200);
                 collmenu = i;
                 c_links[i].css('color', '#333');
             }

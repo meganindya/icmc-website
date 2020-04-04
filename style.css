@@ -85,15 +85,270 @@ body {
 /* COLLAPSE BAR */
 
 #collbar {
-  background: #333;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, .25) 4px,
+    rgba(0, 0, 0, .25) 5px,
+    rgba(0, 0, 0, 0) 10px
+  ), #333;
   transition: all 0.5s ease;
 }
 
 #coll-context {
-  height: 20rem;
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: block;
-  background: white;
-  /*visibility: hidden;*/
+  padding: 2rem;
+  border-radius: .5rem;
+  color: #ccc;
+  background: rgba(51, 51, 51, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+}
+
+#c_ven {
+  width: 100%;
+  height: 40rem;
+}
+
+#c_ven > div {
+  border-radius: .5rem;
+}
+
+#card-image {
+  width: 27rem;
+  height: 18rem;
+  float: left;
+  margin: 0 2rem 2rem 0;
+  box-sizing: border-box;
+  background: url("res/campus.jpg");
+  background-size: cover;
+}
+
+#card-desc {
+  width: calc(100% - 29rem);
+  height: 18rem;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #333;
+  text-align: justify;
+}
+
+#card-desc p:first-of-type {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#card-desc p:last-of-type {
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+#card-map {
+  width: 27rem;
+  height: 16rem;
+  float: left;
+  margin: 0 2rem 0 0;
+  background: #ccc;
+}
+
+#card-website {
+  width: calc(100% - 29rem);
+  height: 16rem;
+  float: left;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  text-align: justify;
+  color: #ccc;
+  background: #333;
+}
+
+#card-website b {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-right: .5rem;
+}
+
+#card-website a {
+  color: #80ebff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+#card-website a:hover,
+#card-website a:focus {
+  color: #38b1ff;
+}
+
+#c_prv p {
+  padding: 1rem;
+  border-radius: .5rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.1rem;
+  text-align: justify;
+  background: #333;
+}
+
+#c_prv table {
+  background: #333;
+}
+
+#c_prv th,
+#c_prv td {
+  width: 20rem;
+  padding: .75rem;
+  text-align: center;
+}
+
+#c_prv tr:nth-of-type(odd) {
+  background-color: #494949;
+}
+
+#c_prv tr:nth-of-type(1) {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.2rem;
+  background-color: #666;
+}
+
+#c_prv td {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.1rem;
+}
+
+#c_prv th:nth-of-type(odd),
+#c_prv td:nth-of-type(odd) {
+  border-right: 1px solid #ccc;
+}
+
+#c_prv th {
+  border-bottom: 1px solid #ccc;
+}
+
+#c_prv th:first-of-type {
+  border-radius: 0.5rem 0 0 0;
+}
+
+#c_prv th:last-of-type {
+  border-radius: 0 0.5rem 0 0;
+}
+
+#c_prv tr:last-of-type td:first-of-type {
+  border-radius: 0 0 0 0.5rem;
+}
+
+#c_prv tr:last-of-type td:last-of-type {
+  border-radius: 0 0 0.5rem 0;
+}
+
+#c_prv a {
+  color: #80ebff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+#c_prv a:hover,
+#c_prv a:focus {
+  color: #38b1ff;
+}
+
+#c_spn h1,
+#c_con h1 {
+  padding: 1rem;
+  border-radius: .5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+}
+
+#c_spn #sponsor-logos {
+  display: block;
+  width: 22rem;
+  background: yellow;
+}
+
+#c_spn .spon-logo {
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  background: #333;
+  transition: all 0.5s ease;
+}
+
+#c_spn .spon-logo:hover,
+#c_spn .spon-logo:focus {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, .25);
+}
+
+#c_spn .spon-logo span {
+  height: 100%;
+  display: block;
+}
+
+#c_spn .spon-logo:nth-of-type(1) span {
+  background: url("images/logo-iiests-white.png");
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(2) span {
+  background: url("images/logo-icmc.png");
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(3) span {
+  background: url("images/logo-drdo.png");
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(4) span {
+  background: url("images/logo-iiests-white.png");
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(odd) {
+  margin-right: 2rem;
+}
+
+#c_con div {
+  display: block;
+  margin-bottom: .5rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  background: #333;
+}
+
+#c_con p:first-of-type {
+  font-weight: bold;
+}
+
+#c_con p:last-of-type a {
+  color: #80ebff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+#c_con a:hover,
+#c_con a:focus {
+  color: #38b1ff;
 }
 
 
@@ -110,7 +365,7 @@ nav {
   transition: all 0.5s ease;
 }
 
-.navbar-fixed {
+.fixed {
   position: fixed;
   top: 0;
   width: 100%;
