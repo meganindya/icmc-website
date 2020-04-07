@@ -544,10 +544,9 @@ nav .nav-links ul li .active::before {
 }
 
 .banner {
-  position: relative;
-  display: block;
   width: 100%;
-  height: 36rem;
+  display: block;
+  padding: 2rem 3rem;
   border-radius: .5rem;
   font-family: 'Alegreya Sans SC', sans-serif;
   background: url("images/banner-temp-1.png") no-repeat, white;
@@ -556,51 +555,45 @@ nav .nav-links ul li .active::before {
   box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
 }
 
-.banner > * {
-  position: absolute;
-}
-
 .banner h1 {
-  top: 3rem;
-  left: 3rem;
+  margin-bottom: 1rem;
 }
 
 .banner h1 p {
+  margin: 0;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .banner h1 p:last-of-type {
-  position: absolute;
-  left: 5rem;
+  margin: 1rem 0 0 5rem;
   color: #005;
 }
 
 .banner h3 {
-  top: 11rem;
-  left: 8rem;
+  margin: 0 0 1rem 5rem;
 }
 
 .banner h2 {
-  top: 16rem;
-  left: 5rem;
+  margin: 0 0 1rem 2rem;
   font-size: 1.75rem;
   font-weight: 600;
 }
 
 .banner h2 p:first-of-type {
+  margin: 0;
   color: #666;
 }
 
 .banner h2 p:last-of-type {
+  margin: 1rem 0 0 0;
   width: 30rem;
   color: #333;
 }
 
 .banner .countdown {
-  top: 26rem;
-  left: 8rem;
-  height: 5rem;
+  height: 5.5rem;
+  margin-left: 5rem;
   display: flex;
   flex-direction: row;
 }
@@ -610,6 +603,7 @@ nav .nav-links ul li .active::before {
   width: 6rem;
   height: 4rem;
   margin-right: 1rem;
+  box-sizing: border-box;
   border-radius: .5rem;
   border: 1px solid #38b1ff;
   font-size: 2.75rem;
@@ -664,6 +658,27 @@ nav .nav-links ul li .active::before {
   background-size: auto 100%;
   filter: drop-shadow(0 0 .25rem rgba(0, 0, 0, .5));
   cursor: pointer;
+}
+
+@media only screen and (max-height: 751px) {
+  .banner .countdown {
+    height: 4.75rem;
+  }
+  
+  .banner .countdown .countdown-box {
+    width: 5rem;
+    height: 3.5rem;
+    font-size: 2.25rem;
+  }
+
+  .banner .countdown .countdown-box::after {
+    bottom: -1.25rem;
+  }
+
+  #scroll-btn {
+    width: 1.59rem;
+    height: 2.5rem;
+  }
 }
 
 
