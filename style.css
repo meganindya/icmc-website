@@ -661,6 +661,10 @@ nav .nav-links ul li .active::before {
 }
 
 @media only screen and (max-height: 751px) {
+  .banner {
+    padding: 1.5rem 2.5rem;
+  }
+
   .banner .countdown {
     height: 4.75rem;
   }
