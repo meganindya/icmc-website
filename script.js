@@ -8,7 +8,7 @@ $(document).ready(function () {
     );
 
     let chairs = $('.chair');
-    for (let i = 0; i < 6; i += 2) {
+    for (let i = 0; i < 8; i += 2) {
         let h1 = $(chairs[i]).height(), h2 = $(chairs[i + 1]).height();
         let max = h1 > h2 ? h1 : h2;
 
@@ -121,7 +121,7 @@ $(document).ready(function () {
 
 
     // Count Down
-    let countDownDate = new Date("Mar 15, 2021 11:00:00").getTime();
+    let countDownDate = new Date("Jan 12, 2021 11:00:00").getTime();
     let setCountdown = function () {
         let now = new Date().getTime();
         let dif = countDownDate - now;

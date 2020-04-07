@@ -968,6 +968,66 @@ nav .nav-links ul li .active::before {
   background-position: 50% 50%;
 }
 
+#speak .speakers .speaker:nth-of-type(1) .speak-photo {
+  background: url("res/speakers/bpsinha.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 35%;
+}
+
+#speak .speakers .speaker:nth-of-type(2) .speak-photo {
+  background: url("res/speakers/sban.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(3) .speak-photo {
+  background: url("res/speakers/umaulik.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+}
+
+#speak .speakers .speaker:nth-of-type(4) .speak-photo {
+  background: url("res/speakers/isengupta.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(5) .speak-photo {
+  background: url("res/speakers/lmpatnaik.jpg") no-repeat, #00bbff;
+  background-size: auto 125%;
+  background-position: 40% 15%;
+}
+
+#speak .speakers .speaker:nth-of-type(6) .speak-photo {
+  background: url("res/speakers/sduttaroy.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 15%;
+}
+
+#speak .speakers .speaker:nth-of-type(7) .speak-photo {
+  background: url("res/speakers/pkdas.jpg") no-repeat, #00bbff;
+  background-size: auto 165%;
+  background-position: 85% 15%;
+}
+
+#speak .speakers .speaker:nth-of-type(8) .speak-photo {
+  background: url("res/speakers/mmandal.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(9) .speak-photo {
+  background: url("res/speakers/delpha.jpg") no-repeat, #00bbff;
+  background-size: 100% auto;
+  background-position: 50% 40%;
+}
+
+#speak .speakers .speaker:nth-of-type(10) .speak-photo {
+  background: url("res/speakers/gchakra.jpg") no-repeat, #00bbff;
+  background-size: 115% auto;
+  background-position: 50% 25%;
+}
+
 #speak .speakers .speaker .speak-info {
   height: 90%;
   width: calc(75% - 2rem);
@@ -1100,7 +1160,7 @@ nav .nav-links ul li .active::before {
   margin-bottom: 1rem;
 }
 
-#comm .speakers .chair:last-of-type {
+/*#comm .speakers .chair:last-of-type {
   width: 100%;
   margin-left: 0;
 }
@@ -1109,7 +1169,7 @@ nav .nav-links ul li .active::before {
   margin-bottom: .75rem;
   display: flex;
   flex-direction: row;
-}
+}*/
 
 .speakers .chair .chair-body .left p:first-of-type,
 .speakers .chair .chair-body .right p:first-of-type {
