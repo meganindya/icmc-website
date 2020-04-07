@@ -50,8 +50,8 @@ body {
 }
 
 .header-links {
-  height: 2.5rem;
   position: relative;
+  height: 2.5rem;
   font-family: 'Baloo Thambi 2', cursive;
 }
 
@@ -93,12 +93,13 @@ body {
 
 @media only screen and (max-height: 751px) {
   .header-links {
-    height: 2rem;
+    height: 1.875rem;
   }
 
   .header-links ul li div {
     margin: .5rem 1.25rem;
-    font-size: .85rem;
+    font-size: .8rem;
+    line-height: .875rem;
   }
 }
 
@@ -515,12 +516,12 @@ nav .nav-links ul li .active::before {
 
 @media only screen and (max-height: 751px) {
   nav .container {
-    height: 3.5rem;
+    height: 3rem;
   }
 
   nav .logos .logo {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
   }
 
   nav .logos span {
@@ -528,7 +529,8 @@ nav .nav-links ul li .active::before {
   }
 
   nav .nav-links ul li div {
-    padding: 1.25rem 0;
+    padding: 1rem 0;
+    font-size: .9rem;
   }
 }
 
