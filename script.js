@@ -1,6 +1,11 @@
 $(document).ready(function () {
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
+    let info_head_size = $('.info-block .info-head').height();
+    $('.banner-container').css(
+        'height',
+        $(window).height() - (header_size + navbar_size + info_head_size)
+    );
 
     let chairs = $('.chair');
     for (let i = 0; i < 6; i += 2) {
@@ -14,6 +19,11 @@ $(document).ready(function () {
     $(window).resize(function() {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
+        info_head_size = $('.info-block .info-head').height();
+        $('.banner-container').css(
+            'height',
+            $(window).height() - (header_size + navbar_size + info_head_size)
+        );
 
         if ($('#collbar').height() != 0) {
             $('#collbar').css(
@@ -39,7 +49,7 @@ $(document).ready(function () {
 
         if ($(window).scrollTop() >= header_size) {
             $('#navbar').addClass('fixed');
-            $('#content-body').css('margin-top', '64px');
+            $('#content-body').css('margin-top', navbar_size + 'px');
             $('nav').css('background', '#333');
             $('#logo-iiests').css({
                 'background':'url("images/logo-iiests-white.png") no-repeat',
@@ -140,38 +150,45 @@ $(document).ready(function () {
 
     // Click Events
     $('#scroll-btn').click(
-        () => smoothScrollTo($('#info').position().top - 96)
+        () => smoothScrollTo(
+            $('#scroll-btn').position().top +
+            (navbar_size - $('#scroll-btn').height())
+        )
     );
 
     $('#l_home').click(() => smoothScrollTo(0));
 
     $('#l_about').click(
-        () => smoothScrollTo($('#about').position().top - 64)
+        () => {
+            console.log($('#about').position().top, navbar_size, $('#about').position().top - navbar_size);
+            smoothScrollTo($('#about').position().top - navbar_size);
+        }
     );
 
     $('#l_speak').click(
-        () => smoothScrollTo($('#speak').position().top - 64)
+        () => smoothScrollTo($('#speak').position().top - navbar_size)
     );
 
     $('#l_comm').click(
-        () => smoothScrollTo($('#comm').position().top - 64)
+        () => smoothScrollTo($('#comm').position().top - navbar_size)
     );
 
     $('#l_trax').click(
-        () => smoothScrollTo($('#trax').position().top - 64)
+        () => smoothScrollTo($('#trax').position().top - navbar_size)
     );
 
     $('#l_guide').click(
-        () => smoothScrollTo($('#guide').position().top - 64)
+        () => smoothScrollTo($('#guide').position().top - navbar_size)
     );
 
     $('#l_reg').click(
-        () => smoothScrollTo($('#reg').position().top - 64)
+        () => smoothScrollTo($('#reg').position().top - navbar_size)
     );
 
     $('#btn-top').click(() => smoothScrollTo(0));
 
     let smoothScrollTo = top => {
+        console.log(top);
         window.scrollTo({
             top: top,
             behavior: 'smooth'

@@ -34,8 +34,8 @@ body {
   #btn-top {
     right: .75rem;
     bottom: .75rem;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 
@@ -540,16 +540,16 @@ nav .nav-links ul li .active::before {
 /* CONTENT */
 
 .banner-container {
-  height: calc(100vh - 152px);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: start;
 }
 
 .banner {
   width: 100%;
   display: block;
-  padding: 2rem 3rem;
+  margin: 2rem 0;
+  padding: 1.75rem 3rem 2.25rem 3rem;
   border-radius: .5rem;
   font-family: 'Alegreya Sans SC', sans-serif;
   background: url("images/banner-temp-1.png") no-repeat, white;
@@ -665,7 +665,8 @@ nav .nav-links ul li .active::before {
 
 @media only screen and (max-height: 751px) {
   .banner {
-    padding: 1.5rem 2.5rem;
+    margin: 1.5rem 0;
+    padding: 1.25rem 2.5rem 1.75rem 2.5rem;
   }
 
   .banner .countdown {
