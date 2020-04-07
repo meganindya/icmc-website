@@ -2,10 +2,14 @@ $(document).ready(function () {
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
-    $('.banner-container').css(
-        'height',
-        $(window).height() - (header_size + navbar_size + info_head_size)
-    );
+    if ($(window).height() <= 640) {
+        $('.banner-container').css('height', 'auto');
+    } else {
+        $('.banner-container').css(
+            'height',
+            $(window).height() - (header_size + navbar_size + info_head_size)
+        );
+    }
 
     let chairs = $('.chair');
     for (let i = 0; i < 8; i += 2) {
@@ -20,10 +24,14 @@ $(document).ready(function () {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
         info_head_size = $('.info-block .info-head').height();
-        $('.banner-container').css(
-            'height',
-            $(window).height() - (header_size + navbar_size + info_head_size)
-        );
+        if ($(window).height() <= 640) {
+            $('.banner-container').css('height', 'auto');
+        } else {
+            $('.banner-container').css(
+                'height',
+                $(window).height() - (header_size + navbar_size + info_head_size)
+            );
+        }
 
         if ($('#collbar').height() != 0) {
             $('#collbar').css(

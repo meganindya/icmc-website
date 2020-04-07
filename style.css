@@ -664,6 +664,17 @@ nav .nav-links ul li .active::before {
   cursor: pointer;
 }
 
+@media only screen and (max-height: 640px) {
+  .banner-container {
+    display: block;
+    margin-bottom: 4rem;
+  }
+
+  .scroll {
+    display: none;
+  }
+}
+
 @media only screen and (max-height: 751px) {
   .banner {
     margin: 1.5rem 0;
