@@ -6,6 +6,7 @@ body {
   padding: 0;
   line-height: 1;
   background: url("images/overlay.png"), #38b1ff;
+  background-position: center;
 }
 
 
@@ -902,6 +903,10 @@ nav .nav-links ul li .active::before {
   line-height: 1.4;
 }
 
+#about .info-body p:last-of-type {
+  margin-bottom: 0;
+}
+
 
 /* ========================= */
 /* SPEAKERS */
@@ -1279,6 +1284,10 @@ nav .nav-links ul li .active::before {
   font-size: .9rem;
   text-align: justify;
   line-height: 1.4;
+}
+
+#guide .info-body p:last-of-type {
+  margin-bottom: 0;
 }
 
 #guide .info-body p a {
