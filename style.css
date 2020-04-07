@@ -690,6 +690,20 @@ nav .nav-links ul li .active::before {
   }
 }
 
+@media only screen and (min-height: 800px) {
+  .banner-container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-height: 840px) {
+  .banner h1,
+  .banner h3,
+  .banner h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+
 
 /* ========================= */
 /* SEPARATOR */
