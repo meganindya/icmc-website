@@ -116,13 +116,13 @@ body {
     rgba(0, 0, 0, .25) 5px,
     rgba(0, 0, 0, 0) 10px
   ), #333;
-  transition: all 0.5s ease;
 }
 
 #coll-context {
   position: relative;
   width: 100%;
   height: 0;
+  transition: all 0.5s ease;
 }
 
 .card {
@@ -239,7 +239,7 @@ body {
 
 #c_prv th,
 #c_prv td {
-  width: 20rem;
+  width: 16rem;
   padding: .75rem;
   text-align: center;
 }
@@ -250,7 +250,8 @@ body {
 
 #c_prv tr:nth-of-type(1) {
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  font-weight: bold;
   background-color: #666;
 }
 
@@ -302,6 +303,7 @@ body {
 
 #c_spn h1,
 #c_con h1 {
+  margin: 0;
   padding: 1rem;
   border-radius: .5rem;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -314,7 +316,6 @@ body {
 #c_spn #sponsor-logos {
   display: block;
   width: 22rem;
-  background: yellow;
 }
 
 #c_spn .spon-logo {
@@ -364,7 +365,7 @@ body {
 
 #c_con div {
   display: block;
-  margin-bottom: .5rem;
+  margin-top: .5rem;
   padding: 1rem;
   border-radius: .5rem;
   font-family: 'Baloo Thambi 2', cursive;
@@ -381,7 +382,11 @@ body {
   font-weight: bold;
 }
 
-#c_con p:last-of-type a {
+#c_con p:last-of-type {
+  margin: 0;
+}
+
+#c_con a {
   color: #80ebff;
   text-decoration: none;
   transition: all 0.5s ease;

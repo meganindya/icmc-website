@@ -33,10 +33,7 @@ $(document).ready(function () {
             );
         }
 
-        if ($('#collbar').height() != 0) {
-            $('#collbar').css(
-                'height', $(window).height() - (header_size + navbar_size)
-            );
+        if ($('#coll-context').height() != 0) {
             $('#coll-context').css(
                 'height', $(window).height() - (header_size + navbar_size)
             );
@@ -44,11 +41,10 @@ $(document).ready(function () {
     });
 
     $(window).scroll(() => {
-        if ($('#collbar').height() != 0) {
+        if ($('#coll-context').height() != 0) {
             $('#coll-context .card').hide(200);
             setTimeout(() => {
                 $('#coll-context').css('height', '0');
-                $('#collbar').css('height', '0');
                 window.scrollTo(0, 0);
             }, 200);
 
@@ -67,6 +63,11 @@ $(document).ready(function () {
             $('nav .logos span').css('color', '#ccc');
             $('nav .nav-links ul li div').css('color', '#ccc');
             $('.active').css('color', '#80ebff');
+            $('#btn-top').css({
+                "opacity":".75",
+                "visibility":"visible",
+                "transition":"all .75s ease-out"
+            });
         } else {
             $('#navbar').removeClass('fixed');
             $('#content-body').css('margin-top', '0');
@@ -79,6 +80,10 @@ $(document).ready(function () {
             $('nav .logos span').css('color', '#333');
             $('nav .nav-links ul li div').css('color', '#666');
             $('.active').css('color', '#333');
+            $('#btn-top').css({
+                "opacity":"0",
+                "visibility":"hidden"
+            });
         }
 
         let reached =
@@ -113,18 +118,6 @@ $(document).ready(function () {
             $('#l_home').addClass('active');
         else
             sec_links[index].addClass('active');
-        
-        if ($(window).scrollTop() >= header_size)
-            $('#btn-top').css({
-                "opacity":".75",
-                "visibility":"visible",
-                "transition":"all .75s ease-out"
-            });
-        else
-            $('#btn-top').css({
-                "opacity":"0",
-                "visibility":"hidden"
-        });
     });
 
 
@@ -209,10 +202,7 @@ $(document).ready(function () {
     var cards = [ $('#c_ven'), $('#c_prv'), $('#c_spn'), $('#c_con') ];
     var toggleCollapseBar = i => {
         $('.header-links ul li div').css('color', '#666');
-        if ($('#collbar').height() === 0) {
-            $('#collbar').css(
-                'height', $(window).height() - (header_size + navbar_size)
-            );
+        if ($('#coll-context').height() === 0) {
             $('#coll-context').css(
                 'height', $(window).height() - (header_size + navbar_size)
             );
@@ -227,7 +217,6 @@ $(document).ready(function () {
                 $('#coll-context .card').hide(200);
                 setTimeout(() => {
                     $('#coll-context').css('height', '0');
-                    $('#collbar').css('height', '0');
                 }, 200);
                 collmenu = -1;
             } else {
