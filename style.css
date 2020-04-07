@@ -23,7 +23,7 @@ body {
   display: block;
   border-radius: 40%;
   background: url("images/top.png");
-  background-size: cover;
+  background-size: 100%;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
@@ -43,7 +43,7 @@ body {
 /* ========================= */
 /* HEADER */
 
-.header {
+#header {
   display: block;
   border-bottom: 1px solid #ddd;
   background: aliceblue;
@@ -531,6 +531,7 @@ nav .nav-links ul li .active::before {
   nav .nav-links ul li div {
     padding: 1rem 0;
     font-size: .9rem;
+    line-height: 1rem;
   }
 }
 
