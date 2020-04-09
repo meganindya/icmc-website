@@ -69,6 +69,14 @@ $(document).ready(function () {
                 'height', $(window).height() - (header_size + navbar_size)
             );
         }
+
+        if ($(window).width() > 991) {
+            $('nav .nav-links').css('display', 'block');
+            $('#hamburger').css('display', 'none');
+        } else {
+            $('nav .nav-links').css('display', 'none');
+            $('#hamburger').css('display', 'block');
+        }
     });
 
     $(window).scroll(() => {
@@ -83,6 +91,11 @@ $(document).ready(function () {
         }
 
         if ($(window).scrollTop() >= header_size) {
+            $('#btn-top').css({
+                "opacity":".75",
+                "visibility":"visible",
+                "transition":"all .75s ease-out"
+            });
             $('#navbar').addClass('fixed');
             $('#content-body').css('margin-top', navbar_size + 'px');
             $('nav').css('background', '#333');
@@ -91,15 +104,20 @@ $(document).ready(function () {
                 'background-size':'auto 90%',
                 'background-position':'50% 50%'
             });
-            $('nav .logos span').css('color', '#ccc');
-            $('nav .nav-links ul li div').css('color', '#ccc');
-            $('.active').css('color', '#80ebff');
-            $('#btn-top').css({
-                "opacity":".75",
-                "visibility":"visible",
-                "transition":"all .75s ease-out"
+            $('#hamburger').css({
+                'background':'url("res/hamburger-white.png")',
+                'background-size':'cover'
             });
+            $('nav .logos span').css('color', '#ccc');
+            if ($(window).width() > 991) {
+                $('nav .nav-links ul li div').css('color', '#ccc');
+                $('.active').css('color', '#80ebff');
+            }
         } else {
+            $('#btn-top').css({
+                "opacity":"0",
+                "visibility":"hidden"
+            });
             $('#navbar').removeClass('fixed');
             $('#content-body').css('margin-top', '0');
             $('nav').css('background', 'white');
@@ -108,13 +126,15 @@ $(document).ready(function () {
                 'background-size':'auto 90%',
                 'background-position':'50% 50%'
             });
-            $('nav .logos span').css('color', '#333');
-            $('nav .nav-links ul li div').css('color', '#666');
-            $('.active').css('color', '#333');
-            $('#btn-top').css({
-                "opacity":"0",
-                "visibility":"hidden"
+            $('#hamburger').css({
+                'background':'url("res/hamburger.png")',
+                'background-size':'cover'
             });
+            $('nav .logos span').css('color', '#333');
+            if ($(window).width() > 991) {
+                $('nav .nav-links ul li div').css('color', '#666');
+                $('.active').css('color', '#333');
+            }
         }
 
         let reached =
@@ -191,10 +211,7 @@ $(document).ready(function () {
     $('#l_home').click(() => smoothScrollTo(0));
 
     $('#l_about').click(
-        () => {
-            console.log($('#about').position().top, navbar_size, $('#about').position().top - navbar_size);
-            smoothScrollTo($('#about').position().top - navbar_size);
-        }
+        () => smoothScrollTo($('#about').position().top - navbar_size)
     );
 
     $('#l_speak').click(
@@ -225,6 +242,8 @@ $(document).ready(function () {
             behavior: 'smooth'
         });
     };
+
+    $('#hamburger').click(() => $('nav .nav-links').slideToggle(250));
 
     $('#coll-context .card').hide();
     var collmenu = -1;
@@ -272,4 +291,15 @@ $(document).ready(function () {
     $('#pconf').click(() => toggleCollapseBar(1));
     $('#spons').click(() => toggleCollapseBar(2));
     $('#contc').click(() => toggleCollapseBar(3));
+
+    $(document).click(event => {
+        if ($('nav .nav-links').is(':visible')) {
+            let e = $(event.target);
+            if (
+                e.parents('.nav-links').length === 0 &&
+                !e.is('#hamburger')
+            )
+                $('nav .nav-links').slideToggle(250);
+        }
+    });
 });

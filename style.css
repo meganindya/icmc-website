@@ -521,6 +521,17 @@ nav .nav-links ul li .active::before {
   left: -2px;
 }
 
+nav #hamburger {
+  position: absolute;
+  right: calc(15px + 2rem);
+  height: 3rem;
+  width: 3rem;
+  margin: .5rem 0;
+  background: url("res/hamburger.png");
+  background-size: cover;
+  display: none;
+}
+
 @media only screen and (max-height: 751px) {
   nav .container {
     height: 3rem;
@@ -540,6 +551,75 @@ nav .nav-links ul li .active::before {
     font-size: .9rem;
     line-height: 1rem;
   }
+
+  nav #hamburger {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-height: 752px) {
+  nav .nav-links {
+    top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 991px) and (max-height: 751px) {
+  nav .nav-links {
+    top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  nav #hamburger {
+    display: block;
+  }
+
+  nav .nav-links {
+    right: calc(15px + .5rem);
+    height: auto;
+    display: none;
+  }
+
+  nav .nav-links ul {
+    height: auto;
+    flex-direction: column;
+  }
+
+  nav .nav-links ul li {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .nav-links ul li div {
+    width: 100%;
+    margin-top: 1px;
+    padding: .75rem 2rem .75rem 3rem;
+    text-align: right;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    color: #ccc;
+    background: #333;
+  }
+
+  nav .nav-links ul li div::before {
+    border-radius: .5rem;
+  }
+
+  nav .nav-links ul li .active {
+    color: #80ebff;
+  }
+
+  nav .nav-links ul li div::before {
+    display: none;
+  }
+
+  /*nav .nav-links ul li div:hover::before,
+  nav .nav-links ul li div:focus::before,
+  nav .nav-links ul li .active::before {
+    right: .125rem;
+    left: .125rem;
+  }*/
 }
 
 
