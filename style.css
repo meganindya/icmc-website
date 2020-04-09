@@ -105,6 +105,21 @@ body {
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .header-links {
+    position: static !important;
+  }
+
+  .header-links ul {
+    position: static !important;
+    justify-content: center;
+  }
+
+  .header-links ul li:first-of-type div {
+    margin-left: 0;
+  }
+}
+
 
 /* ========================= */
 /* COLLAPSE BAR */
