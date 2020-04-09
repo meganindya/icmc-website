@@ -767,6 +767,14 @@ nav .nav-links ul li .active::before {
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .banner h1 p:first-of-type,
+  .banner h2 p:last-of-type {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 
 /* ========================= */
 /* SEPARATOR */
@@ -1004,6 +1012,18 @@ nav .nav-links ul li .active::before {
 
 #about .info-body p:last-of-type {
   margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  #about .info-body {
+    padding: 1.5rem;
+  }
+
+  #about .info-body div {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 1.5rem 1.5rem 0;
+  }
 }
 
 
@@ -1296,6 +1316,21 @@ nav .nav-links ul li .active::before {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  #speak .speakers .speaker .speak-photo {
+    width: 25%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(3) .speak-photo {
+    background-size: 100% auto;
+    background-position: center 0;
+  }
+
+  #speak .speakers .speaker .speak-info {
+    width: calc(75% - 2.25rem);
+  }
+}
+
 
 /* ========================= */
 /* COMMITTEE */
@@ -1411,6 +1446,7 @@ nav .nav-links ul li .active::before {
 .speakers .chair .chair-body .right {
   width: 50%;
   box-sizing: border-box;
+  display: block;
 }
 
 .speakers .chair .chair-body .left {
@@ -1488,6 +1524,26 @@ nav .nav-links ul li .active::before {
   background: #eee;
 }
 
+@media only screen and (max-width: 767px) {
+  #trax .speakers .chair .chair-body {
+    flex-direction: column;
+  }
+
+  #trax .speakers .chair .chair-body .left,
+  #trax .speakers .chair .chair-body .right {
+    width: 100%;
+    display: block;
+  }
+
+  .speakers .chair .chair-body .left {
+    border: none;
+  }
+
+  .speakers .chair .chair-body .right {
+    margin-top: .5rem;
+  }
+}
+
 
 /* ========================= */
 /* GUIDELINES */
@@ -1523,6 +1579,12 @@ nav .nav-links ul li .active::before {
 #guide .info-body p a:hover,
 #guide .info-body p a:focus {
   /*color: #38b1ff;*/
+}
+
+@media only screen and (max-width: 767px) {
+  #guide .info-body {
+    padding: 1.5rem;
+  }
 }
 
 
@@ -1746,6 +1808,23 @@ nav .nav-links ul li .active::before {
   font-size: .9rem;
   line-height: 1.25rem;
   text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+  #reg .info-body {
+    padding: 1.5rem;
+  }
+
+  .reg-table tr:nth-of-type(3) td,
+  .reg-table tr:nth-of-type(4) td,
+  .reg-table tr:nth-of-type(5) td {
+    font-size: .95rem;
+  }
+
+  .reg-table tr:nth-of-type(2),
+  .reg-table tr td:first-of-type {
+    font-size: 1rem;
+  }
 }
 
 
