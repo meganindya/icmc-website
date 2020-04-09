@@ -2,28 +2,8 @@ $(document).ready(function () {
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
-    if ($(window).height() <= 640) {
-        $('.banner-container').css('height', 'auto');
-    } else {
-        $('.banner-container').css(
-            'height',
-            $(window).height() - (header_size + navbar_size + info_head_size)
-        );
-    }
 
-    let chairs = $('.chair');
-    for (let i = 0; i < 8; i += 2) {
-        let h1 = $(chairs[i]).height(), h2 = $(chairs[i + 1]).height();
-        let max = h1 > h2 ? h1 : h2;
-
-        $(chairs[i]).css("height", max);
-        $(chairs[i + 1]).css("height", max);
-    }
-
-    $(window).resize(function() {
-        header_size = $('#header').height();
-        navbar_size = $('#navbar').height();
-        info_head_size = $('.info-block .info-head').height();
+    let refreshBannerConSize = () => {
         if ($(window).height() <= 640) {
             $('.banner-container').css('height', 'auto');
         } else {
@@ -32,6 +12,47 @@ $(document).ready(function () {
                 $(window).height() - (header_size + navbar_size + info_head_size)
             );
         }
+    };
+
+    refreshBannerConSize();
+
+    let refreshSpeakerDetailSizes = () => {
+        let details = $('#speak .speak-info p:nth-of-type(2)')
+        let websites = $('#speak .speak-info p:nth-of-type(4)');
+        details.css('height', 'auto');
+        for (let i = 0; i < details.length; i += 2) {
+            if (i == 6 && $(websites[7]).height() > $(websites[6]).height())
+                continue;
+            let h1 = $(details[i]).height(), h2 = $(details[i + 1]).height();
+            let max = h1 > h2 ? h1 : h2;
+            $(details[i]).css("height", max);
+            $(details[i + 1]).css("height", max);
+        }
+    };
+
+    refreshSpeakerDetailSizes();
+
+    let refreshChairSizes = () => {
+        let chairs = $('.chair');
+        chairs.css('height', 'auto');
+        for (let i = 0; i < 8; i += 2) {
+            let h1 = $(chairs[i]).height(), h2 = $(chairs[i + 1]).height();
+            let max = h1 > h2 ? h1 : h2;
+            $(chairs[i]).css("height", max);
+            $(chairs[i + 1]).css("height", max);
+        }
+    };
+
+    refreshChairSizes();
+
+    $(window).resize(function() {
+        header_size = $('#header').height();
+        navbar_size = $('#navbar').height();
+        info_head_size = $('.info-block .info-head').height();
+
+        refreshBannerConSize();
+        refreshSpeakerDetailSizes();
+        refreshChairSizes();
 
         if ($('#coll-context').height() != 0) {
             $('#coll-context').css(
@@ -189,7 +210,6 @@ $(document).ready(function () {
     $('#btn-top').click(() => smoothScrollTo(0));
 
     let smoothScrollTo = top => {
-        console.log(top);
         window.scrollTo({
             top: top,
             behavior: 'smooth'

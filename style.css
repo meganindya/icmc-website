@@ -721,6 +721,17 @@ nav .nav-links ul li .active::before {
   }
 }
 
+@media only screen and (max-width: 1199px) {
+  .banner h1 p {
+    font-size: 1.75rem;
+  }
+
+  .banner h3,
+  .banner h2 p {
+    font-size: 1.5rem;
+  }
+}
+
 
 /* ========================= */
 /* SEPARATOR */
@@ -744,12 +755,11 @@ nav .nav-links ul li .active::before {
 
 #info {
   width: 100%;
-  height: 20rem;
   display: flex;
   flex-direction: row;
 }
 
-#info > div {
+#info .info-block {
   width: 50%;
   display: block;
   border-radius: .5rem;
@@ -767,6 +777,19 @@ nav .nav-links ul li .active::before {
 
 .info-block {
   position: relative;
+  padding-bottom: .25rem;
+}
+
+.info-block::after {
+  position: absolute;
+  bottom: 0;
+  left: .125rem;
+  right: .125rem;
+  height: .25rem;
+  content: " ";
+  display: block;
+  border-radius: 0 0 1rem 1rem;
+  background: #a3cb38;
 }
 
 .info-block .info-head {
@@ -788,20 +811,8 @@ nav .nav-links ul li .active::before {
   color: #80ebff;
 }
 
-.info-block::after {
-  position: absolute;
-  bottom: 0;
-  left: .125rem;
-  right: .125rem;
-  height: .25rem;
-  content: " ";
-  display: block;
-  border-radius: 0 0 1rem 1rem;
-  background: #a3cb38;
-}
-
 .info-block .info-body {
-  height: calc(100% - 48px);
+  height: calc(100% - 3rem);
   display: block;
   font-family: 'Gotu', sans-serif;
   font-weight: 500;
@@ -833,24 +844,18 @@ nav .nav-links ul li .active::before {
   padding-left: 0;
 }
 
-#info .info-block .info-body > div:first-of-type {
-  height: 40%;
-}
-
-#info .info-block .info-body > div:last-of-type {
-  height: 60%;
+#info .info-block:nth-of-type(2) .info-body {
+  padding: 1.5rem 10%;
 }
 
 #info .info-block .info-body .submit-top {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block;
+  margin-bottom: 1rem;
   color: #666;
 }
 
 #info .info-block .info-body .submit-top p {
-  display: block;
-  margin: 1rem 10% 1rem 10%;
+  margin-bottom: 1rem;
   font-size: .9rem;
   text-align: center;
 }
@@ -861,7 +866,7 @@ nav .nav-links ul li .active::before {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: .5rem;
+  margin: 0 auto;
   border-radius: .5rem;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
@@ -883,11 +888,9 @@ nav .nav-links ul li .active::before {
 }
 
 #info .info-block .info-body .submit-bottom::before {
-  width: 80%;
   height: 1px;
   content: " ";
   display: block;
-  margin-left: 10%;
   background: #ccc;
 }
 
@@ -895,14 +898,14 @@ nav .nav-links ul li .active::before {
   width: 10.86rem;
   height: 3rem;
   display: block;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
   background: url("images/logo-springer.png") no-repeat;
   background-size: 100% auto;
 }
 
 #info .info-block .info-body .submit-bottom p {
+  margin: 0;
   display: block;
-  margin: 1rem 10%;
   font-size: .9rem;
   text-align: center;
 }
@@ -914,6 +917,10 @@ nav .nav-links ul li .active::before {
   
   .info-block .info-head h4 {
     font-size: 1.1rem;
+  }
+
+  .info-block .info-body {
+    height: calc(100% - 2.5rem);
   }
 }
 
@@ -1609,7 +1616,7 @@ nav .nav-links ul li .active::before {
 }
 
 .reg-points td:nth-of-type(odd) {
-  width: 7.5%;
+  width: 4rem;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
@@ -1617,7 +1624,6 @@ nav .nav-links ul li .active::before {
 }
 
 .reg-points td:nth-of-type(even) {
-  width: 92.5%;
   font-size: .9rem;
   line-height: 1.25rem;
   text-align: justify;
