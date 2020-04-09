@@ -732,6 +732,41 @@ nav .nav-links ul li .active::before {
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .banner {
+    background: url("res/overlay-net.png") no-repeat, white;
+    background-size: auto 95%;
+    background-position: center;
+  }
+
+  .banner h1 p,
+  .banner h3,
+  .banner h2 p {
+    text-align: center;
+  }
+
+  .banner h1 p:first-of-type {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .banner h1 p:last-of-type,
+  .banner h3,
+  .banner h2 {
+    margin-left: 0;
+  }
+
+  .banner h2 p:last-of-type {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .banner .countdown {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
 
 /* ========================= */
 /* SEPARATOR */
@@ -754,25 +789,17 @@ nav .nav-links ul li .active::before {
 /* INFO */
 
 #info {
-  width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #info .info-block {
-  width: 50%;
+  width: calc(50% - 1rem);
   display: block;
   border-radius: .5rem;
   background: white;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
-}
-
-#info .info-block:first-of-type {
-  margin-right: 1rem;
-}
-
-#info .info-block:last-of-type {
-  margin-left: 1rem;
 }
 
 .info-block {
@@ -924,6 +951,24 @@ nav .nav-links ul li .active::before {
   }
 }
 
+@media only screen and (max-width: 991px) {
+  #info {
+    flex-direction: column;
+  }
+
+  #info .info-block {
+    width: 100%;
+  }
+
+  #info .info-block:first-of-type .info-body {
+    padding: 1rem 0;
+  }
+
+  #info .info-block:last-of-type {
+    margin-top: 2rem;
+  }
+}
+
 
 /* ========================= */
 /* ABOUT */
@@ -1071,7 +1116,7 @@ nav .nav-links ul li .active::before {
   border: 1px solid #ccc;
   border-radius: .5rem;
   display: block;
-  margin: 0 .5rem;
+  margin: 0 .75rem;
   background: url("images/sillhouette.png") no-repeat, #00bbff;
   background-size: auto 100%;
   background-position: 50% 50%;
@@ -1139,8 +1184,7 @@ nav .nav-links ul li .active::before {
 
 #speak .speakers .speaker .speak-info {
   height: 90%;
-  width: calc(75% - 2rem);
-  margin-left: .25rem;
+  width: calc(75% - 2.25rem);
 }
 
 #speak .speakers .speaker .speak-info p {
@@ -1190,6 +1234,66 @@ nav .nav-links ul li .active::before {
 #speak .speakers .speaker .speak-info a:nth-of-type(4):hover,
 #speak .speakers .speaker .speak-info a:nth-of-type(4):focus {
   /*color: #00bbff;*/
+}
+
+@media only screen and (max-width: 1199px) {
+  #speak .speakers .speaker:nth-of-type(1) .speak-photo {
+    background-size: auto 105%;
+    background-position: center;
+  }
+
+  #speak .speakers .speaker:nth-of-type(3) .speak-photo {
+    background-size: auto 100%;
+    background-position: center;
+  }
+
+  #speak .speakers .speaker:nth-of-type(9) .speak-photo {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #speak .speakers .speaker {
+    width: 100%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(odd),
+  #speak .speakers .speaker:nth-of-type(even) {
+    margin: 1rem 0 0 0;
+  }
+
+  #speak .speakers .speaker:nth-of-type(1) {
+    margin: 0;
+  }
+
+  #speak .speakers .speaker .speak-photo {
+    width: 17.5%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(1) .speak-photo {
+    background-size: 107.5% auto;
+    background-position: center 20%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(4) .speak-photo {
+    background-size: 100% auto;
+    background-position: center 0;
+  }
+
+  #speak .speakers .speaker:nth-of-type(6) .speak-photo {
+    background-size: 100% auto;
+    background-position: center 5%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(8) .speak-photo {
+    background-size: 100% auto;
+    background-position: center 0;
+  }
+
+  #speak .speakers .speaker .speak-info {
+    width: calc(82.5% - 2.25rem);
+  }
 }
 
 
@@ -1317,6 +1421,21 @@ nav .nav-links ul li .active::before {
   margin-bottom: .5rem;
 }
 
+@media only screen and (max-width: 991px) {
+  #comm .chair {
+    width: 100%;
+  }
+
+  #comm .chair:nth-of-type(odd),
+  #comm .chair:nth-of-type(even) {
+    margin: 1rem 0 0 0;
+  }
+
+  #comm .chair:nth-of-type(1) {
+    margin: 0;
+  }
+}
+
 
 /* ========================= */
 /* TRACKS */
@@ -1349,7 +1468,7 @@ nav .nav-links ul li .active::before {
 }
 
 #trax .speakers .chair .chair-body {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
 }

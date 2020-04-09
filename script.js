@@ -17,9 +17,15 @@ $(document).ready(function () {
     refreshBannerConSize();
 
     let refreshSpeakerDetailSizes = () => {
-        let details = $('#speak .speak-info p:nth-of-type(2)')
-        let websites = $('#speak .speak-info p:nth-of-type(4)');
+        let details = $('#speak .speak-info p:nth-of-type(2)');
+
+        if ($(window).width() < 992) {
+            details.css('height', $(details[i]).height());
+            return;
+        }
+
         details.css('height', 'auto');
+        let websites = $('#speak .speak-info p:nth-of-type(4)');
         for (let i = 0; i < details.length; i += 2) {
             if (i == 6 && $(websites[7]).height() > $(websites[6]).height())
                 continue;
@@ -35,6 +41,10 @@ $(document).ready(function () {
     let refreshChairSizes = () => {
         let chairs = $('.chair');
         chairs.css('height', 'auto');
+
+        if ($(window).width() < 992)
+            return;
+
         for (let i = 0; i < 8; i += 2) {
             let h1 = $(chairs[i]).height(), h2 = $(chairs[i + 1]).height();
             let max = h1 > h2 ? h1 : h2;
