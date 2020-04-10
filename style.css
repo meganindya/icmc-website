@@ -773,6 +773,10 @@ nav #hamburger {
     margin-bottom: 4rem;
   }
 
+  .banner {
+    margin-bottom: 0;
+  }
+
   .scroll {
     display: none;
   }

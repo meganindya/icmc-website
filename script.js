@@ -10,7 +10,8 @@ $(document).ready(function () {
     let info_head_size = $('.info-block .info-head').height();
 
     let refreshBannerConSize = () => {
-        if ($(window).height() <= 640) {
+        let orientation = $(window)[0].orientation;
+        if ($(window).height() <= 640 || (orientation % 180) === 0) {
             $('.banner-container').css('height', 'auto');
         } else {
             $('.banner-container').css(
