@@ -109,10 +109,8 @@ $(document).ready(function () {
                 'background-size':'cover'
             });
             $('nav .logos span').css('color', '#ccc');
-            if ($(window).width() > 991) {
-                $('nav .nav-links ul li div').css('color', '#ccc');
-                $('.active').css('color', '#80ebff');
-            }
+            $('nav .nav-links ul li div').css('color', '#ccc');
+            $('.active').css('color', '#80ebff');
         } else {
             $('#btn-top').css({
                 "opacity":"0",
@@ -134,6 +132,9 @@ $(document).ready(function () {
             if ($(window).width() > 991) {
                 $('nav .nav-links ul li div').css('color', '#666');
                 $('.active').css('color', '#333');
+            } else {
+                $('nav .nav-links ul li div').css('color', '#ccc');
+                $('.active').css('color', '#80ebff');
             }
         }
 
@@ -293,7 +294,10 @@ $(document).ready(function () {
     $('#contc').click(() => toggleCollapseBar(3));
 
     $(document).click(event => {
-        if ($('nav .nav-links').is(':visible')) {
+        if (
+            $(window).width() < 992 &&
+            $('nav .nav-links').is(':visible')
+        ) {
             let e = $(event.target);
             if (
                 e.parents('.nav-links').length === 0 &&
