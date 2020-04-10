@@ -166,9 +166,12 @@ $(document).ready(function () {
 
         let index = -1;
         for (let i = 0; i < sec_tops.length - 1; i++) {
-            if (reached < sec_tops[0])
+            if (reached < (sec_tops[0] * zoom_ratio))
                 break;
-            if (reached >= sec_tops[i] && reached < sec_tops[i + 1]) {
+            if (
+                reached >= (sec_tops[i] * zoom_ratio) &&
+                reached < (sec_tops[i + 1] * zoom_ratio)
+            ) {
                 index = i;
                 break;
             }
