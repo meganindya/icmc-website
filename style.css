@@ -1,5 +1,7 @@
 body {
   position: relative;
+  min-width: 540px;
+  width: auto !important;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -959,19 +961,20 @@ nav #hamburger {
   font-size: .9rem;
 }
 
-#info .info-block .info-body table tr:nth-of-type(1),
-#info .info-block .info-body table tr:nth-of-type(3) {
+#info .info-block .info-body table tr:nth-of-type(1) td:first-of-type,
+#info .info-block .info-body table tr:nth-of-type(3) td:first-of-type {
+  background: #eee;
+}
+
+#info .info-block .info-body table tr:nth-of-type(2) td:last-of-type,
+#info .info-block .info-body table tr:nth-of-type(4) td:last-of-type {
   background: #eee;
 }
 
 #info .info-block .info-body table td:nth-of-type(odd) {
-  width: 16.5rem;
-  padding-right: 0;
+  width: 15rem;
   font-weight: bold;
-}
-
-#info .info-block .info-body table td:nth-of-type(even) {
-  padding-left: 0;
+  text-align: right;
 }
 
 #info .info-block:nth-of-type(2) .info-body {
@@ -1581,10 +1584,11 @@ nav #hamburger {
 }
 
 #trax .chair .chair-head {
-  height: 4.5rem;
+  height: auto;
   display: grid;
   align-items: center;
   justify-content: center;
+  padding: 1rem 0;
   border-bottom: 1px solid #ccc;
 }
 
@@ -1620,6 +1624,10 @@ nav #hamburger {
 }
 
 @media only screen and (max-width: 767px) {
+  #trax .chair .chair-head h4 {
+    padding: 0 1rem;
+  }
+
   #trax .speakers .chair .chair-body {
     flex-direction: column;
   }
