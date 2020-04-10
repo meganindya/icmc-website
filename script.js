@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    if ($(window).width() < 540) {
+        let zoom_ratio = $(window).width() / $('body').width();
+        document.body.style.zoom = zoom_ratio; //this.blur();
+    } else
+        document.body.style.zoom = 1.0;
+
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
