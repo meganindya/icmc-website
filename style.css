@@ -778,6 +778,17 @@ nav #hamburger {
   }
 }
 
+@media (orientation: portrait) {
+  .banner-container {
+    display: block;
+    margin-bottom: 4rem;
+  }
+
+  .scroll {
+    display: none;
+  }
+}
+
 @media only screen and (max-height: 751px) {
   .banner {
     margin: 1.5rem 0;
@@ -864,7 +875,7 @@ nav #hamburger {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .banner h1 p:first-of-type,
   .banner h2 p:last-of-type {
     width: 100%;
@@ -1846,6 +1857,10 @@ nav #hamburger {
   text-align: center;
 }
 
+.reg-table tr td:first-of-type {
+  padding-left: 0;
+}
+
 .reg-table tr:nth-of-type(3) td,
 .reg-table tr:nth-of-type(4) td,
 .reg-table tr:nth-of-type(5) td {
@@ -1916,10 +1931,6 @@ nav #hamburger {
 @media only screen and (max-width: 767px) {
   #reg .info-body {
     padding: 1.5rem;
-  }
-
-  .reg-table tr td:first-of-type {
-    padding-left: 0;
   }
 
   .reg-table tr:nth-of-type(3) td,
