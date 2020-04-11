@@ -75,7 +75,14 @@ $(document).ready(function () {
                 $($('.d_card')[i]).outerHeight() + 32,
                 $(window).height() - (header_size + navbar_size)
             );
-        $('#coll-context').css('height', height);
+        /*$('#check').html(
+            ($($('.d_card')[i]).outerHeight() + 32) + ", " +
+            $(window).height() + ", " +
+            header_size + ", " +
+            navbar_size + ", " +
+            height
+        );*/
+        $('#coll-context').css('height', height / zoom_ratio);
     };
 
 

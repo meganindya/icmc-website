@@ -124,6 +124,17 @@ body {
   }
 }
 
+#check {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 999;
+  display: block;
+  font-size: 1rem;
+  background: yellow;
+  color: red;
+}
+
 
 /* ========================= */
 /* COLLAPSE BAR */
