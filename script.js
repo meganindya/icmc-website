@@ -69,6 +69,73 @@ $(document).ready(function () {
     refreshChairSizes();
 
 
+    let refreshCollbarHeight = i => {
+        let height =
+            Math.max(
+                $($('.d_card')[i]).outerHeight() + 32,
+                $(window).height() - (header_size + navbar_size)
+            );
+        $('#coll-context').css('height', height);
+    };
+
+
+    // style properties for collapse bar contents
+    let clickDisabled = false;
+    $('#coll-context .d_card').hide();
+    let collmenu = -1;
+    let c_links = [ $('#venue'), $('#pconf'), $('#spons'), $('#contc') ];
+    let cards = [ $('#c_ven'), $('#c_prv'), $('#c_spn'), $('#c_con') ];
+    let toggleCollapseBar = i => {
+        if (clickDisabled)
+            return;
+
+        $('.header-links ul li div').css('color', '#666');
+        if ($('#coll-context').height() === 0) {
+            refreshCollbarHeight(i);
+            setTimeout(() => {
+                cards[i].show(200);
+                setTimeout(() => refreshCollbarHeight(i), 250);
+            }, 250);
+            collmenu = i;
+
+            c_links[i].css('color', '#333');
+        } else {
+            if (collmenu == i) {
+                clickDisabled = true;
+                $('#coll-context .d_card').hide(200);
+                setTimeout(() => {
+                    $('#coll-context').css('height', '0');
+                    setTimeout(() => clickDisabled = false, 500);
+                }, 200);
+                collmenu = -1;
+            } else {
+                cards[i].show(200);
+                cards[collmenu].hide(200);
+                collmenu = i;
+                setTimeout(() => refreshCollbarHeight(i), 250);
+                c_links[i].css('color', '#333');
+            }
+        }
+    };
+
+    $('#venue').click(() => toggleCollapseBar(0));
+    $('#pconf').click(() => toggleCollapseBar(1));
+    $('#spons').click(() => toggleCollapseBar(2));
+    $('#contc').click(() => toggleCollapseBar(3));
+
+    // set hover colors for header links
+    for (var i = 0; i < c_links.length; i++) {
+        $(c_links[i]).hover(
+            function() {
+                $(this).css('color', '#333');
+            },
+            function() {
+                $(this).css('color', '#666');
+            }
+        );
+    }
+
+
     $(window).resize(function() {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
@@ -80,9 +147,7 @@ $(document).ready(function () {
 
         // if collapse bar open, adjust height
         if ($('#coll-context').height() != 0) {
-            $('#coll-context').css(
-                'height', $(window).height() - (header_size + navbar_size)
-            );
+            refreshCollbarHeight(collmenu);
         }
 
         // set navbar links display type
@@ -98,24 +163,25 @@ $(document).ready(function () {
 
     $(window).scroll(() => {
         // collapse collapse bar if open
-        if ($('#coll-context').height() != 0) {
-            $('#coll-context .card').hide(200);
+        /*if ($('#coll-context').height() != 0) {
+            window.scrollTo(0, 0);
+            $('#coll-context .d_card').hide(200);
             setTimeout(() => {
                 $('#coll-context').css('height', '0');
                 window.scrollTo(0, 0);
+                for (let i = 0; i < c_links.length; i++)
+                    c_links[i].css('color', '#666');
             }, 200);
 
             return;
-        }
+        }*/
 
 
         // adjust navbar related styles based on scroll position
-        if ($(window).scrollTop() >= header_size) {
-            $('#btn-top').css({
-                "opacity":".75",
-                "visibility":"visible",
-                "transition":"all .75s ease-out"
-            });
+        if (
+            $(window).scrollTop() >=
+                header_size + $('#collbar').height()
+        ) {
             $('#navbar').addClass('fixed');
             $('#content-body').css('margin-top', navbar_size + 'px');
             $('nav').css('background', '#333');
@@ -132,10 +198,6 @@ $(document).ready(function () {
             $('nav .nav-links ul li div').css('color', '#ccc');
             $('.active').css('color', '#80ebff');
         } else {
-            $('#btn-top').css({
-                "opacity":"0",
-                "visibility":"hidden"
-            });
             $('#navbar').removeClass('fixed');
             $('#content-body').css('margin-top', '0');
             $('nav').css('background', 'white');
@@ -156,6 +218,20 @@ $(document).ready(function () {
                 $('nav .nav-links ul li div').css('color', '#ccc');
                 $('.active').css('color', '#80ebff');
             }
+        }
+
+        // display scroll to top button based on scroll position
+        if ($(window).scrollTop() >= header_size) {
+            $('#btn-top').css({
+                "opacity":".75",
+                "visibility":"visible",
+                "transition":"all .75s ease-out"
+            });
+        } else {
+            $('#btn-top').css({
+                "opacity":"0",
+                "visibility":"hidden"
+            });
         }
 
 
@@ -299,61 +375,4 @@ $(document).ready(function () {
                 $('nav .nav-links').slideToggle(250);
         }
     });
-
-
-    // style properties for collapse bar contents
-    let clickDisabled = false;
-    $('#coll-context .card').hide();
-    var collmenu = -1;
-    var c_links = [ $('#venue'), $('#pconf'), $('#spons'), $('#contc') ];
-    var cards = [ $('#c_ven'), $('#c_prv'), $('#c_spn'), $('#c_con') ];
-    var toggleCollapseBar = i => {
-        if (clickDisabled)
-            return;
-
-        $('.header-links ul li div').css('color', '#666');
-        if ($('#coll-context').height() === 0) {
-            $('#coll-context').css(
-                'height', $(window).height() - (header_size + navbar_size)
-            );
-            setTimeout(() => {
-                cards[i].show(200);
-            }, 250);
-            collmenu = i;
-
-            c_links[i].css('color', '#333');
-        } else {
-            clickDisabled = true;
-            if (collmenu == i) {
-                $('#coll-context .card').hide(200);
-                setTimeout(() => {
-                    $('#coll-context').css('height', '0');
-                    setTimeout(() => clickDisabled = false, 500);
-                }, 200);
-                collmenu = -1;
-            } else {
-                cards[i].show(200);
-                cards[collmenu].hide(200);
-                collmenu = i;
-                c_links[i].css('color', '#333');
-            }
-        }
-    };
-
-    $('#venue').click(() => toggleCollapseBar(0));
-    $('#pconf').click(() => toggleCollapseBar(1));
-    $('#spons').click(() => toggleCollapseBar(2));
-    $('#contc').click(() => toggleCollapseBar(3));
-
-    // set hover colors for header links
-    for (var i = 0; i < c_links.length; i++) {
-        $(c_links[i]).hover(
-            function() {
-                $(this).css('color', '#333');
-            },
-            function() {
-                $(this).css('color', '#666');
-            }
-        );
-    }
 });
