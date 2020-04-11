@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // required for adjusting zoom on small screens
     let zoom_ratio;
     if ($(window).width() < 540)
         zoom_ratio = $(window).width() / $('body').width();
@@ -6,13 +7,15 @@ $(document).ready(function () {
         zoom_ratio = 1.0;
     document.body.style.zoom = zoom_ratio;
 
+
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
 
+    // adjusts the size of banner container
     let refreshBannerConSize = () => {
         let orientation = $(window)[0].orientation;
-        if ($(window).height() <= 640 || (orientation % 180) === 0) {
+        if ($(window).height() <= 654 || (orientation % 180) === 0) {
             $('.banner-container').css('height', 'auto');
         } else {
             $('.banner-container').css(
@@ -24,6 +27,7 @@ $(document).ready(function () {
 
     refreshBannerConSize();
 
+    // adjusts line height of speakers' details
     let refreshSpeakerDetailSizes = () => {
         let details = $('#speak .speak-info p:nth-of-type(2)');
 
@@ -46,6 +50,7 @@ $(document).ready(function () {
 
     refreshSpeakerDetailSizes();
 
+    // adjusts height of committee chair blocks per row
     let refreshChairSizes = () => {
         let chairs = $('.chair');
         chairs.css('height', 'auto');
@@ -63,6 +68,7 @@ $(document).ready(function () {
 
     refreshChairSizes();
 
+
     $(window).resize(function() {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
@@ -72,12 +78,14 @@ $(document).ready(function () {
         refreshSpeakerDetailSizes();
         refreshChairSizes();
 
+        // if collapse bar open, adjust height
         if ($('#coll-context').height() != 0) {
             $('#coll-context').css(
                 'height', $(window).height() - (header_size + navbar_size)
             );
         }
 
+        // set navbar links display type
         if ($(window).width() > 991) {
             $('nav .nav-links').css('display', 'block');
             $('#hamburger').css('display', 'none');
@@ -87,7 +95,9 @@ $(document).ready(function () {
         }
     });
 
+
     $(window).scroll(() => {
+        // collapse collapse bar if open
         if ($('#coll-context').height() != 0) {
             $('#coll-context .card').hide(200);
             setTimeout(() => {
@@ -98,6 +108,8 @@ $(document).ready(function () {
             return;
         }
 
+
+        // adjust navbar related styles based on scroll position
         if ($(window).scrollTop() >= header_size) {
             $('#btn-top').css({
                 "opacity":".75",
@@ -146,6 +158,8 @@ $(document).ready(function () {
             }
         }
 
+
+        // select appropriate navbar link as active based on scroll position
         let reached =
             $(window).scrollTop() - navbar_size + ($(window).height() >> 1);
         let sec_tops = [];
@@ -184,7 +198,7 @@ $(document).ready(function () {
     });
 
 
-    // Count Down
+    // banner countdown
     let countDownDate = new Date("Jan 12, 2021 11:00:00").getTime();
     let setCountdown = function () {
         let now = new Date().getTime();
@@ -212,12 +226,26 @@ $(document).ready(function () {
     }, 60000);
 
 
-    // Click Events
+    // click events
     $('#scroll-btn').click(
-        () => smoothScrollTo(
-            $('#scroll-btn').position().top +
-            (navbar_size - $('#scroll-btn').height())
-        )
+        () => {
+            let h_top =
+                $('#info').position().top -
+                $('#scroll-btn').position().top +
+                $('#scroll-btn').height() -
+                2 * navbar_size;
+            if (h_top < 68) {
+                smoothScrollTo(
+                    $('#scroll-btn').position().top -
+                    (navbar_size - $('#scroll-btn').height())
+                );
+            } else {
+                smoothScrollTo(
+                    $('#info').position().top -
+                    navbar_size - 68
+                );
+            }
+        }
     );
 
     $('#l_home').click(() => smoothScrollTo(0));
@@ -257,6 +285,23 @@ $(document).ready(function () {
 
     $('#hamburger').click(() => $('nav .nav-links').slideToggle(250));
 
+    // close dropdown if clicked elsewhere
+    $(document).click(event => {
+        if (
+            $(window).width() < 992 &&
+            $('nav .nav-links').is(':visible')
+        ) {
+            let e = $(event.target);
+            if (
+                e.parents('.nav-links').length === 0 &&
+                !e.is('#hamburger')
+            )
+                $('nav .nav-links').slideToggle(250);
+        }
+    });
+
+
+    // style properties for collapse bar contents
     $('#coll-context .card').hide();
     var collmenu = -1;
     var c_links = [ $('#venue'), $('#pconf'), $('#spons'), $('#contc') ];
@@ -289,6 +334,7 @@ $(document).ready(function () {
         }
     };
 
+    // set hover colors for header links
     for (var i = 0; i < c_links.length; i++)
         $(c_links[i]).hover(
             function() {
@@ -298,23 +344,4 @@ $(document).ready(function () {
                 $(this).css('color', '#666');
             }
         );
-
-    $('#venue').click(() => toggleCollapseBar(0));
-    $('#pconf').click(() => toggleCollapseBar(1));
-    $('#spons').click(() => toggleCollapseBar(2));
-    $('#contc').click(() => toggleCollapseBar(3));
-
-    $(document).click(event => {
-        if (
-            $(window).width() < 992 &&
-            $('nav .nav-links').is(':visible')
-        ) {
-            let e = $(event.target);
-            if (
-                e.parents('.nav-links').length === 0 &&
-                !e.is('#hamburger')
-            )
-                $('nav .nav-links').slideToggle(250);
-        }
-    });
 });

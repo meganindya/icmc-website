@@ -769,7 +769,7 @@ nav #hamburger {
   cursor: pointer;
 }
 
-@media only screen and (max-height: 640px) {
+@media only screen and (max-height: 654px) {
   .banner-container {
     display: block;
     margin-bottom: 4rem;
