@@ -94,7 +94,7 @@ $(document).ready(function () {
             refreshCollbarHeight(i);
             setTimeout(() => {
                 cards[i].show(200);
-                setTimeout(() => refreshCollbarHeight(i), 250);
+                setTimeout(() => refreshCollbarHeight(i), 300);
             }, 250);
             collmenu = i;
 
@@ -109,10 +109,10 @@ $(document).ready(function () {
                 }, 200);
                 collmenu = -1;
             } else {
-                cards[i].show(200);
                 cards[collmenu].hide(200);
+                setTimeout(() => cards[i].show(200), 200);
                 collmenu = i;
-                setTimeout(() => refreshCollbarHeight(i), 250);
+                setTimeout(() => refreshCollbarHeight(i), 300);
                 c_links[i].css('color', '#333');
             }
         }
