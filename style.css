@@ -316,6 +316,10 @@ body {
 /* ========================= */
 /* PREVIOUS CONFERENCES */
 
+#c_prv {
+  width: 36rem;
+}
+
 #c_prv p {
   padding: 1rem;
   border-radius: .5rem;
@@ -391,6 +395,17 @@ body {
 #c_prv a:hover,
 #c_prv a:focus {
   color: #38b1ff;
+}
+
+@media only screen and (max-width: 991px) {
+  #c_prv {
+    width: 28rem;
+  }
+
+  #c_prv th,
+  #c_prv td {
+    width: 12rem;
+  }
 }
 
 
