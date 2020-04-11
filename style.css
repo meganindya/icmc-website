@@ -14,7 +14,7 @@ body {
 
 
 .content {
-  margin-bottom: 6rem;
+  margin-bottom: 5.75rem;
 }
 
 
@@ -78,7 +78,8 @@ body {
 }
 
 .header-links ul li div {
-  margin: 0.75rem 1.5rem;
+  margin: 0 1.5rem;
+  padding: .75rem 0;
   font-size: 0.9rem;
   line-height: 1rem;
   color: #666;
@@ -101,7 +102,8 @@ body {
   }
 
   .header-links ul li div {
-    margin: .5rem 1.25rem;
+    margin: 0 1.25rem;
+    padding: .5rem 0;
     font-size: .8rem;
     line-height: .875rem;
   }
@@ -901,7 +903,7 @@ nav #hamburger {
 
 .separator:last-of-type {
   width: 33%;
-  margin: 6rem auto;
+  margin: 6rem auto 0 auto;
 }
 
 
@@ -1954,7 +1956,6 @@ nav #hamburger {
 /* FOOTER */
 
 footer {
-  height: 4rem;
   margin-bottom: 2rem;
   display: grid;
   align-items: center;
@@ -1967,6 +1968,7 @@ footer span {
   padding: 1rem 2rem;
   border-radius: .5rem;
   font-size: 0.9rem;
+  line-height: 1rem;
   text-align: center;
   color: #666;
   background: white;
