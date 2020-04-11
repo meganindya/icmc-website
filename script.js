@@ -302,11 +302,15 @@ $(document).ready(function () {
 
 
     // style properties for collapse bar contents
+    let clickDisabled = false;
     $('#coll-context .card').hide();
     var collmenu = -1;
     var c_links = [ $('#venue'), $('#pconf'), $('#spons'), $('#contc') ];
     var cards = [ $('#c_ven'), $('#c_prv'), $('#c_spn'), $('#c_con') ];
     var toggleCollapseBar = i => {
+        if (clickDisabled)
+            return;
+
         $('.header-links ul li div').css('color', '#666');
         if ($('#coll-context').height() === 0) {
             $('#coll-context').css(
@@ -319,10 +323,12 @@ $(document).ready(function () {
 
             c_links[i].css('color', '#333');
         } else {
+            clickDisabled = true;
             if (collmenu == i) {
                 $('#coll-context .card').hide(200);
                 setTimeout(() => {
                     $('#coll-context').css('height', '0');
+                    setTimeout(() => clickDisabled = false, 500);
                 }, 200);
                 collmenu = -1;
             } else {
@@ -333,6 +339,11 @@ $(document).ready(function () {
             }
         }
     };
+
+    $('#venue').click(() => toggleCollapseBar(0));
+    $('#pconf').click(() => toggleCollapseBar(1));
+    $('#spons').click(() => toggleCollapseBar(2));
+    $('#contc').click(() => toggleCollapseBar(3));
 
     // set hover colors for header links
     for (var i = 0; i < c_links.length; i++) {
@@ -345,9 +356,4 @@ $(document).ready(function () {
             }
         );
     }
-
-    $('#venue').click(() => toggleCollapseBar(0));
-    $('#pconf').click(() => toggleCollapseBar(1));
-    $('#spons').click(() => toggleCollapseBar(2));
-    $('#contc').click(() => toggleCollapseBar(3));
 });
