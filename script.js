@@ -178,7 +178,7 @@ $(document).ready(function () {
                 $('#coll-context .d_card').hide(200);
                 setTimeout(() => {
                     $('#coll-context').css('height', '0');
-                    window.scrollTo(0, 0);
+                    setTimeout(() => window.scrollTo(0, 0), 500);
                     for (let i = 0; i < c_links.length; i++)
                         c_links[i].css('color', '#666');
                 }, 200);
