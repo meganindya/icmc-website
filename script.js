@@ -69,19 +69,16 @@ $(document).ready(function () {
     refreshChairSizes();
 
 
+    let cardHeights = [
+        [ 1088, 518, 535, 583 ],
+        [ 576, 501, 535, 583 ]
+    ];
     let refreshCollbarHeight = i => {
         let height =
             Math.max(
-                $($('.d_card')[i]).outerHeight() + 32,
+                cardHeights[Math.floor($(window).width() / 992)][i],
                 $(window).height() - (header_size + navbar_size)
             );
-        /*$('#check').html(
-            ($($('.d_card')[i]).outerHeight() + 32) + ", " +
-            $(window).height() + ", " +
-            header_size + ", " +
-            navbar_size + ", " +
-            height
-        );*/
         $('#coll-context').css('height', height / zoom_ratio);
     };
 
@@ -99,12 +96,8 @@ $(document).ready(function () {
         $('.header-links ul li div').css('color', '#666');
         if ($('#coll-context').height() === 0) {
             refreshCollbarHeight(i);
-            setTimeout(() => {
-                cards[i].show(200);
-                setTimeout(() => refreshCollbarHeight(i), 300);
-            }, 250);
+            setTimeout(() => cards[i].show(200), 200);
             collmenu = i;
-
             c_links[i].css('color', '#333');
         } else {
             if (collmenu == i) {
@@ -117,9 +110,11 @@ $(document).ready(function () {
                 collmenu = -1;
             } else {
                 cards[collmenu].hide(200);
-                setTimeout(() => cards[i].show(200), 200);
+                setTimeout(() => {
+                    refreshCollbarHeight(i);
+                    cards[i].show(200);
+                }, 200);
                 collmenu = i;
-                setTimeout(() => refreshCollbarHeight(i), 300);
                 c_links[i].css('color', '#333');
             }
         }
