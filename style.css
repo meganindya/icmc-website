@@ -1130,7 +1130,7 @@ nav #hamburger {
 
   .banner h2 p:last-of-type {
     width: 70%;
-    margin: 0 auto;
+    margin: .5rem auto 0 auto;
   }
 
   .banner .countdown {
@@ -1147,7 +1147,6 @@ nav #hamburger {
   .banner h1 p:first-of-type,
   .banner h2 p:last-of-type {
     width: 100%;
-    margin: 0 auto;
   }
 }
 
@@ -1163,6 +1162,7 @@ nav #hamburger {
 
   .banner h3,
   .banner h2 p {
+    padding: 0 1rem;
     font-size: 1.25rem;
   }
 
