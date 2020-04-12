@@ -1,7 +1,7 @@
 body {
   position: relative;
   width: auto !important;
-  width: 100%;
+  min-width: 360px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -2421,6 +2421,6 @@ footer a:focus {
 @media only screen and (max-width: 575px) {
   footer span {
     padding: 1rem;
-    font-size: .85rem;
+    font-size: .8rem;
   }
 }
