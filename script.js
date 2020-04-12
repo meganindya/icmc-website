@@ -1,13 +1,4 @@
 $(document).ready(function () {
-    // required for adjusting zoom on small screens
-    let zoom_ratio;
-    if ($(window).width() < 540)
-        zoom_ratio = $(window).width() / $('body').width();
-    else
-        zoom_ratio = 1.0;
-    document.body.style.zoom = zoom_ratio;
-
-
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
@@ -68,7 +59,6 @@ $(document).ready(function () {
 
     refreshChairSizes();
 
-
     let cardHeights = [
         [ 1088, 518, 535, 583 ],
         [ 576, 501, 535, 583 ]
@@ -79,7 +69,8 @@ $(document).ready(function () {
                 cardHeights[Math.floor($(window).width() / 992)][i],
                 $(window).height() - (header_size + navbar_size)
             );
-        $('#coll-context').css('height', height / zoom_ratio);
+        console.log($(window).height(), header_size, navbar_size);
+        $('#coll-context').css('height', height);
     };
 
 
@@ -258,12 +249,9 @@ $(document).ready(function () {
 
         let index = -1;
         for (let i = 0; i < sec_tops.length - 1; i++) {
-            if (reached < (sec_tops[0] * zoom_ratio))
+            if (reached < sec_tops[0])
                 break;
-            if (
-                reached >= (sec_tops[i] * zoom_ratio) &&
-                reached < (sec_tops[i + 1] * zoom_ratio)
-            ) {
+            if (reached >= sec_tops[i] && reached < sec_tops[i + 1]) {
                 index = i;
                 break;
             }
@@ -356,7 +344,7 @@ $(document).ready(function () {
 
     let smoothScrollTo = top => {
         window.scrollTo({
-            top: top * zoom_ratio,
+            top: top,
             behavior: 'smooth'
         });
     };
