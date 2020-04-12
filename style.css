@@ -161,6 +161,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .header-links ul li div {
+    margin: 0 1rem;
+  }
+}
+
 
 /* ========================= */
 /* COLLAPSE BAR */
@@ -2002,7 +2008,7 @@ nav #hamburger {
 #trax .chair .chair-head h4 {
   margin: 0;
   padding: 0 2rem;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: 'Gotu', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-align: justify;
@@ -2055,6 +2061,10 @@ nav #hamburger {
 }
 
 @media only screen and (max-width: 575px) {
+  #trax .chair .chair-head h4 {
+    font-size: .85rem;
+  }
+
   #trax .speakers .chair .chair-body p {
     font-size: .9rem;
   }
