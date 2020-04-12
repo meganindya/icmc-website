@@ -1353,7 +1353,8 @@ nav #hamburger {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: .25rem;
+  justify-content: space-between;
+  padding: .5rem .75rem .75rem .75rem;
   margin-top: 2rem;
   border-radius: .5rem;
   background: url("images/overlay-paper.png"), white;
@@ -1393,81 +1394,80 @@ nav #hamburger {
 }
 
 #speak .speakers .speaker .speak-photo {
-  width: 25%;
-  height: 90%;
+  width: 22.5%;
+  height: 100%;
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: .5rem;
   display: block;
-  margin: 0 .75rem;
-  background: url("images/sillhouette.png") no-repeat, #00bbff;
+  background: url("images/sillhouette.png") no-repeat;
   background-size: auto 100%;
   background-position: 50% 50%;
 }
 
 #speak .speakers .speaker:nth-of-type(1) .speak-photo {
-  background: url("res/speakers/bpsinha.jpg") no-repeat, #00bbff;
-  background-size: 100% auto;
-  background-position: 50% 35%;
+  background: url("res/speakers/bpsinha.jpg") no-repeat;
+  background-size: 110% auto;
+  background-position: 50% 30%;
 }
 
 #speak .speakers .speaker:nth-of-type(2) .speak-photo {
-  background: url("res/speakers/sban.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/sban.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(3) .speak-photo {
-  background: url("res/speakers/umaulik.jpg") no-repeat, #00bbff;
-  background-size: 100% auto;
+  background: url("res/speakers/umaulik.jpg") no-repeat;
+  background-size: auto 100%;
   background-position: 50% 50%;
 }
 
 #speak .speakers .speaker:nth-of-type(4) .speak-photo {
-  background: url("res/speakers/isengupta.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/isengupta.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(5) .speak-photo {
-  background: url("res/speakers/lmpatnaik.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/lmpatnaik.jpg") no-repeat;
   background-size: auto 125%;
   background-position: 40% 15%;
 }
 
 #speak .speakers .speaker:nth-of-type(6) .speak-photo {
-  background: url("res/speakers/sduttaroy.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/sduttaroy.jpg") no-repeat;
   background-size: 100% auto;
-  background-position: 50% 15%;
+  background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(7) .speak-photo {
-  background: url("res/speakers/pkdas.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/pkdas.jpg") no-repeat;
   background-size: auto 165%;
   background-position: 85% 15%;
 }
 
 #speak .speakers .speaker:nth-of-type(8) .speak-photo {
-  background: url("res/speakers/mmandal.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/mmandal.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(9) .speak-photo {
-  background: url("res/speakers/delpha.jpg") no-repeat, #00bbff;
-  background-size: 100% auto;
-  background-position: 50% 40%;
+  background: url("res/speakers/delpha.jpg") no-repeat;
+  background-size: 100% 100%;
+  background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(10) .speak-photo {
-  background: url("res/speakers/gchakra.jpg") no-repeat, #00bbff;
+  background: url("res/speakers/gchakra.jpg") no-repeat;
   background-size: 115% auto;
   background-position: 50% 25%;
 }
 
 #speak .speakers .speaker .speak-info {
-  height: 90%;
-  width: calc(75% - 2.25rem);
+  height: 100%;
+  width: calc(77.5% - .75rem);
 }
 
 #speak .speakers .speaker .speak-info p {
@@ -1479,16 +1479,9 @@ nav #hamburger {
   color: #666;
 }
 
-#speak .speakers .speaker .speak-info p:nth-of-type(1)::before,
-#speak .speakers .speaker .speak-info p:nth-of-type(3)::before {
-  width: 1rem;
-  content: " ";
-  display: inline-block;
-}
-
 #speak .speakers .speaker .speak-info p:nth-of-type(1) {
   margin-bottom: .5rem;
-  padding: .25rem 0;
+  padding: .25rem .5rem .25rem 1rem;
   border-radius: .25rem;
   font-weight: bold;
   color: #80ebff;
@@ -1496,17 +1489,19 @@ nav #hamburger {
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(2) {
-  margin-top: .25rem;
   margin-bottom: 1rem;
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(3) {
   margin-bottom: .5rem;
+  padding-left: 1rem;
   color: #333;
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(4) {
+  line-height: 1.2rem;
   color: #38b1ff;
+  overflow-x: auto;
 }
 
 #speak .speakers .speaker .speak-info a {
@@ -1525,13 +1520,23 @@ nav #hamburger {
     background-position: center;
   }
 
+  #speak .speakers .speaker:nth-of-type(2) .speak-photo {
+    background-size: auto 100%;
+    background-position: center;
+  }
+
   #speak .speakers .speaker:nth-of-type(3) .speak-photo {
     background-size: auto 100%;
     background-position: center;
   }
 
-  #speak .speakers .speaker:nth-of-type(9) .speak-photo {
-    background-size: 100% 100%;
+  #speak .speakers .speaker:nth-of-type(4) .speak-photo {
+    background-size: auto 105%;
+    background-position: center 0;
+  }
+
+  #speak .speakers .speaker:nth-of-type(10) .speak-photo {
+    background-size: auto 105%;
     background-position: center;
   }
 }
@@ -1555,8 +1560,13 @@ nav #hamburger {
   }
 
   #speak .speakers .speaker:nth-of-type(1) .speak-photo {
-    background-size: 107.5% auto;
+    background-size: 110% auto;
     background-position: center 20%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(2) .speak-photo {
+    background-size: 100% auto;
+    background-position: center;
   }
 
   #speak .speakers .speaker:nth-of-type(4) .speak-photo {
@@ -1566,7 +1576,7 @@ nav #hamburger {
 
   #speak .speakers .speaker:nth-of-type(6) .speak-photo {
     background-size: 100% auto;
-    background-position: center 5%;
+    background-position: center 0;
   }
 
   #speak .speakers .speaker:nth-of-type(8) .speak-photo {
@@ -1575,22 +1585,68 @@ nav #hamburger {
   }
 
   #speak .speakers .speaker .speak-info {
-    width: calc(82.5% - 2.25rem);
+    width: calc(82.5% - .75rem);
   }
 }
 
 @media only screen and (max-width: 767px) {
   #speak .speakers .speaker .speak-photo {
-    width: 25%;
+    width: 22.5%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(1) .speak-photo {
+    background-size: 110% auto;
+    background-position: center;
+  }
+
+  #speak .speakers .speaker:nth-of-type(2) .speak-photo {
+    background-size: auto 100%;
+    background-position: center;
   }
 
   #speak .speakers .speaker:nth-of-type(3) .speak-photo {
-    background-size: 100% auto;
-    background-position: center 0;
+    background-size: auto 100%;
+    background-position: center;
   }
 
   #speak .speakers .speaker .speak-info {
-    width: calc(75% - 2.25rem);
+    width: calc(77.5% - .75rem);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #speak .speakers .speaker {
+    height: auto;
+    align-items: flex-start;
+  }
+
+  #speak .speakers .speaker .speak-photo {
+    width: 7.25rem;
+    height: 8.75rem;
+  }
+
+  #speak .speakers .speaker:nth-of-type(2) .speak-photo {
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  #speak .speakers .speaker .speak-info {
+    width: calc(100% - 8rem);
+  }
+
+  #speak .speakers .speaker .speak-info p {
+    font-size: .9rem;
+  }
+
+  #speak .speakers .speaker .speak-info p:last-of-type {
+    line-height: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #speak .speakers .speaker .speak-info p:nth-of-type(1) {
+    padding: .25rem;
+    text-align: center;
   }
 }
 

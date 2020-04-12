@@ -23,7 +23,7 @@ $(document).ready(function () {
         let details = $('#speak .speak-info p:nth-of-type(2)');
 
         if ($(window).width() < 992) {
-            details.css('height', $(details[i]).height());
+            details.css('height', 'auto');
             return;
         }
 
@@ -133,9 +133,11 @@ $(document).ready(function () {
         navbar_size = $('#navbar').height();
         info_head_size = $('.info-block .info-head').height();
 
-        refreshBannerConSize();
-        refreshSpeakerDetailSizes();
-        refreshChairSizes();
+        setTimeout(() => {
+            refreshBannerConSize();
+            refreshSpeakerDetailSizes();
+            refreshChairSizes();
+        }, 500);
 
         // if collapse bar open, adjust height
         if ($('#coll-context').height() != 0) {
