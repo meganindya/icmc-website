@@ -2043,7 +2043,15 @@ nav #hamburger {
 }
 
 .reg-points td:nth-of-type(odd) {
-  width: 4rem;
+  padding-left: 0;
+}
+
+.reg-points td:nth-of-type(even) {
+  padding-right: 0;
+}
+
+.reg-points td:nth-of-type(odd) {
+  min-width: 3.5rem;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
@@ -2070,6 +2078,16 @@ nav #hamburger {
   .reg-table tr:nth-of-type(2),
   .reg-table tr td:first-of-type {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .reg-points tr:not(:first-of-type) {
+    border-top: 1px solid #eee;
+  }
+
+  .reg-points tr td:last-of-type {
+    padding-left: .25rem;
   }
 }
 
