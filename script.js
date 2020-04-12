@@ -69,7 +69,6 @@ $(document).ready(function () {
                 cardHeights[Math.floor($(window).width() / 992)][i],
                 $(window).height() - (header_size + navbar_size)
             );
-        console.log($(window).height(), header_size, navbar_size);
         $('#coll-context').css('height', height);
     };
 

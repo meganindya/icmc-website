@@ -77,9 +77,14 @@ body {
 }
 
 .header-links ul li div {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
   margin: 0 1.5rem;
   padding: .75rem 0;
   font-size: 0.9rem;
+  text-align: center;
   line-height: 1rem;
   color: #666;
   cursor: pointer;
@@ -120,6 +125,17 @@ body {
 
   .header-links ul li:first-of-type div {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header-links {
+    height: 2.75rem;
+  }
+
+  .header-links ul li div {
+    width: min-content;
+    margin: 0 1rem;
   }
 }
 
