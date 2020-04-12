@@ -865,6 +865,16 @@ nav #hamburger {
 /* ========================= */
 /* CONTENT */
 
+@media only screen and (max-width: 575px) {
+  #content-body > .container {
+    padding: 0;
+  }
+}
+
+
+/* ========================= */
+/* BANNER */
+
 .banner-container {
   display: flex;
   flex-direction: column;
@@ -918,6 +928,12 @@ nav #hamburger {
   margin: 1rem 0 0 0;
   width: 30rem;
   color: #333;
+}
+
+.banner h2 i::after {
+  width: .3rem;
+  content: " ";
+  display: inline-block;
 }
 
 .banner .countdown {
@@ -1041,7 +1057,7 @@ nav #hamburger {
   }
 }
 
-@media only screen and (min-height: 800px) {
+@media only screen and (orientation: landscape) and (min-height: 800px) {
   .banner-container {
     justify-content: center;
   }
@@ -1099,6 +1115,10 @@ nav #hamburger {
     margin-left: 0;
     justify-content: center;
   }
+
+  .banner .countdown .countdown-box::after {
+    font-size: .9rem;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1106,6 +1126,41 @@ nav #hamburger {
   .banner h2 p:last-of-type {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .banner {
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+
+  .banner h1 p {
+    font-size: 1.5rem;
+  }
+
+  .banner h3,
+  .banner h2 p {
+    font-size: 1.25rem;
+  }
+
+  .banner h2 i::after {
+    content: " ";
+    display: block;
+  }
+
+  .banner .countdown {
+    height: 4rem;
+  }
+  
+  .banner .countdown .countdown-box {
+    width: 4rem;
+    height: 2.75rem;
+    font-size: 1.75rem;
+  }
+
+  .banner .countdown .countdown-box::after {
+    bottom: -1.25rem;
   }
 }
 
@@ -1201,7 +1256,9 @@ nav #hamburger {
 
 #info .info-block .info-body table td {
   padding: 1rem;
-  font-size: .9rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 #info .info-block .info-body table tr:nth-of-type(1) td:first-of-type,
@@ -1317,6 +1374,12 @@ nav #hamburger {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  #info .info-block .info-body table td {
+    font-size: .925rem;
+  }
+}
+
 
 /* ========================= */
 /* ABOUT */
@@ -1367,6 +1430,11 @@ nav #hamburger {
 }
 
 @media only screen and (max-width: 460px) {
+  #about .info-body {
+    padding: 1rem;
+    font-size: .9rem;
+  }
+
   #about .info-body div {
     display: block;
     float: none;
@@ -1997,6 +2065,13 @@ nav #hamburger {
   }
 }
 
+@media only screen and (max-width: 460px) {
+  #guide .info-body {
+    padding: 1rem;
+    font-size: .9rem;
+  }
+}
+
 
 /* ========================= */
 /* REGISTRATION */
@@ -2260,6 +2335,13 @@ nav #hamburger {
 
   .reg-points tr td:last-of-type {
     padding-left: .25rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #reg .info-body {
+    padding: 1rem;
+    font-size: .9rem;
   }
 }
 
