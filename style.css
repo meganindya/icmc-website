@@ -2054,6 +2054,12 @@ nav #hamburger {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  #trax .speakers .chair .chair-body p {
+    font-size: .9rem;
+  }
+}
+
 
 /* ========================= */
 /* GUIDELINES */
