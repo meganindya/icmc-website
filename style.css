@@ -171,6 +171,16 @@ body {
   box-shadow: 0 0 1rem rgba(0, 191, 255, .25);
 }
 
+@media only screen and (max-width: 575px) {
+  #coll-context {
+    padding: 0;
+  }
+
+  .d_card {
+    padding: 1rem;
+  }
+}
+
 
 /* ========================= */
 /* VENUE */
@@ -341,13 +351,43 @@ body {
   }
 
   #c_ven > div:nth-of-type(even) {
+    height: auto;
     margin-left: 0;
   }
   
-  #c_ven > div:nth-of-type(2),
-  #c_ven > div:nth-of-type(3),
-  #c_ven > div:nth-of-type(4) {
+  #c_ven > div:not(:nth-of-type(1)) {
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #c_ven {
+    width: 20rem;
+  }
+
+  #c_ven > div {
+    width: 100%;
+  }
+
+  #card-image {
+    height: 12rem;
+  }
+
+  #card-map {
+    height: 8rem;
+  }
+  
+  #c_ven > div:not(:nth-of-type(1)) {
+    margin-top: 1rem;
+  }
+
+  #card-desc,
+  #card-website {
+    font-size: .95rem;
+  }
+
+  #card-desc p:first-of-type {
+    font-size: 1.2rem;
   }
 }
 
@@ -447,6 +487,26 @@ body {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  #c_prv {
+    width: 20rem;
+  }
+
+  #c_prv p {
+    font-size: .95rem;
+  }
+
+  #c_prv tr:nth-of-type(1),
+  #c_prv td {
+    font-size: 1rem;
+  }
+
+  #c_prv th,
+  #c_prv td {
+    width: 9rem;
+  }
+}
+
 
 /* ========================= */
 /* SPONSOR */
@@ -513,6 +573,22 @@ body {
   margin-right: 2rem;
 }
 
+@media only screen and (max-width: 575px) {
+  #c_spn {
+    width: 18rem;
+  }
+
+  #c_spn .spon-logo {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-top: 1rem;
+  }
+
+  #c_spn .spon-logo:nth-of-type(odd) {
+    margin-right: 1rem;
+  }
+}
+
 
 /* ========================= */
 /* CONTACT */
@@ -549,6 +625,16 @@ body {
 #c_con div a:hover,
 #c_con div a:focus {
   color: #38b1ff;
+}
+
+@media only screen and (max-width: 575px) {
+  #c_con div {
+    font-size: .95rem;
+  }
+
+  #c_con div p {
+    margin-bottom: .8rem;
+  }
 }
 
 

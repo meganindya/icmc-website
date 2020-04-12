@@ -60,13 +60,18 @@ $(document).ready(function () {
     refreshChairSizes();
 
     let cardHeights = [
-        [ 1088, 518, 535, 583 ],
+        [ 886, 483, 391, 537 ],
+        [ 1008, 518, 535, 583 ],
         [ 576, 501, 535, 583 ]
     ];
     let refreshCollbarHeight = i => {
+        let index;
+        if ($(window).width() < 576)        index = 0;
+        else if ($(window).width() < 992)   index = 1;
+        else                                index = 2;
         let height =
             Math.max(
-                cardHeights[Math.floor($(window).width() / 992)][i],
+                cardHeights[index][i],
                 $(window).height() - (header_size + navbar_size)
             );
         $('#coll-context').css('height', height);
@@ -157,18 +162,30 @@ $(document).ready(function () {
 
     $(window).scroll(() => {
         // collapse collapse bar if open
-        /*if ($('#coll-context').height() != 0) {
-            window.scrollTo(0, 0);
-            $('#coll-context .d_card').hide(200);
-            setTimeout(() => {
-                $('#coll-context').css('height', '0');
+        if ($('#coll-context').height() != 0) {
+            if (
+                $('#coll-context').height() ===
+                    $(window).height() - (header_size + navbar_size) ||
+                $(window).scrollTop() >=
+                    (
+                        header_size +
+                        $('#coll-context').height() +
+                        navbar_size -
+                        $(window).height() + 96
+                    )
+            ) {
                 window.scrollTo(0, 0);
-                for (let i = 0; i < c_links.length; i++)
-                    c_links[i].css('color', '#666');
-            }, 200);
+                $('#coll-context .d_card').hide(200);
+                setTimeout(() => {
+                    $('#coll-context').css('height', '0');
+                    window.scrollTo(0, 0);
+                    for (let i = 0; i < c_links.length; i++)
+                        c_links[i].css('color', '#666');
+                }, 200);
 
-            return;
-        }*/
+                return;
+            }
+        }
 
 
         // adjust navbar related styles based on scroll position
