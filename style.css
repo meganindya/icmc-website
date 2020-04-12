@@ -1967,6 +1967,12 @@ nav #hamburger {
   }
 }
 
+@media only screen and (max-width: 575px) {
+  .chair .chair-body {
+    font-size: .9rem;
+  }
+}
+
 
 /* ========================= */
 /* TRACKS */
