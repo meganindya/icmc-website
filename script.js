@@ -1,13 +1,4 @@
 $(document).ready(function () {
-    // required for adjusting zoom on small screens
-    let zoom_ratio;
-    if ($(window).width() < 540)
-        zoom_ratio = $(window).width() / $('body').width();
-    else
-        zoom_ratio = 1.0;
-    document.body.style.zoom = zoom_ratio;
-
-
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
@@ -32,7 +23,7 @@ $(document).ready(function () {
         let details = $('#speak .speak-info p:nth-of-type(2)');
 
         if ($(window).width() < 992) {
-            details.css('height', $(details[i]).height());
+            details.css('height', 'auto');
             return;
         }
 
@@ -68,18 +59,22 @@ $(document).ready(function () {
 
     refreshChairSizes();
 
-
     let cardHeights = [
-        [ 1088, 518, 535, 583 ],
+        [ 886, 483, 391, 537 ],
+        [ 1008, 518, 535, 583 ],
         [ 576, 501, 535, 583 ]
     ];
     let refreshCollbarHeight = i => {
+        let index;
+        if ($(window).width() < 576)        index = 0;
+        else if ($(window).width() < 992)   index = 1;
+        else                                index = 2;
         let height =
             Math.max(
-                cardHeights[Math.floor($(window).width() / 992)][i],
+                cardHeights[index][i],
                 $(window).height() - (header_size + navbar_size)
             );
-        $('#coll-context').css('height', height / zoom_ratio);
+        $('#coll-context').css('height', height);
     };
 
 
@@ -143,9 +138,11 @@ $(document).ready(function () {
         navbar_size = $('#navbar').height();
         info_head_size = $('.info-block .info-head').height();
 
-        refreshBannerConSize();
-        refreshSpeakerDetailSizes();
-        refreshChairSizes();
+        setTimeout(() => {
+            refreshBannerConSize();
+            refreshSpeakerDetailSizes();
+            refreshChairSizes();
+        }, 500);
 
         // if collapse bar open, adjust height
         if ($('#coll-context').height() != 0) {
@@ -165,18 +162,30 @@ $(document).ready(function () {
 
     $(window).scroll(() => {
         // collapse collapse bar if open
-        /*if ($('#coll-context').height() != 0) {
-            window.scrollTo(0, 0);
-            $('#coll-context .d_card').hide(200);
-            setTimeout(() => {
-                $('#coll-context').css('height', '0');
+        if ($('#coll-context').height() != 0) {
+            if (
+                $('#coll-context').height() ===
+                    $(window).height() - (header_size + navbar_size) ||
+                $(window).scrollTop() >=
+                    (
+                        header_size +
+                        $('#coll-context').height() +
+                        navbar_size -
+                        $(window).height() + 96
+                    )
+            ) {
                 window.scrollTo(0, 0);
-                for (let i = 0; i < c_links.length; i++)
-                    c_links[i].css('color', '#666');
-            }, 200);
+                $('#coll-context .d_card').hide(200);
+                setTimeout(() => {
+                    $('#coll-context').css('height', '0');
+                    window.scrollTo(0, 0);
+                    for (let i = 0; i < c_links.length; i++)
+                        c_links[i].css('color', '#666');
+                }, 200);
 
-            return;
-        }*/
+                return;
+            }
+        }
 
 
         // adjust navbar related styles based on scroll position
@@ -258,12 +267,9 @@ $(document).ready(function () {
 
         let index = -1;
         for (let i = 0; i < sec_tops.length - 1; i++) {
-            if (reached < (sec_tops[0] * zoom_ratio))
+            if (reached < sec_tops[0])
                 break;
-            if (
-                reached >= (sec_tops[i] * zoom_ratio) &&
-                reached < (sec_tops[i + 1] * zoom_ratio)
-            ) {
+            if (reached >= sec_tops[i] && reached < sec_tops[i + 1]) {
                 index = i;
                 break;
             }
@@ -356,7 +362,7 @@ $(document).ready(function () {
 
     let smoothScrollTo = top => {
         window.scrollTo({
-            top: top * zoom_ratio,
+            top: top,
             behavior: 'smooth'
         });
     };
