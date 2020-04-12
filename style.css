@@ -1107,7 +1107,6 @@ nav #hamburger {
 }
 
 #info .info-block .info-body table td:nth-of-type(odd) {
-  width: 15rem;
   font-weight: bold;
   text-align: right;
 }
