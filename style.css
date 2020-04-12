@@ -33,7 +33,16 @@ body {
   transition: all 1s ease-in;
 }
 
-@media only screen and (max-height: 751px) {
+@media only screen and (orientation: landscape) and (max-height: 751px) {
+  #btn-top {
+    right: .75rem;
+    bottom: .75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 600px) {
   #btn-top {
     right: .75rem;
     bottom: .75rem;
@@ -100,7 +109,7 @@ body {
   color: #333;
 }
 
-@media only screen and (max-height: 751px) {
+@media only screen and (orientation: landscape) and (max-height: 751px) {
   .header-links {
     height: 1.875rem;
   }
@@ -136,6 +145,19 @@ body {
   .header-links ul li div {
     width: min-content;
     margin: 0 1rem;
+  }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 575px) {
+  .header-links {
+    height: 2.75rem;
+  }
+
+  .header-links ul li div {
+    margin: 0 1.25rem;
+    padding: .5rem 0;
+    font-size: .8rem;
+    line-height: .875rem;
   }
 }
 
