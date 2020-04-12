@@ -1274,6 +1274,15 @@ nav #hamburger {
   }
 }
 
+@media only screen and (max-width: 460px) {
+  #about .info-body div {
+    display: block;
+    float: none;
+    margin: 0 auto 1.25rem auto;
+    transform: translateY(0);
+  }
+}
+
 
 /* ========================= */
 /* SPEAKERS */
