@@ -1,0 +1,27 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: url("images/overlay.png"), #38b1ff;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#construction {
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background: white;
+}
+
+#construction span {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #666;
+}
