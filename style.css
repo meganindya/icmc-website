@@ -11,11 +11,9 @@ body {
   background-attachment: fixed;
 }
 
-
 .content {
   margin-bottom: 5.75rem;
 }
-
 
 #btn-top {
   position: fixed;
@@ -35,8 +33,8 @@ body {
 
 @media only screen and (orientation: landscape) and (max-height: 751px) {
   #btn-top {
-    right: .75rem;
-    bottom: .75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
     width: 2.5rem;
     height: 2.5rem;
   }
@@ -44,13 +42,12 @@ body {
 
 @media only screen and (orientation: portrait) and (max-width: 600px) {
   #btn-top {
-    right: .75rem;
-    bottom: .75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
     width: 2.5rem;
     height: 2.5rem;
   }
 }
-
 
 /* ========================= */
 /* HEADER */
@@ -64,7 +61,7 @@ body {
 .header-links {
   position: relative;
   height: 2.5rem;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
 }
 
 .header-links ul {
@@ -91,7 +88,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 1.5rem;
-  padding: .75rem 0;
+  padding: 0.75rem 0;
   font-size: 0.9rem;
   text-align: center;
   line-height: 1rem;
@@ -116,9 +113,9 @@ body {
 
   .header-links ul li div {
     margin: 0 1.25rem;
-    padding: .5rem 0;
-    font-size: .8rem;
-    line-height: .875rem;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    line-height: 0.875rem;
   }
 }
 
@@ -155,9 +152,9 @@ body {
 
   .header-links ul li div {
     margin: 0 1.25rem;
-    padding: .5rem 0;
-    font-size: .8rem;
-    line-height: .875rem;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    line-height: 0.875rem;
   }
 }
 
@@ -167,18 +164,18 @@ body {
   }
 }
 
-
 /* ========================= */
 /* COLLAPSE BAR */
 
 #collbar {
   background: repeating-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0) 0px,
-    rgba(0, 0, 0, .25) 4px,
-    rgba(0, 0, 0, .25) 5px,
-    rgba(0, 0, 0, 0) 10px
-  ), #333;
+      45deg,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0.25) 4px,
+      rgba(0, 0, 0, 0.25) 5px,
+      rgba(0, 0, 0, 0) 10px
+    ),
+    #333;
 }
 
 #coll-context {
@@ -193,10 +190,10 @@ body {
 .d_card {
   margin: 1rem 0;
   padding: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: #ccc;
-  background: rgba(51, 51, 51, .5);
-  box-shadow: 0 0 1rem rgba(0, 191, 255, .25);
+  background: rgba(51, 51, 51, 0.5);
+  box-shadow: 0 0 1rem rgba(0, 191, 255, 0.25);
 }
 
 @media only screen and (max-width: 575px) {
@@ -209,7 +206,6 @@ body {
   }
 }
 
-
 /* ========================= */
 /* VENUE */
 
@@ -218,7 +214,7 @@ body {
 }
 
 #c_ven > div {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 #c_ven > div:nth-of-type(even) {
@@ -272,15 +268,15 @@ body {
 }
 
 #card-desc p:first-of-type {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
-  word-spacing: .25rem;
+  word-spacing: 0.25rem;
 }
 
 #card-desc p:last-of-type {
   margin-bottom: 0;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
 }
 
 #card-map {
@@ -303,12 +299,7 @@ body {
 
 #card-map a:hover div,
 #card-map a:focus div {
-  background:
-    linear-gradient(
-      0deg,
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0.25)
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("res/map.png");
   background-size: cover;
   background-position: center;
@@ -324,7 +315,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   text-align: justify;
   color: #ccc;
   background: #333;
@@ -337,7 +328,7 @@ body {
 }
 
 #card-website td {
-  padding: 0 0 .5rem 0;
+  padding: 0 0 0.5rem 0;
   vertical-align: top;
 }
 
@@ -347,7 +338,7 @@ body {
 
 #card-website tr td:nth-of-type(1),
 #card-website tr td:nth-of-type(2) {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-weight: bold;
 }
 
@@ -382,7 +373,7 @@ body {
     height: auto;
     margin-left: 0;
   }
-  
+
   #c_ven > div:not(:nth-of-type(1)) {
     margin-top: 2rem;
   }
@@ -404,14 +395,14 @@ body {
   #card-map {
     height: 8rem;
   }
-  
+
   #c_ven > div:not(:nth-of-type(1)) {
     margin-top: 1rem;
   }
 
   #card-desc,
   #card-website {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 
   #card-desc p:first-of-type {
@@ -423,7 +414,6 @@ body {
   }
 }
 
-
 /* ========================= */
 /* PREVIOUS CONFERENCES */
 
@@ -433,8 +423,8 @@ body {
 
 #c_prv p {
   padding: 1rem;
-  border-radius: .5rem;
-  font-family: 'Baloo Thambi 2', cursive;
+  border-radius: 0.5rem;
+  font-family: "Baloo Thambi 2", cursive;
   font-size: 1.1rem;
   text-align: justify;
   background: #333;
@@ -447,7 +437,7 @@ body {
 #c_prv th,
 #c_prv td {
   width: 16rem;
-  padding: .75rem;
+  padding: 0.75rem;
   text-align: center;
 }
 
@@ -456,14 +446,14 @@ body {
 }
 
 #c_prv tr:nth-of-type(1) {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.15rem;
   font-weight: bold;
   background-color: #666;
 }
 
 #c_prv td {
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   font-size: 1.1rem;
 }
 
@@ -494,7 +484,7 @@ body {
 
 #c_prv tr td:hover:nth-of-type(even),
 #c_prv tr td:focus:nth-of-type(even) {
-  background: rgba(0, 123, 234, .25);
+  background: rgba(0, 123, 234, 0.25);
 }
 
 #c_prv a {
@@ -525,7 +515,7 @@ body {
   }
 
   #c_prv p {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 
   #c_prv tr:nth-of-type(1),
@@ -539,7 +529,6 @@ body {
   }
 }
 
-
 /* ========================= */
 /* SPONSOR */
 
@@ -547,8 +536,8 @@ body {
 #c_con h1 {
   margin: 0;
   padding: 1rem;
-  border-radius: .5rem;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  border-radius: 0.5rem;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
@@ -566,14 +555,14 @@ body {
   height: 10rem;
   margin-top: 2rem;
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: #333;
   transition: all 0.5s ease;
 }
 
 #c_spn .spon-logo:hover,
 #c_spn .spon-logo:focus {
-  box-shadow: 0 0 1rem rgba(255, 255, 255, .25);
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.25);
 }
 
 #c_spn .spon-logo span {
@@ -621,16 +610,15 @@ body {
   }
 }
 
-
 /* ========================= */
 /* CONTACT */
 
 #c_con div {
   display: block;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   padding: 1rem;
-  border-radius: .5rem;
-  font-family: 'Baloo Thambi 2', cursive;
+  border-radius: 0.5rem;
+  font-family: "Baloo Thambi 2", cursive;
   background: #333;
   transition: all 0.5s ease;
 }
@@ -661,14 +649,13 @@ body {
 
 @media only screen and (max-width: 575px) {
   #c_con div {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 
   #c_con div p {
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
   }
 }
-
 
 /* ========================= */
 /* NAVBAR */
@@ -676,9 +663,9 @@ body {
 nav {
   display: block;
   z-index: 99;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   background: white;
-  box-shadow: 0 .25rem .25rem rgba(127, 127, 127, .25);
+  box-shadow: 0 0.25rem 0.25rem rgba(127, 127, 127, 0.25);
   transition: all 0.5s ease;
 }
 
@@ -706,7 +693,7 @@ nav .logos {
 nav .logos .logo {
   width: 2.75rem;
   height: 2.75rem;
-  margin: 0 .75rem;
+  margin: 0 0.75rem;
 }
 
 nav .logos .logo:first-of-type {
@@ -724,7 +711,7 @@ nav .logos .logo:first-of-type {
 }
 
 nav .logos span {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: large;
   font-weight: bold;
   color: #333;
@@ -732,8 +719,8 @@ nav .logos span {
 
 nav .logos .nav-logo-separator {
   height: 60%;
-  width: .125rem;
-  margin-left: .75rem;
+  width: 0.125rem;
+  margin-left: 0.75rem;
   background: #00bbff;
 }
 
@@ -776,7 +763,7 @@ nav .nav-links ul li div::before {
   left: 50%;
   display: block;
   content: " ";
-  height: .25rem;
+  height: 0.25rem;
   background: #00bbff;
   transition: all 0.25s ease;
 }
@@ -797,7 +784,7 @@ nav #hamburger {
   right: calc(15px + 2rem);
   height: 3rem;
   width: 3rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   background: url("res/hamburger.png");
   background-size: cover;
   display: none;
@@ -819,7 +806,7 @@ nav #hamburger {
 
   nav .nav-links ul li div {
     padding: 1rem 0;
-    font-size: .9rem;
+    font-size: 0.9rem;
     line-height: 1rem;
   }
 
@@ -846,7 +833,7 @@ nav #hamburger {
   }
 
   nav .nav-links {
-    right: calc(15px + .5rem);
+    right: calc(15px + 0.5rem);
     height: auto;
     display: none;
   }
@@ -864,17 +851,17 @@ nav #hamburger {
   nav .nav-links ul li div {
     width: 100%;
     margin-top: 1px;
-    padding: .75rem 2rem .75rem 3rem;
+    padding: 0.75rem 2rem 0.75rem 3rem;
     text-align: right;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     color: #ccc;
     background: #333;
   }
 
   nav .nav-links ul li div::before {
-    border-radius: .5rem;
+    border-radius: 0.5rem;
   }
 
   nav .nav-links ul li .active {
@@ -893,7 +880,6 @@ nav #hamburger {
   }*/
 }
 
-
 /* ========================= */
 /* CONTENT */
 
@@ -902,7 +888,6 @@ nav #hamburger {
     padding: 0;
   }
 }
-
 
 /* ========================= */
 /* BANNER */
@@ -918,12 +903,12 @@ nav #hamburger {
   display: block;
   margin: 2rem 0;
   padding: 1.75rem 3rem 2.25rem 3rem;
-  border-radius: .5rem;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  border-radius: 0.5rem;
+  font-family: "Alegreya Sans SC", sans-serif;
   background: url("images/banner-temp-1.png") no-repeat, white;
   background-size: auto 100%;
   background-position: 100% 50%;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 .banner h1 {
@@ -963,7 +948,7 @@ nav #hamburger {
 }
 
 .banner h2 i::after {
-  width: .3rem;
+  width: 0.3rem;
   content: " ";
   display: inline-block;
 }
@@ -981,10 +966,10 @@ nav #hamburger {
   height: 4rem;
   margin-right: 1rem;
   box-sizing: border-box;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: 1px solid #38b1ff;
   font-size: 2.75rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #ccc;
   background: #333;
 }
@@ -1033,7 +1018,7 @@ nav #hamburger {
   background: url("images/scroll.gif") no-repeat;
   background-position: 50%;
   background-size: auto 100%;
-  filter: drop-shadow(0 0 .25rem rgba(0, 0, 0, .5));
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.5));
   cursor: pointer;
 }
 
@@ -1072,7 +1057,7 @@ nav #hamburger {
   .banner .countdown {
     height: 4.75rem;
   }
-  
+
   .banner .countdown .countdown-box {
     width: 5rem;
     height: 3.5rem;
@@ -1140,7 +1125,7 @@ nav #hamburger {
 
   .banner h2 p:last-of-type {
     width: 70%;
-    margin: .5rem auto 0 auto;
+    margin: 0.5rem auto 0 auto;
   }
 
   .banner .countdown {
@@ -1149,7 +1134,7 @@ nav #hamburger {
   }
 
   .banner .countdown .countdown-box::after {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -1184,7 +1169,7 @@ nav #hamburger {
   .banner .countdown {
     height: 4rem;
   }
-  
+
   .banner .countdown .countdown-box {
     width: 4rem;
     height: 2.75rem;
@@ -1202,15 +1187,14 @@ nav #hamburger {
   }
 }
 
-
 /* ========================= */
 /* SEPARATOR */
 
 .separator {
-  height: .25rem;
+  height: 0.25rem;
   display: block;
   margin-top: 4.25rem;
-  clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background: white;
 }
 
@@ -1218,7 +1202,6 @@ nav #hamburger {
   width: 33%;
   margin: 6rem auto 0 auto;
 }
-
 
 /* ========================= */
 /* INFO */
@@ -1232,22 +1215,22 @@ nav #hamburger {
 #info .info-block {
   width: calc(50% - 1rem);
   display: block;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: white;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 .info-block {
   position: relative;
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 
 .info-block::after {
   position: absolute;
   bottom: 0;
-  left: .125rem;
-  right: .125rem;
-  height: .25rem;
+  left: 0.125rem;
+  right: 0.125rem;
+  height: 0.25rem;
   content: " ";
   display: block;
   border-radius: 0 0 1rem 1rem;
@@ -1260,13 +1243,13 @@ nav #hamburger {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #ccc;
-  border-radius: .5rem .5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
   background: #333;
 }
 
 .info-block .info-head h4 {
   margin: 0;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.15rem;
   font-weight: bolder;
   text-align: center;
@@ -1276,7 +1259,7 @@ nav #hamburger {
 .info-block .info-body {
   height: calc(100% - 3rem);
   display: block;
-  font-family: 'Gotu', sans-serif;
+  font-family: "Gotu", sans-serif;
   font-weight: 500;
 }
 
@@ -1288,7 +1271,7 @@ nav #hamburger {
 
 #info .info-block .info-body table td {
   padding: 1rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   line-height: 1rem;
 }
@@ -1320,7 +1303,7 @@ nav #hamburger {
 
 #info .info-block .info-body .submit-top p {
   margin-bottom: 1rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -1331,8 +1314,8 @@ nav #hamburger {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  border-radius: .5rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 0.5rem;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   font-weight: bold;
   color: white;
@@ -1370,7 +1353,7 @@ nav #hamburger {
 #info .info-block .info-body .submit-bottom p {
   margin: 0;
   display: block;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -1378,7 +1361,7 @@ nav #hamburger {
   .info-block .info-head {
     height: 2.5rem;
   }
-  
+
   .info-block .info-head h4 {
     font-size: 1.1rem;
   }
@@ -1408,10 +1391,9 @@ nav #hamburger {
 
 @media only screen and (max-width: 575px) {
   #info .info-block .info-body table td {
-    font-size: .925rem;
+    font-size: 0.925rem;
   }
 }
-
 
 /* ========================= */
 /* ABOUT */
@@ -1419,10 +1401,10 @@ nav #hamburger {
 #about {
   width: 100%;
   display: block;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin-top: 4rem;
   background: white;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 #about .info-body {
@@ -1434,13 +1416,13 @@ nav #hamburger {
   height: 16rem;
   float: left;
   margin: 0 2rem 1.5rem 0;
-  transform: translateY(.5rem);
+  transform: translateY(0.5rem);
   background: url("images/logo-icmc.png");
   background-size: cover;
 }
 
 #about .info-body p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: justify;
   line-height: 1.4;
 }
@@ -1464,7 +1446,7 @@ nav #hamburger {
 @media only screen and (max-width: 460px) {
   #about .info-body {
     padding: 1rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   #about .info-body div {
@@ -1474,7 +1456,6 @@ nav #hamburger {
     transform: translateY(0);
   }
 }
-
 
 /* ========================= */
 /* SPEAKERS */
@@ -1494,23 +1475,23 @@ nav #hamburger {
 .bubble h4 {
   position: relative;
   margin: 0;
-  padding: .8125rem 2rem;
-  border-radius: .5rem;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 0.8125rem 2rem;
+  border-radius: 0.5rem;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.15rem;
   font-weight: bolder;
   text-align: center;
   color: #333;
   background: white;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 .bubble h4::before,
 .bubble h4::after {
   position: absolute;
-  top: .0625rem;
-  bottom: .0625rem;
-  width: .25rem;
+  top: 0.0625rem;
+  bottom: 0.0625rem;
+  width: 0.25rem;
   content: " ";
   display: block;
   background: #341f97;
@@ -1518,12 +1499,12 @@ nav #hamburger {
 
 .bubble h4::before {
   left: 0;
-  border-radius: .5rem 0 0 .5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .bubble h4::after {
   right: 0;
-  border-radius: 0 .5rem .5rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .speakers {
@@ -1540,9 +1521,9 @@ nav #hamburger {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: .5rem .75rem .75rem .75rem;
+  padding: 0.5rem 0.75rem 0.75rem 0.75rem;
   margin-top: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: url("images/overlay-paper.png"), white;
   background-size: auto 500%;
   background-position: center;
@@ -1552,12 +1533,12 @@ nav #hamburger {
 #speak .speakers .speaker::after {
   position: absolute;
   bottom: 0;
-  left: .125rem;
-  right: .125rem;
-  height: .25rem;
+  left: 0.125rem;
+  right: 0.125rem;
+  height: 0.25rem;
   content: " ";
   display: block;
-  border-radius: 0 0 .5rem .5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
   background: #a3cb38;
 }
 
@@ -1575,8 +1556,8 @@ nav #hamburger {
 }
 
 #speak .speakers .speaker:hover {
-  transform: translateY(-.5rem);
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .25);
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
 }
 
 #speak .speakers .speaker .speak-photo {
@@ -1584,7 +1565,7 @@ nav #hamburger {
   height: 100%;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   display: block;
   background: url("images/sillhouette.png") no-repeat;
   background-size: auto 100%;
@@ -1653,22 +1634,22 @@ nav #hamburger {
 
 #speak .speakers .speaker .speak-info {
   height: 100%;
-  width: calc(77.5% - .75rem);
+  width: calc(77.5% - 0.75rem);
 }
 
 #speak .speakers .speaker .speak-info p {
   width: 100%;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   text-align: justify;
   color: #666;
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(1) {
-  margin-bottom: .5rem;
-  padding: .25rem .5rem .25rem 1rem;
-  border-radius: .25rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem 0.25rem 1rem;
+  border-radius: 0.25rem;
   font-weight: bold;
   color: #80ebff;
   background: #333;
@@ -1679,7 +1660,7 @@ nav #hamburger {
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(3) {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   padding-left: 1rem;
   color: #333;
 }
@@ -1771,7 +1752,7 @@ nav #hamburger {
   }
 
   #speak .speakers .speaker .speak-info {
-    width: calc(82.5% - .75rem);
+    width: calc(82.5% - 0.75rem);
   }
 }
 
@@ -1796,7 +1777,7 @@ nav #hamburger {
   }
 
   #speak .speakers .speaker .speak-info {
-    width: calc(77.5% - .75rem);
+    width: calc(77.5% - 0.75rem);
   }
 }
 
@@ -1821,7 +1802,7 @@ nav #hamburger {
   }
 
   #speak .speakers .speaker .speak-info p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   #speak .speakers .speaker .speak-info p:last-of-type {
@@ -1831,11 +1812,10 @@ nav #hamburger {
 
 @media only screen and (max-width: 460px) {
   #speak .speakers .speaker .speak-info p:nth-of-type(1) {
-    padding: .25rem;
+    padding: 0.25rem;
     text-align: center;
   }
 }
-
 
 /* ========================= */
 /* COMMITTEE */
@@ -1850,8 +1830,8 @@ nav #hamburger {
   width: calc(50% - 1rem);
   float: left;
   margin-top: 2rem;
-  padding-bottom: .25rem;
-  border-radius: .5rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.5rem;
   background-color: white;
   transition: all 0.5s ease;
 }
@@ -1859,12 +1839,12 @@ nav #hamburger {
 .chair::after {
   position: absolute;
   bottom: 0;
-  left: .125rem;
-  right: .125rem;
-  height: .25rem;
+  left: 0.125rem;
+  right: 0.125rem;
+  height: 0.25rem;
   content: " ";
   display: block;
-  border-radius: 0 0 .5rem .5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
   background: #a3cb38;
 }
 
@@ -1882,7 +1862,7 @@ nav #hamburger {
 }
 
 .chair:hover {
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
 }
 
 .chair .chair-head {
@@ -1894,13 +1874,13 @@ nav #hamburger {
 }
 
 #comm .chair .chair-head {
-  border-radius: .5rem .5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
   background: #333;
 }
 
 .chair .chair-head h4 {
   margin: 0;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.1rem;
   font-weight: bolder;
   text-align: center;
@@ -1912,15 +1892,15 @@ nav #hamburger {
 }
 
 .chair .chair-body {
-  margin-top: .5rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0.5rem;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   text-align: justify;
   color: #666;
 }
 
 .chair .chair-body p {
-  margin: .5rem 1rem;
+  margin: 0.5rem 1rem;
 }
 
 #comm .chair .chair-body p:last-of-type {
@@ -1941,7 +1921,7 @@ nav #hamburger {
 .speakers .chair .chair-body .left p:first-of-type,
 .speakers .chair .chair-body .right p:first-of-type {
   margin-left: 4rem;
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   font-size: 1rem;
   font-weight: bold;
   color: #333;
@@ -1959,7 +1939,7 @@ nav #hamburger {
 }
 
 .speakers .chair .chair-body .left p:last-of-type {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1979,10 +1959,9 @@ nav #hamburger {
 
 @media only screen and (max-width: 575px) {
   .chair .chair-body {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
-
 
 /* ========================= */
 /* TRACKS */
@@ -2008,7 +1987,7 @@ nav #hamburger {
 #trax .chair .chair-head h4 {
   margin: 0;
   padding: 0 2rem;
-  font-family: 'Gotu', sans-serif;
+  font-family: "Gotu", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-align: justify;
@@ -2029,10 +2008,10 @@ nav #hamburger {
 }
 
 #trax .speakers .chair .chair-body p:first-of-type {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.1rem;
-  margin: 0 0 .5rem 0;
-  padding: .5rem 1rem;
+  margin: 0 0 0.5rem 0;
+  padding: 0.5rem 1rem;
   background: #eee;
 }
 
@@ -2056,20 +2035,19 @@ nav #hamburger {
   }
 
   .speakers .chair .chair-body .right {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 }
 
 @media only screen and (max-width: 575px) {
   #trax .chair .chair-head h4 {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
 
   #trax .speakers .chair .chair-body p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
-
 
 /* ========================= */
 /* GUIDELINES */
@@ -2077,10 +2055,10 @@ nav #hamburger {
 #guide {
   width: 100%;
   display: block;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin-top: 4rem;
   background: white;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 #guide .info-body {
@@ -2088,7 +2066,7 @@ nav #hamburger {
 }
 
 #guide .info-body p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: justify;
   line-height: 1.4;
 }
@@ -2116,10 +2094,9 @@ nav #hamburger {
 @media only screen and (max-width: 460px) {
   #guide .info-body {
     padding: 1rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
-
 
 /* ========================= */
 /* REGISTRATION */
@@ -2127,10 +2104,10 @@ nav #hamburger {
 #reg {
   width: 100%;
   display: block;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin-top: 4rem;
   background: white;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
 #reg .info-body {
@@ -2138,7 +2115,7 @@ nav #hamburger {
 }
 
 #reg .info-body p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: justify;
   line-height: 1.4;
 }
@@ -2164,7 +2141,7 @@ nav #hamburger {
 }
 
 .reg-details > table th {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.15rem;
   font-weight: bold;
   text-align: center;
@@ -2180,7 +2157,7 @@ nav #hamburger {
 }
 
 .reg-details > table th {
-  padding: .5rem;
+  padding: 0.5rem;
   border-bottom: 1px solid #eee;
 }
 
@@ -2206,7 +2183,7 @@ nav #hamburger {
 }
 
 .reg-details > table table td {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 #neft {
@@ -2214,18 +2191,18 @@ nav #hamburger {
 }
 
 #neft td {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 #neft td:nth-of-type(odd) {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
 }
 
 #neft td:nth-of-type(even) {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: justify;
 }
 
@@ -2236,18 +2213,18 @@ nav #hamburger {
 
 #demdraft {
   vertical-align: top;
-  padding: .35rem 1rem 0 1rem;
+  padding: 0.35rem 1rem 0 1rem;
 }
 
 #demdraft p {
   margin: 0 0 0 2rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #494949;
 }
 
 #demdraft p:nth-of-type(1),
 #demdraft p:nth-of-type(2) {
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
   color: #333;
 }
 
@@ -2259,7 +2236,7 @@ nav #hamburger {
 
 .reg-table h3 {
   margin-bottom: 1rem;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
@@ -2276,7 +2253,7 @@ nav #hamburger {
 .reg-table td,
 .reg-table th {
   width: 20%;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -2287,7 +2264,7 @@ nav #hamburger {
 .reg-table tr:nth-of-type(3) td,
 .reg-table tr:nth-of-type(4) td,
 .reg-table tr:nth-of-type(5) td {
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   font-size: 1rem;
   color: #494949;
 }
@@ -2302,7 +2279,7 @@ nav #hamburger {
 }
 
 .reg-table th {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.15rem;
   font-weight: bold;
   border-bottom: 1px solid #eee;
@@ -2310,7 +2287,7 @@ nav #hamburger {
 
 .reg-table tr:nth-of-type(2),
 .reg-table tr td:first-of-type {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
   color: #666;
@@ -2334,7 +2311,7 @@ nav #hamburger {
 }
 
 .reg-points td {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .reg-points td:nth-of-type(odd) {
@@ -2347,14 +2324,14 @@ nav #hamburger {
 
 .reg-points td:nth-of-type(odd) {
   min-width: 3.5rem;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
   color: #666;
 }
 
 .reg-points td:nth-of-type(even) {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.25rem;
   text-align: justify;
 }
@@ -2367,7 +2344,7 @@ nav #hamburger {
   .reg-table tr:nth-of-type(3) td,
   .reg-table tr:nth-of-type(4) td,
   .reg-table tr:nth-of-type(5) td {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 
   .reg-table tr:nth-of-type(2),
@@ -2382,17 +2359,16 @@ nav #hamburger {
   }
 
   .reg-points tr td:last-of-type {
-    padding-left: .25rem;
+    padding-left: 0.25rem;
   }
 }
 
 @media only screen and (max-width: 460px) {
   #reg .info-body {
     padding: 1rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
-
 
 /* ========================= */
 /* FOOTER */
@@ -2402,13 +2378,13 @@ footer {
   display: grid;
   align-items: center;
   justify-content: center;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
 }
 
 footer span {
   display: block;
   padding: 1rem 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: 0.9rem;
   line-height: 1rem;
   text-align: center;
@@ -2431,6 +2407,26 @@ footer a:focus {
 @media only screen and (max-width: 575px) {
   footer span {
     padding: 1rem;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
+}
+
+#construction {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#construction span {
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #666;
+  background: white;
 }
