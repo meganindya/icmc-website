@@ -358,7 +358,7 @@ $(document).ready(function () {
   $("#l_home").click(() => smoothScrollTo(0));
 
   $("#l_about").click(() =>
-    smoothScrollTo($("#about").position().top - navbar_size)
+    smoothScrollTo($("#about-icmc").position().top - navbar_size)
   );
 
   $("#l_speak").click(() =>
