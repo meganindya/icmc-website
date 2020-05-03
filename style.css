@@ -1576,6 +1576,16 @@ nav #hamburger {
   border-radius: 0 0.5rem 0.5rem 0;
 }
 
+.speakers-text {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: white;
+}
+
 .speakers {
   display: block;
   margin-top: 2rem;
