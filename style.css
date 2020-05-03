@@ -613,7 +613,7 @@ body {
 /* ========================= */
 /* CONTACT */
 
-#c_con div {
+#c_con .contact-person {
   display: block;
   margin-top: 0.5rem;
   padding: 1rem;
@@ -623,36 +623,50 @@ body {
   transition: all 0.5s ease;
 }
 
-#c_con div:hover,
-#c_con div:focus {
+#c_con .contact-person:hover,
+#c_con .contact-person:focus {
   background: #494949;
 }
 
-#c_con div p:first-of-type {
+.collapse-contact {
+  cursor: pointer;
+}
+
+.collapse-contact p:not(:first-of-type) {
+  display: none;
+}
+
+#c_con .contact-person p:first-of-type {
+  margin-bottom: 0;
   font-weight: bold;
 }
 
-#c_con div p:last-of-type {
+#c_con .contact-person p:nth-of-type(2) {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#c_con .contact-person p:last-of-type {
   margin: 0;
 }
 
-#c_con div a {
+#c_con .contact-person a {
   color: #80ebff;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 
-#c_con div a:hover,
-#c_con div a:focus {
+#c_con .contact-person a:hover,
+#c_con .contact-person a:focus {
   color: #38b1ff;
 }
 
 @media only screen and (max-width: 575px) {
-  #c_con div {
+  #c_con .contact-person {
     font-size: 0.95rem;
   }
 
-  #c_con div p {
+  #c_con .contact-person p {
     margin-bottom: 0.8rem;
   }
 }
@@ -1398,7 +1412,7 @@ nav #hamburger {
 /* ========================= */
 /* ABOUT */
 
-#about {
+.about {
   width: 100%;
   display: block;
   border-radius: 0.5rem;
@@ -1407,36 +1421,44 @@ nav #hamburger {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
-#about .info-body {
+.about .info-body {
   padding: 3rem;
 }
 
-#about .info-body div {
+.about .info-body div {
   width: 16rem;
   height: 16rem;
   float: left;
   margin: 0 2rem 1.5rem 0;
   transform: translateY(0.5rem);
+}
+
+#about-icmc .info-body div {
   background: url("images/logo-icmc.png");
   background-size: cover;
 }
 
-#about .info-body p {
+#about-iiest .info-body div {
+  background: url("images/logo-iiests.png");
+  background-size: cover;
+}
+
+.about .info-body p {
   font-size: 0.9rem;
   text-align: justify;
   line-height: 1.4;
 }
 
-#about .info-body p:last-of-type {
+.about .info-body p:last-of-type {
   margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
-  #about .info-body {
+  .about .info-body {
     padding: 1.5rem;
   }
 
-  #about .info-body div {
+  .about .info-body div {
     width: 10rem;
     height: 10rem;
     margin: 0 1.5rem 1.5rem 0;
@@ -1444,12 +1466,12 @@ nav #hamburger {
 }
 
 @media only screen and (max-width: 460px) {
-  #about .info-body {
+  .about .info-body {
     padding: 1rem;
     font-size: 0.9rem;
   }
 
-  #about .info-body div {
+  .about .info-body div {
     display: block;
     float: none;
     margin: 0 auto 1.25rem auto;
