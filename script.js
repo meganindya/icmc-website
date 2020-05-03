@@ -256,7 +256,7 @@ $(document).ready(function () {
       $(window).scrollTop() - navbar_size + ($(window).height() >> 1);
     let sec_tops = [];
     let sec_elems = [
-      $("#about"),
+      $("#about-icmc"),
       $("#speak"),
       $("#comm"),
       $("#trax"),

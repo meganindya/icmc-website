@@ -1412,7 +1412,7 @@ nav #hamburger {
 /* ========================= */
 /* ABOUT */
 
-#about {
+.about {
   width: 100%;
   display: block;
   border-radius: 0.5rem;
@@ -1421,36 +1421,44 @@ nav #hamburger {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
-#about .info-body {
+.about .info-body {
   padding: 3rem;
 }
 
-#about .info-body div {
+.about .info-body div {
   width: 16rem;
   height: 16rem;
   float: left;
   margin: 0 2rem 1.5rem 0;
   transform: translateY(0.5rem);
+}
+
+#about-icmc .info-body div {
   background: url("images/logo-icmc.png");
   background-size: cover;
 }
 
-#about .info-body p {
+#about-iiest .info-body div {
+  background: url("images/logo-iiests.png");
+  background-size: cover;
+}
+
+.about .info-body p {
   font-size: 0.9rem;
   text-align: justify;
   line-height: 1.4;
 }
 
-#about .info-body p:last-of-type {
+.about .info-body p:last-of-type {
   margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
-  #about .info-body {
+  .about .info-body {
     padding: 1.5rem;
   }
 
-  #about .info-body div {
+  .about .info-body div {
     width: 10rem;
     height: 10rem;
     margin: 0 1.5rem 1.5rem 0;
@@ -1458,12 +1466,12 @@ nav #hamburger {
 }
 
 @media only screen and (max-width: 460px) {
-  #about .info-body {
+  .about .info-body {
     padding: 1rem;
     font-size: 0.9rem;
   }
 
-  #about .info-body div {
+  .about .info-body div {
     display: block;
     float: none;
     margin: 0 auto 1.25rem auto;
