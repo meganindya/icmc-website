@@ -613,7 +613,7 @@ body {
 /* ========================= */
 /* CONTACT */
 
-#c_con div {
+#c_con .contact-person {
   display: block;
   margin-top: 0.5rem;
   padding: 1rem;
@@ -623,36 +623,50 @@ body {
   transition: all 0.5s ease;
 }
 
-#c_con div:hover,
-#c_con div:focus {
+#c_con .contact-person:hover,
+#c_con .contact-person:focus {
   background: #494949;
 }
 
-#c_con div p:first-of-type {
+.collapse-contact {
+  cursor: pointer;
+}
+
+.collapse-contact p:not(:first-of-type) {
+  display: none;
+}
+
+#c_con .contact-person p:first-of-type {
+  margin-bottom: 0;
   font-weight: bold;
 }
 
-#c_con div p:last-of-type {
+#c_con .contact-person p:nth-of-type(2) {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#c_con .contact-person p:last-of-type {
   margin: 0;
 }
 
-#c_con div a {
+#c_con .contact-person a {
   color: #80ebff;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 
-#c_con div a:hover,
-#c_con div a:focus {
+#c_con .contact-person a:hover,
+#c_con .contact-person a:focus {
   color: #38b1ff;
 }
 
 @media only screen and (max-width: 575px) {
-  #c_con div {
+  #c_con .contact-person {
     font-size: 0.95rem;
   }
 
-  #c_con div p {
+  #c_con .contact-person p {
     margin-bottom: 0.8rem;
   }
 }

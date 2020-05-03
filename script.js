@@ -129,6 +129,22 @@ $(document).ready(function () {
     );
   }
 
+  // collapse properties for contacts list
+  let contacts = $("#c_con .contact-person");
+  let expandContact = (index) => {
+    for (let i = 0; i < contacts.length; i++) {
+      if (index == i) {
+        $(contacts[i]).removeClass("collapse-contact");
+      } else {
+        $(contacts[i]).addClass("collapse-contact");
+      }
+    }
+  };
+  for (let i = 0; i < contacts.length; i++) {
+    $(contacts[i]).click(() => expandContact(i));
+  }
+
+  // window resized
   $(window).resize(function () {
     header_size = $("#header").height();
     navbar_size = $("#navbar").height();
