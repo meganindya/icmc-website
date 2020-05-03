@@ -549,6 +549,11 @@ body {
   width: 22rem;
 }
 
+#c_spn #sponsor-logos .spon-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 #c_spn .spon-logo {
   float: left;
   width: 10rem;
