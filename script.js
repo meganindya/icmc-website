@@ -52,8 +52,8 @@ $(document).ready(function () {
       let h1 = $(chairs[i]).height(),
         h2 = $(chairs[i + 1]).height();
       let max = h1 > h2 ? h1 : h2;
-      $(chairs[i]).css("height", max + 32);
-      $(chairs[i + 1]).css("height", max + 32);
+      $(chairs[i]).css("height", max + 36);
+      $(chairs[i + 1]).css("height", max + 36);
     }
   };
 
