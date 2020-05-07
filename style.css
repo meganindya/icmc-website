@@ -1368,7 +1368,7 @@ nav #hamburger {
   text-align: center;
 }
 
-#info .info-block .info-body .submit-top div {
+#info .info-block .info-body .submit-top a {
   width: 6rem;
   height: 2rem;
   display: grid;
@@ -1380,13 +1380,13 @@ nav #hamburger {
   font-size: 1rem;
   font-weight: bold;
   color: white;
+  text-decoration: none;
   background: #00bbff;
-  cursor: pointer;
   transition: all 0.5s ease;
 }
 
-#info .info-block .info-body .submit-top div:hover,
-#info .info-block .info-body .submit-top div:focus {
+#info .info-block .info-body .submit-top a:hover,
+#info .info-block .info-body .submit-top a:focus {
   background: #38b1ff;
 }
 
