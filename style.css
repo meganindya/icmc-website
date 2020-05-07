@@ -549,6 +549,11 @@ body {
   width: 22rem;
 }
 
+#c_spn #sponsor-logos .spon-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 #c_spn .spon-logo {
   float: left;
   width: 10rem;
@@ -913,6 +918,7 @@ nav #hamburger {
 }
 
 .banner {
+  position: relative;
   width: 100%;
   display: block;
   margin: 2rem 0;
@@ -923,6 +929,43 @@ nav #hamburger {
   background-size: auto 100%;
   background-position: 100% 50%;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+
+.banner-logos {
+  position: absolute;
+  right: 16rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7rem;
+  height: 15rem;
+  display: block;
+}
+
+.banner-logo {
+  padding: 1rem;
+  border: 1px solid #00bbff;
+  border-radius: 0.5rem;
+  background: rgb(255, 255, 255, 0.9);
+}
+
+.banner-logo span {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+}
+
+.banner-logo:last-of-type {
+  margin-top: 1rem;
+}
+
+.banner-logo:first-of-type span {
+  background: url("images/logo-icmc.png");
+  background-size: cover;
+}
+
+.banner-logo:last-of-type span {
+  background: url("images/logo-iiests.png");
+  background-size: cover;
 }
 
 .banner h1 {
@@ -1118,6 +1161,10 @@ nav #hamburger {
     background: url("res/overlay-net.png") no-repeat, white;
     background-size: auto 95%;
     background-position: center;
+  }
+
+  .banner-logos {
+    display: none;
   }
 
   .banner h1 p,
@@ -1321,7 +1368,7 @@ nav #hamburger {
   text-align: center;
 }
 
-#info .info-block .info-body .submit-top div {
+#info .info-block .info-body .submit-top a {
   width: 6rem;
   height: 2rem;
   display: grid;
@@ -1333,13 +1380,13 @@ nav #hamburger {
   font-size: 1rem;
   font-weight: bold;
   color: white;
+  text-decoration: none;
   background: #00bbff;
-  cursor: pointer;
   transition: all 0.5s ease;
 }
 
-#info .info-block .info-body .submit-top div:hover,
-#info .info-block .info-body .submit-top div:focus {
+#info .info-block .info-body .submit-top a:hover,
+#info .info-block .info-body .submit-top a:focus {
   background: #38b1ff;
 }
 
@@ -1529,9 +1576,63 @@ nav #hamburger {
   border-radius: 0 0.5rem 0.5rem 0;
 }
 
+.speakers-text {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: white;
+}
+
 .speakers {
   display: block;
   margin-top: 2rem;
+}
+
+#speak .speakers .speaker-name {
+  position: relative;
+  width: calc(50% - 1rem);
+  height: 80px;
+  float: left;
+  margin-top: 2rem;
+  padding: 1rem 1rem 1.25rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  line-height: 1.1rem;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+#speak .speakers .speaker-name:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+#speak .speakers .speaker-name:nth-of-type(odd) {
+  margin-right: 1rem;
+}
+
+#speak .speakers .speaker-name:nth-of-type(even) {
+  margin-left: 1rem;
+}
+
+#speak .speakers .speaker-name:nth-of-type(1),
+#speak .speakers .speaker-name:nth-of-type(2) {
+  margin-top: 0;
+}
+
+#speak .speakers .speaker-name::after {
+  position: absolute;
+  bottom: 0;
+  left: 0.125rem;
+  right: 0.125rem;
+  height: 0.25rem;
+  content: " ";
+  display: block;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background: #a3cb38;
 }
 
 #speak .speakers .speaker {
@@ -1779,6 +1880,19 @@ nav #hamburger {
 }
 
 @media only screen and (max-width: 767px) {
+  #speak .speakers .speaker-name {
+    width: 100%;
+  }
+
+  #speak .speakers .speaker-name:nth-of-type(odd),
+  #speak .speakers .speaker-name:nth-of-type(even) {
+    margin: 1rem 0 0 0;
+  }
+
+  #speak .speakers .speaker-name:nth-of-type(1) {
+    margin: 0;
+  }
+
   #speak .speakers .speaker .speak-photo {
     width: 22.5%;
   }

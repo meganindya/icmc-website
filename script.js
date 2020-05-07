@@ -41,6 +41,24 @@ $(document).ready(function () {
 
   refreshSpeakerDetailSizes();
 
+  // adjusts height of speaker name blocks per row
+  let refreshSpeakerNameSizes = () => {
+    let chairs = $(".speaker-name");
+    chairs.css("height", "auto");
+
+    if ($(window).width() < 768) return;
+
+    for (let i = 0; i < chairs.length; i += 2) {
+      let h1 = $(chairs[i]).height(),
+        h2 = $(chairs[i + 1]).height();
+      let max = h1 > h2 ? h1 : h2;
+      $(chairs[i]).css("height", max + 36);
+      $(chairs[i + 1]).css("height", max + 36);
+    }
+  };
+
+  refreshSpeakerNameSizes();
+
   // adjusts height of committee chair blocks per row
   let refreshChairSizes = () => {
     let chairs = $(".chair");
@@ -153,6 +171,7 @@ $(document).ready(function () {
     setTimeout(() => {
       refreshBannerConSize();
       refreshSpeakerDetailSizes();
+      refreshSpeakerNameSizes();
       refreshChairSizes();
     }, 500);
 
@@ -339,7 +358,7 @@ $(document).ready(function () {
   $("#l_home").click(() => smoothScrollTo(0));
 
   $("#l_about").click(() =>
-    smoothScrollTo($("#about").position().top - navbar_size)
+    smoothScrollTo($("#about-icmc").position().top - navbar_size)
   );
 
   $("#l_speak").click(() =>
