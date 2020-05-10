@@ -2043,6 +2043,18 @@ nav #hamburger {
   margin-bottom: 1rem;
 }
 
+#comm .chair .chair-body p a {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#comm .chair .chair-body p a:hover,
+#comm .chair .chair-body p a:focus {
+  color: #333;
+}
+
 /*#comm .speakers .chair:last-of-type {
   width: 100%;
   margin-left: 0;
