@@ -769,6 +769,7 @@ nav .nav-links ul li:last-of-type {
 
 nav .nav-links ul li div {
   position: relative;
+  z-index: 99;
   padding: 1.5rem 0;
   color: #666;
   cursor: pointer;
