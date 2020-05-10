@@ -1074,7 +1074,8 @@ nav #hamburger {
   position: absolute;
   bottom: -.75rem;
   left: 0;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
   color: #a00;
 }
@@ -1219,6 +1220,10 @@ nav #hamburger {
   .banner h1 p:first-of-type,
   .banner h2 p:last-of-type {
     width: 100%;
+  }
+
+  #construction {
+    font-size: 1rem;
   }
 }
 
