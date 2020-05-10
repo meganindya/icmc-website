@@ -987,6 +987,11 @@ nav #hamburger {
   margin: 0 0 1rem 5rem;
 }
 
+.banner h3 i {
+  color: #494949;
+  font-size: 0.9rem;
+}
+
 .banner h2 {
   margin: 0 0 1rem 2rem;
   font-size: 1.75rem;
@@ -1350,6 +1355,11 @@ nav #hamburger {
 #info .info-block .info-body table td:nth-of-type(odd) {
   font-weight: bold;
   text-align: right;
+}
+
+#info .info-block .info-body table td i {
+  color: #666;
+  font-size: 0.85rem;
 }
 
 #info .info-block:nth-of-type(2) .info-body {
