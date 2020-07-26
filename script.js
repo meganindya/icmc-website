@@ -312,7 +312,7 @@ $(document).ready(function () {
   });
 
   // banner countdown
-  let countDownDate = new Date("Jan 12, 2021 11:00:00").getTime();
+  let countDownDate = new Date("Mar 2, 2021 11:00:00").getTime();
   let setCountdown = function () {
     let now = new Date().getTime();
     let dif = countDownDate - now;
