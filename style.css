@@ -984,6 +984,17 @@ nav #hamburger {
   color: #005;
 }
 
+.banner h1 p i {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #494949;
+}
+
+.banner h1 p span {
+  display: none;
+}
+
 .banner h3 {
   margin: 0 0 1rem 5rem;
 }
@@ -1188,6 +1199,16 @@ nav #hamburger {
   .banner h3,
   .banner h2 p {
     text-align: center;
+  }
+
+  .banner h1 p i {
+    margin-left: 0;
+  }
+
+  .banner h1 p span {
+    display: block;
+    margin: 0;
+    font-size: 0;
   }
 
   .banner h1 p:first-of-type {
