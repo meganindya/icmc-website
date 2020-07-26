@@ -1998,6 +1998,11 @@ nav #hamburger {
   transition: all 0.5s ease;
 }
 
+#comm .chair:nth-of-type(7),
+#comm .chair:nth-of-type(8) {
+  width: 100%;
+}
+
 .chair::after {
   position: absolute;
   bottom: 0;
@@ -2021,6 +2026,10 @@ nav #hamburger {
 
 #comm .chair:nth-of-type(even) {
   margin-left: 1rem;
+}
+
+#comm .chair:last-of-type {
+  margin-left: 0;
 }
 
 .chair:hover {

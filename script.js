@@ -66,9 +66,8 @@ $(document).ready(function () {
 
     if ($(window).width() < 992) return;
 
-    for (let i = 0; i < 8; i += 2) {
-      let h1 = $(chairs[i]).height(),
-        h2 = $(chairs[i + 1]).height();
+    for (let i = 0; i < 6; i += 2) {
+      let h1 = $(chairs[i]).height(), h2 = $(chairs[i + 1]).height();
       let max = h1 > h2 ? h1 : h2;
       $(chairs[i]).css("height", max);
       $(chairs[i + 1]).css("height", max);
