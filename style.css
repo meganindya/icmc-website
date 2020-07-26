@@ -2416,6 +2416,13 @@ nav #hamburger {
   text-align: center;
 }
 
+.reg-table h4 {
+  margin-bottom: .75rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 .reg-table .table-wrap {
   overflow-x: auto;
 }
