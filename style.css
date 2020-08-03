@@ -1091,22 +1091,6 @@ nav #hamburger {
   color: #a00;
 }
 
-.scroll {
-  display: block;
-}
-
-#scroll-btn {
-  width: 1.9rem;
-  height: 3rem;
-  margin: auto;
-  border-radius: 1.5rem;
-  background: url("images/scroll.gif") no-repeat;
-  background-position: 50%;
-  background-size: auto 100%;
-  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.5));
-  cursor: pointer;
-}
-
 @media only screen and (max-height: 654px) {
   .banner-container {
     display: block;
@@ -1116,20 +1100,12 @@ nav #hamburger {
   .banner {
     margin-bottom: 0;
   }
-
-  .scroll {
-    display: none;
-  }
 }
 
 @media (orientation: portrait) {
   .banner-container {
     display: block;
     margin-bottom: 4rem;
-  }
-
-  .scroll {
-    display: none;
   }
 }
 
@@ -1151,11 +1127,6 @@ nav #hamburger {
 
   .banner .countdown .countdown-box::after {
     bottom: -1.25rem;
-  }
-
-  #scroll-btn {
-    width: 1.59rem;
-    height: 2.5rem;
   }
 }
 
@@ -1307,12 +1278,58 @@ nav #hamburger {
 }
 
 /* ========================= */
+/* ASSOCIATION */
+
+#association {
+  display: block;
+  margin-top: 4rem;
+}
+
+.assoc-logos {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.assoc-logo {
+  width: 8rem;
+  height: 8rem;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  border-radius: 0.5rem;
+}
+
+.assoc-logo:not(:first-of-type) {
+  margin-left: 4rem;
+}
+
+.assoc-logo:nth-of-type(1) {
+  background: url("images/logo-rms.jpg") white no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.assoc-logo:nth-of-type(2) {
+  background: url("images/logo-crsi.jpg") white no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.assoc-logo:nth-of-type(3) {
+  background: url("images/logo-springer.png") white no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+/* ========================= */
 /* INFO */
 
 #info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 4rem;
 }
 
 #info .info-block {
@@ -2621,51 +2638,6 @@ nav #hamburger {
     padding: 1rem;
     font-size: 0.9rem;
   }
-}
-
-/* ========================= */
-/* ASSOCIATION */
-
-#association {
-  display: block;
-  margin-top: 4rem;
-}
-
-.assoc-logos {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.assoc-logo {
-  width: 8rem;
-  height: 8rem;
-  box-sizing: border-box;
-  border: 1px solid #666;
-  border-radius: 0.5rem;
-}
-
-.assoc-logo:not(:first-of-type) {
-  margin-left: 4rem;
-}
-
-.assoc-logo:nth-of-type(1) {
-  background: url("images/logo-rms.jpg") white no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-}
-
-.assoc-logo:nth-of-type(2) {
-  background: url("images/logo-crsi.jpg") white no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-}
-
-.assoc-logo:nth-of-type(3) {
-  background: url("images/logo-springer.png") white no-repeat;
-  background-size: 100% auto;
-  background-position: center;
 }
 
 /* ========================= */

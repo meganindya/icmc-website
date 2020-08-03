@@ -338,21 +338,6 @@ $(document).ready(function () {
   }, 60000);
 
   // click events
-  $("#scroll-btn").click(() => {
-    let h_top =
-      $("#info").position().top -
-      $("#scroll-btn").position().top +
-      $("#scroll-btn").height() -
-      2 * navbar_size;
-    if (h_top < 68) {
-      smoothScrollTo(
-        $("#scroll-btn").position().top -
-          (navbar_size - $("#scroll-btn").height())
-      );
-    } else {
-      smoothScrollTo($("#info").position().top - navbar_size - 68);
-    }
-  });
 
   $("#l_home").click(() => smoothScrollTo(0));
 
