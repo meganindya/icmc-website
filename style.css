@@ -1538,6 +1538,14 @@ nav #hamburger {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
+#about-it .info-head h4:first-of-type {
+  display: block;
+}
+
+#about-it .info-head h4:last-of-type {
+  display: none;
+}
+
 .about .info-body {
   padding: 3rem;
 }
@@ -1597,6 +1605,14 @@ nav #hamburger {
     float: none;
     margin: 0 auto 1.25rem auto;
     transform: translateY(0);
+  }
+
+  #about-it .info-head h4:first-of-type {
+    display: none;
+  }
+
+  #about-it .info-head h4:last-of-type {
+    display: block;
   }
 }
 
