@@ -1298,25 +1298,31 @@ nav #hamburger {
   box-sizing: border-box;
   border: 1px solid #666;
   border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.assoc-logo:not(:first-of-type) {
+.assoc-logo:hover {
+  transform: scale(1.05);
+}
+
+.assoc-logos a:not(:first-child) .assoc-logo {
   margin-left: 4rem;
 }
 
-.assoc-logo:nth-of-type(1) {
+.assoc-logos a:nth-child(1) .assoc-logo {
   background: url("images/logo-rms.jpg") white no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
 
-.assoc-logo:nth-of-type(2) {
+.assoc-logos a:nth-child(2) .assoc-logo {
   background: url("images/logo-crsi.jpg") white no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
 
-.assoc-logo:nth-of-type(3) {
+.assoc-logos a:nth-child(3) .assoc-logo {
   background: url("images/logo-springer.png") white no-repeat;
   background-size: 100% auto;
   background-position: center;
