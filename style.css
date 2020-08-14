@@ -1785,7 +1785,7 @@ nav #hamburger {
   background-position: 50% 50%;
 }
 
-#speak .speakers .speaker:nth-of-type(1) .speak-photo {
+/* #speak .speakers .speaker:nth-of-type(1) .speak-photo {
   background: url("res/speakers/bpsinha.jpg") no-repeat;
   background-size: 110% auto;
   background-position: 50% 30%;
@@ -1818,6 +1818,42 @@ nav #hamburger {
 #speak .speakers .speaker:nth-of-type(6) .speak-photo {
   background: url("res/speakers/sduttaroy.jpg") no-repeat;
   background-size: 100% auto;
+  background-position: 50% 0%;
+} */
+
+#speak .speakers .speaker:nth-of-type(1) .speak-photo {
+  background: url("res/speakers/carmithazay.jpg") no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(2) .speak-photo {
+  background: url("res/speakers/amitrokotsa.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(3) .speak-photo {
+  background: url("res/speakers/bkrroy.jpg") no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(4) .speak-photo {
+  background: url("res/speakers/snikova.jpg") no-repeat;
+  background-size: 150% auto;
+  background-position: 65% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(5) .speak-photo {
+  background: url("res/speakers/frodriguez.jpg") no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 100%;
+}
+
+#speak .speakers .speaker:nth-of-type(6) .speak-photo {
+  background: url("res/speakers/sugata.jpg") no-repeat;
+  background-size: auto 100%;
   background-position: 50% 0%;
 }
 
