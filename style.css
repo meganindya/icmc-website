@@ -1860,12 +1860,12 @@ nav #hamburger {
 }
 
 #speak .speakers .speaker:nth-of-type(7) .speak-photo {
-  background: url("res/speakers/pkdas.jpg") no-repeat;
-  background-size: auto 165%;
-  background-position: 85% 15%;
+  background: url("res/speakers/rangan.png") no-repeat;
+  background-size: auto 100%;
+  background-position: 50%% 0%;
 }
 
-#speak .speakers .speaker:nth-of-type(8) .speak-photo {
+/* #speak .speakers .speaker:nth-of-type(8) .speak-photo {
   background: url("res/speakers/mmandal.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 0%;
@@ -1881,7 +1881,7 @@ nav #hamburger {
   background: url("res/speakers/gchakra.jpg") no-repeat;
   background-size: 115% auto;
   background-position: 50% 25%;
-}
+} */
 
 #speak .speakers .speaker .speak-info {
   height: 100%;
@@ -1956,6 +1956,11 @@ nav #hamburger {
   #speak .speakers .speaker:nth-of-type(5) .speak-photo {
     background-size: auto 105%;
     background-position: center 100%;
+  }
+
+  #speak .speakers .speaker:nth-of-type(7) .speak-photo {
+    background-size: auto 100%;
+    background-position: center 0%;
   }
 
   /* #speak .speakers .speaker:nth-of-type(10) .speak-photo {
