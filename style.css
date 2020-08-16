@@ -238,7 +238,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  background: url("res/campus.jpg");
+  background: url("images/campus.jpg");
   background-size: cover;
   background-position: center;
   transition: all 0.5s ease;
@@ -291,7 +291,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  background: url("res/map.png");
+  background: url("images/map.png");
   background-size: cover;
   background-position: center;
   transition: all 0.5s ease;
@@ -300,7 +300,7 @@ body {
 #card-map a:hover div,
 #card-map a:focus div {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("res/map.png");
+    url("images/map.png");
   background-size: cover;
   background-position: center;
   transform: scale(1.1);
@@ -576,22 +576,22 @@ body {
 }
 
 #c_spn .spon-logo:nth-of-type(1) span {
-  background: url("images/logo-iiests-white.png");
+  background: url("images/logos/logo-iiests-white.png");
   background-size: cover;
 }
 
 #c_spn .spon-logo:nth-of-type(2) span {
-  background: url("images/logo-icmc.png");
+  background: url("images/logos/logo-icmc.png");
   background-size: cover;
 }
 
 #c_spn .spon-logo:nth-of-type(3) span {
-  background: url("images/logo-drdo.png");
+  background: url("images/logos/logo-drdo.png");
   background-size: cover;
 }
 
 #c_spn .spon-logo:nth-of-type(4) span {
-  background: url("images/logo-iiests-white.png");
+  background: url("images/logos/logo-iiests-white.png");
   background-size: cover;
 }
 
@@ -720,12 +720,12 @@ nav .logos .logo:first-of-type {
 }
 
 #logo-icmc {
-  background: url("images/logo-icmc.png");
+  background: url("images/logos/logo-icmc.png");
   background-size: cover;
 }
 
 #logo-iiests {
-  background: url("images/logo-iiests.png");
+  background: url("images/logos/logo-iiests.png");
   background-size: cover;
 }
 
@@ -805,7 +805,7 @@ nav #hamburger {
   height: 3rem;
   width: 3rem;
   margin: 0.5rem 0;
-  background: url("res/hamburger.png");
+  background: url("images/hamburger.png");
   background-size: cover;
   display: none;
 }
@@ -960,12 +960,12 @@ nav #hamburger {
 }
 
 .banner-logo:first-of-type span {
-  background: url("images/logo-icmc.png");
+  background: url("images/logos/logo-icmc.png");
   background-size: cover;
 }
 
 .banner-logo:last-of-type span {
-  background: url("images/logo-iiests.png");
+  background: url("images/logos/logo-iiests.png");
   background-size: cover;
 }
 
@@ -1157,7 +1157,7 @@ nav #hamburger {
 
 @media only screen and (max-width: 991px) {
   .banner {
-    background: url("res/overlay-net.png") no-repeat, white;
+    background: url("images/overlay-net.png") no-repeat, white;
     background-size: auto 95%;
     background-position: center;
   }
@@ -1311,19 +1311,19 @@ nav #hamburger {
 }
 
 .assoc-logos a:nth-child(1) .assoc-logo {
-  background: url("images/logo-rms.jpg") white no-repeat;
+  background: url("images/logos/logo-rms.jpg") white no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
 
 .assoc-logos a:nth-child(2) .assoc-logo {
-  background: url("images/logo-crsi.jpg") white no-repeat;
+  background: url("images/logos/logo-crsi.jpg") white no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
 
 .assoc-logos a:nth-child(3) .assoc-logo {
-  background: url("images/logo-springer.png") white no-repeat;
+  background: url("images/logos/logo-springer.png") white no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
@@ -1477,7 +1477,7 @@ nav #hamburger {
   height: 3rem;
   display: block;
   margin: 1rem auto;
-  background: url("images/logo-springer.png") no-repeat;
+  background: url("images/logos/logo-springer.png") no-repeat;
   background-size: 100% auto;
 }
 
@@ -1559,12 +1559,12 @@ nav #hamburger {
 }
 
 #about-icmc .info-body div {
-  background: url("images/logo-icmc.png");
+  background: url("images/logos/logo-icmc.png");
   background-size: cover;
 }
 
 #about-iiest .info-body div {
-  background: url("images/logo-iiests.png");
+  background: url("images/logos/logo-iiests.png");
   background-size: cover;
 }
 
@@ -1824,45 +1824,45 @@ nav #hamburger {
 } */
 
 #speak .speakers .speaker:nth-of-type(1) .speak-photo {
-  background: url("res/speakers/carmithazay.jpg") no-repeat;
+  background: url("images/speakers/carmithazay.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(2) .speak-photo {
-  background: url("res/speakers/amitrokotsa.jpg") no-repeat;
+  background: url("images/speakers/amitrokotsa.jpg") no-repeat;
   background-size: auto 100%;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(3) .speak-photo {
-  background: url("res/speakers/bkrroy.jpg") no-repeat;
+  background: url("images/speakers/bkrroy.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(4) .speak-photo {
-  background: url("res/speakers/snikova.jpg") no-repeat;
+  background: url("images/speakers/snikova.jpg") no-repeat;
   background-size: 150% auto;
   background-position: 65% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(5) .speak-photo {
-  background: url("res/speakers/frodriguez.jpg") no-repeat;
+  background: url("images/speakers/frodriguez.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 50% 100%;
 }
 
 #speak .speakers .speaker:nth-of-type(6) .speak-photo {
-  background: url("res/speakers/sugata.jpg") no-repeat;
+  background: url("images/speakers/sugata.jpg") no-repeat;
   background-size: auto 100%;
   background-position: 50% 0%;
 }
 
 #speak .speakers .speaker:nth-of-type(7) .speak-photo {
-  background: url("res/speakers/rangan.png") no-repeat;
+  background: url("images/speakers/rangan.png") no-repeat;
   background-size: auto 100%;
-  background-position: 50%% 0%;
+  background-position: 50% 0%;
 }
 
 /* #speak .speakers .speaker:nth-of-type(8) .speak-photo {

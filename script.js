@@ -226,7 +226,7 @@ $(document).ready(function () {
         "background-position": "50% 50%",
       });
       $("#hamburger").css({
-        background: 'url("res/hamburger-white.png")',
+        background: 'url("images/hamburger-white.png")',
         "background-size": "cover",
       });
       $("nav .logos span").css("color", "#ccc");
@@ -242,7 +242,7 @@ $(document).ready(function () {
         "background-position": "50% 50%",
       });
       $("#hamburger").css({
-        background: 'url("res/hamburger.png")',
+        background: 'url("images/hamburger.png")',
         "background-size": "cover",
       });
       $("nav .logos span").css("color", "#333");
