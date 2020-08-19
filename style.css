@@ -1865,6 +1865,18 @@ nav #hamburger {
   background-position: 50% 0%;
 }
 
+#speak .speakers .speaker:nth-of-type(8) .speak-photo {
+  background: url("images/speakers/skshukla.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
+#speak .speakers .speaker:nth-of-type(9) .speak-photo {
+  background: url("images/speakers/bthuraisingham.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
 /* #speak .speakers .speaker:nth-of-type(8) .speak-photo {
   background: url("res/speakers/mmandal.jpg") no-repeat;
   background-size: 100% auto;
