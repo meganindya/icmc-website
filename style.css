@@ -1448,17 +1448,21 @@ nav #hamburger {
   margin: 0 auto;
   border-radius: 0.5rem;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
-  color: white;
+  /* color: white; */
+  color: midnightblue;
   text-decoration: none;
-  background: #00bbff;
+  /* background: #00bbff; */
+  background: url("images/gradient.gif");
+  box-shadow: 0 0 1px 1px #ccc;
   transition: all 0.5s ease;
 }
 
 #info .info-block .info-body .submit-top a:hover,
 #info .info-block .info-body .submit-top a:focus {
-  background: #38b1ff;
+  /* background: #38b1ff; */
+  transform: scale(1.05);
 }
 
 #info .info-block .info-body .submit-bottom {
