@@ -1013,6 +1013,7 @@ nav #hamburger {
 .banner h2 p:first-of-type {
   margin: 0;
   color: #666;
+  opacity: 0;                     /* Restore IT text */
 }
 
 .banner h2 p:last-of-type {
