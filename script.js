@@ -221,7 +221,7 @@ $(document).ready(function () {
       $("#content-body").css("margin-top", navbar_size + "px");
       $("nav").css("background", "#333");
       $("#logo-iiests").css({
-        background: 'url("images/logo-iiests-white.png") no-repeat',
+        background: 'url("images/logos/logo-iiests-white.png") no-repeat',
         "background-size": "auto 90%",
         "background-position": "50% 50%",
       });
@@ -237,7 +237,7 @@ $(document).ready(function () {
       $("#content-body").css("margin-top", "0");
       $("nav").css("background", "white");
       $("#logo-iiests").css({
-        background: 'url("images/logo-iiests.png") no-repeat',
+        background: 'url("images/logos/logo-iiests.png") no-repeat',
         "background-size": "auto 90%",
         "background-position": "50% 50%",
       });
