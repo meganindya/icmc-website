@@ -1882,6 +1882,12 @@ nav #hamburger {
   background-position: 50% 0%;
 }
 
+#speak .speakers .speaker:nth-of-type(10) .speak-photo {
+  background: url("images/speakers/rei.jpg") no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
 /* #speak .speakers .speaker:nth-of-type(8) .speak-photo {
   background: url("res/speakers/mmandal.jpg") no-repeat;
   background-size: 100% auto;
