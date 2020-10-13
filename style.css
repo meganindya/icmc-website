@@ -1081,7 +1081,7 @@ nav #hamburger {
   content: "mins";
 }
 
-#construction {
+/* #construction {
   width: inherit;
   position: absolute;
   bottom: -.75rem;
@@ -1090,7 +1090,7 @@ nav #hamburger {
   font-weight: bold;
   text-align: center;
   color: #a00;
-}
+} */
 
 @media only screen and (max-height: 654px) {
   .banner-container {
