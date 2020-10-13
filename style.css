@@ -1304,6 +1304,34 @@ nav #hamburger {
   background-position: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .assoc-logos a:not(:first-child) .assoc-logo {
+    margin-left: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .assoc-logos a:not(:first-child) .assoc-logo {
+    margin-left: 1.75rem;
+  }
+
+  .assoc-logo {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .assoc-logos a:not(:first-child) .assoc-logo {
+    margin-left: 1.5rem;
+  }
+
+  .assoc-logo {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
 /* ========================= */
 /* INFO */
 
