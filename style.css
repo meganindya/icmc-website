@@ -979,20 +979,16 @@ nav #hamburger {
   font-weight: bold;
 }
 
-.banner h1 p:last-of-type {
+.banner h1 p:nth-of-type(2) {
   margin: 1rem 0 0 5rem;
   color: #005;
 }
 
-.banner h1 p i {
-  margin-left: 1rem;
+.banner h1 i {
+  margin-left: 5rem;
   font-size: 1rem;
   font-weight: normal;
   color: #494949;
-}
-
-.banner h1 p span {
-  display: none;
 }
 
 .banner h3 {
@@ -1013,7 +1009,6 @@ nav #hamburger {
 .banner h2 p:first-of-type {
   margin: 0;
   color: #666;
-  opacity: 0;                     /* Restore IT text */
 }
 
 .banner h2 p:last-of-type {
@@ -1080,17 +1075,6 @@ nav #hamburger {
 .banner .countdown .countdown-box:nth-of-type(3)::after {
   content: "mins";
 }
-
-/* #construction {
-  width: inherit;
-  position: absolute;
-  bottom: -.75rem;
-  left: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-  color: #a00;
-} */
 
 @media only screen and (max-height: 654px) {
   .banner-container {
@@ -1173,25 +1157,20 @@ nav #hamburger {
     text-align: center;
   }
 
-  .banner h1 p i {
-    margin-left: 0;
-  }
-
-  .banner h1 p span {
-    display: block;
-    margin: 0;
-    font-size: 0;
-  }
-
   .banner h1 p:first-of-type {
     width: 80%;
     margin: 0 auto;
   }
 
-  .banner h1 p:last-of-type,
+  .banner h1 p:nth-of-type(2),
   .banner h3,
   .banner h2 {
     margin-left: 0;
+  }
+
+  .banner h1 i {
+    margin: 0 auto;
+    width: 80%;
   }
 
   .banner h2 p:last-of-type {
@@ -1213,10 +1192,6 @@ nav #hamburger {
   .banner h1 p:first-of-type,
   .banner h2 p:last-of-type {
     width: 100%;
-  }
-
-  #construction {
-    font-size: 1rem;
   }
 }
 
