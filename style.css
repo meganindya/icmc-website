@@ -1493,7 +1493,7 @@ nav #hamburger {
   margin: 0;
   display: block;
   font-size: 0.9rem;
-  text-align: center;
+  text-align: justify;
 }
 
 @media only screen and (max-height: 751px) {
