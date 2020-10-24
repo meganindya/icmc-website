@@ -274,6 +274,7 @@ $(document).ready(function () {
       $(window).scrollTop() - navbar_size + ($(window).height() >> 1);
     let sec_tops = [];
     let sec_elems = [
+      $("#info"),
       $("#about-icmc"),
       $("#speak"),
       $("#comm"),
@@ -283,6 +284,7 @@ $(document).ready(function () {
       $("#foot"),
     ];
     let sec_links = [
+      $("#l_dates"),
       $("#l_about"),
       $("#l_speak"),
       $("#l_comm"),
@@ -292,7 +294,6 @@ $(document).ready(function () {
       $("#foot"),
     ];
 
-    $("#l_home").removeClass("active");
     for (let i = 0; i < sec_elems.length; i++) {
       sec_tops[i] = sec_elems[i].position().top;
       sec_links[i].removeClass("active");
@@ -307,8 +308,7 @@ $(document).ready(function () {
       }
     }
 
-    if (index == -1) $("#l_home").addClass("active");
-    else sec_links[index].addClass("active");
+    sec_links[index].addClass("active");
   });
 
   // banner countdown
@@ -339,7 +339,9 @@ $(document).ready(function () {
 
   // click events
 
-  $("#l_home").click(() => smoothScrollTo(0));
+  $("#l_dates").click(() =>
+    smoothScrollTo($("#info").position().top - navbar_size)
+  );
 
   $("#l_about").click(() =>
     smoothScrollTo($("#about-icmc").position().top - navbar_size)
