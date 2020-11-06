@@ -70,5 +70,8 @@ module.exports = {
         new CleanWebpackPlugin({
             cleanAfterEveryBuildPatterns: ['build']
         })
-    ]
+    ],
+    devServer: {
+        watchContentBase: true
+    }
 };
