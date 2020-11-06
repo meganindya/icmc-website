@@ -4,7 +4,9 @@
   "private": true,
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --hot",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -13,6 +15,20 @@
   "author": "Anindya Kundu",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^5.4.0"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
