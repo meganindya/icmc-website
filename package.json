@@ -15,9 +15,9 @@
   "author": "Anindya Kundu",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
     "babel-loader": "^8.1.0",
-    "babel-preset-es2015": "^6.24.1",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
     "extract-text-webpack-plugin": "^3.0.2",

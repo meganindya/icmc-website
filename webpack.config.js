@@ -12,22 +12,45 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(jpg|png|gif)$/,
+                test: /\.js$/,
                 use: [
                     {
-                        loader: 'file-loader',
+                        loader: 'babel-loader',
                         options: {
-                            name: '[path][name].[ext]',
-                            outputPath: (url) =>
-                                url.slice(url.indexOf(`/`) + 1),
-                            publicPath: 'img/'
+                            presets: ['@babel/preset-env']
                         }
                     }
                 ]
             },
             {
                 test: /\.scss$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true,
+                            importLoaders: 2
+                        }
+                    },
+                    'sass-loader'
+                ]
+            },
+            {
+                test: /\.(jpg|png|gif)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: (url) =>
+                                url
+                                    .slice(url.indexOf('img\\') + 4)
+                                    .replace(/\\/g, '/'),
+                            outputPath: (url) => `img/${url}`,
+                            publicPath: 'img/'
+                        }
+                    }
+                ]
             }
         ]
     },
