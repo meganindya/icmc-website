@@ -226,13 +226,12 @@ $(document).ready(function () {
             $('#content-body').css('margin-top', navbar_size + 'px');
             $('nav').css('background', '#333');
             $('#logo-iiests').css({
-                background:
-                    'url("images/logos/logo-iiests-white.png") no-repeat',
+                background: 'url("img/logos/logo-iiests-white.png") no-repeat',
                 'background-size': 'auto 90%',
                 'background-position': '50% 50%'
             });
             $('#hamburger').css({
-                background: 'url("images/hamburger-white.png")',
+                background: 'url("img/hamburger-white.png")',
                 'background-size': 'cover'
             });
             $('nav .logos span').css('color', '#ccc');
@@ -243,12 +242,12 @@ $(document).ready(function () {
             $('#content-body').css('margin-top', '0');
             $('nav').css('background', 'white');
             $('#logo-iiests').css({
-                background: 'url("images/logos/logo-iiests.png") no-repeat',
+                background: 'url("img/logos/logo-iiests.png") no-repeat',
                 'background-size': 'auto 90%',
                 'background-position': '50% 50%'
             });
             $('#hamburger').css({
-                background: 'url("images/hamburger.png")',
+                background: 'url("img/hamburger.png")',
                 'background-size': 'cover'
             });
             $('nav .logos span').css('color', '#333');
