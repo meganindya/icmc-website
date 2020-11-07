@@ -1,0 +1,71 @@
+#association {
+  display: block;
+  margin-top: 4rem;
+
+  .assoc-logos {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    a {
+      .assoc-logo {
+        width: 8rem;
+        height: 8rem;
+        box-sizing: border-box;
+        border: 1px solid #666;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: all 0.5s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        @media only screen and (max-width: 575px) {
+          width: 6rem;
+          height: 6rem;
+        }
+
+        @media only screen and (max-width: 400px) {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+
+      &:not(:first-child) .assoc-logo {
+        margin-left: 4rem;
+
+        @media only screen and (max-width: 767px) {
+          margin-left: 2.5rem;
+        }
+
+        @media only screen and (max-width: 575px) {
+          margin-left: 1.75rem;
+        }
+
+        @media only screen and (max-width: 400px) {
+          margin-left: 1.5rem;
+        }
+      }
+
+      &:nth-child(1) .assoc-logo {
+        background: url('../img/logos/logo-rms.jpg') white no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+
+      &:nth-child(2) .assoc-logo {
+        background: url('../img/logos/logo-crsi.jpg') white no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+
+      &:nth-child(3) .assoc-logo {
+        background: url('../img/logos/logo-springer.png') white no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+    }
+  }
+}

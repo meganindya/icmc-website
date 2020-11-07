@@ -1,0 +1,35 @@
+footer {
+  margin-bottom: 2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo Thambi 2', cursive;
+
+  span {
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #666;
+    background: white;
+
+    @media only screen and (max-width: 575px) {
+      padding: 1rem;
+      font-size: 0.8rem;
+    }
+
+    a {
+      color: #666;
+      text-decoration: none;
+      transition: all 0.5s ease;
+
+      &:hover,
+      &:focus {
+        color: #003;
+        text-decoration: none;
+      }
+    }
+  }
+}

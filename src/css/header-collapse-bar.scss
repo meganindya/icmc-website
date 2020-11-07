@@ -1,0 +1,508 @@
+#collbar {
+  background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0.25) 4px,
+      rgba(0, 0, 0, 0.25) 5px,
+      rgba(0, 0, 0, 0) 10px
+    ),
+    #333;
+}
+
+#coll-context {
+  width: 100%;
+  height: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.d_card {
+  margin: 1rem 0;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: #ccc;
+  background: rgba(51, 51, 51, 0.5);
+  box-shadow: 0 0 1rem rgba(0, 191, 255, 0.25);
+}
+
+@media only screen and (max-width: 575px) {
+  #coll-context {
+    padding: 0;
+  }
+
+  .d_card {
+    padding: 1rem;
+  }
+}
+
+/* ========================= */
+/* VENUE */
+
+#c_ven {
+  width: 56.25rem;
+}
+
+#c_ven > div {
+  border-radius: 0.5rem;
+}
+
+#c_ven > div:nth-of-type(even) {
+  margin-left: 2rem;
+}
+
+#c_ven > div:nth-of-type(3),
+#c_ven > div:nth-of-type(4) {
+  margin-top: 2rem;
+}
+
+#card-image {
+  width: 24rem;
+  height: 16rem;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#card-image div {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url('../img/campus.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+
+#card-image div:hover,
+#card-image div:focus {
+  transform: scale(1.1);
+}
+
+#card-desc {
+  width: calc(100% - 26rem);
+  height: 16rem;
+  padding: 1rem;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #333;
+  text-align: justify;
+  transition: all 0.5s ease;
+}
+
+#card-desc:hover,
+#card-desc:focus {
+  background: #494949;
+}
+
+#card-desc p:first-of-type {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  word-spacing: 0.25rem;
+}
+
+#card-desc p:last-of-type {
+  margin-bottom: 0;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+#card-map {
+  width: 24rem;
+  height: 12rem;
+  float: left;
+  background: #ccc;
+  overflow: hidden;
+}
+
+#card-map a div {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url('../img/map.png');
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+
+#card-map a:hover div,
+#card-map a:focus div {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url('../img/map.png');
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1);
+}
+
+#card-website {
+  width: calc(100% - 26rem);
+  height: 12rem;
+  float: left;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Baloo Thambi 2', cursive;
+  text-align: justify;
+  color: #ccc;
+  background: #333;
+  transition: all 0.5s ease;
+}
+
+#card-website:hover,
+#card-website:focus {
+  background: #494949;
+}
+
+#card-website td {
+  padding: 0 0 0.5rem 0;
+  vertical-align: top;
+}
+
+#card-website tr:last-of-type td {
+  padding: 0;
+}
+
+#card-website tr td:nth-of-type(1),
+#card-website tr td:nth-of-type(2) {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+}
+
+#card-website tr td:nth-of-type(2) {
+  width: 1rem;
+  text-align: center;
+}
+
+#card-website a {
+  color: #80ebff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+#card-website a:hover,
+#card-website a:focus {
+  color: #38b1ff;
+}
+
+@media only screen and (max-width: 991px) {
+  #c_ven {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #c_ven > div {
+    width: 26rem;
+  }
+
+  #c_ven > div:nth-of-type(even) {
+    height: auto;
+    margin-left: 0;
+  }
+
+  #c_ven > div:not(:nth-of-type(1)) {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #c_ven {
+    width: 20rem;
+  }
+
+  #c_ven > div {
+    width: 100%;
+  }
+
+  #card-image {
+    height: 12rem;
+  }
+
+  #card-map {
+    height: 8rem;
+  }
+
+  #c_ven > div:not(:nth-of-type(1)) {
+    margin-top: 1rem;
+  }
+
+  #card-desc,
+  #card-website {
+    font-size: 0.95rem;
+  }
+
+  #card-desc p:first-of-type {
+    font-size: 1.1rem;
+  }
+
+  #card-website tr td:last-of-type {
+    text-align: left;
+  }
+}
+
+/* ========================= */
+/* PREVIOUS CONFERENCES */
+
+#c_prv {
+  width: 36rem;
+}
+
+#c_prv p {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.1rem;
+  text-align: justify;
+  background: #333;
+}
+
+#c_prv table {
+  background: #333;
+}
+
+#c_prv th,
+#c_prv td {
+  width: 16rem;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+#c_prv tr:nth-of-type(odd) {
+  background-color: #494949;
+}
+
+#c_prv tr:nth-of-type(1) {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.15rem;
+  font-weight: bold;
+  background-color: #666;
+}
+
+#c_prv td {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 1.1rem;
+}
+
+#c_prv th:nth-of-type(odd),
+#c_prv td:nth-of-type(odd) {
+  border-right: 1px solid #ccc;
+}
+
+#c_prv th {
+  border-bottom: 1px solid #ccc;
+}
+
+#c_prv th:first-of-type {
+  border-radius: 0.5rem 0 0 0;
+}
+
+#c_prv th:last-of-type {
+  border-radius: 0 0.5rem 0 0;
+}
+
+#c_prv tr:last-of-type td:first-of-type {
+  border-radius: 0 0 0 0.5rem;
+}
+
+#c_prv tr:last-of-type td:last-of-type {
+  border-radius: 0 0 0.5rem 0;
+}
+
+#c_prv tr td:hover:nth-of-type(even),
+#c_prv tr td:focus:nth-of-type(even) {
+  background: rgba(0, 123, 234, 0.25);
+}
+
+#c_prv a {
+  color: #80ebff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+#c_prv a:hover,
+#c_prv a:focus {
+  color: #38b1ff;
+}
+
+@media only screen and (max-width: 991px) {
+  #c_prv {
+    width: 28rem;
+  }
+
+  #c_prv th,
+  #c_prv td {
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #c_prv {
+    width: 20rem;
+  }
+
+  #c_prv p {
+    font-size: 0.95rem;
+  }
+
+  #c_prv tr:nth-of-type(1),
+  #c_prv td {
+    font-size: 1rem;
+  }
+
+  #c_prv th,
+  #c_prv td {
+    width: 9rem;
+  }
+}
+
+/* ========================= */
+/* SPONSOR */
+
+#c_spn h1,
+#c_con h1 {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+}
+
+#c_spn #sponsor-logos {
+  display: block;
+  width: 22rem;
+}
+
+#c_spn #sponsor-logos .spon-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#c_spn .spon-logo {
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #333;
+  transition: all 0.5s ease;
+}
+
+#c_spn .spon-logo:hover,
+#c_spn .spon-logo:focus {
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.25);
+}
+
+#c_spn .spon-logo span {
+  height: 100%;
+  display: block;
+}
+
+#c_spn .spon-logo:nth-of-type(1) span {
+  background: url('../img/logos/logo-iiests-white.png');
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(2) span {
+  background: url('../img/logos/logo-icmc.png');
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(3) span {
+  background: url('../img/logos/logo-icmc.png');
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(4) span {
+  background: url('../img/logos/logo-iiests-white.png');
+  background-size: cover;
+}
+
+#c_spn .spon-logo:nth-of-type(odd) {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 575px) {
+  #c_spn {
+    width: 18rem;
+  }
+
+  #c_spn .spon-logo {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-top: 1rem;
+  }
+
+  #c_spn .spon-logo:nth-of-type(odd) {
+    margin-right: 1rem;
+  }
+}
+
+/* ========================= */
+/* CONTACT */
+
+#c_con .contact-person {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  background: #333;
+  transition: all 0.5s ease;
+}
+
+#c_con .contact-person:hover,
+#c_con .contact-person:focus {
+  background: #494949;
+}
+
+.collapse-contact {
+  cursor: pointer;
+}
+
+.collapse-contact p:not(:first-of-type) {
+  display: none;
+}
+
+#c_con .contact-person p:first-of-type {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+#c_con .contact-person p:nth-of-type(2) {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#c_con .contact-person p:last-of-type {
+  margin: 0;
+}
+
+#c_con .contact-person a {
+  color: #80ebff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+#c_con .contact-person a:hover,
+#c_con .contact-person a:focus {
+  color: #38b1ff;
+}
+
+@media only screen and (max-width: 575px) {
+  #c_con .contact-person {
+    font-size: 0.95rem;
+  }
+
+  #c_con .contact-person p {
+    margin-bottom: 0.8rem;
+  }
+}

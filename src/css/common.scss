@@ -1,0 +1,199 @@
+/* == SEPARATOR ============================================================= */
+.separator {
+  height: 0.25rem;
+  display: block;
+  margin-top: 4.25rem;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: white;
+
+  &:last-of-type {
+    width: 33%;
+    margin: 6rem auto 0 auto;
+  }
+}
+
+/* == TITLED CARD =========================================================== */
+.titled-card {
+  position: relative;
+  padding-bottom: 0.25rem;
+  border-radius: 0.5rem;
+  background: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    right: 0.125rem;
+    height: 0.25rem;
+    content: ' ';
+    display: block;
+    border-radius: 0 0 1rem 1rem;
+    background: #a3cb38;
+  }
+
+  .titled-card-head {
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: #333;
+
+    @media only screen and (max-height: 751px) {
+      height: 2.5rem;
+    }
+
+    h4 {
+      margin: 0;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 1.15rem;
+      font-weight: bolder;
+      text-align: center;
+      color: #80ebff;
+
+      @media only screen and (max-height: 751px) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .titled-card-body {
+    height: calc(100% - 3rem);
+    display: block;
+    font-family: 'Gotu', sans-serif;
+    font-weight: 500;
+  }
+}
+
+/* == SECTION BUBBLE ======================================================== */
+.bubble {
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  h4 {
+    position: relative;
+    margin: 0;
+    padding: 0.8125rem 2rem;
+    border-radius: 0.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    text-align: center;
+    color: #333;
+    background: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+
+    &::before,
+    &::after {
+      position: absolute;
+      top: 0.0625rem;
+      bottom: 0.0625rem;
+      width: 0.25rem;
+      content: ' ';
+      display: block;
+      background: #341f97;
+    }
+
+    &::before {
+      left: 0;
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    &::after {
+      right: 0;
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+  }
+}
+
+/* == FLOATING CARD ========================================================= */
+.float-card {
+  position: relative;
+  width: calc(50% - 1rem);
+  float: left;
+  margin-top: 2rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.5s ease;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    right: 0.125rem;
+    height: 0.25rem;
+    content: ' ';
+    display: block;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background: #a3cb38;
+  }
+
+  &:nth-of-type(1),
+  &:nth-of-type(2) {
+    margin-top: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+  }
+
+  .float-card-head {
+    height: 2.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+
+    h4 {
+      margin: 0;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 1.1rem;
+      font-weight: bolder;
+      text-align: center;
+      color: #333;
+    }
+  }
+
+  .float-card-body {
+    margin: 0.25rem 0 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    color: #666;
+
+    .left {
+      border-right: 1px solid #eee;
+
+      p:last-of-type {
+        @media only screen and (max-width: 991px) {
+          margin-bottom: 0rem;
+        }
+      }
+    }
+
+    .left,
+    .right {
+      width: 50%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (max-width: 991px) {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+      }
+    }
+
+    p {
+      margin: 0.25rem 1rem;
+    }
+  }
+}

@@ -1,0 +1,266 @@
+#speak {
+  display: block;
+  margin-top: 4rem;
+
+  .speakers {
+    display: block;
+    margin-top: 2rem;
+
+    .speaker {
+      position: relative;
+      width: calc(50% - 1rem);
+      height: 10rem;
+      float: left;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+      margin-top: 2rem;
+      border-radius: 0.5rem;
+      background: url('../img/overlay-paper.png'), white;
+      background-size: auto 500%;
+      background-position: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.5s ease;
+
+      @media only screen and (max-width: 991px) {
+        width: 100%;
+      }
+
+      @media only screen and (max-width: 575px) {
+        height: auto;
+        align-items: flex-start;
+      }
+
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0.125rem;
+        right: 0.125rem;
+        height: 0.25rem;
+        content: ' ';
+        display: block;
+        border-radius: 0 0 0.5rem 0.5rem;
+        background: #a3cb38;
+      }
+
+      &:nth-of-type(1) {
+        margin-top: 0;
+
+        @media only screen and (max-width: 991px) {
+          margin: 0;
+        }
+      }
+
+      &:nth-of-type(2) {
+        margin-top: 0;
+      }
+
+      &:nth-of-type(odd) {
+        margin-right: 1rem;
+
+        @media only screen and (max-width: 991px) {
+          margin: 1rem 0 0 0;
+        }
+      }
+
+      &:nth-of-type(even) {
+        margin-left: 1rem;
+
+        @media only screen and (max-width: 991px) {
+          margin: 1rem 0 0 0;
+        }
+      }
+
+      &:hover {
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+      }
+
+      .speak-photo {
+        width: 22.5%;
+        height: 100%;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 0.5rem;
+        display: block;
+        background: url('../img/sillhouette.png') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 50%;
+
+        @media only screen and (max-width: 991px) {
+          width: 17.5%;
+        }
+
+        @media only screen and (max-width: 767px) {
+          width: 22.5%;
+        }
+
+        @media only screen and (max-width: 575px) {
+          width: 7.25rem;
+          height: 8.75rem;
+        }
+      }
+
+      &:nth-of-type(1) .speak-photo {
+        background: url('../img/speakers/carmithazay.jpg') no-repeat;
+        background-size: 100% auto;
+        background-position: 50% 0%;
+
+        @media only screen and (max-width: 991px) {
+          background-size: 100% auto;
+          background-position: center 0;
+        }
+
+        @media only screen and (max-width: 767px) {
+          background-size: 100% auto;
+          background-position: center 0;
+        }
+      }
+
+      &:nth-of-type(2) .speak-photo {
+        background: url('../img/speakers/amitrokotsa.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+      }
+
+      &:nth-of-type(3) .speak-photo {
+        background: url('../img/speakers/bkrroy.jpg') no-repeat;
+        background-size: 100% auto;
+        background-position: 50% 0%;
+
+        @media only screen and (max-width: 1199px) {
+          background-size: auto 100%;
+          background-position: center 0;
+        }
+
+        @media only screen and (max-width: 991px) {
+          background-size: 100% auto;
+          background-position: center 0;
+        }
+
+        @media only screen and (max-width: 767px) {
+          background-size: 100% auto;
+          background-position: center 0;
+        }
+      }
+
+      &:nth-of-type(4) .speak-photo {
+        background: url('../img/speakers/snikova.jpg') no-repeat;
+        background-size: 150% auto;
+        background-position: 65% 0%;
+
+        @media only screen and (max-width: 991px) {
+          background-size: 150% auto;
+          background-position: center 0;
+        }
+      }
+
+      &:nth-of-type(5) .speak-photo {
+        background: url('../img/speakers/frodriguez.jpg') no-repeat;
+        background-size: 100% auto;
+        background-position: 50% 100%;
+
+        @media only screen and (max-width: 1199px) {
+          background-size: auto 105%;
+          background-position: center 100%;
+        }
+
+        @media only screen and (max-width: 991px) {
+          background-size: 100% auto;
+          background-position: center 100%;
+        }
+      }
+
+      &:nth-of-type(6) .speak-photo {
+        background: url('../img/speakers/sugata.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+      }
+
+      &:nth-of-type(7) .speak-photo {
+        background: url('../img/speakers/rangan.png') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+
+        @media only screen and (max-width: 1199px) {
+          background-size: auto 100%;
+          background-position: center 0%;
+        }
+      }
+
+      &:nth-of-type(8) .speak-photo {
+        background: url('../img/speakers/skshukla.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+      }
+
+      &:nth-of-type(9) .speak-photo {
+        background: url('../img/speakers/bthuraisingham.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+      }
+
+      &:nth-of-type(10) .speak-photo {
+        background: url('../img/speakers/rei.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 0%;
+      }
+
+      .speak-info {
+        height: 100%;
+        width: calc(77.5% - 0.75rem);
+
+        @media only screen and (max-width: 991px) {
+          width: calc(82.5% - 0.75rem);
+        }
+
+        @media only screen and (max-width: 767px) {
+          width: calc(77.5% - 0.75rem);
+        }
+
+        @media only screen and (max-width: 575px) {
+          width: calc(100% - 8rem);
+        }
+
+        p {
+          width: 100%;
+          margin: 0 0 0.5rem 0;
+          padding: 0.5rem 0.5rem 0.5rem 1rem;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-size: 1rem;
+          text-align: justify;
+          color: #666;
+
+          @media only screen and (max-width: 575px) {
+            font-size: 0.9rem;
+          }
+
+          @media only screen and (max-width: 460px) {
+            padding: 0.25rem;
+            text-align: center;
+          }
+
+          &:nth-of-type(1) {
+            border-radius: 0.25rem;
+            font-weight: bold;
+            color: #80ebff;
+            background: #333;
+          }
+
+          &:nth-of-type(2) {
+            font-family: 'Alegreya Sans SC', sans-serif;
+            font-size: 1.125rem;
+            font-weight: bold;
+
+            @media only screen and (max-width: 575px) {
+              line-height: 1.1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

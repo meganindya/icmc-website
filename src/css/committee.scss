@@ -1,0 +1,177 @@
+#comm {
+  display: block;
+  margin-top: 4rem;
+
+  .chairs {
+    display: block;
+    margin-top: 2rem;
+
+    .chair {
+      position: relative;
+      width: calc(50% - 1rem);
+      float: left;
+      margin-top: 2rem;
+      padding-bottom: 0.25rem;
+      border-radius: 0.5rem;
+      background-color: white;
+      transition: all 0.5s ease;
+
+      @media only screen and (max-width: 991px) {
+        width: 100%;
+      }
+
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0.125rem;
+        right: 0.125rem;
+        height: 0.25rem;
+        content: ' ';
+        display: block;
+        border-radius: 0 0 0.5rem 0.5rem;
+        background: #a3cb38;
+      }
+
+      &:nth-of-type(odd) {
+        margin-right: 1rem;
+
+        @media only screen and (max-width: 991px) {
+          margin: 1rem 0 0 0;
+        }
+      }
+
+      &:nth-of-type(even) {
+        margin-left: 1rem;
+
+        @media only screen and (max-width: 991px) {
+          margin: 1rem 0 0 0;
+        }
+      }
+
+      &:nth-of-type(1) {
+        margin-top: 0;
+
+        @media only screen and (max-width: 991px) {
+          margin: 0;
+        }
+      }
+
+      &:nth-of-type(2) {
+        margin-top: 0;
+
+        @media only screen and (max-width: 991px) {
+          margin-top: 1rem;
+        }
+      }
+
+      &:nth-of-type(7) {
+        width: 100%;
+        margin-right: 0;
+      }
+
+      &:nth-of-type(8) {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      &:hover {
+        box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+      }
+
+      .chair-head {
+        height: 2.5rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background: #333;
+
+        h4 {
+          margin: 0;
+          font-family: 'Alegreya Sans SC', sans-serif;
+          font-size: 1.1rem;
+          font-weight: bolder;
+          text-align: center;
+          color: #80ebff;
+        }
+      }
+
+      .chair-body {
+        margin: 0.25rem 0 0.5rem 0;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1rem;
+        text-align: justify;
+        color: #666;
+
+        @media only screen and (max-width: 575px) {
+          font-size: 0.9rem;
+        }
+
+        p {
+          margin: 0.25rem 1rem;
+
+          a {
+            color: #666;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.5s ease;
+
+            &:hover,
+            &:focus {
+              color: #333;
+            }
+          }
+        }
+
+        .left {
+          border-right: 1px solid #eee;
+
+          @media only screen and (max-width: 991px) {
+            border: none;
+          }
+
+          p:last-of-type {
+            @media only screen and (max-width: 991px) {
+              margin-bottom: 0rem;
+            }
+          }
+        }
+
+        .left,
+        .right {
+          width: 50%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+
+          //   p:first-of-type {
+          //     margin-left: 4rem;
+          //     margin-bottom: 0.75rem;
+          //     font-size: 1rem;
+          //     font-weight: bold;
+          //     color: #333;
+          //   }
+
+          @media only screen and (max-width: 991px) {
+            width: 100%;
+            box-sizing: border-box;
+            display: block;
+          }
+        }
+      }
+
+      &:nth-of-type(8) .chair-body {
+        display: flex;
+        flex-direction: row;
+
+        @media only screen and (max-width: 991px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

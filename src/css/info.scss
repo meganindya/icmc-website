@@ -1,0 +1,148 @@
+#info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+
+  @media only screen and (max-width: 991px) {
+    flex-direction: column;
+  }
+
+  .titled-card {
+    width: calc(50% - 1rem);
+    display: block;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+
+    @media only screen and (max-width: 991px) {
+      width: 100%;
+    }
+
+    .titled-card-body {
+      table {
+        tr {
+          td {
+            padding: 1rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1rem;
+            line-height: 1rem;
+
+            &:nth-of-type(odd) {
+              font-weight: bold;
+              text-align: right;
+            }
+
+            @media only screen and (max-width: 575px) {
+              font-size: 0.925rem;
+            }
+
+            i {
+              color: #666;
+              font-size: 0.85rem;
+            }
+          }
+
+          &:nth-of-type(1) td:first-of-type,
+          &:nth-of-type(3) td:first-of-type {
+            background: #eee;
+          }
+
+          &:nth-of-type(2) td:last-of-type,
+          &:nth-of-type(4) td:last-of-type {
+            background: #eee;
+          }
+        }
+      }
+    }
+
+    &:first-of-type {
+      .titled-card-body {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (max-width: 991px) {
+          padding: 1rem 0;
+        }
+      }
+    }
+
+    &:last-of-type {
+      @media only screen and (max-width: 991px) {
+        margin-top: 2rem;
+      }
+
+      .titled-card-body {
+        padding: 1.5rem 10%;
+      }
+    }
+
+    .submit-top {
+      display: block;
+      margin-bottom: 1rem;
+      color: #666;
+
+      p {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+
+      a {
+        width: 6rem;
+        height: 2rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 0.5rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        /* color: white; */
+        color: midnightblue;
+        text-decoration: none;
+        /* background: #00bbff; */
+        background: url('../img/gradient.gif');
+        box-shadow: 0 0 1px 1px #ccc;
+        transition: all 0.5s ease;
+
+        &:hover,
+        &:focus {
+          /* background: #38b1ff; */
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    .submit-bottom {
+      font-size: 1rem;
+      color: #666;
+
+      &::before {
+        height: 1px;
+        content: ' ';
+        display: block;
+        background: #ccc;
+      }
+
+      div {
+        width: 10.86rem;
+        height: 3rem;
+        display: block;
+        margin: 1rem auto;
+        background: url('../img/logos/logo-springer.png') no-repeat;
+        background-size: 100% auto;
+      }
+
+      p {
+        margin: 0;
+        display: block;
+        font-size: 0.9rem;
+        line-height: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}

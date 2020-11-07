@@ -42,7 +42,7 @@
 
 <body>
   <!-- Header -->
-  <div class="container-fluid" id="header">
+  <header class="container-fluid" id="header">
     <div class="header-links container">
       <ul>
         <li>
@@ -59,9 +59,9 @@
         </li>
       </ul>
     </div>
-  </div>
+  </header>
 
-  <!-- Header collapse container -->
+  <!-- Header collapse bar -->
   <div class="container-fluid" id="collbar">
     <div class="container" id="coll-context">
       <div class="d_card" id="c_ven">
@@ -236,7 +236,7 @@
       <div class="logos">
         <div class="logo" id="logo-icmc"></div>
         <span>ICMC</span>
-        <div class="nav-logo-separator"></div>
+        <div id="nav-logo-separator"></div>
         <div class="logo" id="logo-iiests"></div>
         <span>IIEST</span>
       </div>
@@ -272,7 +272,7 @@
   </nav>
 
   <!-- Remaining content -->
-  <div class="content container-fluid" id="content-body">
+  <div class="container-fluid" id="content-body">
     <div class="container">
       <!-- Banner -->
       <div class="banner">
@@ -323,11 +323,11 @@
 
       <!-- Information cards -->
       <section id="info">
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>Important Dates</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <table>
               <tr>
                 <td>Paper Submission Deadline</td>
@@ -350,11 +350,11 @@
             </table>
           </div>
         </div>
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>Submit Paper</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <div class="submit-top">
               <p>Click on the Submit button for paper submission.</p>
               <a href="https://easychair.org/conferences/?conf=icmc2021" target="_blank">
@@ -376,11 +376,11 @@
 
       <!-- About section -->
       <section id="about-icmc" class="about">
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>About&nbsp;&nbsp;ICMC&nbsp;&nbsp;2021</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <div></div>
             <p>
               The conference started its journey from 2013 at Haldia Institute
@@ -414,11 +414,11 @@
       <div class="separator"></div>
 
       <section id="about-iiest" class="about">
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>About&nbsp;&nbsp;IIEST&nbsp;&nbsp;Shibpur</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <div></div>
             <p>
               IIEST, Shibpur (Erstwhile "Bengal Engineering College") ranks
@@ -467,12 +467,12 @@
       <div class="separator"></div>
 
       <section id="about-it" class="about">
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>About&nbsp;&nbsp;Department&nbsp;&nbsp;of&nbsp;&nbsp;Information&nbsp;&nbsp;Technology</h4>
             <h4>About&nbsp;&nbsp;Department&nbsp;&nbsp;of&nbsp;&nbsp;IT</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <p>
               The Department of Information Technology started its journey in
               2000. It is one of the youngest departments of this 163 years
@@ -586,6 +586,7 @@
               </p>
             </div>
           </a>
+        </div>
       </section>
 
       <div class="separator"></div>
@@ -595,7 +596,7 @@
         <div class="bubble">
           <h4>Committee</h4>
         </div>
-        <div class="speakers clearfix">
+        <div class="chairs clearfix">
           <div class="chair clearfix">
             <div class="chair-head">
               <h4>Chief&nbsp;&nbsp;Patron</h4>
@@ -912,16 +913,16 @@
         <div class="bubble">
           <h4>Tracks</h4>
         </div>
-        <div class="speakers clearfix">
-          <div class="chair clearfix">
-            <div class="chair-head">
+        <div class="clearfix" id="trax-card">
+          <div class="float-card clearfix">
+            <div class="float-card-head">
               <h4>
                 The conference invites original contributions in the fields of
                 Computational Applied Mathematics, including, but not limited
                 to, the following list:
               </h4>
             </div>
-            <div class="chair-body">
+            <div class="float-card-body">
               <div class="left">
                 <p>Mathematics</p>
                 <p>Numerical Analysis</p>
@@ -967,11 +968,11 @@
 
       <!-- Guidelines section -->
       <section id="guide">
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>Author's&nbsp;&nbsp;Guidelines</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <div></div>
             <p>
               Each paper must be original and unpublished work, not submitted
@@ -1008,11 +1009,11 @@
 
       <!-- Registration details section -->
       <section id="reg">
-        <div class="info-block">
-          <div class="info-head">
+        <div class="titled-card">
+          <div class="titled-card-head">
             <h4>Registration</h4>
           </div>
-          <div class="info-body">
+          <div class="titled-card-body">
             <div class="reg-details">
               <p>
                 The registration for the ICMC 2021 conference is only valid

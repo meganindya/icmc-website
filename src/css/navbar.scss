@@ -1,0 +1,216 @@
+nav {
+  display: block;
+  z-index: 99;
+  font-family: 'Baloo Thambi 2', cursive;
+  background: white;
+  box-shadow: 0 0.25rem 0.25rem rgba(127, 127, 127, 0.25);
+  transition: all 0.5s ease;
+
+  .container {
+    position: relative;
+    height: 4rem;
+    display: block;
+
+    @media only screen and (max-height: 751px) {
+      height: 3rem;
+    }
+
+    .logos {
+      position: absolute;
+      left: 15px;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .logo {
+        width: 2.75rem;
+        height: 2.75rem;
+        margin: 0 0.75rem;
+
+        &:first-of-type {
+          margin-left: 0;
+        }
+
+        @media only screen and (max-height: 751px) {
+          width: 2.25rem;
+          height: 2.25rem;
+        }
+      }
+
+      #logo-icmc {
+        background: url('../img/logos/logo-icmc.png');
+        background-size: cover;
+      }
+
+      #logo-iiests {
+        background: url('../img/logos/logo-iiests.png');
+        background-size: cover;
+      }
+
+      span {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        color: #333;
+
+        @media only screen and (max-height: 751px) {
+          font-size: medium;
+        }
+      }
+
+      #nav-logo-separator {
+        height: 60%;
+        width: 0.125rem;
+        margin-left: 0.75rem;
+        background: #00bbff;
+      }
+    }
+
+    .nav-links {
+      position: absolute;
+      right: 15px;
+      height: 100%;
+
+      @media only screen and (max-width: 991px) and (min-height: 752px) {
+        top: 4rem;
+      }
+
+      @media only screen and (max-width: 991px) and (max-height: 751px) {
+        top: 3rem;
+      }
+
+      @media only screen and (max-width: 991px) {
+        right: calc(15px + 0.5rem);
+        height: auto;
+        display: none;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+
+        @media only screen and (max-width: 991px) {
+          height: auto;
+          flex-direction: column;
+        }
+
+        li {
+          margin-right: 1.5rem;
+
+          &:last-of-type {
+            margin: 0;
+          }
+
+          @media only screen and (max-width: 991px) {
+            width: 100%;
+            margin: 0;
+          }
+
+          div {
+            position: relative;
+            z-index: 99;
+            padding: 1.5rem 0;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.5s ease;
+
+            &::before {
+              position: absolute;
+              top: 0;
+              right: 50%;
+              left: 50%;
+              display: block;
+              content: ' ';
+              height: 0.25rem;
+              background: #00bbff;
+              transition: all 0.25s ease;
+
+              @media only screen and (max-width: 991px) {
+                border-radius: 0.5rem;
+                display: none;
+              }
+            }
+
+            &:hover::before,
+            &:focus::before {
+              right: -2px;
+              left: -2px;
+
+              // @media only screen and (max-width: 991px) {
+              //   right: 0.125rem;
+              //   left: 0.125rem;
+              // }
+            }
+
+            @media only screen and (max-height: 751px) {
+              padding: 1rem 0;
+              font-size: 0.9rem;
+              line-height: 1rem;
+            }
+
+            @media only screen and (max-width: 991px) {
+              width: 100%;
+              margin-top: 1px;
+              padding: 0.75rem 2rem 0.75rem 3rem;
+              text-align: right;
+              box-sizing: border-box;
+              border: 1px solid #ccc;
+              border-radius: 0.5rem;
+              color: #ccc;
+              background: #333;
+            }
+          }
+
+          .active {
+            color: #333;
+
+            &::before {
+              right: -2px;
+              left: -2px;
+
+              // @media only screen and (max-width: 991px) {
+              //   right: 0.125rem;
+              //   left: 0.125rem;
+              // }
+            }
+
+            @media only screen and (max-width: 991px) {
+              color: #80ebff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #hamburger {
+    position: absolute;
+    right: calc(15px + 2rem);
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem 0;
+    background: url('../img/hamburger.png');
+    background-size: cover;
+    display: none;
+
+    @media only screen and (max-height: 751px) {
+      margin: 0;
+    }
+
+    @media only screen and (max-width: 991px) {
+      display: block;
+    }
+  }
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

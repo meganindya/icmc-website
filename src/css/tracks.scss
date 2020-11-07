@@ -1,0 +1,83 @@
+#trax {
+  display: block;
+  margin-top: 4rem;
+
+  #trax-card {
+    display: block;
+    margin-top: 2rem;
+
+    .float-card {
+      width: 100%;
+
+      .float-card-head {
+        height: auto;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid #ccc;
+
+        h4 {
+          margin: 0;
+          padding: 0 2rem;
+          font-family: 'Gotu', sans-serif;
+          font-size: 1rem;
+          font-weight: 500;
+          text-align: justify;
+          color: #333;
+
+          @media only screen and (max-width: 767px) {
+            padding: 0 1rem;
+          }
+
+          @media only screen and (max-width: 575px) {
+            font-size: 0.85rem;
+          }
+        }
+      }
+
+      .float-card-body {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+
+        @media only screen and (max-width: 767px) {
+          flex-direction: column;
+
+          .left,
+          .right {
+            width: 100%;
+            display: block;
+          }
+
+          .left {
+            border: none;
+          }
+
+          .right {
+            margin-top: 0.5rem;
+          }
+        }
+
+        p {
+          margin-left: 0;
+          margin-right: 0;
+          padding: 0 1rem;
+          text-align: center;
+
+          @media only screen and (max-width: 575px) {
+            font-size: 0.9rem;
+          }
+
+          &:first-of-type {
+            font-family: 'Alegreya Sans SC', sans-serif;
+            font-size: 1.1rem;
+            margin: 0 0 0.5rem 0;
+            padding: 0.5rem 1rem;
+            background: #eee;
+          }
+        }
+      }
+    }
+  }
+}

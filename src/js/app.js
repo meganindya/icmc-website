@@ -5,22 +5,6 @@ $(document).ready(function () {
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
 
-    // adjusts the size of banner container
-    let refreshBannerConSize = () => {
-        let orientation = $(window)[0].orientation;
-        if ($(window).height() <= 654 || orientation % 180 === 0) {
-            $('.banner-container').css('height', 'auto');
-        } else {
-            $('.banner-container').css(
-                'height',
-                $(window).height() -
-                    (header_size + navbar_size + info_head_size)
-            );
-        }
-    };
-
-    refreshBannerConSize();
-
     // adjusts line height of speakers' details
     let refreshSpeakerDetailSizes = () => {
         let details = $('#speak .speak-info p:nth-of-type(2)');
@@ -173,7 +157,6 @@ $(document).ready(function () {
         info_head_size = $('.info-block .info-head').height();
 
         setTimeout(() => {
-            refreshBannerConSize();
             refreshSpeakerDetailSizes();
             refreshSpeakerNameSizes();
             refreshChairSizes();
@@ -226,12 +209,13 @@ $(document).ready(function () {
             $('#content-body').css('margin-top', navbar_size + 'px');
             $('nav').css('background', '#333');
             $('#logo-iiests').css({
-                background: 'url("img/logos/logo-iiests-white.png") no-repeat',
+                background:
+                    'url("../img/logos/logo-iiests-white.png") no-repeat',
                 'background-size': 'auto 90%',
                 'background-position': '50% 50%'
             });
             $('#hamburger').css({
-                background: 'url("img/hamburger-white.png")',
+                background: 'url("../img/hamburger-white.png")',
                 'background-size': 'cover'
             });
             $('nav .logos span').css('color', '#ccc');
@@ -242,12 +226,12 @@ $(document).ready(function () {
             $('#content-body').css('margin-top', '0');
             $('nav').css('background', 'white');
             $('#logo-iiests').css({
-                background: 'url("img/logos/logo-iiests.png") no-repeat',
+                background: 'url("../img/logos/logo-iiests.png") no-repeat',
                 'background-size': 'auto 90%',
                 'background-position': '50% 50%'
             });
             $('#hamburger').css({
-                background: 'url("img/hamburger.png")',
+                background: 'url("../img/hamburger.png")',
                 'background-size': 'cover'
             });
             $('nav .logos span').css('color', '#333');
