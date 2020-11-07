@@ -1,8 +1,3 @@
-// @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
 @import 'colors';
 @import 'container';
 
@@ -1943,7 +1938,7 @@ nav #hamburger {
 
 #speak .speakers .speaker .speak-info p:nth-of-type(1) {
   margin-bottom: 0.5rem;
-  padding: 0.25rem 0.5rem 0.25rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
   border-radius: 0.25rem;
   font-weight: bold;
   color: #80ebff;
@@ -1951,7 +1946,10 @@ nav #hamburger {
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(2) {
-  margin-bottom: 1rem;
+  margin: 1rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 #speak .speakers .speaker .speak-info p:nth-of-type(3) {
@@ -2249,7 +2247,9 @@ nav #hamburger {
 }
 
 .chair .chair-body {
-  margin-top: 0.5rem;
+  margin: 0.25rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   text-align: justify;
@@ -2257,11 +2257,7 @@ nav #hamburger {
 }
 
 .chair .chair-body p {
-  margin: 0.5rem 1rem;
-}
-
-#comm .chair .chair-body p:last-of-type {
-  margin-bottom: 1rem;
+  margin: 0.25rem 1rem;
 }
 
 #comm .chair .chair-body p a {
@@ -2282,7 +2278,6 @@ nav #hamburger {
 }
 
 #comm .speakers .chair:last-of-type .chair-body {
-  margin-bottom: 0.75rem;
   display: flex;
   flex-direction: row;
 }
@@ -2300,15 +2295,12 @@ nav #hamburger {
 .speakers .chair .chair-body .right {
   width: 50%;
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .speakers .chair .chair-body .left {
   border-right: 1px solid #eee;
-}
-
-.speakers .chair .chair-body .left p:last-of-type {
-  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2326,7 +2318,6 @@ nav #hamburger {
   }
 
   #comm .speakers .chair:last-of-type .chair-body {
-    margin-bottom: 0.75rem;
     display: flex;
     flex-direction: column;
   }
@@ -2343,7 +2334,7 @@ nav #hamburger {
   }
 
   #comm .speakers .chair .chair-body .left p:last-of-type {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
   }
 }
 
