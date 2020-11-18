@@ -31,98 +31,83 @@
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #eee;
-}
 
-.reg-details table {
-  margin-bottom: 2rem;
-}
+  #reg-details-payment {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    // align-items: center;
 
-.reg-details > table th {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.15rem;
-  font-weight: bold;
-  text-align: center;
-}
+    @media only screen and (max-width: 991px) {
+      flex-direction: column;
+    }
 
-.reg-details table td {
-  width: 50%;
-}
+    #reg-details-left {
+      width: 40%;
+      padding-right: 0.5rem;
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
 
-.reg-details table th:nth-of-type(odd),
-.reg-details table td:nth-of-type(odd) {
-  border-right: 1px solid #eee;
-}
+      @media only screen and (max-width: 991px) {
+        width: 100%;
+        padding-top: 0;
+      }
+    }
 
-.reg-details > table th {
-  padding: 0.5rem;
-  border-bottom: 1px solid #eee;
-}
+    #reg-details-right {
+      width: 60%;
+      padding-left: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-.reg-details > table p {
-  margin: 0;
-}
+      @media only screen and (max-width: 991px) {
+        width: 100%;
+      }
 
-#neft {
-  margin-bottom: 0;
-  padding: 0;
-}
+      > * {
+        width: 100%;
+      }
 
-#neft table {
-  margin: 0;
-}
+      h2 {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-size: 1.15rem;
+        font-weight: bold;
+        text-align: center;
+      }
 
-.reg-details > table table td:nth-of-type(odd) {
-  width: 25%;
-}
+      table {
+        margin: 0;
 
-.reg-details > table table td:nth-of-type(even) {
-  width: 75%;
-}
+        tr {
+          td {
+            padding: 0.5rem 1rem;
 
-.reg-details > table table td {
-  padding: 0.5rem;
-}
+            &:nth-of-type(odd) {
+              width: 33%;
+              font-family: 'Alegreya Sans SC', sans-serif;
+              font-size: 1rem;
+              font-weight: bold;
+              text-align: center;
+            }
 
-#neft {
-  vertical-align: top;
-}
+            &:nth-of-type(even) {
+              width: 67%;
+              font-size: 0.9rem;
+              text-align: justify;
+            }
+          }
 
-#neft td {
-  padding: 0.5rem 1rem;
-}
-
-#neft td:nth-of-type(odd) {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-#neft td:nth-of-type(even) {
-  font-size: 0.9rem;
-  text-align: justify;
-}
-
-#neft tr:nth-of-type(odd) td:nth-of-type(odd),
-#neft tr:nth-of-type(even) td:nth-of-type(even) {
-  background: #eee;
-}
-
-#demdraft {
-  vertical-align: top;
-  padding: 0.35rem 1rem 0 1rem;
-}
-
-#demdraft p {
-  margin: 0 0 0 2rem;
-  font-size: 0.9rem;
-  color: #494949;
-}
-
-#demdraft p:nth-of-type(1),
-#demdraft p:nth-of-type(2) {
-  margin: 0 0 0.5rem 0;
-  color: #333;
+          &:nth-of-type(odd) td:nth-of-type(odd),
+          &:nth-of-type(even) td:nth-of-type(even) {
+            background: #eee;
+          }
+        }
+      }
+    }
+  }
 }
 
 .reg-table,
