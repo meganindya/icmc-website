@@ -259,6 +259,15 @@ $(document).ready(function () {
             });
         }
 
+        // update scroll percentage bar's (in navbar) width
+        $('#scroll-percent-bar').css({
+            width: `${
+                $(window).width() *
+                ($(window).scrollTop() /
+                    ($(document).height() - $(window).height()))
+            }px`
+        });
+
         // select appropriate navbar link as active based on scroll position
         let reached =
             $(window).scrollTop() - navbar_size + ($(window).height() >> 1);
