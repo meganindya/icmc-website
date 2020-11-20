@@ -1,4 +1,5 @@
 import '../css/main.scss';
+import '../img/hamburger-white.png';
 import '../res/ICMC_2021_registration_form.pdf';
 
 $(document).ready(function () {
@@ -307,7 +308,8 @@ $(document).ready(function () {
             }
         }
 
-        sec_links[index].addClass('active');
+        if (index > -1 && index < sec_links.length)
+            sec_links[index].addClass('active');
     });
 
     // banner countdown
