@@ -3,6 +3,8 @@ import '../img/hamburger-white.png';
 import '../res/ICMC_2021_registration_form.pdf';
 
 $(document).ready(function () {
+    setTimeout(() => $('#collbar').css({ display: 'block' }), 0);
+
     let header_size = $('#header').height();
     let navbar_size = $('#navbar').height();
     let info_head_size = $('.info-block .info-head').height();
