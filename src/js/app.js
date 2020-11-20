@@ -1,4 +1,5 @@
 import '../css/main.scss';
+import '../res/ICMC_2021_registration_form.pdf';
 
 $(document).ready(function () {
     let header_size = $('#header').height();

@@ -37,6 +37,18 @@ module.exports = {
                 ]
             },
             {
+                test: /\.(pdf)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            publicPath: 'res/'
+                        }
+                    }
+                ]
+            },
+            {
                 test: /\.(jpg|png|gif)$/,
                 use: [
                     {
@@ -57,7 +69,6 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin({
             filename: 'style.css'
-            // chunkFilename: '[name].css'
         }),
         new HtmlWebpackPlugin({
             template: './src/index.html',
