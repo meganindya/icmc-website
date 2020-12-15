@@ -7,6 +7,7 @@ import { registerToggleCards, registerToggleCardContact } from './collbar';
 
 import updateCountdown from './countdown';
 import registerSmoothScrollToSection from './scroll';
+import { swapSelection } from './chairselector';
 
 $(document).ready(function () {
     // display collapsebar after ready
@@ -250,4 +251,7 @@ $(document).ready(function () {
             }
         }
     });
+
+    // technical-committee chair selection
+    $('.chair-selector-btn').click((event) => swapSelection(event.target));
 });
