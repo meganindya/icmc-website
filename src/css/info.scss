@@ -100,18 +100,18 @@
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 0.9rem;
         font-weight: bold;
-        /* color: white; */
-        color: midnightblue;
+        color: white;
+        // color: midnightblue;
         text-decoration: none;
-        /* background: #00bbff; */
-        background: url('../img/gradient.gif');
+        background: #00bbff;
+        // background: url('../img/gradient.gif');
         box-shadow: 0 0 1px 1px #ccc;
         transition: all 0.5s ease;
 
         &:hover,
         &:focus {
-          /* background: #38b1ff; */
-          transform: scale(1.05);
+          background: #38b1ff;
+          // transform: scale(1.05);
         }
       }
     }
