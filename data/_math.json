@@ -1,487 +1,454 @@
 [
   {
-    "serial": 1,
-    "name": "Ameeya Nayak",
-    "institute": "Indian Institute of Technology Roorkee, India"
-  },
-  {
-    "serial": 2,
-    "name": "Amit Verma",
-    "institute": "Indian Institute of Technology Patna, India"
-  },
-  {
-    "serial": 3,
-    "name": "Ashish Awasthi",
-    "institute": "National Institute of Technology Calicut, India"
-  },
-  {
-    "serial": 4,
-    "name": "Atanu manna",
-    "institute": "Indian Institute of Carpet Technology Bhadohi, India"
-  },
-  {
-    "serial": 5,
-    "name": "Binod Chandra Tripathy",
-    "institute": "Tripura University, India"
-  },
-  {
-    "serial": 6,
-    "name": "Debjani Chakraborty",
-    "institute": "Indian Institute of Technology Kharagpur, India"
-  },
-  {
-    "serial": 7,
-    "name": "Deepmala",
-    "institute": "Indian Statistical Institute Kolkata, India"
-  },
-  {
-    "serial": 8,
-    "name": "Dung Hoang Duong",
-    "institute": "University of Wollongong, Australia"
-  },
-  {
-    "serial": 9,
-    "name": "Falguni Roy",
-    "institute": "National Institute of Technology Surathkal, India"
-  },
-  {
-    "serial": 10,
-    "name": "Fidan Nuriyeva",
-    "institute": "Ege University, Turkey"
-  },
-  {
-    "serial": 11,
-    "name": "Fouzul Atik",
-    "institute": "SRM University, India"
-  },
-  {
-    "serial": 12,
-    "name": "Gopal Chandra Shit",
-    "institute": "Jadavpur University, India"
-  },
-  {
-    "serial": 13,
-    "name": "Hakan Kutucu",
-    "institute": "Karabak University, Turkey"
-  },
-  {
-    "serial": 14,
-    "name": "Heinrich Begehr",
-    "institute": "Free University Berlin, Germany"
-  },
-  {
-    "serial": 15,
-    "name": "Jayalakshmi Karamsi",
-    "institute": "Jawaharlal Nehru Technological University Anantapur, India"
-  },
-  {
-    "serial": 16,
-    "name": "Jessica Pereira",
-    "institute": "Goa University, India"
-  },
-  {
-    "serial": 17,
-    "name": "Konstantin Volkov",
-    "institute": "Kingston University, Volkov"
-  },
-  {
-    "serial": 18,
-    "name": "Lakshmi Kanta Patra",
-    "institute": "Indian Institute of Technology Ranchi, India"
-  },
-  {
-    "serial": 19,
-    "name": "Madhumangal Pal",
-    "institute": "Vidyasagar University, India"
-  },
-  {
-    "serial": 20,
-    "name": "Masaya Yasuda",
-    "institute": "Kyushu University, Japan"
-  },
-  {
-    "serial": 21,
-    "name": "Mikheil Rukhaia",
-    "institute": "Institute of Applied Mathematics, Tbilisi State University, Georgia"
-  },
-  {
-    "serial": 22,
-    "name": "Moumita Mandal",
-    "institute": "Indian Institute of Technology Jodhpur, India"
-  },
-  {
-    "serial": 23,
-    "name": "Nabakumar Jana",
-    "institute": "Indian Institute of Technology (ISM) Dhanbad, India"
-  },
-  {
-    "serial": 24,
-    "name": "Önder Türk",
-    "institute": "Gebze Technical University, Turkey"
-  },
-  {
-    "serial": 25,
-    "name": "Ranjit Mehtari",
-    "institute": "National Institute of Technology Rourkella"
-  },
-  {
-    "serial": 26,
-    "name": "P D Srivastava",
-    "institute": "Indian Institute of Technology Bhilai, India"
-  },
-  {
-    "serial": 27,
-    "name": "Paulo Mateus",
-    "institute": "Instituto Superior Tecnico, Portugal"
-  },
-  {
-    "serial": 28,
-    "name": "Pawan Kumar Mishra",
-    "institute": "Indian Institute of Technology Bhilai, India"
-  },
-  {
-    "serial": 29,
-    "name": "Praveen Kumar Gupta",
-    "institute": "National Institute of Technology Silchar, India"
-  },
-  {
-    "serial": 30,
-    "name": "Purushottam Narain Agarwal",
-    "institute": "Indian Institute of Technology Roorkee, India"
-  },
-  {
-    "serial": 31,
-    "name": "Rifat ÇOLAK",
-    "institute": "Firat University, Turkey"
-  },
-  {
-    "serial": 32,
-    "name": "Partha Sarathi Majee",
-    "institute": "Indian Institute of Technology Kharagpur, India"
-  },
-  {
-    "serial": 33,
-    "name": "Amit Maji",
-    "institute": "Indian Institute of Technology Roorkee, India"
-  },
-  {
-    "serial": 34,
-    "name": "Sarita Ojha",
-    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
-  },
-  {
-    "serial": 35,
-    "name": "Md Firoz Ali",
-    "institute": "National Institute of Technology Durgapur, India"
-  },
-  {
-    "serial": 36,
-    "name": "Saumya Bajpai",
-    "institute": "Indian Institute of Technology Goa, India"
-  },
-  {
-    "serial": 37,
-    "name": "Snehasis Kundu",
-    "institute": "National Institute of Technology Jamshedpur, India"
-  },
-  {
-    "serial": 38,
-    "name": "Somesh Kumar",
-    "institute": "Indian Institute of Technology Kharagpur, India"
-  },
-  {
-    "serial": 39,
-    "name": "Payel Mandal",
-    "institute": "Techno India University, India"
-  },
-  {
-    "serial": 40,
-    "name": "Sourav Pradhan",
-    "institute": "VNational Institute of Technology Nagpur, India"
-  },
-  {
-    "serial": 41,
-    "name": "Sree Vivek S",
-    "institute": "School of Civil Engineering, SASTRA Deemed University, Thanjavur, India"
-  },
-  {
-    "serial": 42,
-    "name": "Sriparna Chattopadhyay",
-    "institute": "National Institute of Foundry and Forge Technology Ranchi, India"
-  },
-  {
-    "serial": 43,
-    "name": "Suchandan Kayal",
-    "institute": "National Institute of Technology Rourkela, India"
-  },
-  {
-    "serial": 44,
-    "name": "Svetla Petkova-Nikova",
-    "institute": "ESAT-COSIC, KU Leuven, Belgium"
-  },
-  {
-    "serial": 45,
-    "name": "Swadesh Kumar Sahoo",
-    "institute": "Indian Institute of Technology Indore, India"
-  },
-  {
-    "serial": 46,
-    "name": "Vilem Novak",
-    "institute": "University of Ostrava, Czechia"
-  },
-  {
-    "serial": 47,
-    "name": "Vishnu Pratap Singh",
-    "institute": "Visvesvaraya National Institute of Technology Nagpur, India"
-  },
-  {
-    "serial": 48,
-    "name": "Abhishek Banerjee",
-    "institute": "Israel Institute of Technology, Israel"
-  },
-  {
-    "serial": 49,
-    "name": "Sanjib Kumar Pal",
-    "institute": "Kazi Nazrul University, India"
-  },
-  {
-    "serial": 50,
-    "name": "Suvra Kanti Chakraborty",
-    "institute": "Sir Gurudas Mahavidyalaya, India"
-  },
-  {
-    "serial": 51,
-    "name": "Rudrajit Sadhu",
-    "institute": "Sreegopal Banerjee College, India"
-  },
-  {
-    "serial": 52,
-    "name": "Sourav Gupta",
-    "institute": "Indian Institute of Technology Kharagpur, India"
-  },
-  {
-    "serial": 53,
-    "name": "Manotosh Kumbhakar",
-    "institute": "Texas A & M University, India"
-  },
-  {
-    "serial": 54,
-    "name": "Suman Rakshit",
-    "institute": "Mankar College, India"
-  },
-  {
-    "serial": 55,
-    "name": "Sushil Kumar Bhuiya",
-    "institute": "Krishnath College, India"
-  },
-  {
-    "serial": 56,
-    "name": "Naren Bag",
-    "institute": "DWI - Leibnitz Institute of Interactive Materials, RWTH Aachen University, Germany"
-  },
-  {
-    "serial": 57,
-    "name": "Shubhankar Saha",
-    "institute": "Sir Gurudas Mahavidyalaya, India"
-  },
-  {
-    "serial": 58,
-    "name": "Osmita Dey",
-    "institute": "Techno India University, India"
-  },
-  {
-    "serial": 59,
-    "name": "Soovoojeet Jana",
-    "institute": "Ramsaday College, India"
-  },
-  {
-    "serial": 60,
-    "name": "Guru Prasad Samanta",
-    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
-  },
-  {
-    "serial": 61,
-    "name": "Pritha Das",
-    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
-  },
-  {
-    "serial": 62,
     "name": "A K Dhar",
     "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
   },
   {
-    "serial": 63,
-    "name": "Santanu Manna",
-    "institute": "Indian Institute of Technology Indore, India"
-  },
-  {
-    "serial": 64,
-    "name": "Shanmugam Dhinakaran",
-    "institute": "Indian Institute of Technology Indore, India"
-  },
-  {
-    "serial": 65,
-    "name": "Sajal Mukhopadhyay",
-    "institute": "National Institute of Technology Durgapur, India"
-  },
-  {
-    "serial": 66,
-    "name": "Safique Ahmad",
-    "institute": "Indian Institute of Technology Indore, India"
-  },
-  {
-    "serial": 67,
-    "name": "Madhumangal Pal",
-    "institute": "Vidyasagar University, India"
-  },
-  {
-    "serial": 68,
-    "name": "Shyamal Kumar Mondal",
-    "institute": "Vidyasagar University, India"
-  },
-  {
-    "serial": 69,
-    "name": "Sankar Kumar Roy",
-    "institute": "Vidyasagar University, India"
-  },
-  {
-    "serial": 70,
-    "name": "Ganesh Ghorai",
-    "institute": "Vidyasagar University, India"
-  },
-  {
-    "serial": 71,
-    "name": "Krishnendu Barman",
-    "institute": "Vidyasagar University, India"
-  },
-  {
-    "serial": 72,
-    "name": "Satya Bagchi",
-    "institute": "National Institute of Technology Durgapur, India"
-  },
-  {
-    "serial": 73,
-    "name": "Atasi Deb Ray",
-    "institute": "University of Calcutta, India"
-  },
-  {
-    "serial": 74,
-    "name": "Smriti Nath",
-    "institute": "Indian Institute of Technology Kharagpur, India"
-  },
-  {
-    "serial": 75,
-    "name": "Sukhendu Kar",
-    "institute": "Jadavpur University, India"
-  },
-  {
-    "serial": 76,
-    "name": "Sujit Kumar Sardar",
-    "institute": "Jadavpur University, India"
-  },
-  {
-    "serial": 77,
-    "name": "Pratulananda Das",
-    "institute": "Jadavpur University, India"
-  },
-  {
-    "serial": 78,
-    "name": "Subhra Bhattacharya",
-    "institute": "Presidency University, India"
-  },
-  {
-    "serial": 79,
-    "name": "Shubhabrata Das",
-    "institute": "Presidency University, India"
-  },
-  {
-    "serial": 80,
-    "name": "Md Nasim Akhtar",
-    "institute": "Presidency University, India"
-  },
-  {
-    "serial": 81,
-    "name": "Kuntal Banerjee",
-    "institute": "Presidency University, India"
-  },
-  {
-    "serial": 82,
-    "name": "Angsuman Das",
-    "institute": "Presidency University, India"
-  },
-  {
-    "serial": 83,
-    "name": "Raju Roy",
-    "institute": "Gauhati University, India"
-  },
-  {
-    "serial": 84,
-    "name": "Vikas Kumar",
-    "institute": "Indian Institute of Technology Mandi, India"
-  },
-  {
-    "serial": 85,
     "name": "Abhijit Barman",
     "institute": "National Institute of Technology Silchar, India"
   },
   {
-    "serial": 86,
-    "name": "Prabir Panja",
-    "institute": "Haldia Institute of Technology, India"
+    "name": "Abhishek Banerjee",
+    "institute": "Israel Institute of Technology, Israel"
   },
   {
-    "serial": 87,
-    "name": "Dipesh Barman",
-    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
-  },
-  {
-    "serial": 88,
-    "name": "Prasanta Malik",
-    "institute": "Burdwan University, India"
-  },
-  {
-    "serial": 89,
-    "name": "Biswajit Mitra",
-    "institute": "Burdwan University, India"
-  },
-  {
-    "serial": 90,
     "name": "Ali Akbar Shaikh",
     "institute": "Burdwan University, India"
   },
   {
-    "serial": 91,
-    "name": "Shyamal Kumar Hui",
-    "institute": "Burdwan University, India"
+    "name": "Ameeya Nayak",
+    "institute": "Indian Institute of Technology Roorkee, India"
   },
   {
-    "serial": 92,
-    "name": "Dipak Jana",
-    "institute": "Haldia Institute of Technology, India"
+    "name": "Amit Maji",
+    "institute": "Indian Institute of Technology Roorkee, India"
   },
   {
-    "serial": 93,
-    "name": "Mantu Saha",
-    "institute": "Burdwan University, India"
+    "name": "Amit Verma",
+    "institute": "Indian Institute of Technology Patna, India"
   },
   {
-    "serial": 94,
+    "name": "Angsuman Das",
+    "institute": "Presidency University, India"
+  },
+  {
+    "name": "Anuradha Banerjee",
+    "institute": "Indian Institute of Technology (BHU), India"
+  },
+  {
+    "name": "Ashish Awasthi",
+    "institute": "National Institute of Technology Calicut, India"
+  },
+  {
     "name": "Asoke Kumar Bhunia",
     "institute": "Burdwan University, India"
   },
   {
-    "serial": 95,
+    "name": "Atanu manna",
+    "institute": "Indian Institute of Carpet Technology Bhadohi, India"
+  },
+  {
+    "name": "Atasi Deb Ray",
+    "institute": "University of Calcutta, India"
+  },
+  {
+    "name": "Basudeb Ghosh",
+    "institute": "Jadavpur University, India"
+  },
+  {
+    "name": "Bhagwat Ram",
+    "institute": "Indian Institute of Technology (BHU), India"
+  },
+  {
+    "name": "Binayak S Choudhury",
+    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
+  },
+  {
+    "name": "Binod Chandra Tripathy",
+    "institute": "Tripura University, India"
+  },
+  {
+    "name": "Bipan Hazarika",
+    "institute": "Gauhati University, India"
+  },
+  {
+    "name": "Biswajit Mitra",
+    "institute": "Burdwan University, India"
+  },
+  {
+    "name": "Debjani Chakraborty",
+    "institute": "Indian Institute of Technology Kharagpur, India"
+  },
+  {
+    "name": "Deepmala",
+    "institute": "Indian Statistical Institute Kolkata, India"
+  },
+  {
+    "name": "Dipak Jana",
+    "institute": "Haldia Institute of Technology, India"
+  },
+  {
+    "name": "Dipesh Barman",
+    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
+  },
+  {
+    "name": "Dung Hoang Duong",
+    "institute": "University of Wollongong, Australia"
+  },
+  {
+    "name": "Fahreddin Abdullayev",
+    "institute": "Kyrgyz-Turkish Manas University, Kyrgyzstan"
+  },
+  {
+    "name": "Falguni Roy",
+    "institute": "National Institute of Technology Surathkal, India"
+  },
+  {
+    "name": "Farida Parvez Barbhuiya",
+    "institute": "BITS Pilani, Hyderabad, India"
+  },
+  {
+    "name": "Fidan Nuriyeva",
+    "institute": "Ege University, Turkey"
+  },
+  {
+    "name": "Fouzul Atik",
+    "institute": "SRM University, India"
+  },
+  {
+    "name": "Ganesh Ghorai",
+    "institute": "Vidyasagar University, India"
+  },
+  {
+    "name": "Gopal Chandra Shit",
+    "institute": "Jadavpur University, India"
+  },
+  {
+    "name": "Guru Prasad Samanta",
+    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
+  },
+  {
+    "name": "Hakan Kutucu",
+    "institute": "Karabak University, Turkey"
+  },
+  {
+    "name": "Hari Shankar Prasad",
+    "institute": "National Institute of Technology Jamshedpur, India"
+  },
+  {
+    "name": "Heinrich Begehr",
+    "institute": "Free University Berlin, Germany"
+  },
+  {
     "name": "Izhar Uddin",
     "institute": "Jamia Milia Islamia University, India"
   },
   {
-    "serial": 96,
+    "name": "Jayalakshmi Karamsi",
+    "institute": "Jawaharlal Nehru Technological University Anantapur, India"
+  },
+  {
+    "name": "Jessica Pereira",
+    "institute": "Goa University, India"
+  },
+  {
+    "name": "Konstantin Volkov",
+    "institute": "Kingston University, Volkov"
+  },
+  {
+    "name": "Krishnendu Barman",
+    "institute": "Vidyasagar University, India"
+  },
+  {
+    "name": "Kuntal Banerjee",
+    "institute": "Presidency University, India"
+  },
+  {
+    "name": "Lakshmi Kanta Patra",
+    "institute": "Indian Institute of Technology Ranchi, India"
+  },
+  {
+    "name": "Madan Mohan Panja",
+    "institute": "Visva-Bharati University, India"
+  },
+  {
+    "name": "Madhumangal Pal",
+    "institute": "Vidyasagar University, India"
+  },
+  {
+    "name": "Madhumangal Pal",
+    "institute": "Vidyasagar University, India"
+  },
+  {
+    "name": "Manotosh Kumbhakar",
+    "institute": "Texas A & M University, India"
+  },
+  {
+    "name": "Mantu Saha",
+    "institute": "Burdwan University, India"
+  },
+  {
+    "name": "Masaya Yasuda",
+    "institute": "Kyushu University, Japan"
+  },
+  {
+    "name": "Md Firoz Ali",
+    "institute": "National Institute of Technology Durgapur, India"
+  },
+  {
+    "name": "Md Nasim Akhtar",
+    "institute": "Presidency University, India"
+  },
+  {
+    "name": "Mikheil Rukhaia",
+    "institute": "Institute of Applied Mathematics, Tbilisi State University, Georgia"
+  },
+  {
+    "name": "Moumita Mandal",
+    "institute": "Indian Institute of Technology Jodhpur, India"
+  },
+  {
+    "name": "Nabakumar Jana",
+    "institute": "Indian Institute of Technology (ISM) Dhanbad, India"
+  },
+  {
+    "name": "Naren Bag",
+    "institute": "DWI - Leibnitz Institute of Interactive Materials, RWTH Aachen University, Germany"
+  },
+  {
+    "name": "Nipen Saikia",
+    "institute": "Rajiv Gandhi University of Health Sciences, India"
+  },
+  {
+    "name": "Önder Türk",
+    "institute": "Gebze Technical University, Turkey"
+  },
+  {
+    "name": "Osmita Dey",
+    "institute": "Techno India University, India"
+  },
+  {
+    "name": "P D Srivastava",
+    "institute": "Indian Institute of Technology Bhilai, India"
+  },
+  {
+    "name": "Partha Sarathi Majee",
+    "institute": "Indian Institute of Technology Kharagpur, India"
+  },
+  {
+    "name": "Paulo Mateus",
+    "institute": "Instituto Superior Tecnico, Portugal"
+  },
+  {
+    "name": "Pawan Kumar Mishra",
+    "institute": "Indian Institute of Technology Bhilai, India"
+  },
+  {
+    "name": "Payel Mandal",
+    "institute": "Techno India University, India"
+  },
+  {
+    "name": "Prabir Kumar Kundu",
+    "institute": "Jadavpur University, India"
+  },
+  {
+    "name": "Prabir Panja",
+    "institute": "Haldia Institute of Technology, India"
+  },
+  {
+    "name": "Prakash Goswami",
+    "institute": "Indian Institute of Technology (BHU), India"
+  },
+  {
+    "name": "Prasanta Malik",
+    "institute": "Burdwan University, India"
+  },
+  {
+    "name": "Pratap Chandra Ray",
+    "institute": "Bethune College, India"
+  },
+  {
+    "name": "Pratulananda Das",
+    "institute": "Jadavpur University, India"
+  },
+  {
+    "name": "Praveen Kumar Gupta",
+    "institute": "National Institute of Technology Silchar, India"
+  },
+  {
+    "name": "Pritha Das",
+    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
+  },
+  {
+    "name": "Priyanka Roy",
+    "institute": "Indian Institute of Technology Kharagpur, India"
+  },
+  {
+    "name": "Purushottam Narain Agarwal",
+    "institute": "Indian Institute of Technology Roorkee, India"
+  },
+  {
+    "name": "Raju Roy",
+    "institute": "Gauhati University, India"
+  },
+  {
+    "name": "Ranjit Mehtari",
+    "institute": "National Institute of Technology Rourkella"
+  },
+  {
+    "name": "Rifat ÇOLAK",
+    "institute": "Firat University, Turkey"
+  },
+  {
+    "name": "Rudrajit Sadhu",
+    "institute": "Sreegopal Banerjee College, India"
+  },
+  {
+    "name": "Safique Ahmad",
+    "institute": "Indian Institute of Technology Indore, India"
+  },
+  {
+    "name": "Saifur Rahman",
+    "institute": "Rajiv Gandhi University of Health Sciences, India"
+  },
+  {
+    "name": "Sajal Mukhopadhyay",
+    "institute": "National Institute of Technology Durgapur, India"
+  },
+  {
     "name": "Samarjit Kar",
     "institute": "National Institute of Technology Rourkela, India"
   },
   {
-    "serial": 97,
-    "name": "Hari Shankar Prasad",
+    "name": "Samiran Ghosh",
+    "institute": "University of Calcutta, India"
+  },
+  {
+    "name": "Sanat Kumar Majumdar",
+    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
+  },
+  {
+    "name": "Sanjib Kumar Pal",
+    "institute": "Kazi Nazrul University, India"
+  },
+  {
+    "name": "Sankar Kumar Roy",
+    "institute": "Vidyasagar University, India"
+  },
+  {
+    "name": "Santanu Manna",
+    "institute": "Indian Institute of Technology Indore, India"
+  },
+  {
+    "name": "Sarita Ojha",
+    "institute": "Indian Institute of Engineering Science and Technology Shibpur, India"
+  },
+  {
+    "name": "Satya Bagchi",
+    "institute": "National Institute of Technology Durgapur, India"
+  },
+  {
+    "name": "Saumya Bajpai",
+    "institute": "Indian Institute of Technology Goa, India"
+  },
+  {
+    "name": "Shanmugam Dhinakaran",
+    "institute": "Indian Institute of Technology Indore, India"
+  },
+  {
+    "name": "Shubhabrata Das",
+    "institute": "Presidency University, India"
+  },
+  {
+    "name": "Shubhankar Saha",
+    "institute": "Sir Gurudas Mahavidyalaya, India"
+  },
+  {
+    "name": "Shyamal Kumar Hui",
+    "institute": "Burdwan University, India"
+  },
+  {
+    "name": "Shyamal Kumar Mondal",
+    "institute": "Vidyasagar University, India"
+  },
+  {
+    "name": "Smriti Nath",
+    "institute": "Indian Institute of Technology Kharagpur, India"
+  },
+  {
+    "name": "Snehasis Kundu",
     "institute": "National Institute of Technology Jamshedpur, India"
+  },
+  {
+    "name": "Somesh Kumar",
+    "institute": "Indian Institute of Technology Kharagpur, India"
+  },
+  {
+    "name": "Soovoojeet Jana",
+    "institute": "Ramsaday College, India"
+  },
+  {
+    "name": "Sourav Gupta",
+    "institute": "Indian Institute of Technology Kharagpur, India"
+  },
+  {
+    "name": "Sourav Pradhan",
+    "institute": "National Institute of Technology Nagpur, India"
+  },
+  {
+    "name": "Sree Vivek S",
+    "institute": "School of Civil Engineering, SASTRA Deemed University, Thanjavur, India"
+  },
+  {
+    "name": "Sriparna Chattopadhyay",
+    "institute": "National Institute of Foundry and Forge Technology Ranchi, India"
+  },
+  {
+    "name": "Subhra Bhattacharya",
+    "institute": "Presidency University, India"
+  },
+  {
+    "name": "Suchandan Kayal",
+    "institute": "National Institute of Technology Rourkela, India"
+  },
+  {
+    "name": "Sujit Kumar Sardar",
+    "institute": "Jadavpur University, India"
+  },
+  {
+    "name": "Sukhendu Kar",
+    "institute": "Jadavpur University, India"
+  },
+  {
+    "name": "Suman Rakshit",
+    "institute": "Mankar College, India"
+  },
+  {
+    "name": "Sushil Kumar Bhuiya",
+    "institute": "Krishnath College, India"
+  },
+  {
+    "name": "Suvra Kanti Chakraborty",
+    "institute": "Sir Gurudas Mahavidyalaya, India"
+  },
+  {
+    "name": "Svetla Petkova-Nikova",
+    "institute": "ESAT-COSIC, KU Leuven, Belgium"
+  },
+  {
+    "name": "Swadesh Kumar Sahoo",
+    "institute": "Indian Institute of Technology Indore, India"
+  },
+  {
+    "name": "Vikas Kumar",
+    "institute": "Indian Institute of Technology Mandi, India"
+  },
+  {
+    "name": "Vilem Novak",
+    "institute": "University of Ostrava, Czechia"
+  },
+  {
+    "name": "Vishnu Pratap Singh",
+    "institute": "Visvesvaraya National Institute of Technology Nagpur, India"
   }
 ]
