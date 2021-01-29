@@ -54,10 +54,7 @@ module.exports = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: (url) =>
-                                url
-                                    .slice(url.indexOf('img\\') + 4)
-                                    .replace(/\\/g, '/'),
+                            name: (url) => url.slice(url.indexOf('img\\') + 4).replace(/\\/g, '/'),
                             outputPath: (url) => `img/${url}`,
                             publicPath: 'img/'
                         }
