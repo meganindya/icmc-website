@@ -182,7 +182,7 @@ $(document).ready(function () {
             $('#l_speak'),
             $('#l_comm'),
             $('#l_trax'),
-            $('#l_guide'),
+            $('#l_accepted'),
             $('#l_reg'),
             $('#foot')
         ];
@@ -219,7 +219,7 @@ $(document).ready(function () {
             '#l_speak': '#speak',
             '#l_comm': '#comm',
             '#l_trax': '#trax',
-            '#l_guide': '#guide',
+            '#l_accepted': '#accepted',
             '#l_reg': '#reg',
             '#btn-top': null
         },
