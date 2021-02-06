@@ -1,5 +1,6 @@
 import '../css/main.scss';
 import '../img/hamburger-white.png';
+import '../res/ICMC_2021_accepted_list.pdf';
 import '../res/ICMC_2021_registration_form.pdf';
 import '../res/ICMC_2021_publishing_agreement_springer.pdf';
 import '../res/ICMC_2021_permission_request_form_springer.pdf';
