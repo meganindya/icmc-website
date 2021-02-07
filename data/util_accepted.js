@@ -1,5 +1,5 @@
 import fs from 'fs';
-import accepted_list from './accepted_list.json';
+import accepted_list from './_accepted_json.json';
 
 fs.writeFileSync('./accepted.txt', '', () => {});
 
@@ -11,8 +11,8 @@ accepted_list.forEach(
               <td>${item["Sl no"]}</td>
               <td>${item["ID"]}</td>
               <td>${item["Paper Title"]}</td>
-              <td>${item["Author"]}</td>
-              <td>${item["Affiliation"]}</td>
+              <td>${item["Author"].split('\n').join('<br/>')}</td>
+              <td>${item["Affiliation"].split('\n').join('<br/>')}</td>
             </tr>
 `)
 );
