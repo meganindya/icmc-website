@@ -104,7 +104,15 @@
         }
 
         &:nth-of-type(even) {
-          background: #eee;
+          td {
+            &:nth-of-type(odd) {
+              background: #eee;
+            }
+
+            &:nth-of-type(even) {
+              background: #f7f7f7;
+            }
+          }
         }
       }
     }
