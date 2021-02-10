@@ -12,6 +12,18 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.ejs$/,
+                use: [
+                    'html-loader',
+                    {
+                        loader: 'ejs-html-loader',
+                        options: {
+                            context: {}
+                        }
+                    }
+                ]
+            },
+            {
                 test: /\.js$/,
                 use: [
                     {
@@ -64,16 +76,17 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({
-            filename: 'style.css'
-        }),
         new HtmlWebpackPlugin({
-            template: './src/index.html',
+            filename: 'index.html',
+            template: './src/views/index.ejs',
             minify: {
                 removeComments: true,
                 collapseWhitespace: true,
                 removeAttributeQuotes: true
             }
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'style.css'
         }),
         new RemovePlugin({
             before: {
