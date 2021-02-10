@@ -3,11 +3,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemovePlugin = require('remove-files-webpack-plugin');
 
+const metadata = require('./data/metadata.json');
 const speakers = require('./data/speakers.json');
 const committee = require('./data/committee.json');
 const comp = require('./data/comm_comp.json');
 const math = require('./data/comm_math.json');
-const accepted = require('./data/_accepted.json');
+const accepted = require('./data/accepted.json');
 
 module.exports = {
     entry: './src/js/app.js',
@@ -25,6 +26,7 @@ module.exports = {
                         loader: 'ejs-html-loader',
                         options: {
                             context: {
+                                metadata,
                                 speakers,
                                 committee: { ...committee, comp, math },
                                 accepted
