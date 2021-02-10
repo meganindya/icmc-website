@@ -5,13 +5,8 @@ const RemovePlugin = require('remove-files-webpack-plugin');
 
 const speakers = require('./data/speakers.json');
 const committee = require('./data/committee.json');
-
-const _comp = require('./data/_comp.json');
-const comp = _comp.sort((a, b) => a.name.localeCompare(b.name));
-
-const _math = require('./data/_math.json');
-const math = _math.sort((a, b) => a.name.localeCompare(b.name));
-
+const comp = require('./data/comm_comp.json');
+const math = require('./data/comm_math.json');
 const accepted = require('./data/_accepted.json');
 
 module.exports = {
@@ -29,7 +24,11 @@ module.exports = {
                     {
                         loader: 'ejs-html-loader',
                         options: {
-                            context: { speakers, committee, comp, math, accepted }
+                            context: {
+                                speakers,
+                                committee: { ...committee, comp, math },
+                                accepted
+                            }
                         }
                     }
                 ]

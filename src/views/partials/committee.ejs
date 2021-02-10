@@ -52,9 +52,9 @@
             <% this.committee["programme-co-chairs"].forEach(item=> { %>
                 <p>
                     <a href="<%= item.link %>" target="_blank">
-                    <strong>
-                        <%= item.name %>
-                    </strong>, <%= item.institute %>
+                        <strong>
+                            <%= item.name %>
+                        </strong>, <%= item.institute %>
                     </a>
                 </p>
                 <% }) %>
@@ -120,43 +120,45 @@
                 </div>
             </div>
             <div id="chair-math">
-                <% const mathLeftRowCount=56; %>
+                <% const mathRows=this.committee["math"].sort((a, b)=> a.name.localeCompare(b.name));
+                    const mathLeftRowCount=56; %>
                     <div class="left">
                         <% for (let i=0; i < mathLeftRowCount; i++) { %>
                             <p>
                                 <strong>
-                                    <%= this.math[i].name %>
-                                </strong>, <%= this.math[i].institute %>
+                                    <%= mathRows[i].name %>
+                                </strong>, <%= mathRows[i].institute %>
                             </p>
                             <% } %>
                     </div>
                     <div class="right">
-                        <% for (let i=mathLeftRowCount; i < this.math.length; i++) { %>
+                        <% for (let i=mathLeftRowCount; i < mathRows.length; i++) { %>
                             <p>
                                 <strong>
-                                    <%= this.math[i].name %>
-                                </strong>, <%= this.math[i].institute %>
+                                    <%= mathRows[i].name %>
+                                </strong>, <%= mathRows[i].institute %>
                             </p>
                             <% } %>
                     </div>
             </div>
             <div id="chair-comp">
-                <% const compLeftRowCount=103; %>
+                <% const compRows=this.committee["comp"].sort((a, b)=> a.name.localeCompare(b.name));
+                    const compLeftRowCount=103; %>
                     <div class="left">
                         <% for (let i=0; i < compLeftRowCount; i++) { %>
                             <p>
                                 <strong>
-                                    <%= this.comp[i].name %>
-                                </strong>, <%= this.comp[i].institute %>
+                                    <%= compRows[i].name %>
+                                </strong>, <%= compRows[i].institute %>
                             </p>
                             <% } %>
                     </div>
                     <div class="right">
-                        <% for (let i=compLeftRowCount; i < this.comp.length; i++) { %>
+                        <% for (let i=compLeftRowCount; i < compRows.length; i++) { %>
                             <p>
                                 <strong>
-                                    <%= this.comp[i].name %>
-                                </strong>, <%= this.comp[i].institute %>
+                                    <%= compRows[i].name %>
+                                </strong>, <%= compRows[i].institute %>
                             </p>
                             <% } %>
                     </div>
