@@ -1,15 +1,15 @@
 import fs from 'fs';
-import accepted_list from './_accepted_json.json';
+import accepted from './accepted.json';
 
-fs.writeFileSync('./_accepted.csv', '', () => {});
+fs.writeFileSync('./accepted.csv', '', () => {});
 
-fs.appendFile('./_accepted.csv', 'Sl no,ID,Paper Title,Author,Affiliation\n', () => {});
+fs.appendFile('./accepted.csv', 'Sl no,ID,Paper Title,Author,Affiliation\n', () => {});
 
-let listStr = '';
-accepted_list.forEach(
+let csv = '';
+accepted.forEach(
     (item) =>
-        (listStr += `${item['Sl no']},${item['ID']},"${item['Paper Title']}","${item['Author']}","${item['Affiliation']}"\n`)
+        (csv += `${item['Sl no']},${item['ID']},"${item['Paper Title']}","${item['Author']}","${item['Affiliation']}"\n`)
 );
-fs.appendFile('./_accepted.csv', listStr, () => {});
+fs.appendFile('./accepted.csv', csv, () => {});
 
 // add "type": "module" in package.json, then run with `node --experimental-json-modules util_accepted_json_csv.js`
