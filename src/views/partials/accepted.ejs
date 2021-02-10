@@ -28,10 +28,18 @@
                             <%= item["Paper Title"] %>
                         </td>
                         <td>
-                            <%= item["Author"] %>
+                            <% const authors=item["Author"].split('\n') %>
+                                <% for (let i=0; i < authors.length - 1; i++) { %>
+                                    <%= authors[i] %><br />
+                                        <% } %>
+                                            <%= authors[authors.length - 1] %>
                         </td>
                         <td>
-                            <%= item["Affiliation"] %>
+                            <% const affiliations=item["Affiliation"].split('\n') %>
+                                <% for (let i=0; i < affiliations.length - 1; i++) { %>
+                                    <%= affiliations[i] %><br />
+                                        <% } %>
+                                            <%= affiliations[affiliations.length - 1] %>
                         </td>
                     </tr>
                     <% }) %>
