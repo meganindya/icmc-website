@@ -2,94 +2,17 @@
     <h4>Keynote&nbsp;&nbsp;Speakers</h4>
 </div>
 <div class="speakers clearfix">
-    <a href="https://www.eng.biu.ac.il/hazay/" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Carmit Hazay</p>
-            <p>
-                Bar-Ilan University, Israel
-            </p>
-        </div>
-    </a>
-    <a href="https://www.chalmers.se/en/staff/Pages/aikmitr.aspx" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Aikaterini Mitrokotsa</p>
-            <p>
-                Chalmers University of Technology, Sweden
-            </p>
-        </div>
-    </a>
-    <a href="https://www.isical.ac.in/~bimal/" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Bimal Roy</p>
-            <p>
-                Indian Statistical Institute, Kolkata
-            </p>
-        </div>
-    </a>
-    <a href="https://homes.esat.kuleuven.be/~snikova/" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Svetla Petkova-Nikova</p>
-            <p>
-                ESAT-COSIC, KU Leuven, Belgium
-            </p>
-        </div>
-    </a>
-    <a href="http://delta.cs.cinvestav.mx/~francisco/" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Francisco Rodríguez Henríquez</p>
-            <p>
-                CINVESTAV-IPN, Mexico City, Mexico
-            </p>
-        </div>
-    </a>
-    <a href="https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Sugata Gangopadhyay</p>
-            <p>
-                Indian Institute of Technology, Roorkee
-            </p>
-        </div>
-    </a>
-    <a href="https://www.cse.iitm.ac.in/profile.php?arg=Mw==" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>C. Pandu Rangan</p>
-            <p>
-                Indian Institute of Technology, Madras
-            </p>
-        </div>
-    </a>
-    <a href="https://www.iitk.ac.in/new/sandeep-k-shukla" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Sandeep K. Shukla</p>
-            <p>
-                Indian Institute of Technology, Kanpur
-            </p>
-        </div>
-    </a>
-    <a href="https://personal.utdallas.edu/~bxt043000/" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Bhavani Thuraisingham</p>
-            <p>
-                The University of Texas at Dallas, USA
-            </p>
-        </div>
-    </a>
-    <a href="http://pages.cpsc.ucalgary.ca/~rei/" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
-        <div class="speak-info">
-            <p>Rei Safavi-Naini</p>
-            <p>
-                University of Calgary, Canada
-            </p>
-        </div>
-    </a>
+    <% this.speakers.forEach(item=> { %>
+        <a href="<%= item.link %>" target="_blank" class="speaker">
+            <div class="speak-photo"></div>
+            <div class="speak-info">
+                <p>
+                    <%= item.name %>
+                </p>
+                <p>
+                    <%= item.institute %>
+                </p>
+            </div>
+        </a>
+        <% }) %>
 </div>

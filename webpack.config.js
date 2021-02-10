@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemovePlugin = require('remove-files-webpack-plugin');
 
+const speakers = require('./data/speakers.json');
+
 const _comp = require('./data/_comp.json');
 const comp = _comp.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -26,7 +28,7 @@ module.exports = {
                     {
                         loader: 'ejs-html-loader',
                         options: {
-                            context: { comp, math, accepted }
+                            context: { speakers, comp, math, accepted }
                         }
                     }
                 ]

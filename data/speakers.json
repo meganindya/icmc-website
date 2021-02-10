@@ -1,0 +1,52 @@
+[
+  {
+    "link": "https://www.eng.biu.ac.il/hazay/",
+    "name": "Carmit Hazay",
+    "institute": "Bar-Ilan University, Israel"
+  },
+  {
+    "link": "https://www.chalmers.se/en/staff/Pages/aikmitr.aspx",
+    "name": "Aikaterini Mitrokotsa",
+    "institute": "Chalmers University of Technology, Sweden"
+  },
+  {
+    "link": "https://www.isical.ac.in/~bimal/",
+    "name": "Bimal Roy",
+    "institute": "Indian Statistical Institute, Kolkata"
+  },
+  {
+    "link": "https://homes.esat.kuleuven.be/~snikova/",
+    "name": "Svetla Petkova-Nikova",
+    "institute": "ESAT-COSIC, KU Leuven, Belgium"
+  },
+  {
+    "link": "http://delta.cs.cinvestav.mx/~francisco/",
+    "name": "Francisco Rodríguez Henríquez",
+    "institute": "CINVESTAV-IPN, Mexico City, Mexico"
+  },
+  {
+    "link": "https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata",
+    "name": "Sugata Gangopadhyay",
+    "institute": "Indian Institute of Technology, Roorkee"
+  },
+  {
+    "link": "https://www.cse.iitm.ac.in/profile.php?arg=Mw==",
+    "name": "C. Pandu Rangan",
+    "institute": "Indian Institute of Technology, Madras"
+  },
+  {
+    "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
+    "name": "Sandeep K. Shukla",
+    "institute": "Indian Institute of Technology, Kanpur"
+  },
+  {
+    "link": "https://personal.utdallas.edu/~bxt043000/",
+    "name": "Bhavani Thuraisingham",
+    "institute": "The University of Texas at Dallas, USA"
+  },
+  {
+    "link": "http://pages.cpsc.ucalgary.ca/~rei/",
+    "name": "Rei Safavi-Naini",
+    "institute": "University of Calgary, Canada"
+  }
+]
