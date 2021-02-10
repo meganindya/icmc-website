@@ -36,7 +36,6 @@
 
     #accepted-table {
       width: 100%;
-      margin-bottom: 1rem;
       overflow-x: auto;
 
       tr {
@@ -115,14 +114,6 @@
           }
         }
       }
-    }
-
-    i {
-      margin-left: 2rem;
-      font-size: 0.85rem;
-      text-align: left;
-      line-height: 1.25;
-      color: #666;
     }
   }
 }

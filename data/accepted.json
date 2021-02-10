@@ -57,496 +57,552 @@
   },
   {
     "Sl no": 9,
+    "ID": 45,
+    "Paper Title": "Real-time error correction codes for deletable errors",
+    "Author": "Ghurumuruhan Ganesan",
+    "Affiliation": "Institute of Mathematical Sciences Chennai, India"
+  },
+  {
+    "Sl no": 10,
     "ID": 48,
     "Paper Title": "On the Exponential Diophantine Equation pˣ+qʸ=z³: Theorems and Conjectures",
     "Author": "Ronald Aquino\nJerico Bacani",
     "Affiliation": "Don Mariano Marcos Memorial State University, Philippines\nUniversity of the Philippines Baguio, Philippines"
   },
   {
-    "Sl no": 10,
+    "Sl no": 11,
     "ID": 51,
     "Paper Title": "Forecasting COVID-19 cases using Deep CNN LSTM model",
     "Author": "Abhishek Parashar\nYukti Mohan\nNeeru Rathee",
     "Affiliation": "Maharaja Surajmal Institute of Technology, India\nMaharaja Surajmal Institute of Technology, India\nMaharaja Surajmal Institute of Technology, India"
   },
   {
-    "Sl no": 11,
+    "Sl no": 12,
     "ID": 64,
     "Paper Title": "On The Inadequacy of Multimodal Maps for Cryptographic Hash Applications with Phase-Space Modulation",
     "Author": "Imad El Hanouti\nHakim El Fadili\nFawad Ahmed\nJawad Ahmad",
     "Affiliation": "Sidi Mohamed Ben Abdellah University, Morocco\nSidi Mohamed Ben Abdellah University, Morocco\nHITEC University Taxila, Pakistan\nEdinburgh Napier University, UK"
   },
   {
-    "Sl no": 12,
+    "Sl no": 13,
     "ID": 65,
     "Paper Title": "Improving the monitoring of mortality surveillance by analyzing regression approach",
     "Author": "Sarada Ghosh\nGuruprasad Samanta",
     "Affiliation": "Gurudas College, India\nIndian Institute of Engineering Science and Technology Shibpur, India"
   },
   {
-    "Sl no": 13,
+    "Sl no": 14,
     "ID": 67,
     "Paper Title": "A Fine-tuning Retrieval System for Mathematical Information",
     "Author": "Pankaj Dadure\nPartha Pakray\nSivaji Bandyopadhyay",
     "Affiliation": "National Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India"
   },
   {
-    "Sl no": 14,
+    "Sl no": 15,
     "ID": 68,
     "Paper Title": "On the Construction of 4 × 4 Lightweight Involutory MDS Matrices over F2⁸",
     "Author": "Meltem Kurt Pehlivanoğlu\nFatma Büyüksaraçoğlu Sakallı\nSedat Akleylek\nMuharrem Tolga Sakallı",
     "Affiliation": "Kocaeli University, Turkey\nTrakya University, Turkey\nOndokuz Mayıs University, Turkey\nTrakya University, Turkey"
   },
   {
-    "Sl no": 15,
+    "Sl no": 16,
     "ID": 71,
     "Paper Title": "Motion Forecast of Dynamical Systems",
     "Author": "Yuri Menshikov",
     "Affiliation": "Dnipropetrovsk State University, Ukraine"
   },
   {
-    "Sl no": 16,
+    "Sl no": 17,
     "ID": 73,
     "Paper Title": "An opportunistic ensemble learning framework for network traffic classification in IoT environments",
     "Author": "Sujit Bebortta\nSumanta Kumar Singh",
     "Affiliation": "Ravenshaw University, India\nCollege of Engineering and Technology Bhubaneshwar, India"
   },
   {
-    "Sl no": 17,
+    "Sl no": 18,
     "ID": 79,
     "Paper Title": "New classes of exact solutions to three dimensional Schrodinger equation",
     "Author": "Subin P Joseph",
     "Affiliation": "Government Engineering College Wayanad, India"
   },
   {
-    "Sl no": 18,
+    "Sl no": 19,
     "ID": 84,
     "Paper Title": "Some sequence spaces of weight f",
     "Author": "Ekrem Savas",
     "Affiliation": "Usak University, Turkey"
   },
   {
-    "Sl no": 19,
+    "Sl no": 20,
     "ID": 86,
     "Paper Title": "Implementation report of the Kohel-Lauter-Petit-Tignol algorithm for the constructive Deuring correspondence",
     "Author": "Yuta Kambda\nYusuke Aikawa\nMomonari Kudo\nKatsuyuki Takashima\nMasaya Yasuda\nKazuhiro Yokoyama",
     "Affiliation": "Rikkyo University, Japan\nMitsubishi Electric Corporation, Japan\nThe University of Tokyo, Japan\nMitsubishi Electric Corporation, Japan\nRikkyo University, Japan\nRikkyo University, Japan"
   },
   {
-    "Sl no": 20,
+    "Sl no": 21,
     "ID": 93,
     "Paper Title": "Security Analysis via Algebraic Attack Against \"A New Encryption Scheme for Multivariate Quadratic System\"",
     "Author": "Yasuhiko Ikematsu\nShuhei Nakamura",
     "Affiliation": "Kyushu University, Japan\nNihon University, Japan"
   },
   {
-    "Sl no": 21,
+    "Sl no": 22,
+    "ID": 97,
+    "Paper Title": "Some Study on Solitary Traveling Wave Solutions for Nonlinear Evolution Equations",
+    "Author": "Jasvinderpal Singh Virdi",
+    "Affiliation": "Veer Surendra Sai University of Technology, India"
+  },
+  {
+    "Sl no": 23,
     "ID": 100,
     "Paper Title": "Modeling of nonlinear wave phenomena in interstellar superthermal plasma",
     "Author": "Punam Kumari Prasad\nAsit Saha",
     "Affiliation": "Sikkim Manipal Institute of Technology, India\nSikkim Manipal Institute of Technology, India"
   },
   {
-    "Sl no": 22,
+    "Sl no": 24,
     "ID": 103,
     "Paper Title": "Big-Five Personality Prediction from Handwritten Character Features and Word 'of' using Multi-label Classification",
     "Author": "Salankara Mukherjee\nIshita De Ghosh\nDebatree Mukherjee",
     "Affiliation": "West Bengal State University, India\nBarrackpore Rastraguru Surendranath College, India\nBarrackpore Rastraguru Surendranath College, India"
   },
   {
-    "Sl no": 23,
+    "Sl no": 25,
     "ID": 105,
     "Paper Title": "Hardware Implementation of Multiplication over Quartic Extension Fields",
     "Author": "Arthur Lavice\nNadia El Mrabet\nAlexandre Berzati\nJean-Baptiste Rigaud",
     "Affiliation": "Thales, France\nSAS - CGCP - EMSE, France\nINVIA, France\nMINES Saint-Étienne, France"
   },
   {
-    "Sl no": 24,
+    "Sl no": 26,
     "ID": 109,
     "Paper Title": "An Enhanced Quality of Service based Trust Model for Cloud Computing",
     "Author": "Mohamed Fazil Mohamed Firdhous\nRahmat Budiarto",
     "Affiliation": "University of Moratuwa, Sri Lanka\nAl Baha University, Saudi Arabia"
   },
   {
-    "Sl no": 25,
+    "Sl no": 27,
     "ID": 112,
     "Paper Title": "Comparison of Algorithms for Style Transfer of Images Using Texture Synthesis",
     "Author": "Vishakh Rao\nHemanth K U\nBhawana Rudra",
     "Affiliation": "National Institute of Technology Karnataka Surathkal, India\nNational Institute of Technology Karnataka Surathkal, India\nNational Institute of Technology Karnataka Surathkal, India"
   },
   {
-    "Sl no": 26,
+    "Sl no": 28,
     "ID": 114,
     "Paper Title": "Factual Power Loss Reduction by Meadow Fritillary Butterfly Optimization Algorithm",
     "Author": "Lenin Kanagasabai",
     "Affiliation": "Prasad V Potluri Siddhartha Institute of Technology, India"
   },
   {
-    "Sl no": 27,
+    "Sl no": 29,
     "ID": 116,
     "Paper Title": "A Comparative Study of Pre-trained Gene Embedding for COVID-19 mRNA Vaccine Degradation Prediction",
     "Author": "U Vamsi Krishna\nPremjith B\nSoman K P",
     "Affiliation": "Amrita Vishwa Vidyapeetham, India\nAmrita Vishwa Vidyapeetham, India\nAmrita Vishwa Vidyapeetham, India"
   },
   {
-    "Sl no": 28,
+    "Sl no": 30,
     "ID": 117,
     "Paper Title": "Application of Group Methods in Solving Wave Equations",
     "Author": "Jervin Zen Lobo",
     "Affiliation": "St Xavier's College Mapusa, India"
   },
   {
-    "Sl no": 29,
+    "Sl no": 31,
     "ID": 118,
     "Paper Title": "A Novel Ranking-based Non-linear Programming Approach to Solve Bi-Matrix Games in Dense Fuzzy Environment",
     "Author": "Shuvasree Karmakar\nMijanur Rahaman Seikh",
     "Affiliation": "Kazi Nazrul University, India\nKazi Nazrul University, India"
   },
   {
-    "Sl no": 30,
+    "Sl no": 32,
     "ID": 122,
     "Paper Title": "The Spanning Maximal Planar Subgraph Problem for Some Classes of Complete 4-Partite Graphs",
     "Author": "Tjaart Jan Estrada\nIsagani Jos",
     "Affiliation": "Don Mariano Marcos Memorial State University, Philippines\nDe La Salle University, Philippines"
   },
   {
-    "Sl no": 31,
+    "Sl no": 33,
     "ID": 123,
     "Paper Title": "Traveling wave solutions of some coupled nonlinear systems by sine-cosine approach",
     "Author": "Sidheswar Behera",
     "Affiliation": "Veer Surendra Sai University of Technology, India"
   },
   {
-    "Sl no": 32,
+    "Sl no": 34,
     "ID": 124,
     "Paper Title": "Several families of new exact solutions for wave-like equations with variable coefficients",
     "Author": "Subin P Joseph",
     "Affiliation": "Government Engineering College Wayanad, India"
   },
   {
-    "Sl no": 33,
+    "Sl no": 35,
     "ID": 127,
     "Paper Title": "Deriving bounds on (k_1, k_2) labelling of triangular lattice by exploring underlined graph structures",
     "Author": "Subhasis Koley\nSasthi C Ghosh",
     "Affiliation": "Indian Statistical Institute Kolkata, India\nIndian Statistical Institute Kolkata, India"
   },
   {
-    "Sl no": 34,
+    "Sl no": 36,
     "ID": 131,
     "Paper Title": "COVID-19 Detection on Chest X-Ray and CT Scan Images Using Multi-image Augmented Deep Learning Model",
     "Author": "Kiran Purohit\nAbhishek Kesarwani\nDakshina Ranjan Kisku\nMamata Dalui",
     "Affiliation": "National Institute of Technology Durgapur, India\nNational Institute of Technology Durgapur, India\nNational Institute of Technology Durgapur, India\nNational Institute of Technology Durgapur, India"
   },
   {
-    "Sl no": 35,
+    "Sl no": 37,
     "ID": 137,
     "Paper Title": "Coexistence of chaotic, quasiperiodic and multiperiodic features in quantum plasma",
     "Author": "Barsha Pradhan\nAsit Saha",
     "Affiliation": "Sikkim Manipal Institute of Technology, India\nSikkim Manipal Institute of Technology, India"
   },
   {
-    "Sl no": 36,
+    "Sl no": 38,
     "ID": 138,
     "Paper Title": "On Column Competent Matrices and Linear Complementarity Problem",
     "Author": "Aritra Dutta\nRwitam Jana\nArup Kumar Das",
     "Affiliation": "Jadavpur University, India\nJadavpur University, India\nIndian Statistical Institute Kolkata, India"
   },
   {
-    "Sl no": 37,
+    "Sl no": 39,
     "ID": 139,
     "Paper Title": "Semi-Markov decision processes with vector pay-offs",
     "Author": "Kushal Guha Bakshi",
     "Affiliation": "Jadavpur University, India"
   },
   {
-    "Sl no": 38,
+    "Sl no": 40,
     "ID": 146,
     "Paper Title": "DDoS Detection in Software Defined Network using Entropy Method",
     "Author": "Ashidha Anil\nRufzal T A\nVipindev Adat Vasudevan",
     "Affiliation": "Tata Consultancy Services, India\nAccuver Calibration Laboratory LLC, UAE\nUniversity of Vigo, Spain"
   },
   {
-    "Sl no": 39,
+    "Sl no": 41,
     "ID": 147,
     "Paper Title": "CArrency: An Energy-Efficient Proof-of-Work Scheme for Crypto-Currencies",
     "Author": "Souvik Sur\nAbhijit Das\nDipanwita Roy Chowdhury",
     "Affiliation": "Indian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India"
   },
   {
-    "Sl no": 40,
+    "Sl no": 42,
     "ID": 150,
     "Paper Title": "Sufficient conditions for the uniqueness of solution of the weighted norm minimization problem",
     "Author": "Najiya K Z\nMunnu Sonkar\nC S Sastry",
     "Affiliation": "Indian Institute of Technology Hyderabad, India\nIndian Institute of Technology Hyderabad, India\nIndian Institute of Technology Hyderabad, India"
   },
   {
-    "Sl no": 41,
+    "Sl no": 43,
     "ID": 154,
     "Paper Title": "New records of pre-image search of reduced SHA-1 using SAT solvers",
     "Author": "Emanuele Bellini\nAlessandro De Piccoli\nRusydi Makarim\nSergio Polese\nLorenzo Riva\nAndrea Visconti",
     "Affiliation": "Khalifa University, UAE\nUniversità degli Studi di Milano, Italy\nUniversity Leiden, Netherlands\nUniversity of Milan, Italy\nUniversità degli Studi di Milano, Italy\nUniversità degli Studi di Milano, Italy"
   },
   {
-    "Sl no": 42,
+    "Sl no": 44,
     "ID": 155,
     "Paper Title": "A Numerical investigation of forced convection Casson nanofluid flow past a wedge with melting process",
     "Author": "Mehari Fentahun Endalew\nSubharthi Sarkar",
     "Affiliation": "Debre Tabor University, Ethopia\nBanwarilal Bhalotia College, India"
   },
   {
-    "Sl no": 43,
+    "Sl no": 45,
+    "ID": 156,
+    "Paper Title": "A study on randomness used in signature generation of UOV",
+    "Author": "Yasuhiko Ikematsu",
+    "Affiliation": "Kyushu University, Japan"
+  },
+  {
+    "Sl no": 46,
+    "ID": 157,
+    "Paper Title": "On differential uniformity & nonlinearity of permutations on ℤₙ",
+    "Author": "Prachi Gupta\nP R Mishra\nAtul Gaur",
+    "Affiliation": "University of Delhi, India\nDefence Research and Development Organization, India\nDefence Research and Development Organization, India"
+  },
+  {
+    "Sl no": 47,
     "ID": 163,
     "Paper Title": "OpenPGP Email Forwarding Via Diverted Elliptic Curve Diffie-Hellman Key Exchanges",
     "Author": "Aron Wussler\nFrancisco José Vial Prado",
     "Affiliation": "Proton Technologies AG, Switzerland\nProton Technologies AG, Switzerland"
   },
   {
-    "Sl no": 44,
+    "Sl no": 48,
     "ID": 164,
     "Paper Title": "Computing the 2-adic Canonical Lift of Genus 2",
     "Author": "Abdoulaye Maiga\nDamien Robert",
     "Affiliation": "FST - Cheikh Anta Diop University, Senegal\nINRIA Bordeaux-Sud-Ouest, France"
   },
   {
-    "Sl no": 45,
+    "Sl no": 49,
     "ID": 166,
     "Paper Title": "Chaos Based Uncompressed Frame Level Video Encryption",
     "Author": "Jagannath Sethi\nJaydeb Bhaumik\nAnanda Shankar Chowdhury",
     "Affiliation": "Jadavpur University, India\nJadavpur University, India\nJadavpur University, India"
   },
   {
-    "Sl no": 46,
+    "Sl no": 50,
     "ID": 167,
     "Paper Title": "Dynamical properties of shock and snoidal waves in a superthermal multi-ion dusty plasma",
     "Author": "Satyajit Sarkar\nRuchi Thapa\nAsit Saha\nKajal Kumar Mondal",
     "Affiliation": "Sikkim Manipal Institute of Technology, India\nSikkim Manipal Institute of Technology, India\nSikkim Manipal Institute of Technology, India\nCooch Behar Panchanan Barma University, India"
   },
   {
-    "Sl no": 47,
+    "Sl no": 51,
     "ID": 191,
     "Paper Title": "DEA for measuring the performance of Higher Education Sector: A case study of Myanmar",
     "Author": "Marlar Tin\nAnkita Panwar\nMillie Pant",
     "Affiliation": "Technological University (Toungoo), Myanmar\nIndian Institute of Technology Roorkee, India\nIndian Institute of Technology Roorkee, India"
   },
   {
-    "Sl no": 48,
+    "Sl no": 52,
     "ID": 195,
     "Paper Title": "A Survey on Machine Learning-based Ransomware Detection",
     "Author": "Nanda Rani\nSunita Vikrant Dhavale\nAmarjit Singh\nAtul Mehra",
     "Affiliation": "Defence Institute of Advanced Technology, India\nDefence Institute of Advanced Technology, India\nDefence Institute of Advanced Technology, India\nNational Critical Infrastructure Protection Centre, India"
   },
   {
-    "Sl no": 49,
+    "Sl no": 53,
     "ID": 204,
     "Paper Title": "Synchronizing Words for Real-Time Deterministic Pushdown Automata",
     "Author": "Tomoyuki Yamakami",
     "Affiliation": "University of Fukui, Japan"
   },
   {
-    "Sl no": 50,
+    "Sl no": 54,
     "ID": 205,
     "Paper Title": "A 2-Competitive Largest Job on Least Loaded Machine Online Algorithm based on the Multi List Scheduling Model",
     "Author": "Debasis Dwibedy\nRakesh Mohanty",
     "Affiliation": "Veer Surendra Sai University of Technology Burla, India"
   },
   {
-    "Sl no": 51,
+    "Sl no": 55,
     "ID": 206,
     "Paper Title": "Ear localization based on YOLOv3 detector",
     "Author": "Vinh Truong Hoang\nHuy Nguyen-Quoc",
     "Affiliation": "Ho Chi Minh City Open University, Vietnam\nHo Chi Minh City Open University, Vietnam"
   },
   {
-    "Sl no": 52,
+    "Sl no": 56,
     "ID": 207,
     "Paper Title": "A New Identity-Based Multivariate Signature Scheme",
     "Author": "Satyam Omar\nSahadeo Padhye\nDhananjoy Dey",
     "Affiliation": "Motilal Nehru National Institute of Technology Allahabad, India\nMotilal Nehru National Institute of Technology Allahabad, India\nIndian Institute of Information Technology Lucknow, India"
   },
   {
-    "Sl no": 53,
+    "Sl no": 57,
     "ID": 211,
     "Paper Title": "A Novel Reversible Data Hiding in Encrypted Images by Controlled Swapping of Adjacent Pixels",
     "Author": "Manikandan V M",
     "Affiliation": "SRM University, India"
   },
   {
-    "Sl no": 54,
+    "Sl no": 58,
     "ID": 214,
     "Paper Title": "Sonar Sensing Based Human Leg Localization Using Gaussian Process Regression",
     "Author": "Pritam Paral\nAmitava Chatterjee\nAnjan Rakshit",
     "Affiliation": "Jadavpur University, India\nJadavpur University, India\nJadavpur University, India"
   },
   {
-    "Sl no": 55,
+    "Sl no": 59,
     "ID": 216,
     "Paper Title": "Variant of Niederreiter-based Signature Scheme for Blockchain Technology",
     "Author": "Feng-Wei Lee\nDenis C K Wong\nBok-Min Goi\nWai-Kong Lee",
     "Affiliation": "Universiti Tunku Abdul Rahman, Malaysia\nUniversiti Tunku Abdul Rahman, Malaysia\nUniversiti Tunku Abdul Rahman, Malaysia\nGachon University, South Korea"
   },
   {
-    "Sl no": 56,
+    "Sl no": 60,
     "ID": 217,
     "Paper Title": "Steady-state analysis of a vacation queue with random serving capacity and batch-size-dependent service",
     "Author": "Nilanjan Nandy\nSourav Pradhan",
     "Affiliation": "Visvesvaraya National Institute of Technology Nagpur, India\nVisvesvaraya National Institute of Technology Nagpur, India"
   },
   {
-    "Sl no": 57,
+    "Sl no": 61,
+    "ID": 223,
+    "Paper Title": "Computing Prices for Target Profits in Contracts",
+    "Author": "Ghurumuruhan Ganesan",
+    "Affiliation": "Institute of Mathematical Sciences Chennai, India"
+  },
+  {
+    "Sl no": 62,
     "ID": 234,
     "Paper Title": "Hybrid Computing Scheme for Quasi-based Deployment in the Internet of Things",
     "Author": "Amrita Datta\nMou Dasgupta",
     "Affiliation": "National Institute of Technology Raipur, India\nNational Institute of Technology Raipur, India"
   },
   {
-    "Sl no": 58,
+    "Sl no": 63,
     "ID": 237,
     "Paper Title": "MACI: Malicious API Call Identifier Model to Secure the Host Platform",
     "Author": "Ayushi Acharya\nHari Prasad\nVinod Kumar\nIshu Gupta\nAshutosh K Singh",
     "Affiliation": "National Institute of Technology Kurukshetra, India\nNational Institute of Technology Kurukshetra, India\nNational Institute of Technology Kurukshetra, India\nNational Institute of Technology Kurukshetra, India\nNational Institute of Technology Kurukshetra, India"
   },
   {
-    "Sl no": 59,
+    "Sl no": 64,
     "ID": 242,
     "Paper Title": "Predicting and analysing pedestrian injury severity: A machine learning-based approach",
     "Author": "Anjali Rao\nSobhan Sarkar\nAnima Pramanik\nJ Maiti",
     "Affiliation": "Indian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India\nThe University of Edinburgh, UK"
   },
   {
-    "Sl no": 60,
+    "Sl no": 65,
     "ID": 247,
     "Paper Title": "Fog Computing Applications with Decentralized Computing Infrastructure- Systematic Review",
     "Author": "Deepak Kumar\nRishu Taneja\nSangeetha Annam",
     "Affiliation": "Chitkara University, India\nChitkara University, India\nChitkara University, India"
   },
   {
-    "Sl no": 61,
+    "Sl no": 66,
     "ID": 249,
     "Paper Title": "Identification of Relevant Quantities in Arithmetic Word Problems using Siamese Neural Network",
     "Author": "Sourav Mandal\nArif Ahmed Sk\nSudip Kumar Naskar",
     "Affiliation": "Xavier School of Computer Science and Engineering, India\nUniversity of Tromsø, Norway\nJadavpur University, India"
   },
   {
-    "Sl no": 62,
+    "Sl no": 67,
     "ID": 263,
     "Paper Title": "Multivariate Deep Learning Model with Ensemble Pruning for Time Series Forecasting",
     "Author": "Sobhan Sarkar\nMohit Kosuri\nCherry Tandu\nJ Maiti",
     "Affiliation": "The University of Edinburgh, UK\nThe University of Edinburgh, UK\nThe University of Edinburgh, UK\nThe University of Edinburgh, UK"
   },
   {
-    "Sl no": 63,
+    "Sl no": 68,
     "ID": 271,
     "Paper Title": "Generalized Libera operator on mixed norm spaces",
     "Author": "Sunanda Naik\nKarabi Rajbangshi",
     "Affiliation": "Gauhati University, India\nMorgaon College, Gauhati University, India"
   },
   {
-    "Sl no": 64,
+    "Sl no": 69,
+    "ID": 273,
+    "Paper Title": "On the solution of Bush and Wilson's stochastic model for two-choice behavior of the paradise fish approached by the fixed point method",
+    "Author": "Ali Turab\nWutiphol Sintunavarat",
+    "Affiliation": "Thammasat University, Thailand\nThammasat University, Thailand"
+  },
+  {
+    "Sl no": 70,
     "ID": 276,
     "Paper Title": "A Comprehensive Review of Fraudulent Email Detection Models",
     "Author": "Hitesh Soneji\nAniruddh Soman\nAniruddh Vyas\nShubha Puthran",
     "Affiliation": "NMIMS, India\nNMIMS, India\nNMIMS, India\nNMIMS, India"
   },
   {
-    "Sl no": 65,
+    "Sl no": 71,
     "ID": 285,
     "Paper Title": "Deep Photo Classification Based on Geometrical Shape of Principal Object Presents in Photographs via VGG16 DCNN",
     "Author": "Soma Debnath\nMolla Saroyar Hossain\nSuvamoy Changder",
     "Affiliation": "National Institute of Technology Durgapur, India\nNational Institute of Technology Durgapur, India\nNational Institute of Technology Durgapur, India"
   },
   {
-    "Sl no": 66,
+    "Sl no": 72,
     "ID": 287,
     "Paper Title": "Color Image Contrast Enhancement through Hybrid PCA-Linear Image Fusion",
     "Author": "Shahid Aziz\nVinit Kumar\nSyed Shahnawazuddin",
     "Affiliation": "National Institute of Technology Patna, India\nNational Institute of Technology Patna, India\nNational Institute of Technology Patna, India"
   },
   {
-    "Sl no": 67,
+    "Sl no": 73,
     "ID": 293,
     "Paper Title": "Encrypted operator design with domain aware practical performance improvement",
     "Author": "Ayan Ghosh\nAbhishek Raj\nAyantika Chatterjee",
     "Affiliation": "Indian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India"
   },
   {
-    "Sl no": 68,
+    "Sl no": 74,
     "ID": 320,
     "Paper Title": "Application of 𝓣-Direct codes in Multiple rate Codes",
     "Author": "Ashwini Kumar\nRaja Durai",
     "Affiliation": "Jaypee University of Information Technology, India\nJaypee University of Information Technology, India"
   },
   {
-    "Sl no": 69,
+    "Sl no": 75,
     "ID": 327,
     "Paper Title": "Using protein interactome similarity to improve random walk with restart model for drug repurposing",
     "Author": "I T Anjusha\nN Saleena\nK A Abdul Nazeer",
     "Affiliation": "National Institute of Technology Calicut, India\nNational Institute of Technology Calicut, India\nNational Institute of Technology Calicut, India"
   },
   {
-    "Sl no": 70,
+    "Sl no": 76,
     "ID": 330,
     "Paper Title": "Bangla Poem Classification Using Machine Learning and Deep Learning Approaches",
     "Author": "Syed Tangim Pasha\nMd Ferdouse Ahmed Foysal\nSheikh Abujar\nSyed Akhter Hossain",
     "Affiliation": "Daffodil International University, Bangladesh\nDaffodil International University, Bangladesh\nDaffodil International University, Bangladesh\nDaffodil International University, Bangladesh"
   },
   {
-    "Sl no": 71,
+    "Sl no": 77,
     "ID": 332,
     "Paper Title": "Results on Competitiveness of Online Shortest Remaining Processing Time(SRPT) Scheduling with Special Classes of Inputs",
     "Author": "Sheetal Swain\nRakesh Mohanty\nDebasis Dwibedy",
     "Affiliation": "Veer Surendra Sai University of Technology Burla, India\nVeer Surendra Sai University of Technology Burla, India\nVeer Surendra Sai University of Technology Burla, India"
   },
   {
-    "Sl no": 72,
+    "Sl no": 78,
     "ID": 337,
     "Paper Title": "Perturbation Technique on MHD Slip Flow of an Accelerated Plate with Hall Current",
     "Author": "Satish Papolu\nLinga Raju T",
     "Affiliation": "Aditya Engineering College Surampalem, India\nAditya Engineering College Surampalem, India"
   },
   {
-    "Sl no": 73,
+    "Sl no": 79,
+    "ID": 340,
+    "Paper Title": "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods",
+    "Author": "Anupam Biswas\nAngshuman Bora\nDebashish Malakar\nSubham Chakraborty\nSuman Bera",
+    "Affiliation": "National Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India"
+  },
+  {
+    "Sl no": 80,
     "ID": 342,
     "Paper Title": "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods",
     "Author": "Farhana Akter Sunny\nMd Imran Khan\nMd Shahriare Satu\nMohammad Zoynul Abedin",
     "Affiliation": "Green University of Bangladesh, Bangladesh\nGreen University of Bangladesh, Bangladesh\nGreen University of Bangladesh, Bangladesh\nGreen University of Bangladesh, Bangladesh"
   },
   {
-    "Sl no": 74,
+    "Sl no": 81,
     "ID": 349,
     "Paper Title": "Image Encryption with Parallel Evolution of 2-D Cellular Automata",
     "Author": "Shramona Chakraborty\nSoma Kundu\nDipanwita Roy Chowdhury",
     "Affiliation": "Indian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India"
   },
   {
-    "Sl no": 75,
+    "Sl no": 82,
     "ID": 351,
     "Paper Title": "Simulation of two dimensional nonlinear model for washing of pulp fibre bed using quintic Hermite interpolation polynomials",
     "Author": "Satinder Pal Kaur\nAjay Kumar Mittal\nVijay Kumar Kukreja",
     "Affiliation": "Maharaja Ranjit Singh Punjab Technical University, India\nMaharaja Ranjit Singh Punjab Technical University, India\nMaharaja Ranjit Singh Punjab Technical University, India"
   },
   {
-    "Sl no": 76,
+    "Sl no": 83,
+    "ID": 352,
+    "Paper Title": "Genetic Algorithm based Deep Learning Models: A Design Perspective",
+    "Author": "Debojyoti Sarkar\nAnupam Biswas\nNilima Mishra",
+    "Affiliation": "National Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India\nNational Institute of Technology Silchar, India"
+  },
+  {
+    "Sl no": 84,
     "ID": 356,
     "Paper Title": "A Binary Multi-objective Multi-verse Optimization-based Time Series Forecasting",
     "Author": "Cherry Tandu\nMohit Kosuri\nSobhan Sarkar\nJ Maiti",
     "Affiliation": "The University of Edinburgh, UK\nThe University of Edinburgh, UK\nThe University of Edinburgh, UK\nThe University of Edinburgh, UK"
   },
   {
-    "Sl no": 77,
+    "Sl no": 85,
     "ID": 359,
     "Paper Title": "Wind Responses Evaluation of Limbs Shifted U Shaped Building Using CFD",
     "Author": "Shanku Mandal\nSujit Kumar Dalui\nSoumya Bhattarcharjya",
     "Affiliation": "Indian Institute of Engineering Science and Technology Shibpur, India\nIndian Institute of Engineering Science and Technology Shibpur, India\nIndian Institute of Engineering Science and Technology Shibpur, India"
   },
   {
-    "Sl no": 78,
+    "Sl no": 86,
     "ID": 361,
     "Paper Title": "Fixed point results using weak w-admissible mapping in Gb-metric space with an application",
     "Author": "Sudipta Ghosh\nC Nahak",
     "Affiliation": "Indian Institute of Technology Kharagpur, India\nIndian Institute of Technology Kharagpur, India"
   },
   {
-    "Sl no": 79,
+    "Sl no": 87,
     "ID": 362,
     "Paper Title": "Sufficient Optimality Criteria for Optimization Problem Involving Pseudoconvex Interval Objective Function",
     "Author": "Priyanka Roy\nGeetanjali Panda",
