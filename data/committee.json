@@ -1,0 +1,117 @@
+{
+  "chief-patron": [
+    {
+      "name": "Prof. Parthasarathi Chakrabarti",
+      "institute": "Director, Indian Institute of Engineering Science and Technology (IIEST) Shibpur"
+    }
+  ],
+  "patron": [
+    {
+      "name": "Arindam Biswas",
+      "institute": "Dean - International Relations & Alumni Affairs, IIEST Shibpur"
+    },
+    {
+      "name": "Subhasis Bhaumik",
+      "institute": "Dean - Research & Consultancy, IIEST Shibpur"
+    },
+    {
+      "name": "Sudip Kumar Roy",
+      "institute": "Dean - Academic, IIEST Shibpur"
+    }
+  ],
+  "general-co-chairs": [
+    {
+      "name": "Sukanta Das",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    },
+    {
+      "name": "P D Srivastava",
+      "institute": "Visiting Professor, Head of Mathematics Department, Indian Institute of Technology Bhilai"
+    },
+    {
+      "name": "P K Saxena",
+      "institute": "Scientific Consultant - Cyber Security & Former Director, SAG, DRDO"
+    }
+  ],
+  "programme-co-chairs": [
+    {
+      "name": "Debasis Giri",
+      "institute": "Department of Information Technology, Maulana Abul Kalam Azad University of Technology",
+      "link": "https://debasisgiri.info/"
+    },
+    {
+      "name": "Kim-Kwang Raymond Choo",
+      "institute": "The University of Texas at San Antonio, USA",
+      "link": "https://business.utsa.edu/faculty/kim-kwang-raymond-choo/"
+    },
+    {
+      "name": "S Ponnusamy",
+      "institute": "Department of Mathematics, IIT Madras",
+      "link": "https://www.iitm.ac.in/info/fac/samy"
+    },
+    {
+      "name": "Sedat Akleylek",
+      "institute": "Ondokuz Mayıs University, Samsun, Turkey",
+      "link": "https://personel.omu.edu.tr/tr/sedat.akleylek"
+    },
+    {
+      "name": "Santi Prasad Maity",
+      "institute": "Department of Information Technology, IIEST Shibpur",
+      "link": "https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity"
+    },
+    {
+      "name": "Weizhi Meng",
+      "institute": "Technical University of Denmark, Kongens Lyngby, Denmark",
+      "link": "https://www.dtu.dk/english/service/phonebook/person?id=116690&tab=1"
+    }
+  ],
+  "organizing-chair": [
+    {
+      "name": "Shyamalendu Kandar",
+      "institute": "Department of Information Technology, IIEST Shibpur",
+      "link": "https://www.iiests.ac.in/IIEST/Faculty/it-shyamalenduk"
+    }
+  ],
+  "organizing-co-chairs": [
+    {
+      "name": "Ruchira Naskar",
+      "institute": "Department of Information Technology, IIEST Shibpur",
+      "link": "https://www.iiests.ac.in/IIEST/Faculty/it-ruchira"
+    },
+    {
+      "name": "Sarita Ojha",
+      "institute": "Department of Mathematics, IIEST Shibpur",
+      "link": "https://www.iiests.ac.in/IIEST/Faculty/math-sarita"
+    }
+  ],
+  "organizing-committee": [
+    {
+      "name": "Chandan Giri",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    },
+    {
+      "name": "Debasis Mitra",
+      "institute": "Department of Electronics and Telecommunication Engineering, IIEST Shibpur"
+    },
+    {
+      "name": "Hafizur Rahaman",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    },
+    {
+      "name": "Indrajit Bannerjee",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    },
+    {
+      "name": "Prasun Ghosal",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    },
+    {
+      "name": "Surajit Kumar Roy",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    },
+    {
+      "name": "Tuhina Samanta",
+      "institute": "Department of Information Technology, IIEST Shibpur"
+    }
+  ]
+}
