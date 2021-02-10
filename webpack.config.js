@@ -3,6 +3,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const RemovePlugin = require('remove-files-webpack-plugin');
 
+const _comp = require('./data/_comp.json');
+const comp = _comp.sort((a, b) => a.name.localeCompare(b.name));
+
+const _math = require('./data/_math.json');
+const math = _math.sort((a, b) => a.name.localeCompare(b.name));
+
+const accepted = require('./data/_accepted.json');
+
 module.exports = {
     entry: './src/js/app.js',
     output: {
@@ -18,7 +26,7 @@ module.exports = {
                     {
                         loader: 'ejs-html-loader',
                         options: {
-                            context: {}
+                            context: { comp, math, accepted }
                         }
                     }
                 ]
