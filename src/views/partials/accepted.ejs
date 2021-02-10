@@ -1,0 +1,42 @@
+<div class="titled-card">
+    <div class="titled-card-head">
+        <h4>Accepted&nbsp;&nbsp;Papers</h4>
+    </div>
+    <div class="titled-card-body">
+        <p>
+            Following papers are accepted* for presentation in ICMC 2021. Click <a href="ICMC_2021_accepted_list.pdf"
+                target="_blank">here</a> to download PDF.
+        </p>
+        <div id="accepted-table">
+            <table>
+                <tr>
+                    <th>Sl no</th>
+                    <th>ID</th>
+                    <th>Paper Title</th>
+                    <th>Author</th>
+                    <th>Affiliation</th>
+                </tr>
+                <% this.accepted.forEach(item=> { %>
+                    <tr>
+                        <td>
+                            <%= item["Sl no"] %>
+                        </td>
+                        <td>
+                            <%= item["ID"] %>
+                        </td>
+                        <td>
+                            <%= item["Paper Title"] %>
+                        </td>
+                        <td>
+                            <%= item["Author"] %>
+                        </td>
+                        <td>
+                            <%= item["Affiliation"] %>
+                        </td>
+                    </tr>
+                    <% }) %>
+            </table>
+        </div>
+        <i>* Some more papers will be accepted based on reviewers' comments.</i>
+    </div>
+</div>
