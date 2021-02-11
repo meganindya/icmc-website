@@ -25,10 +25,10 @@ $(document).ready(function () {
     setTimeout(refreshSpeakerNameSizes);
 
     // adjust height of committee chair blocks per row
-    setTimeout(refreshChairSizes);
+    setTimeout(refreshChairSizes, 50);
 
     // adjust distribution of left and right column in TP Committee
-    setTimeout(refreshTPCDistribution, 50);
+    setTimeout(refreshTPCDistribution, 100);
 
 
     // -- dynamically style collapsebar ------------------------------------------------------------
@@ -59,9 +59,9 @@ $(document).ready(function () {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
 
-        setTimeout(refreshSpeakerNameSizes, 500);
-        setTimeout(refreshChairSizes, 500);
-        setTimeout(refreshTPCDistribution, 600);
+        setTimeout(refreshSpeakerNameSizes, 100);
+        setTimeout(refreshChairSizes, 150);
+        setTimeout(refreshTPCDistribution, 100);
 
         // if collapse bar open, adjust height
         if ($('#coll-context').height() != 0) {
