@@ -22,13 +22,13 @@ $(document).ready(function () {
     // -- dynamic heights --------------------------------------------------------------------------
 
     // adjust height of speaker name blocks per row
-    setTimeout(refreshSpeakerNameSizes);
+    setTimeout(refreshSpeakerNameSizes, 100);
 
     // adjust height of committee chair blocks per row
-    setTimeout(refreshChairSizes, 50);
+    setTimeout(refreshChairSizes, 150);
 
     // adjust distribution of left and right column in TP Committee
-    setTimeout(refreshTPCDistribution, 100);
+    setTimeout(refreshTPCDistribution, 200);
 
 
     // -- dynamically style collapsebar ------------------------------------------------------------
