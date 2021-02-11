@@ -10,7 +10,7 @@ import { registerToggleCards, registerToggleCardContact } from './collbar';
 
 import updateCountdown from './countdown';
 import registerSmoothScrollToSection from './scroll';
-import { swapSelection } from './chairselector';
+import { swapSelection, refreshTPCDistribution } from './chair';
 
 $(document).ready(function () {
     // display collapsebar after ready
@@ -22,10 +22,14 @@ $(document).ready(function () {
     // -- dynamic heights --------------------------------------------------------------------------
 
     // adjust height of speaker name blocks per row
-    refreshSpeakerNameSizes();
+    setTimeout(refreshSpeakerNameSizes);
 
     // adjust height of committee chair blocks per row
-    refreshChairSizes();
+    setTimeout(refreshChairSizes);
+
+    // adjust distribution of left and right column in TP Committee
+    setTimeout(refreshTPCDistribution, 50);
+
 
     // -- dynamically style collapsebar ------------------------------------------------------------
 
@@ -55,10 +59,9 @@ $(document).ready(function () {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
 
-        setTimeout(() => {
-            refreshSpeakerNameSizes();
-            refreshChairSizes();
-        }, 500);
+        setTimeout(refreshSpeakerNameSizes, 500);
+        setTimeout(refreshChairSizes, 500);
+        setTimeout(refreshTPCDistribution, 600);
 
         // if collapse bar open, adjust height
         if ($('#coll-context').height() != 0) {
