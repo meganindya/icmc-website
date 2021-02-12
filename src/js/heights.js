@@ -40,18 +40,30 @@ export function refreshSpeakerNameSizes() {
 
 /** adjusts height of committee chair blocks per row */
 export function refreshChairSizes() {
+    if ($(window).width() < 992) return;
+
     const chairs = $('.chair');
     chairs.css('height', 'auto');
 
-    if ($(window).width() < 992) return;
+    const refreshHeights = () => {
+        for (let i = 0; i < 6; i += 2) {
+            const h1 = $(chairs[i]).height(),
+                h2 = $(chairs[i + 1]).height();
+            const max = 4 + (h1 > h2 ? h1 : h2);
+            $(chairs[i]).css('height', max);
+            $(chairs[i + 1]).css('height', max);
+        }
+    };
 
-    for (let i = 0; i < 6; i += 2) {
-        const h1 = $(chairs[i]).height(),
-            h2 = $(chairs[i + 1]).height();
-        const max = 4 + (h1 > h2 ? h1 : h2);
-        $(chairs[i]).css('height', max);
-        $(chairs[i + 1]).css('height', max);
-    }
+    let counter = 6;
+    const interval = setInterval(() => {
+        if (counter) {
+            refreshHeights();
+            counter--;
+        } else {
+            clearInterval(interval);
+        }
+    }, 150);
 }
 
 const cardHeights = [
