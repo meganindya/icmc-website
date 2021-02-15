@@ -131,8 +131,7 @@
 
 #card-map a:hover div,
 #card-map a:focus div {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url('../img/map.png');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/map.png');
   background-size: cover;
   background-position: center;
   transform: scale(1.1);
@@ -364,88 +363,88 @@
 /* ========================= */
 /* SPONSOR */
 
-#c_spn h1,
-#c_con h1 {
-  margin: 0;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  background-color: #333;
-}
+// #c_spn h1,
+// #c_con h1 {
+//   margin: 0;
+//   padding: 1rem;
+//   border-radius: 0.5rem;
+//   font-family: 'Alegreya Sans SC', sans-serif;
+//   font-size: 1.2rem;
+//   font-weight: bold;
+//   text-align: center;
+//   background-color: #333;
+// }
 
-#c_spn #sponsor-logos {
-  display: block;
-  width: 22rem;
-}
+// #c_spn #sponsor-logos {
+//   display: block;
+//   width: 22rem;
+// }
 
-#c_spn #sponsor-logos .spon-text {
-  margin-top: 2rem;
-  text-align: center;
-}
+// #c_spn #sponsor-logos .spon-text {
+//   margin-top: 2rem;
+//   text-align: center;
+// }
 
-#c_spn .spon-logo {
-  float: left;
-  width: 10rem;
-  height: 10rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background: #333;
-  transition: all 0.5s ease;
-}
+// #c_spn .spon-logo {
+//   float: left;
+//   width: 10rem;
+//   height: 10rem;
+//   margin-top: 2rem;
+//   padding: 1rem;
+//   border-radius: 0.5rem;
+//   background: #333;
+//   transition: all 0.5s ease;
+// }
 
-#c_spn .spon-logo:hover,
-#c_spn .spon-logo:focus {
-  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.25);
-}
+// #c_spn .spon-logo:hover,
+// #c_spn .spon-logo:focus {
+//   box-shadow: 0 0 1rem rgba(255, 255, 255, 0.25);
+// }
 
-#c_spn .spon-logo span {
-  height: 100%;
-  display: block;
-}
+// #c_spn .spon-logo span {
+//   height: 100%;
+//   display: block;
+// }
 
-#c_spn .spon-logo:nth-of-type(1) span {
-  background: url('../img/logos/logo-iiests-white.png');
-  background-size: cover;
-}
+// #c_spn .spon-logo:nth-of-type(1) span {
+//   background: url('../img/logos/logo-iiests-white.png');
+//   background-size: cover;
+// }
 
-#c_spn .spon-logo:nth-of-type(2) span {
-  background: url('../img/logos/logo-icmc.png');
-  background-size: cover;
-}
+// #c_spn .spon-logo:nth-of-type(2) span {
+//   background: url('../img/logos/logo-icmc.png');
+//   background-size: cover;
+// }
 
-#c_spn .spon-logo:nth-of-type(3) span {
-  background: url('../img/logos/logo-icmc.png');
-  background-size: cover;
-}
+// #c_spn .spon-logo:nth-of-type(3) span {
+//   background: url('../img/logos/logo-icmc.png');
+//   background-size: cover;
+// }
 
-#c_spn .spon-logo:nth-of-type(4) span {
-  background: url('../img/logos/logo-iiests-white.png');
-  background-size: cover;
-}
+// #c_spn .spon-logo:nth-of-type(4) span {
+//   background: url('../img/logos/logo-iiests-white.png');
+//   background-size: cover;
+// }
 
-#c_spn .spon-logo:nth-of-type(odd) {
-  margin-right: 2rem;
-}
+// #c_spn .spon-logo:nth-of-type(odd) {
+//   margin-right: 2rem;
+// }
 
-@media only screen and (max-width: 575px) {
-  #c_spn {
-    width: 18rem;
-  }
+// @media only screen and (max-width: 575px) {
+//   #c_spn {
+//     width: 18rem;
+//   }
 
-  #c_spn .spon-logo {
-    width: 7.5rem;
-    height: 7.5rem;
-    margin-top: 1rem;
-  }
+//   #c_spn .spon-logo {
+//     width: 7.5rem;
+//     height: 7.5rem;
+//     margin-top: 1rem;
+//   }
 
-  #c_spn .spon-logo:nth-of-type(odd) {
-    margin-right: 1rem;
-  }
-}
+//   #c_spn .spon-logo:nth-of-type(odd) {
+//     margin-right: 1rem;
+//   }
+// }
 
 /* ========================= */
 /* CONTACT */
