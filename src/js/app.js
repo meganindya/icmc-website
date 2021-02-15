@@ -1,9 +1,13 @@
 import '../css/main.scss';
+import '../img/logos/logo-iiests-white.png';
 import '../img/hamburger-white.png';
 import '../res/ICMC_2021_accepted_list.pdf';
 import '../res/ICMC_2021_registration_form.pdf';
 import '../res/ICMC_2021_publishing_agreement_springer.pdf';
 import '../res/ICMC_2021_permission_request_form_springer.pdf';
+
+import smoothscroll from 'smoothscroll-polyfill';
+smoothscroll.polyfill();
 
 import { refreshSpeakerNameSizes, refreshChairSizes, refreshCollbarHeight } from './heights';
 import { registerToggleCards, registerToggleCardContact } from './collbar';
@@ -30,13 +34,12 @@ $(document).ready(function () {
     // adjust distribution of left and right column in TP Committee
     setTimeout(refreshTPCDistribution, 350);
 
-
     // -- dynamically style collapsebar ------------------------------------------------------------
 
     $('#coll-context .d_card').hide();
 
-    const collbarLinks = ['#venue', '#pconf', '#spons', '#contc'];
-    const collbarCards = ['#c_ven', '#c_prv', '#c_spn', '#c_con'];
+    const collbarLinks = ['#venue', '#pconf', /*'#spons',*/ '#contc'];
+    const collbarCards = ['#c_ven', '#c_prv', /*'#c_spn',*/ '#c_con'];
 
     // register toggling
     let currentCollmenuIndex = -1;
@@ -97,7 +100,8 @@ $(document).ready(function () {
                 setTimeout(() => {
                     $('#coll-context').css('height', '0');
                     setTimeout(() => window.scrollTo(0, 0), 500);
-                    for (let i = 0; i < c_links.length; i++) c_links[i].css('color', '#666');
+                    for (let i = 0; i < collbarLinks.length; i++)
+                        $(collbarLinks[i]).css('color', '#666');
                 }, 200);
 
                 return;
@@ -252,7 +256,8 @@ $(document).ready(function () {
                 setTimeout(() => {
                     $('#coll-context').css('height', '0');
                     window.scrollTo(0, 0);
-                    for (let i = 0; i < c_links.length; i++) c_links[i].css('color', '#666');
+                    for (let i = 0; i < collbarLinks.length; i++)
+                        collbarLinks[i].css('color', '#666');
                 }, 200);
             }
         }
