@@ -58,7 +58,7 @@ $(document).ready(function () {
 
     // -- on resize --------------------------------------------------------------------------------
 
-    $(window).resize(function () {
+    $(window).on('resize orientationchange', function () {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
 
