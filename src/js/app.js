@@ -5,6 +5,9 @@ import '../res/ICMC_2021_registration_form.pdf';
 import '../res/ICMC_2021_publishing_agreement_springer.pdf';
 import '../res/ICMC_2021_permission_request_form_springer.pdf';
 
+import smoothscroll from 'smoothscroll-polyfill';
+smoothscroll.polyfill();
+
 import { refreshSpeakerNameSizes, refreshChairSizes, refreshCollbarHeight } from './heights';
 import { registerToggleCards, registerToggleCardContact } from './collbar';
 
@@ -29,7 +32,6 @@ $(document).ready(function () {
 
     // adjust distribution of left and right column in TP Committee
     setTimeout(refreshTPCDistribution, 350);
-
 
     // -- dynamically style collapsebar ------------------------------------------------------------
 
