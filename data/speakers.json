@@ -12,7 +12,7 @@
   {
     "link": "https://www.isical.ac.in/~bimal/",
     "name": "Bimal Roy",
-    "institute": "Indian Statistical Institute, Kolkata"
+    "institute": "Indian Statistical Institute Kolkata"
   },
   {
     "link": "https://homes.esat.kuleuven.be/~snikova/",
@@ -27,17 +27,17 @@
   {
     "link": "https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata",
     "name": "Sugata Gangopadhyay",
-    "institute": "Indian Institute of Technology, Roorkee"
+    "institute": "Indian Institute of Technology Roorkee"
   },
   {
     "link": "https://www.cse.iitm.ac.in/profile.php?arg=Mw==",
-    "name": "C. Pandu Rangan",
-    "institute": "Indian Institute of Technology, Madras"
+    "name": "C Pandu Rangan",
+    "institute": "Indian Institute of Technology Madras"
   },
   {
     "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
-    "name": "Sandeep K. Shukla",
-    "institute": "Indian Institute of Technology, Kanpur"
+    "name": "Sandeep K Shukla",
+    "institute": "Indian Institute of Technology Kanpur"
   },
   {
     "link": "https://personal.utdallas.edu/~bxt043000/",
@@ -48,5 +48,15 @@
     "link": "http://pages.cpsc.ucalgary.ca/~rei/",
     "name": "Rei Safavi-Naini",
     "institute": "University of Calgary, Canada"
+  },
+  {
+    "link": "https://www.iitr.ac.in/departments/CSE/pages/Home+Departments_and_Centres+Mathematics+People+Faculty+Balasubramanian_R_.html",
+    "name": "R Balasubramanian",
+    "institute": "Indian Institute of Technology Roorkee"
+  },
+  {
+    "link": "http://qufaculty.qu.edu.qa/mms-nasser/",
+    "name": "Mohamed M S Nasser",
+    "institute": "Qatar University, Qatar"
   }
 ]
