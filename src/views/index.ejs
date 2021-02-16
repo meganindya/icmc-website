@@ -4,16 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ICMC 2021</title>
+  
+  <title><%= this.metadata.title %></title>
   <link rel="shortcut icon" type="image/png" href="img/logos/logo-icmc.png" />
 
   <!-- Search Engine Optimization -->
-  <meta property="og:url" content="<%= this.metadata.url %>" />
+  <meta name="url" content="<%= this.metadata.url %>">
+  <meta name="type" content="article" />
+  <meta name="description" content="<%= this.metadata.description %>" />
+  <meta name="keywords" content="<%= this.metadata.keywords %>" />
   <meta property="og:title" content="<%= this.metadata.title %>" />
+  <meta property="og:url" content="<%= this.metadata.url %>" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="<%= this.metadata.description %>" />
   <meta property="og:image" content="<%= this.metadata.url %>img/logos/logo-icmc.png" />
-  <meta name="keywords" content="<%= this.metadata.keywords %>">
 
   <!-- Font CDNs -->
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet" />
@@ -127,8 +131,7 @@
       <footer id="foot">
         <span>Designed by
           <a href="https://www.linkedin.com/in/meganindya/"
-            target="_blank"><i>@meganindya</i></a>&nbsp;&nbsp;|&nbsp;&nbsp;IIEST
-          Shibpur</span>
+            target="_blank"><i>@meganindya</i></a>&nbsp;&nbsp;|&nbsp;&nbsp;IIEST Shibpur</span>
       </footer>
 
       <!-- Scroll to top button -->
