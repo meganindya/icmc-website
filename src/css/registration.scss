@@ -33,11 +33,10 @@
   border-bottom: 1px solid #eee;
 
   #reg-details-payment {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    // align-items: center;
 
     @media only screen and (max-width: 991px) {
       flex-direction: column;
@@ -280,6 +279,14 @@
   font-size: 0.9rem;
   line-height: 1.25rem;
   text-align: justify;
+}
+
+.reg-points tr {
+  &:last-of-type {
+    td {
+      padding-bottom: 0;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {

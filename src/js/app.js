@@ -9,12 +9,12 @@ import '../res/ICMC_2021_permission_request_form_springer.pdf';
 import smoothscroll from 'smoothscroll-polyfill';
 smoothscroll.polyfill();
 
-import { refreshSpeakerNameSizes, refreshChairSizes, refreshCollbarHeight } from './heights';
+import { refreshCollbarHeight } from './heights';
 import { registerToggleCards, registerToggleCardContact } from './collbar';
+import { swapSelection, refreshTPCDistribution } from './chair';
 
 import updateCountdown from './countdown';
 import registerSmoothScrollToSection from './scroll';
-import { swapSelection, refreshTPCDistribution } from './chair';
 
 $(document).ready(function () {
     // display collapsebar after ready
@@ -24,12 +24,6 @@ $(document).ready(function () {
     let navbar_size = $('#navbar').height();
 
     // -- dynamic heights --------------------------------------------------------------------------
-
-    // adjust height of speaker name blocks per row
-    setTimeout(refreshSpeakerNameSizes, 200);
-
-    // adjust height of committee chair blocks per row
-    setTimeout(refreshChairSizes, 300);
 
     // adjust distribution of left and right column in TP Committee
     setTimeout(refreshTPCDistribution, 350);
@@ -62,8 +56,6 @@ $(document).ready(function () {
         header_size = $('#header').height();
         navbar_size = $('#navbar').height();
 
-        setTimeout(refreshSpeakerNameSizes, 100);
-        setTimeout(refreshChairSizes, 150);
         setTimeout(refreshTPCDistribution, 100);
 
         // if collapse bar open, adjust height

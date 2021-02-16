@@ -1,86 +1,92 @@
 <div class="bubble">
     <h4>Committee</h4>
 </div>
-<div class="chairs clearfix">
-    <div class="chair clearfix">
-        <div class="chair-head">
-            <h4>Chief&nbsp;&nbsp;Patron</h4>
-        </div>
-        <div class="chair-body">
-            <% this.committee["chief-patron"].forEach(item=> { %>
-                <p>
-                    <strong><%= item.name %></strong>, <%= item.institute %>
-                </p>
-                <% }) %>
-        </div>
-    </div>
-    <div class="chair clearfix">
-        <div class="chair-head">
-            <h4>Patron</h4>
-        </div>
-        <div class="chair-body">
-            <% this.committee["patron"].forEach(item=> { %>
-                <p>
-                    <strong><%= item.name %></strong>, <%= item.institute %>
-                </p>
-                <% }) %>
-        </div>
-    </div>
-    <div class="chair clearfix">
-        <div class="chair-head">
-            <h4>General&nbsp;&nbsp;Co-chairs</h4>
-        </div>
-        <div class="chair-body">
-            <% this.committee["general-co-chairs"].forEach(item=> { %>
-                <p>
-                    <strong><%= item.name %></strong>, <%= item.institute %>
-                </p>
-                <% }) %>
-        </div>
-    </div>
-    <div class="chair clearfix">
-        <div class="chair-head">
-            <h4>Programme&nbsp;&nbsp;Co-chairs</h4>
-        </div>
-        <div class="chair-body">
-            <% this.committee["programme-co-chairs"].forEach(item=> { %>
-                <p>
-                    <a href="<%= item.link %>" target="_blank">
+<div class="chairs">
+    <div class="committee-row">
+        <div class="chair">
+            <div class="chair-head">
+                <h4>Chief&nbsp;&nbsp;Patron</h4>
+            </div>
+            <div class="chair-body">
+                <% this.committee["chief-patron"].forEach(item=> { %>
+                    <p>
                         <strong><%= item.name %></strong>, <%= item.institute %>
-                    </a>
-                </p>
-                <% }) %>
+                    </p>
+                    <% }) %>
+            </div>
         </div>
-    </div>
-    <div class="chair clearfix">
-        <div class="chair-head">
-            <h4>Organizing&nbsp;&nbsp;Chair</h4>
-        </div>
-        <div class="chair-body">
-            <% this.committee["organizing-chair"].forEach(item=> { %>
-                <p>
-                    <a href="<%= item.link %>" target="_blank">
+        <div class="chair">
+            <div class="chair-head">
+                <h4>Patron</h4>
+            </div>
+            <div class="chair-body">
+                <% this.committee["patron"].forEach(item=> { %>
+                    <p>
                         <strong><%= item.name %></strong>, <%= item.institute %>
-                    </a>
-                </p>
-                <% }) %>
+                    </p>
+                    <% }) %>
+            </div>
         </div>
     </div>
-    <div class="chair clearfix">
-        <div class="chair-head">
-            <h4>Organizing&nbsp;&nbsp;Co-chairs</h4>
-        </div>
-        <div class="chair-body">
-            <% this.committee["organizing-co-chairs"].forEach(item=> { %>
-                <p>
-                    <a href="<%= item.link %>" target="_blank">
+    <div class="committee-row">
+        <div class="chair">
+            <div class="chair-head">
+                <h4>General&nbsp;&nbsp;Co-chairs</h4>
+            </div>
+            <div class="chair-body">
+                <% this.committee["general-co-chairs"].forEach(item=> { %>
+                    <p>
                         <strong><%= item.name %></strong>, <%= item.institute %>
-                    </a>
-                </p>
-                <% }) %>
+                    </p>
+                    <% }) %>
+            </div>
+        </div>
+        <div class="chair">
+            <div class="chair-head">
+                <h4>Programme&nbsp;&nbsp;Co-chairs</h4>
+            </div>
+            <div class="chair-body">
+                <% this.committee["programme-co-chairs"].forEach(item=> { %>
+                    <p>
+                        <a href="<%= item.link %>" target="_blank">
+                            <strong><%= item.name %></strong>, <%= item.institute %>
+                        </a>
+                    </p>
+                    <% }) %>
+            </div>
         </div>
     </div>
-    <div class="chair clearfix">
+    <div class="committee-row">
+        <div class="chair">
+            <div class="chair-head">
+                <h4>Organizing&nbsp;&nbsp;Chair</h4>
+            </div>
+            <div class="chair-body">
+                <% this.committee["organizing-chair"].forEach(item=> { %>
+                    <p>
+                        <a href="<%= item.link %>" target="_blank">
+                            <strong><%= item.name %></strong>, <%= item.institute %>
+                        </a>
+                    </p>
+                    <% }) %>
+            </div>
+        </div>
+        <div class="chair">
+            <div class="chair-head">
+                <h4>Organizing&nbsp;&nbsp;Co-chairs</h4>
+            </div>
+            <div class="chair-body">
+                <% this.committee["organizing-co-chairs"].forEach(item=> { %>
+                    <p>
+                        <a href="<%= item.link %>" target="_blank">
+                            <strong><%= item.name %></strong>, <%= item.institute %>
+                        </a>
+                    </p>
+                    <% }) %>
+            </div>
+        </div>
+    </div>
+    <div class="chair">
         <div class="chair-head">
             <h4>Organizing&nbsp;&nbsp;Committee</h4>
         </div>
@@ -92,7 +98,7 @@
                 <% }) %>
         </div>
     </div>
-    <div class="chair clearfix">
+    <div class="chair">
         <div class="chair-head">
             <h4>Technical&nbsp;&nbsp;Program&nbsp;&nbsp;Committee</h4>
         </div>

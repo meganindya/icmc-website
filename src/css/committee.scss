@@ -4,21 +4,48 @@
 
   .chairs {
     display: block;
-    margin-top: 2rem;
+
+    .committee-row {
+      display: flex;
+      flex-direction: row;
+
+      @media only screen and (max-width: 991px) {
+        flex-direction: column;
+      }
+
+      .chair {
+        width: calc(50% - 1rem);
+
+        @media only screen and (max-width: 991px) {
+          width: 100%;
+        }
+
+        &:nth-of-type(odd) {
+          margin-right: 1rem;
+
+          @media only screen and (max-width: 991px) {
+            margin-left: 0;
+          }
+        }
+
+        &:nth-of-type(even) {
+          margin-left: 1rem;
+
+          @media only screen and (max-width: 991px) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
 
     .chair {
       position: relative;
-      width: calc(50% - 1rem);
-      float: left;
+      width: 100%;
       margin-top: 2rem;
       padding-bottom: 0.25rem;
       border-radius: 0.5rem;
       background-color: white;
       transition: all 0.5s ease;
-
-      @media only screen and (max-width: 991px) {
-        width: 100%;
-      }
 
       &::after {
         position: absolute;
@@ -30,48 +57,6 @@
         display: block;
         border-radius: 0 0 0.5rem 0.5rem;
         background: #a3cb38;
-      }
-
-      &:nth-of-type(odd) {
-        margin-right: 1rem;
-
-        @media only screen and (max-width: 991px) {
-          margin: 1rem 0 0 0;
-        }
-      }
-
-      &:nth-of-type(even) {
-        margin-left: 1rem;
-
-        @media only screen and (max-width: 991px) {
-          margin: 1rem 0 0 0;
-        }
-      }
-
-      &:nth-of-type(1) {
-        margin-top: 0;
-
-        @media only screen and (max-width: 991px) {
-          margin: 0;
-        }
-      }
-
-      &:nth-of-type(2) {
-        margin-top: 0;
-
-        @media only screen and (max-width: 991px) {
-          margin-top: 1rem;
-        }
-      }
-
-      &:nth-of-type(7) {
-        width: 100%;
-        margin-right: 0;
-      }
-
-      &:nth-of-type(8) {
-        width: 100%;
-        margin-left: 0;
       }
 
       &:hover {
@@ -180,6 +165,7 @@
         #chair-comp {
           display: flex;
           flex-direction: row;
+          margin-bottom: 0.25rem;
 
           @media only screen and (max-width: 991px) {
             flex-direction: column;
