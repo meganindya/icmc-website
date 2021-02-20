@@ -15,6 +15,7 @@ import { swapSelection, refreshTPCDistribution } from './chair';
 
 import updateCountdown from './countdown';
 import registerSmoothScrollToSection from './scroll';
+import { launchModal } from './speaker';
 
 $(document).ready(function () {
     // display collapsebar after ready
@@ -254,6 +255,9 @@ $(document).ready(function () {
             }
         }
     });
+
+    // speaker abstract modal
+    $('.speaker-abstract').click((event) => launchModal(event));
 
     // technical-committee chair selection
     $('.chair-selector-btn').click((event) => swapSelection(event.target));
