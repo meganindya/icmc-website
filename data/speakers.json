@@ -2,27 +2,34 @@
   {
     "link": "https://www.eng.biu.ac.il/hazay/",
     "name": "Carmit Hazay",
-    "institute": "Bar-Ilan University, Israel"
+    "institute": "Bar-Ilan University, Israel",
+    "topic": "Secure Computation"
   },
   {
     "link": "https://www.chalmers.se/en/staff/Pages/aikmitr.aspx",
     "name": "Aikaterini Mitrokotsa",
-    "institute": "Chalmers University of Technology, Sweden"
+    "institute": "Chalmers University of Technology, Sweden",
+    "topic": "Outsourcing computations to a cloud that you don't trust",
+    "abstract": "In this talk, we discuss the problem of outsourcing computations to untrusted servers in multiple settings (i.e., multiple clients, multiple servers). More precisely, we discuss three new cryptographic primitives, verifiable homomorphic secret sharing, homomorphic multi-key authenticators and homomorphic signcryption. The first two can be used when multiple clients want to outsource joint computations, while the third when both verifiability and proof of the data&#39;s authenticity need to be provided. We provide highlights on the proposed cryptographic constructions and discuss the main challenges that are overcome when we employ them."
   },
   {
     "link": "https://www.isical.ac.in/~bimal/",
     "name": "Bimal Roy",
-    "institute": "Indian Statistical Institute Kolkata"
+    "institute": "Indian Statistical Institute Kolkata",
+    "topic": "Issues in e-voting",
+    "abstract": "Following are the issues in e-voting.\n\n1. Voter authentication i.e. each registered voter votes her own vote; no one else can.\n2. Each voter is able to verify if her vote has been cast as intended.\n3. Each voter is able to verify if her vote is recorded as cast.\n4. Anyone can verify if all the votes are tallied as recorded.\n5. If multiple EVMs are used, the voting pattern in each machine is not disclosed; only the SUM over all the machines are disclosed.\n\nWill discuss possible solutions to address all the issues."
   },
   {
     "link": "https://homes.esat.kuleuven.be/~snikova/",
     "name": "Svetla Petkova-Nikova",
-    "institute": "ESAT-COSIC, KU Leuven, Belgium"
+    "institute": "ESAT-COSIC, KU Leuven, Belgium",
+    "topic": "Threshold Cryptography against combined physical attacks"
   },
   {
     "link": "http://delta.cs.cinvestav.mx/~francisco/",
     "name": "Francisco Rodríguez Henríquez",
-    "institute": "CINVESTAV-IPN, Mexico City, Mexico"
+    "institute": "CINVESTAV-IPN, Mexico City, Mexico",
+    "topic": "Pre-quantum and post-quantum variants of the Diffie-Hellman protocol"
   },
   {
     "link": "https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata",
@@ -37,7 +44,8 @@
   {
     "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
     "name": "Sandeep K Shukla",
-    "institute": "Indian Institute of Technology Kanpur"
+    "institute": "Indian Institute of Technology Kanpur",
+    "topic": "Cyber Security and Machine Learning"
   },
   {
     "link": "https://personal.utdallas.edu/~bxt043000/",
@@ -57,6 +65,7 @@
   {
     "link": "http://qufaculty.qu.edu.qa/mms-nasser/",
     "name": "Mohamed M S Nasser",
-    "institute": "Qatar University, Qatar"
+    "institute": "Qatar University, Qatar",
+    "topic": "Numerical computation of capacity of condensers"
   }
 ]
