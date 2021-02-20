@@ -6,7 +6,7 @@ export function launchModal(e) {
     modalWrapper.style.visibility = 'visible';
     modalWrapper.style.top = `${window.scrollY}px`;
 
-    const closeBtn = modalWrapper.children[0].children[0].children[0];
+    const closeBtn = $('#modal-close')[0];
     closeBtn.onclick = () => {
         modalWrapper.style.visibility = 'hidden';
         document.body.style.overflow = 'unset';
