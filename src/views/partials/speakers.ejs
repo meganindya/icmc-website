@@ -3,15 +3,17 @@
 </div>
 <div class="speakers clearfix">
     <% this.speakers.forEach(item=> { %>
-    <a href="<%= item.link %>" target="_blank" class="speaker">
-        <div class="speak-photo"></div>
+    <div class="speaker">
+        <a href="<%= item.link %>" target="_blank" class="speak-photo"></a>
         <div class="speak-info">
-            <p><%= item.name %></p>
+            <a href="<%= item.link %>" target="_blank"><p><%= item.name %></p></a>
             <p><%= item.institute %></p>
             <% if (item.abstract) { %>
-            <p class="speaker-abstract" data-abstract="<%= item.abstract %>">
+            <p>
                 Topic:<br />
-                <span><%= item.topic ? item.topic : '' %></span>
+                <span class="speaker-abstract" data-abstract="<%= item.abstract %>">
+                    <%= item.topic ? item.topic : '' %>
+                </span>
             </p>
             <% } else { %>
             <p>
@@ -20,6 +22,6 @@
             </p>
             <% } %>
         </div>
-    </a>
+    </div>
     <% }) %>
 </div>

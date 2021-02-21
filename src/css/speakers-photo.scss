@@ -23,22 +23,7 @@
 &:nth-of-type(3) .speak-photo {
   background: url('../img/speakers/bkrroy.jpg') no-repeat;
   background-size: 100% auto;
-  background-position: 50% 0%;
-
-  @media only screen and (max-width: 1199px) {
-    background-size: auto 100%;
-    background-position: center 0;
-  }
-
-  @media only screen and (max-width: 991px) {
-    background-size: 100% auto;
-    background-position: center 0;
-  }
-
-  @media only screen and (max-width: 767px) {
-    background-size: 100% auto;
-    background-position: center 0;
-  }
+  background-position: center 0%;
 }
 
 &:nth-of-type(4) .speak-photo {
@@ -55,10 +40,10 @@
 &:nth-of-type(5) .speak-photo {
   background: url('../img/speakers/frodriguez.jpg') no-repeat;
   background-size: 100% auto;
-  background-position: 50% 100%;
+  background-position: center 100%;
 
   @media only screen and (max-width: 1199px) {
-    background-size: auto 105%;
+    background-size: 100% auto;
     background-position: center 100%;
   }
 
