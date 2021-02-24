@@ -60,14 +60,9 @@
 }
 
 &:nth-of-type(7) .speak-photo {
-  background: url('../img/speakers/rangan.png') no-repeat;
-  background-size: auto 100%;
+  background: url('../img/speakers/ponnusamy.jpg') no-repeat;
+  background-size: 100% auto;
   background-position: 50% 0%;
-
-  @media only screen and (max-width: 1199px) {
-    background-size: auto 100%;
-    background-position: center 0%;
-  }
 }
 
 &:nth-of-type(8) .speak-photo {

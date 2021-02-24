@@ -34,12 +34,16 @@
   {
     "link": "https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata",
     "name": "Sugata Gangopadhyay",
-    "institute": "Indian Institute of Technology Roorkee"
+    "institute": "Indian Institute of Technology Roorkee",
+    "topic": "Time-Memory Trade-off Attack",
+    "abstract": "In the late seventies, after acceptance of DES as the encryption standard, Martin Hellman [4] proposed a time-memory tradeoff (TMTO) attack on DES. Babbage [1] and Goli´c [3] proposed time-memory tradeoffs for stream ciphers. Biryukov and Shamir [2] combined these approaches and proposed an improved time-memory-data tradeoff (TMDO) for stream ciphers. We will discuss these attack principles and some recent results that we have obtained for stream ciphers.\n\nReferences:\n\n1. S. Babbage, A Space/Time Tradeoff in Exhaustive Search Attacks on Stream Ciphers, European Convention on Security and Detection, IEE Conference Publication, No. 408, 1995.\n\n2. A. Biryukov and A. Shamir, Cryptanalytic time/memory/data tradeoffs for stream ciphers, ASI-ACRYPT 2000, Lecture Notes in Computer Science, vol. 1976, pp. 1–13, 2000.\n\n3. J. D. Goli´c, Cryptanalysis of Alleged A5 Stream Cipher, EUROCRYPT 1997, Lecture Notes in Computer Science, vol. 1233, pages 239–255, 1997.\n\n4. M. E. Hellman, A cryptanalytic time-memory trade-off, IEEE Transactions on Information Theory, vol. 26(4), pp. 401–406, 1980."
   },
   {
-    "link": "https://www.cse.iitm.ac.in/profile.php?arg=Mw==",
-    "name": "C Pandu Rangan",
-    "institute": "Indian Institute of Technology Madras"
+    "link": "https://sites.google.com/site/samy8560/",
+    "name": "S Ponnusamy",
+    "institute": "Indian Institute of Technology Madras",
+    "topic": "Recent Approaches to Bohr's Inequality",
+    "abstract": "In the recent years, the classical Bohr inequality attracted the attention of many. In this talk, I shall try to give a overview on this and some recent approaches to the Bohr inequality for various settings."
   },
   {
     "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
