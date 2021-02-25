@@ -12,6 +12,7 @@ smoothscroll.polyfill();
 import { refreshCollbarHeight } from './heights';
 import { registerToggleCards, registerToggleCardContact } from './collbar';
 import { swapSelection, refreshTPCDistribution } from './chair';
+import { swapSessionSelection } from './sessions';
 
 import updateCountdown from './countdown';
 import registerSmoothScrollToSection from './scroll';
@@ -261,4 +262,7 @@ $(document).ready(function () {
 
     // technical-committee chair selection
     $('.chair-selector-btn').click((event) => swapSelection(event.target));
+
+    // sessions selection
+    $('.session-selector-btn').click((event) => swapSessionSelection(event.target));
 });
