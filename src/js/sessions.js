@@ -10,11 +10,11 @@ export function swapSessionSelection(target) {
     $(target).addClass('session-selected');
     if (target.id === 'session-selector-btn-1') {
         $('#session-selector-btn-2').removeClass('session-selected');
-        $('#sessions-math').css({ visibility: 'visible' });
-        $('#sessions-comp').css({ visibility: 'hidden' });
+        $('#sessions-math').css({ display: 'block' });
+        $('#sessions-comp').css({ display: 'none' });
     } else {
         $('#session-selector-btn-1').removeClass('session-selected');
-        $('#sessions-math').css({ visibility: 'hidden' });
-        $('#sessions-comp').css({ visibility: 'visible' });
+        $('#sessions-math').css({ display: 'none' });
+        $('#sessions-comp').css({ display: 'block' });
     }
 }

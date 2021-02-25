@@ -63,6 +63,14 @@
       color: #333;
       overflow-x: auto;
 
+      #sessions-math {
+        display: block;
+      }
+
+      #sessions-comp {
+        display: none;
+      }
+
       table {
         margin-top: 1rem;
         border-bottom: 1px solid #ccc;

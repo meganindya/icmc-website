@@ -12,10 +12,11 @@
             </div>
         </div>
         <div class="session-tables">
-            <div id="sessions-math">
-                <% const math=this.sessions.math %>
-                <!-- Math tables -->
-                <% math.forEach(table => { %>
+            <% const sessionsCat = [ { tables: this.sessions.math, cat: 'math' }, { tables:
+            this.sessions.comp, cat: 'comp' } ] %> <% sessionsCat.forEach(item => { %>
+            <div id="sessions-<%= item.cat %>">
+                <!-- tables -->
+                <% item.tables.forEach(table => { %>
                 <table>
                     <% table.sessions.forEach((session, i) => { %>
                     <tr class="session-header-row">
@@ -88,6 +89,7 @@
                 </table>
                 <% }) %>
             </div>
+            <% }) %>
         </div>
     </div>
 </div>
