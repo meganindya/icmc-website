@@ -1,0 +1,85 @@
+<div class="titled-card">
+    <div class="titled-card-head">
+        <h4>Session&nbsp;&nbsp;Chart</h4>
+    </div>
+    <div class="titled-card-body">
+        <div class="session-tables">
+            <div id="sessions-math">
+                <% const math=this.sessions.math %>
+                <!-- Math tables -->
+                <% math.forEach(table => { %>
+                <table>
+                    <% table.sessions.forEach((session, i) => { %>
+                    <tr class="session-header-row">
+                        <% if (i === 0) { %>
+                        <td
+                            rowspan="<%= 2 + table.sessions[0].entries.length+table.sessions[1].entries.length %>"
+                            class="session-day"
+                        >
+                            <div>
+                                <p><%= table.day.date %></p>
+                                <p><%= table.day.weekday %></p>
+                            </div>
+                        </td>
+                        <% } %>
+                        <th colspan="6" class="session-header"><%= session.name %></th>
+                    </tr>
+                    <% session.entries.forEach(entry => { %>
+                    <!-- entry start -->
+                    <% if (entry.type === 'inauguration') { %>
+                    <tr class="session-inauguration-row">
+                        <td><%= entry.time %></td>
+                        <td colspan="5">Inauguration</td>
+                    </tr>
+                    <% } else if (entry.type === 'break') { %>
+                    <tr class="session-break-row">
+                        <td><%= entry.time %></td>
+                        <td colspan="5">Break</td>
+                    </tr>
+                    <% } else if (entry.type === 'header') { %>
+                    <tr class="session-papers-header-row">
+                        <td>Duration</td>
+                        <td>Chair</td>
+                        <td>Paper ID</td>
+                        <td>Paper Title</td>
+                        <td>Presenter</td>
+                        <td>Affiliation</td>
+                    </tr>
+                    <% } else if (entry.type === 'keynote') { %>
+                    <tr class="session-keynote-row">
+                        <td><%= entry.time %></td>
+                        <td colspan="5">
+                            <p>Keynote speech by <strong><%= entry.data.name %></strong></p>
+                            <p><%= entry.data.institute %></p>
+                            <p>Topic: <i><%= entry.data.topic %></i></p>
+                        </td>
+                    </tr>
+                    <% } else if (entry.type === 'paper') { %>
+                    <tr class="session-paper-row">
+                        <td><%= entry.time %></td>
+                        <% if (entry.data.chair) { %>
+                        <td rowspan="<%= entry.data.chair.span %>" class="session-paper-chair">
+                            <p><%= entry.data.chair.name %></p>
+                            <p><%= entry.data.chair.institute %></p>
+                        </td>
+                        <% } %>
+                        <td class="session-paper-id"><%= entry.data.id %></td>
+                        <td class="session-paper-title">
+                            <p><%= entry.data.title %></p>
+                            <p><%= entry.data.authors %></p>
+                        </td>
+                        <td class="session-paper-presenter"><%= entry.data.presenter %></td>
+                        <td class="session-paper-affiliation"><%= entry.data.affiliation %></td>
+                    </tr>
+                    <!-- entry end -->
+                    <% } %>
+                    <!-- entries end -->
+                    <% }) %>
+                    <!-- session end -->
+                    <% }) %>
+                </table>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</div>
