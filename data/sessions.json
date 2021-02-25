@@ -1,0 +1,312 @@
+[
+  {
+    "section": "math",
+    "tables": [
+      {
+        "day": {
+          "date": "02 March, 2021",
+          "weekday": "Tuesday"
+        },
+        "sessions": [
+          {
+            "name": "Sessions I: Algebra, Analysis, Graph Theory",
+            "entries": [
+              {
+                "type": "inauguration",
+                "time": "9.30 AM - 10.30 AM"
+              },
+              {
+                "type": "keynote",
+                "time": "10.30 AM - 11.30 AM",
+                "data": {
+                  "name": "Prof. Balasubramanian Ramachandran",
+                  "institute": "Institute of Mathematical Sciences Chennai, India",
+                  "topic": "Ellicptic Curve Cryptography"
+                }
+              },
+              {
+                "type": "header"
+              },
+              {
+                "type": "paper",
+                "time": "11.30 AM - 11.45 AM",
+                "data": {
+                  "id": "127",
+                  "title": "Deriving bounds on L(k_1, k_2) labelling of triangular lattice by exploring underlined graph structures",
+                  "authors": "Subhasis Koley and Sasthi C Ghosh",
+                  "presenter": "Subhasis Koley",
+                  "affiliation": "Indian Statistical Institute Kolkata, India",
+                  "chair": {
+                    "name": "Dr. Pratulananda Das",
+                    "institute": "Jadavpur University",
+                    "span": 3
+                  }
+                }
+              },
+              {
+                "type": "paper",
+                "time": "11.45 AM - 12.00 PM",
+                "data": {
+                  "id": "122",
+                  "title": "The Spanning Maximal Planar Subgraph Problem for Some Classes of Complete 4-Partite Graphs",
+                  "authors": "Tjaart Jan Estrada and Isagani Jos",
+                  "presenter": "Tjaart Jan Estrada",
+                  "affiliation": "Don Mariano Marcos Memorial State University"
+                }
+              },
+              {
+                "type": "paper",
+                "time": "12.00 PM - 12.15 PM",
+                "data": {
+                  "id": "138",
+                  "title": "On Column Competent Matrices and Linear Complementarity Problem",
+                  "authors": "Aritra Dutta, Rwitam Jana and Arup Kumar Das",
+                  "presenter": "Aritra Dutta",
+                  "affiliation": "Jadavpur University, India"
+                }
+              },
+              {
+                "type": "keynote",
+                "time": "12.15 PM - 1.15 PM",
+                "data": {
+                  "name": "Prof. Aikaterini Mitrokotsa",
+                  "institute": "Chalmers University of Technology (Sweden) and at the University of St. Gallen (Switzerland)",
+                  "topic": "Outsourcing computations to a cloud that you don't trust"
+                }
+              },
+              {
+                "type": "paper",
+                "time": "1.15 PM - 1.30 PM",
+                "data": {
+                  "id": "157",
+                  "title": "On differential uniformity & nonlinearity of permutations on Zn",
+                  "authors": "Prachi Gupta, P R Mishra and Atul Gaur",
+                  "presenter": "Prachi Gupta",
+                  "affiliation": "University of Delhi",
+                  "chair": {
+                    "name": "Dr. Pratulananda Das",
+                    "institute": "Jadavpur University",
+                    "span": 2
+                  }
+                }
+              },
+              {
+                "type": "paper",
+                "time": "1.30 PM - 1.45 PM",
+                "data": {
+                  "id": "164",
+                  "title": "Computing the 2-adic Canonical Lift of Genus 2",
+                  "authors": "Abdoulaye Maiga and Damien Robert",
+                  "presenter": "Abdoulaye Maiga",
+                  "affiliation": "FST-Cheikh Anta Diop University"
+                }
+              },
+              {
+                "type": "break",
+                "time": "1.45 PM - 2.00 PM"
+              }
+            ]
+          },
+          {
+            "name": "Sessions II: Integral Equations, Analysis",
+            "entries": [
+              {
+                "type": "keynote",
+                "time": "2.00 PM - 3.00 PM",
+                "data": {
+                  "name": "Prof. Bimal Kumar Roy",
+                  "institute": "Indian Statistical Institute Kolkata, India",
+                  "topic": "Issues in e-voting"
+                }
+              },
+              {
+                "type": "break",
+                "time": "3.00 PM - 3.15 PM"
+              },
+              {
+                "type": "header"
+              },
+              {
+                "type": "paper",
+                "time": "3.15 PM - 3.30 PM",
+                "data": {
+                  "id": "22",
+                  "title": "Lyapunov-type Inequalities for Fractional Differential Operators with Non-singular Kernels",
+                  "authors": "Basua Debananda and Jagan Mohan Jonnalagadda",
+                  "presenter": "Basua Debananda",
+                  "affiliation": "BITS Pilani",
+                  "chair": {
+                    "name": "Dr. A K Dhar",
+                    "institute": "IIEST Shibpur, India",
+                    "span": 5
+                  }
+                }
+              },
+              {
+                "type": "paper",
+                "time": "3.30 PM - 3.45 PM",
+                "data": {
+                  "id": "30",
+                  "title": "The Spanning Maximal Planar Subgraph Problem for Some Classes of Complete 4-Partite Graphs",
+                  "authors": "Tjaart Jan Estrada and Isagani Jos",
+                  "presenter": "Tjaart Jan Estrada",
+                  "affiliation": "Don Mariano Marcos Memorial State University"
+                }
+              },
+              {
+                "type": "paper",
+                "time": "3.45 PM - 4.00 PM",
+                "data": {
+                  "id": "84",
+                  "title": "On Column Competent Matrices and Linear Complementarity Problem",
+                  "authors": "Aritra Dutta, Rwitam Jana and Arup Kumar Das",
+                  "presenter": "Aritra Dutta",
+                  "affiliation": "Jadavpur University, India"
+                }
+              },
+              {
+                "type": "paper",
+                "time": "4.00 PM - 4.15 PM",
+                "data": {
+                  "id": "271",
+                  "title": "On differential uniformity & nonlinearity of permutations on Zn",
+                  "authors": "Prachi Gupta, P R Mishra and Atul Gaur",
+                  "presenter": "Prachi Gupta",
+                  "affiliation": "University of Delhi"
+                }
+              },
+              {
+                "type": "paper",
+                "time": "4.15 PM - 4.30 PM",
+                "data": {
+                  "id": "361",
+                  "title": "On differential uniformity & nonlinearity of permutations on Zn",
+                  "authors": "Prachi Gupta, P R Mishra and Atul Gaur",
+                  "presenter": "Prachi Gupta",
+                  "affiliation": "University of Delhi"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": {
+          "date": "03 March, 2021",
+          "weekday": "Wednesday"
+        },
+        "sessions": [
+          {
+            "name": "Session I: Dynamical Systems I",
+            "entries": []
+          },
+          {
+            "name": "Session II: Dynamical Systems II",
+            "entries": []
+          }
+        ]
+      },
+      {
+        "day": {
+          "date": "04 March, 2021",
+          "weekday": "Thursday"
+        },
+        "sessions": [
+          {
+            "name": "Session I: Coding, Algebra, Optimization",
+            "entries": []
+          },
+          {
+            "name": "Session II: Miscellaneous I",
+            "entries": []
+          }
+        ]
+      },
+      {
+        "day": {
+          "date": "05 March, 2021",
+          "weekday": "Friday"
+        },
+        "sessions": [
+          {
+            "name": "Session I: Miscellaneous II",
+            "entries": []
+          },
+          {
+            "name": "Session II: Miscellaneous III",
+            "entries": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section": "comp",
+    "tables": [
+      {
+        "day": {
+          "date": "02 March, 2021",
+          "weekday": "Tuesday"
+        },
+        "sessions": [
+          {
+            "name": "Sessions I: Image Processing",
+            "entries": []
+          },
+          {
+            "name": "Sessions II: Information Security I",
+            "entries": []
+          }
+        ]
+      },
+      {
+        "day": {
+          "date": "03 March, 2021",
+          "weekday": "Wednesday"
+        },
+        "sessions": [
+          {
+            "name": "Session I: Deep Learning",
+            "entries": []
+          },
+          {
+            "name": "Sessions II: Information Security II",
+            "entries": []
+          }
+        ]
+      },
+      {
+        "day": {
+          "date": "04 March, 2021",
+          "weekday": "Thursday"
+        },
+        "sessions": [
+          {
+            "name": "Session I: Neural Network",
+            "entries": []
+          },
+          {
+            "name": "Session II: Miscellaneous",
+            "entries": []
+          }
+        ]
+      },
+      {
+        "day": {
+          "date": "05 March, 2021",
+          "weekday": "Friday"
+        },
+        "sessions": [
+          {
+            "name": "Session I: Machine Learning",
+            "entries": []
+          },
+          {
+            "name": "",
+            "entries": []
+          }
+        ]
+      }
+    ]
+  }
+]
