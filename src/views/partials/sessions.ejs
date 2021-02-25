@@ -37,12 +37,12 @@
                     <!-- entry start -->
                     <% if (entry.type === 'inauguration') { %>
                     <tr class="session-inauguration-row">
-                        <td><%= entry.time %></td>
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
                         <td colspan="5">Inauguration</td>
                     </tr>
                     <% } else if (entry.type === 'break') { %>
                     <tr class="session-break-row">
-                        <td><%= entry.time %></td>
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
                         <td colspan="5">Break</td>
                     </tr>
                     <% } else if (entry.type === 'header') { %>
@@ -56,7 +56,7 @@
                     </tr>
                     <% } else if (entry.type === 'keynote') { %>
                     <tr class="session-keynote-row">
-                        <td><%= entry.time %></td>
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
                         <td colspan="5">
                             <p>Keynote speech by <strong><%= entry.data.name %></strong></p>
                             <p><%= entry.data.institute %></p>
@@ -65,7 +65,7 @@
                     </tr>
                     <% } else if (entry.type === 'paper') { %>
                     <tr class="session-paper-row">
-                        <td><%= entry.time %></td>
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
                         <% if (entry.data.chair) { %>
                         <td rowspan="<%= entry.data.chair.span %>" class="session-paper-chair">
                             <p><%= entry.data.chair.name %></p>

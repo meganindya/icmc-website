@@ -151,6 +151,10 @@
             border-bottom: 1px solid #ccc;
             font-weight: bold;
 
+            &:nth-of-type(1) {
+              width: 5rem;
+            }
+
             &:nth-of-type(3) {
               width: 5rem;
             }
@@ -247,27 +251,43 @@
             text-align: left;
           }
         }
-
-        // tr {
-        //   &:first-of-type {
-        //     td,
-        //     th {
-        //       border-top: 1px solid #ccc;
-        //     }
-        //   }
-
-        //   &:last-of-type {
-        //     td,
-        //     th {
-        //       border-bottom: 1px solid #ccc;
-        //     }
-        //   }
-        // }
       }
 
       #sessions-math {
         table {
           &:nth-of-type(2) {
+            tr {
+              &:nth-of-type(3) {
+                td {
+                  &:nth-of-type(1) {
+                    border-top: 1px solid #ccc;
+                  }
+
+                  &:nth-of-type(2) {
+                    border-top: 1px solid #999;
+                  }
+                }
+              }
+            }
+          }
+
+          &:nth-of-type(3) {
+            tr {
+              &:nth-of-type(14) {
+                td {
+                  &:nth-of-type(1) {
+                    border-top: 1px solid #ccc;
+                  }
+
+                  &:nth-of-type(2) {
+                    border-top: 1px solid #999;
+                  }
+                }
+              }
+            }
+          }
+
+          &:nth-of-type(4) {
             tr {
               &:nth-of-type(3) {
                 td {
