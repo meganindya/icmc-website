@@ -173,8 +173,8 @@ $(document).ready(function () {
             $('#speak'),
             $('#comm'),
             $('#trax'),
-            $('#guide'),
-            $('#reg'),
+            $('#accepted'),
+            $('#sessions'),
             $('#foot')
         ];
         let sec_links = [
@@ -184,7 +184,7 @@ $(document).ready(function () {
             $('#l_comm'),
             $('#l_trax'),
             $('#l_accepted'),
-            $('#l_reg'),
+            $('#l_sess'),
             $('#foot')
         ];
 
@@ -221,7 +221,7 @@ $(document).ready(function () {
             '#l_comm': '#comm',
             '#l_trax': '#trax',
             '#l_accepted': '#accepted',
-            '#l_reg': '#reg',
+            '#l_sess': '#sessions',
             '#btn-top': null
         },
         navbar_size
