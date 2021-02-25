@@ -71,5 +71,11 @@
     "name": "Mohamed M S Nasser",
     "institute": "Qatar University, Qatar",
     "topic": "Numerical computation of capacity of condensers"
+  },
+  {
+    "link": "https://math.aalto.fi/en/people/harri.hakula",
+    "name": "Harri Hakula",
+    "institute": "Aalto University, Finland",
+    "topic": "FEM-approach to capacity (and conformal mapping) computations"
   }
 ]
