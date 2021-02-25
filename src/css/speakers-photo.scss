@@ -94,3 +94,9 @@
   background-size: auto 100%;
   background-position: 50% 0%;
 }
+
+&:nth-of-type(13) .speak-photo {
+  background: url('../img/speakers/hakula.jpg') no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
