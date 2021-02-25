@@ -35,7 +35,7 @@
                 "presenter": "Subhasis Koley",
                 "affiliation": "Indian Statistical Institute Kolkata, India",
                 "chair": {
-                  "name": "Dr. Pratulananda Das",
+                  "name": "Dr Pratulananda Das",
                   "institute": "Jadavpur University",
                   "span": 3
                 }
@@ -82,7 +82,7 @@
                 "presenter": "Prachi Gupta",
                 "affiliation": "University of Delhi",
                 "chair": {
-                  "name": "Dr. Pratulananda Das",
+                  "name": "Dr Pratulananda Das",
                   "institute": "Jadavpur University",
                   "span": 2
                 }
@@ -131,7 +131,7 @@
                 "presenter": "Basua Debananda",
                 "affiliation": "BITS Pilani",
                 "chair": {
-                  "name": "Dr. A K Dhar",
+                  "name": "Dr A K Dhar",
                   "institute": "IIEST Shibpur, India",
                   "span": 5
                 }
@@ -225,7 +225,7 @@
                 "presenter": "Sarada Ghosh",
                 "affiliation": "Gurudas College",
                 "chair": {
-                  "name": "Dr. Guru Prasad Samanta",
+                  "name": "Dr Guru Prasad Samanta",
                   "institute": "IIEST, Shibpur",
                   "span": 6
                 }
@@ -255,7 +255,7 @@
             },
             {
               "type": "paper",
-              "time": "12:45 PM - 01:00 PM",
+              "time": "12:45 PM - 1:00 PM",
               "data": {
                 "id": "117",
                 "title": "Application of Group Methods in Solving Wave Equation",
@@ -266,7 +266,7 @@
             },
             {
               "type": "paper",
-              "time": "01:00 PM - 01:15 PM",
+              "time": "1:00 PM - 1:15 PM",
               "data": {
                 "id": "123",
                 "title": "Traveling wave solutions of some coupled nonlinear systems by sine-cosine approach",
@@ -277,7 +277,7 @@
             },
             {
               "type": "paper",
-              "time": "01:15 PM - 01:30 PM",
+              "time": "1:15 PM - 1:30 PM",
               "data": {
                 "id": "124",
                 "title": "Several families of new exact solutions for wave-like equations with variable coefficients",
@@ -299,7 +299,7 @@
               "type": "keynote",
               "time": "2:00 PM - 3:00 PM",
               "data": {
-                "name": "Dr. Carmit Hazay",
+                "name": "Dr Carmit Hazay",
                 "institute": "Bar-Ilan University, Israel",
                 "topic": "Secure Computation"
               }
@@ -307,6 +307,66 @@
             {
               "type": "break",
               "time": "3:00 PM - 3:15 PM"
+            },
+            {
+              "type": "paper",
+              "time": "3:15 PM - 3:30 PM",
+              "data": {
+                "id": "137",
+                "title": "Coexistence of chaotic, quasiperiodic and multiperiodic features in quantum plasma",
+                "authors": "Barsha Pradhan and Asit Saha",
+                "presenter": "Barsha Pradhan",
+                "affiliation": "Sikkim Manipal Institute of Technology, India",
+                "chair": {
+                  "name": "Dr Susmita Sarkar",
+                  "institute": "University of Calcutta",
+                  "span": 5
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "3:30 PM - 3:45 PM",
+              "data": {
+                "id": "155",
+                "title": "A Numerical investigation of forced convection Casson nanofluid flow past a edge with melting process",
+                "authors": "Mehari Fentahun Endalew and Subharthi Sarkar",
+                "presenter": "",
+                "affiliation": ""
+              }
+            },
+            {
+              "type": "paper",
+              "time": "3:45 PM - 4:00 PM",
+              "data": {
+                "id": "167",
+                "title": "Dynamical properties of shock and snoidal waves in a superthermal multi-ion dusty plasma",
+                "authors": "Satyajit Sarkar, Ruchi Thapa, Asit Saha, and Kajal Kumar Mondal",
+                "presenter": "Satyajit Sarkar",
+                "affiliation": "Sikkim Manipal Institute of Technology, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "4:00 PM - 4:15 PM",
+              "data": {
+                "id": "79",
+                "title": "New classes of exact solutions to three dimensional Schrodinger equation",
+                "authors": "Subin P Joseph",
+                "presenter": "Subin P Joseph",
+                "affiliation": "Govt Engineering College Wayanad, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "4:15 PM - 4:30 PM",
+              "data": {
+                "id": "97",
+                "title": "Some Study on Solitary Traveling Wave Solutions for Nonlinear Evolution Equations",
+                "authors": "Jasvinderpal Singh Virdi",
+                "presenter": "Jasvinderpal Singh Virdi",
+                "affiliation": ""
+              }
             }
           ]
         }
@@ -320,11 +380,197 @@
       "sessions": [
         {
           "name": "Session I: Coding, Algebra, Optimization",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "10.00 AM - 11.00 AM",
+              "data": {
+                "name": "Prof. Sugata Gangopadhyay",
+                "institute": "Indian Institute of Technology, Roorkee",
+                "topic": "Time-Memory Trade-off Attack"
+              }
+            },
+            {
+              "type": "break",
+              "time": "11.00 PM - 11.15 PM"
+            },
+            {
+              "type": "header"
+            },
+            {
+              "type": "paper",
+              "time": "11.15 AM - 11.30 AM",
+              "data": {
+                "id": "320",
+                "title": "Application of T-Direct codes in Multiple rate Codes",
+                "authors": "Ashwini Kumar and Raja Durai",
+                "presenter": "Ashwini Kumar",
+                "affiliation": "Jaypee University of Information and Technology",
+                "chair": {
+                  "name": "Seema Sarkar(Mondal)",
+                  "institute": "NIT Durgapur",
+                  "span": 6
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "11.30 AM - 11.45 AM",
+              "data": {
+                "id": "362",
+                "title": "Sufficient Optimality Criteria for Optimization Problem Involving Pseudoconvex Interval Objective Function",
+                "authors": "Priyanka Roy and Geetanjali Panda",
+                "presenter": "Priyanka Roy",
+                "affiliation": "IIT Kharagpur"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "11.45 AM - 12.00 PM",
+              "data": {
+                "id": "150",
+                "title": "Sufficient conditions for the uniqueness of solution of the weighted norm minimization problem",
+                "authors": "Najiya K Z, Munnu Sonkar and C S Sastry",
+                "presenter": "Najiya K Z",
+                "affiliation": "IIT Hyderabad"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.00 PM - 12.15 PM",
+              "data": {
+                "id": "48",
+                "title": "On the Exponential Diophantine Equation  p^x+q^y=z^3: Theorems and Conjectures",
+                "authors": "Ronald Aquino and Jerico Bacani",
+                "presenter": "Jerico Bravo Bacani",
+                "affiliation": "University Of The Philippines, Baguio"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.15 PM - 12.30 PM",
+              "data": {
+                "id": "68",
+                "title": "On the Construction of 4 × 4 Lightweight Involutory MDS Matrices over F2^8",
+                "authors": "Meltem Kurt Pehlivanoğlu, Fatma Büyüksaraçoğlu Sakallı, Sedat Akleylek and Muharrem Tolga Sakallı",
+                "presenter": "Meltem Kurt Pehlivanoğlu",
+                "affiliation": "Kocaeli University, Umuttepe Campus"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.30 PM - 12.45 PM",
+              "data": {
+                "id": "114",
+                "title": "Factual Power Loss Reduction by Meadow Fritillary Butterfly Optimization Algorithm",
+                "authors": "Lenin Kanagasabai",
+                "presenter": "K.Lenin",
+                "affiliation": "Prasad V.Potluri Siddhartha Institute of Technology"
+              }
+            },
+            {
+              "type": "break",
+              "time": "12.45 PM - 02.00 PM"
+            }
+          ]
         },
         {
           "name": "Session II: Miscellaneous I",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "02.00 PM - 03.00 PM",
+              "data": {
+                "name": "Dr. Svetla Nikova",
+                "institute": "KU Leuven, Belgium",
+                "topic": "Threshold Cryptography against combined physical attacks"
+              }
+            },
+            {
+              "type": "keynote",
+              "time": "03.00 PM - 04.00 PM",
+              "data": {
+                "name": "Prof. Mohamed M.S. Nasser",
+                "institute": "Qatar University ",
+                "topic": "Numerical computation of capacity of condensers"
+              }
+            },
+            {
+              "type": "break",
+              "time": "04.00 PM - 04.15 PM"
+            },
+            {
+              "type": "paper",
+              "time": "04.15 PM - 04.30 PM",
+              "data": {
+                "id": "29",
+                "title": "A simple model on streamflow management with a dynamic risk measure",
+                "authors": "Hidekazu Yoshioka and Yumi Yoshioka",
+                "presenter": "Hidekazu Yoshioka",
+                "affiliation": "Shimane University",
+                "chair": {
+                  "name": "Prof. Sugata Gangopadhyay",
+                  "institute": "IIT Roorkee",
+                  "span": 6
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04.30 PM - 04.45 PM",
+              "data": {
+                "id": "34",
+                "title": "A new class of quantum codes associate with a class of maps",
+                "authors": "Debashis Bhowmik, Dipendu Maity and Ashish Kumar Upadhyay",
+                "presenter": "Debashis Bhowmik",
+                "affiliation": "IIT Patna"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04.45 PM - 05.00 PM",
+              "data": {
+                "id": "86",
+                "title": "Implementation report of the Kohel-Lauter-Petit-Tignol algorithm for the constructive Deuring correspondence",
+                "authors": "Yuta Kambda, Yusuke Aikawa, Momonari Kudo, Katsuyuki Takashima, Masaya Yasuda and Kazuhiro Yokoyama",
+                "presenter": "Masaya Yasuda",
+                "affiliation": "Rikkyo University"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "05.00 PM - 05.15 PM",
+              "data": {
+                "id": "332",
+                "title": "Results on Competitiveness of Online Shortest Remaining Processing Time(SRPT) Scheduling with Special Classes of Inputs",
+                "authors": "Sheetal Swain, Rakesh Mohanty and Debasis Dwibedy",
+                "presenter": "",
+                "affiliation": ""
+              }
+            },
+            {
+              "type": "paper",
+              "time": "05.15 PM - 05.30 PM",
+              "data": {
+                "id": "337",
+                "title": "Perturbation Technique on MHD Slip Flow of an Accelerated Plate with Hall Current",
+                "authors": "Satish Papolu and Linga Raju T",
+                "presenter": "Satish Papolu",
+                "affiliation": "Aditya Engineering College (A), Surampalem"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "05.30 PM - 05.45 PM",
+              "data": {
+                "id": "351",
+                "title": "Simulation of two dimensional nonlinear model for washing of pulp fibre bed using quintic Hermite interpolation polynomials",
+                "authors": "Satinder Pal Kaur, Ajay Kumar Mittal and Vijay Kumar Kukreja",
+                "presenter": "Satinder Pal Kaur",
+                "affiliation": "Maharaja Ranjit Singh Punjab Technical University, Bathinda"
+              }
+            }
+          ]
         }
       ]
     },
@@ -336,11 +582,160 @@
       "sessions": [
         {
           "name": "Session I: Miscellaneous II",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "10.00 AM - 11.00 AM",
+              "data": {
+                "name": "Prof. Bhavani Thuraisingham",
+                "institute": "The University of Texas at Dallas",
+                "topic": ""
+              }
+            },
+            {
+              "type": "keynote",
+              "time": "11.00 AM - 12.00 PM",
+              "data": {
+                "name": "Prof. Francisco Rodr´ıguez-Henr´ıquez",
+                "institute": " Advanced Research Center (CINVESTAV-IPN) at Mexico",
+                "topic": "Pre-quantum and post-quantum variants of the Diffie-Hellman protocol"
+              }
+            },
+            {
+              "type": "header"
+            },
+            {
+              "type": "paper",
+              "time": "12.00 PM - 12.15 PM",
+              "data": {
+                "id": "118",
+                "title": "A Novel Ranking-based Non-linear Programming Approach to Solve Bi-Matrix Games in Dense Fuzzy Environment",
+                "authors": "Shuvasree Karmakar and Mijanur Rahaman Seikh",
+                "presenter": "Shuvasree Karmakar ",
+                "affiliation": "Kazi Nazrul University",
+                "chair": {
+                  "name": " Prof. Gopal Chandra Shit",
+                  "institute": "Jadavpur University",
+                  "span": 6
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.15 PM - 12.30 PM",
+              "data": {
+                "id": "139",
+                "title": "Semi-Markov decision processes with vector pay-offs",
+                "authors": "Kushal Guha Bakshi",
+                "presenter": "Kushal Guha Bakshi",
+                "affiliation": "Jadavpur University"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.30 PM - 12.45 PM",
+              "data": {
+                "id": "214",
+                "title": "Sonar Sensing Based Human Leg Localization Using Gaussian Process Regression",
+                "authors": "Pritam Paral, Amitava Chatterjee and Anjan Rakshit",
+                "presenter": "Pritam Paral",
+                "affiliation": "Jadavpur University"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.45 PM - 01.00 PM",
+              "data": {
+                "id": "217",
+                "title": "Steady-state analysis of a vacation queue with random serving capacity and batch-size-dependent service",
+                "authors": "Nilanjan Nandy and Sourav Pradhan",
+                "presenter": "Nilanjan Nandy",
+                "affiliation": "Visvesvaraya National Institute of Technology, Nagpur"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01.15 PM - 01.30 PM",
+              "data": {
+                "id": "223",
+                "title": "Computing Prices for Target Profits in Contracts",
+                "authors": "Ghurumuruhan Ganesan",
+                "presenter": "Ghurumuruhan Ganesan",
+                "affiliation": "Institute of Mathematical Sciences, Chennai"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01.30 PM - 01.45 PM",
+              "data": {
+                "id": "273",
+                "title": "On the solution of Bush and Wilson's stochastic model for two-choice behavior of the paradise fish approached by the fixed point method",
+                "authors": "Ali Turab and Wutiphol Sintunavarat",
+                "presenter": "Ali Turab",
+                "affiliation": "Thammasat University"
+              }
+            },
+            {
+              "type": "break",
+              "time": "01.45 PM - 02.00 PM"
+            }
+          ]
         },
         {
           "name": "Session II: Miscellaneous III",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "02.00 PM - 03.00 PM",
+              "data": {
+                "name": "",
+                "institute": "",
+                "topic": ""
+              }
+            },
+            {
+              "type": "break",
+              "time": "03.00 PM - 03.15 PM"
+            },
+            {
+              "type": "paper",
+              "time": "03.15 PM - 03.30 PM",
+              "data": {
+                "id": "67",
+                "title": "A Fine-tuning Retrieval System for Mathematical Information",
+                "authors": "Pankaj Dadure, Partha Pakray and Sivaji Bandyopadhyay",
+                "presenter": "Pankaj Dadure",
+                "affiliation": "NIT Silchar",
+                "chair": {
+                  "name": "",
+                  "institute": "",
+                  "span": 3
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "03.30 PM - 03.45 PM",
+              "data": {
+                "id": "105",
+                "title": "Hardware Implementation of Multiplication over Quartic Extension Fields",
+                "authors": "Arthur Lavice, Nadia El Mrabet, Alexandre Berzati and Jean-Baptiste Rigaud",
+                "presenter": "Arthur Lavice",
+                "affiliation": "Thales/EMSE/ARMINES"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "03.45 PM - 04.00 PM",
+              "data": {
+                "id": "359",
+                "title": "Wind Responses Evaluation of Limbs Shifted U Shaped Building Using CFD",
+                "authors": "Shanku Mandal, Sujit Kumar Dalui and Soumya Bhattarcharjya",
+                "presenter": "Shanku Mandal",
+                "affiliation": "IIEST, Shibpur"
+              }
+            }
+          ]
         }
       ]
     }
