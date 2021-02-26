@@ -716,11 +716,199 @@
       "sessions": [
         {
           "name": "Sessions I: Image Processing",
-          "entries": []
+          "entries": [
+            {
+              "type": "inauguration",
+              "time": "9:30 AM - 10:30 AM"
+            },
+            {
+              "type": "keynote",
+              "time": "10:30 AM - 11:30 AM",
+              "data": {
+                "name": "Prof. Balasubramanian Ramachandran",
+                "institute": "Institute of Mathematical Sciences Chennai, India",
+                "topic": ""
+              }
+            },
+            {
+              "type": "paper",
+              "time": "11:30 AM - 11:45 AM",
+              "data": {
+                "id": "112",
+                "title": "Comparison of Algorithms for Style Transfer of Images Using Texture Synthesis",
+                "authors": "Vishakh Rao, Hemanth K U, and Bhawana Rudra",
+                "presenter": "Vishakh Rao",
+                "affiliation": "National Institute of Technology Karnataka Surathkal, India",
+                "chair": {
+                  "name": "Dr. Saravanan Chandran",
+                  "institute": "NIT Durgapur, India",
+                  "span": 3
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "11:45 AM - 12:00 PM",
+              "data": {
+                "id": "206",
+                "title": "Ear localization based on YOLOv3 detector",
+                "authors": "Vinh Truong Hoang and Huy Nguyen-Quoc",
+                "presenter": "Vinh Truong Hoang",
+                "affiliation": "Ho Chi Minh City Open University, Vietnam"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12:00 PM - 12:15 PM",
+              "data": {
+                "id": "211",
+                "title": "A Novel Reversible Data Hiding in Encrypted Images by Controlled Swapping of Adjacent Pixels",
+                "authors": "Manikandan V M",
+                "presenter": "Manikandan V M",
+                "affiliation": "SRM University, India"
+              }
+            },
+            {
+              "type": "keynote",
+              "time": "12:15 PM - 01:15 PM",
+              "data": {
+                "name": "Prof. Aikaterini Mitrokotsa",
+                "institute": "Chalmers University of Technology, Sweden and University of St. Gallen, Switzerland",
+                "topic": "Outsourcing computations to a cloud that you don't trust"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01:15 PM - 01:30 PM",
+              "data": {
+                "id": "287",
+                "title": "Color Image Contrast Enhancement through Hybrid PCA-Linear Image Fusion",
+                "authors": "Shahid Aziz, Vinit Kumar, and Syed Shahnawazuddin",
+                "presenter": "Shahid Aziz",
+                "affiliation": "National Institute of Technology Patna, India",
+                "chair": {
+                  "name": "Prof. Sanjay Saha",
+                  "institute": "Jadavpur University, India",
+                  "span": 2
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01:30 PM - 01:45 PM",
+              "data": {
+                "id": "349",
+                "title": "Image Encryption with Parallel Evolution of 2-D Cellular Automata",
+                "authors": "Shramona Chakraborty, Soma Kundu, and Dipanwita Roy Chowdhury",
+                "presenter": "Shramona Chakraborty",
+                "affiliation": "Indian Institute of Technology Kharagpur, India"
+              }
+            },
+            {
+              "type": "break",
+              "time": "01:45 PM - 02:00 PM"
+            }
+          ]
         },
         {
           "name": "Sessions II: Information Security I",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "02:00 PM - 03:00 PM",
+              "data": {
+                "name": "Prof. Bimal Kumar Roy",
+                "institute": "Indian Statistical Institute Kolkata, India",
+                "topic": "Issues in e-voting"
+              }
+            },
+            {
+              "type": "break",
+              "time": "03:00 PM - 03:15 PM"
+            },
+            {
+              "type": "paper",
+              "time": "03:15 PM - 03:30 PM",
+              "data": {
+                "id": "26",
+                "title": "A Blind Signature Scheme based on Bilinear Pairings",
+                "authors": "Mohan Chintamani, Laba Sa",
+                "presenter": "Laba Sa",
+                "affiliation": "University of Hyderabad, India",
+                "chair": {
+                  "name": "Dr. Bibhas Ch Dhara",
+                  "institute": "Jadavpur University, India",
+                  "span": 7
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "03:30 PM - 03:45 PM",
+              "data": {
+                "id": "93",
+                "title": "Security Analysis via Algebraic Attack Against \"A New Encryption Scheme for Multivariate Quadratic System\"",
+                "authors": "Yasuhiko Ikematsu and Shuhei Nakamura",
+                "presenter": "Shuhei Nakamura",
+                "affiliation": "Nihon University, Japan"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "03:45 PM - 04:00 PM",
+              "data": {
+                "id": "147",
+                "title": "CArrency: An Energy-Efficient Proof-of-Work Scheme for Crypto-Currencies",
+                "authors": "Souvik Sur, Abhijit Das, and Dipanwita Roy Chowdhury",
+                "presenter": "Souvik Sur",
+                "affiliation": "Indian Institute of Technology Kharagpur, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:00 PM - 04:15 PM",
+              "data": {
+                "id": "156",
+                "title": "A study on randomness used in signature generation of UOV",
+                "authors": "Yasuhiko Ikematsu",
+                "presenter": "Yasuhiko Ikematsu",
+                "affiliation": "Kyushu University, Japan"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:15 PM - 04:30 PM",
+              "data": {
+                "id": "166",
+                "title": "Chaos Based Uncompressed Frame Level Video Encryption",
+                "authors": "Jagannath Sethi, Jaydeb Bhaumik, and Ananda Shankar Chowdhury",
+                "presenter": "Jagannath Sethi",
+                "affiliation": "Jadavpur University, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:30 PM - 04:45 PM",
+              "data": {
+                "id": "207",
+                "title": "A New Identity-Based Multivariate Signature Scheme",
+                "authors": "Satyam Omar, Sahadeo Padhye, and Dhananjoy Dey",
+                "presenter": "Satyam Omar",
+                "affiliation": "Motilal Nehru National Institute of Technology Allahabad, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:45 PM - 05:00 PM",
+              "data": {
+                "id": "293",
+                "title": "Encrypted operator design with domain aware practical performance improvement",
+                "authors": "Ayan Ghosh, Abhishek Raj, and Ayantika Chatterjee",
+                "presenter": "Ayan Ghosh",
+                "affiliation": "Indian Institute of Technology, India"
+              }
+            }
+          ]
         }
       ]
     },
@@ -732,11 +920,204 @@
       "sessions": [
         {
           "name": "Session I: Deep Learning",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "10:00 AM - 11:00 AM",
+              "data": {
+                "name": "Prof. Sandeep K Shukla",
+                "institute": "Indian Institute of Technology Kanpur, India",
+                "topic": "Cyber Security and Machine Learning"
+              }
+            },
+            {
+              "type": "keynote",
+              "time": "11:00 AM - 12:00 PM",
+              "data": {
+                "name": "Prof. S Ponnusamy",
+                "institute": "Indian Institute of Technology Madras, India",
+                "topic": "Recent Approaches to Bohr's Inequality"
+              }
+            },
+            {
+              "type": "header"
+            },
+            {
+              "type": "paper",
+              "time": "12:00 PM - 12:15 PM",
+              "data": {
+                "id": "103",
+                "title": "Big-Five Personality Prediction from Handwritten Character Features and Word 'of' using Multi-label Classification",
+                "authors": "Salankara Mukherjee, Ishita De Ghosh, and Debatree Mukherjee",
+                "presenter": "Salankara Mukherjee",
+                "affiliation": "West Bengal University of Technology, India",
+                "chair": {
+                  "name": "Dr. Jaya Sil",
+                  "institute": "IIEST Shibpur, India",
+                  "span": 7
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12:15 PM - 12:30 PM",
+              "data": {
+                "id": "116",
+                "title": "A Comparative Study of Pre-trained Gene Embedding for COVID-19 mRNA Vaccine Degradation Prediction",
+                "authors": "U Vamsi Krishna, Premjith B, Soman K P",
+                "presenter": "U Vamsi Krishna",
+                "affiliation": "Amrita Vishwa Vidyapeetham, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12:30 PM - 12:45 PM",
+              "data": {
+                "id": "237",
+                "title": "MACI: Malicious API Call Identifier Model to Secure the Host Platform",
+                "authors": "Ayushi Acharya, Hari Prasad, Vinod Kumar, Ishu Gupta, and Ashutosh K Singh",
+                "presenter": "Ishu Gupta",
+                "affiliation": "National Institute of Technology Kurukshetra, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12:45 PM - 01:00 PM",
+              "data": {
+                "id": "263",
+                "title": "Multivariate Deep Learning Model with Ensemble Pruning for Time Series Forecasting",
+                "authors": "Sobhan Sarkar, Mohit Kosuri, Cherry Tandu, and J Maiti",
+                "presenter": "Mohit Kosuri",
+                "affiliation": "The University of Edinburgh, UK"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01:00 PM - 01:15 PM",
+              "data": {
+                "id": "285",
+                "title": "Deep Photo Classification Based on Geometrical Shape of Principal Object Presents in Photographs via VGG16 DCNN",
+                "authors": "Soma Debnath, Molla Saroyar Hossain, and Suvamoy Changder",
+                "presenter": "Soma Debnath",
+                "affiliation": "National Institute of Technology Durgapur, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01:15 PM - 01:30 PM",
+              "data": {
+                "id": "340",
+                "title": "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods",
+                "authors": "Anupam Biswas, Angshuman Bora, Debashish Malakar, Subham Chakraborty, and Suman Bera",
+                "presenter": "Anupam Biswas",
+                "affiliation": "National Institute of Technology Silchar, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01:30 PM - 01:45 PM",
+              "data": {
+                "id": "352",
+                "title": "Genetic Algorithm based Deep Learning Models: A Design Perspective",
+                "authors": "Debojyoti Sarkar, Anupam Biswas, and Nilima Mishra",
+                "presenter": "Debojyoti Sarkar",
+                "affiliation": "National Institute of Technology Silchar, India"
+              }
+            },
+            {
+              "type": "break",
+              "time": "1:45 PM - 2:00 PM"
+            }
+          ]
         },
         {
           "name": "Sessions II: Information Security II",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "02:00 PM - 03:00 PM",
+              "data": {
+                "name": "Dr. Carmit Hazay",
+                "institute": "Bar-Ilan University, Israel",
+                "topic": "Secure Computation"
+              }
+            },
+            {
+              "type": "break",
+              "time": "03:00 PM - 03:15 PM"
+            },
+            {
+              "type": "paper",
+              "time": "03:15 PM - 03:30 PM",
+              "data": {
+                "id": "276",
+                "title": "A Comprehensive Review of Fraudulent Email Detection Models",
+                "authors": "Hitesh Soneji, Aniruddh Soman, Aniruddh Vyas, and Shubha Puthran",
+                "presenter": "Aniruddh Vyas",
+                "affiliation": "Mukesh Patel School of Technology Management and Engineering, India",
+                "chair": {
+                  "name": "Dr. Sanjit Kumar Setua",
+                  "institute": "University of Calcutta, India",
+                  "span": 6
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "03:30 PM - 03:45 PM",
+              "data": {
+                "id": "146",
+                "title": "DDoS Detection in Software Defined Network using Entropy Method",
+                "authors": "Ashidha Anil, Rufzal T A, and Vipindev Adat Vasudevan",
+                "presenter": "Ashidha Anil",
+                "affiliation": "Tata Consultancy Services, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "03:45 PM - 04:00 PM",
+              "data": {
+                "id": "154",
+                "title": "New records of pre-image search of reduced SHA-1 using SAT solvers",
+                "authors": "Emanuele Bellini, Alessandro De Piccoli, Rusydi Makarim, Sergio Polese, Lorenzo Riva, and Andrea Visconti",
+                "presenter": "Alessandro De Piccoli",
+                "affiliation": "Università degli Studi di Milano, Italy"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:00 PM - 04:15 PM",
+              "data": {
+                "id": "163",
+                "title": "OpenPGP Email Forwarding Via Diverted Elliptic Curve Diffie-Hellman Key Exchanges",
+                "authors": "Aron Wussler and Francisco José Vial Prado",
+                "presenter": "Aron Wussler",
+                "affiliation": "Proton Technologies AG, Switzerland"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:15 PM - 04:30 PM",
+              "data": {
+                "id": "195",
+                "title": "A Survey on Machine Learning-based Ransomware Detection",
+                "authors": "Nanda Rani, Sunita Vikrant Dhavale, Amarjit Singh, and Atul Mehra",
+                "presenter": "Nanda Rani",
+                "affiliation": "Defence Institute of Advanced Technology, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04:30 PM - 04:45 PM",
+              "data": {
+                "id": "216",
+                "title": "Variant of Niederreiter-based Signature Scheme for Blockchain Technology",
+                "authors": "Feng-Wei Lee, Denis C K Wong, Bok-Min Goi, and Wai-Kong Lee",
+                "presenter": "Feng-Wei Lee",
+                "affiliation": "Universiti Tunku Abdul Rahman, Malaysia"
+              }
+            }
+          ]
         }
       ]
     },
@@ -748,11 +1129,197 @@
       "sessions": [
         {
           "name": "Session I: Neural Network",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "10.00 AM - 11.00 AM",
+              "data": {
+                "name": "Prof. Sugata Gangopadhyay",
+                "institute": "Indian Institute of Technology Roorkee, India",
+                "topic": "Time-Memory Trade-off Attack"
+              }
+            },
+            {
+              "type": "break",
+              "time": "11.00 PM - 11.15 PM"
+            },
+            {
+              "type": "header"
+            },
+            {
+              "type": "paper",
+              "time": "11.15 AM - 11.30 AM",
+              "data": {
+                "id": "16",
+                "title": "Stock Market Predictions Using FastRNN Based model",
+                "authors": "Konark Yadav, Milind Yadav, and Sandeep Saini",
+                "presenter": "Sandeep Saini",
+                "affiliation": "The LNM Institute of Information Technology, India",
+                "chair": {
+                  "name": "Dr. Ratnakar Das",
+                  "institute": "NIT Rourkela, India",
+                  "span": 7
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "11.30 AM - 11.45 AM",
+              "data": {
+                "id": "20",
+                "title": "Automated System for Face-mask Detection using Convolutional Neural Network",
+                "authors": "Neha Sengar, Akriti Singh, Saumya Yadav, and Malay Kishore Dutta",
+                "presenter": "Neha Sengar",
+                "affiliation": "Centre for Advanced Studies, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "11.45 AM - 12.00 PM",
+              "data": {
+                "id": "327",
+                "title": "Using protein interactome similarity to improve random walk with restart model for drug repurposing",
+                "authors": "I T Anjusha, N Saleena, and K A Abdul Nazeer",
+                "presenter": "I T Anjusha",
+                "affiliation": "National Institute of Technology Calicut, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.00 PM - 12.15 PM",
+              "data": {
+                "id": "131",
+                "title": "COVID-19 Detection on Chest X-Ray and CT Scan Images Using Multi-image Augmented Deep Learning Model",
+                "authors": "Kiran Purohit, Abhishek Kesarwani, Dakshina Ranjan Kisku, aand Mamata Dalui",
+                "presenter": "Kiran Purohit",
+                "affiliation": "National Institute of Technology Durgapur, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.15 PM - 12.30 PM",
+              "data": {
+                "id": "249",
+                "title": "Identification of Relevant Quantities in Arithmetic Word Problems using Siamese Neural Network",
+                "authors": "Sourav Mandal, Arif Ahmed Sk, and Sudip Kumar Naskar",
+                "presenter": "Xavier School of Coputer Science and Engineering, India",
+                "affiliation": "Xavier School of Computer Science and Engineering, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.30 PM - 12.45 PM",
+              "data": {
+                "id": "356",
+                "title": "A Binary Multi-objective Multi-verse Optimization-based Time Series Forecasting",
+                "authors": "Cherry Tandu, Mohit Kosuri, Sobhan Sarkar, and J Maiti",
+                "presenter": "Cherry Tandu",
+                "affiliation": "Indian Institute of Technology Kharagpur, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.45 PM - 01.00 PM",
+              "data": {
+                "id": "234",
+                "title": "Hybrid Computing Scheme for Quasi-based Deployment in the Internet of Things",
+                "authors": "Amrita Datta and Mou Dasgupta",
+                "presenter": "Amrita Datta",
+                "affiliation": "National Institute of Technology Raipur, India"
+              }
+            },
+            {
+              "type": "break",
+              "time": "01.00 PM - 02.00 PM"
+            }
+          ]
         },
         {
           "name": "Session II: Miscellaneous",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "02.00 PM - 03.00 PM",
+              "data": {
+                "name": "Dr. Svetla Petkova-Nikova",
+                "institute": "ESAT-COSIC, KU Leuven, Belgium",
+                "topic": "Threshold Cryptography against combined physical attacks"
+              }
+            },
+            {
+              "type": "keynote",
+              "time": "03.00 PM - 04.00 PM",
+              "data": {
+                "name": "Prof. Mohamed M S Nasser",
+                "institute": "Qatar University, Qatar",
+                "topic": "Numerical computation of capacity of condensers"
+              }
+            },
+            {
+              "type": "break",
+              "time": "04.00 PM - 04.15 PM"
+            },
+            {
+              "type": "paper",
+              "time": "04.15 PM - 04.30 PM",
+              "data": {
+                "id": "45",
+                "title": "Real-time error correction codes for deletable errors",
+                "authors": "Ghurumuruhan Ganesan",
+                "presenter": "Ghurumuruhan Ganesan",
+                "affiliation": "Institute of Mathematical Sciences Chennai, India",
+                "chair": {
+                  "name": "Dr. Indrajit Bannerjee",
+                  "institute": "IIEST Shibpur, India",
+                  "span": 5
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04.30 PM - 04.45 PM",
+              "data": {
+                "id": "109",
+                "title": "An Enhanced Quality of Service based Trust Model for Cloud Computing",
+                "authors": "Mohamed Fazil, Mohamed Firdhous, and Rahmat Budiarto",
+                "presenter": "Mohamed Fazil",
+                "affiliation": "University of Moratuwa, Sri Lanka"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "04.45 PM - 05.00 PM",
+              "data": {
+                "id": "191",
+                "title": "DEA for measuring the performance of Higher Education Sector: A case study of Myanmar",
+                "authors": "Marlar Tin, Ankita Panwar, and Millie Pant",
+                "presenter": "Ankita Panwar",
+                "affiliation": "Indian Institute of Technology Roorkee, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "05.00 PM - 05.15 PM",
+              "data": {
+                "id": "204",
+                "title": "Synchronizing Words for Real-Time Deterministic Pushdown Automata",
+                "authors": "Tomoyuki Yamakami and Eitatsu Mikami",
+                "presenter": "Tomoyuki Yamakami",
+                "affiliation": "University of Fukui, Japan"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "05.15 PM - 05.30 PM",
+              "data": {
+                "id": "205",
+                "title": "A 2-Competitive Largest Job on Least Loaded Machine Online Algorithm based on the Multi List Scheduling Model",
+                "authors": "Debasis Dwibedy and Rakesh Mohanty",
+                "presenter": "Debasis Dwibedy",
+                "affiliation": "Veer Surendra Sai University of Technology Burla, India"
+              }
+            }
+          ]
         }
       ]
     },
@@ -764,11 +1331,102 @@
       "sessions": [
         {
           "name": "Session I: Machine Learning",
-          "entries": []
-        },
-        {
-          "name": "",
-          "entries": []
+          "entries": [
+            {
+              "type": "keynote",
+              "time": "10.00 AM - 11.00 AM",
+              "data": {
+                "name": "Prof. Bhavani Thuraisingham",
+                "institute": "The University of Texas at Dallas, USA",
+                "topic": ""
+              }
+            },
+            {
+              "type": "keynote",
+              "time": "11.00 AM - 12.00 PM",
+              "data": {
+                "name": "Prof. Francisco Rodríguez Henríquez",
+                "institute": " Advanced Research Center (CINVESTAV-IPN), Mexico",
+                "topic": "Pre-quantum and post-quantum variants of the Diffie-Hellman protocol"
+              }
+            },
+            {
+              "type": "header"
+            },
+            {
+              "type": "paper",
+              "time": "12.00 PM - 12.15 PM",
+              "data": {
+                "id": "23",
+                "title": "Ceiling Improvement on Breast Cancer Prediction Accuracy using Unary KNN and Binary LightGBM Stacked Ensemble Learning",
+                "authors": "Ajeet Singh, Vikas Tiwari, and Appala Naidu Tentu",
+                "presenter": "Ajeet Singh",
+                "affiliation": "C R Rao Advanced Institute of Mathematics, India",
+                "chair": {
+                  "name": " Prof. Asit Kumar Das",
+                  "institute": "IIEST Shibpur, India",
+                  "span": 5
+                }
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.15 PM - 12.30 PM",
+              "data": {
+                "id": "73",
+                "title": "An opportunistic ensemble learning framework for network traffic classification in IoT environments",
+                "authors": "Sujit Bebortta and Sumanta Kumar Singh",
+                "presenter": "Sujit Bebortta",
+                "affiliation": "Ravenshaw University, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.30 PM - 12.45 PM",
+              "data": {
+                "id": "242",
+                "title": "Predicting and analysing pedestrian injury severity: A machine learning-based approach",
+                "authors": "Anjali Rao, Sobhan Sarkar, Anima Pramanik, and J Maiti",
+                "presenter": "Anjali Rao",
+                "affiliation": "Indian Institute of Technology Kharagpur, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "12.45 PM - 01.00 PM",
+              "data": {
+                "id": "247",
+                "title": "Fog Computing Applications with Decentralized Computing Infrastructure- Systematic Review",
+                "authors": "Deepak Kumar, Rishu Taneja, and Sangeetha Annam",
+                "presenter": "Rishu Taneja",
+                "affiliation": "Chitkara University, India"
+              }
+            },
+            {
+              "type": "paper",
+              "time": "01.15 PM - 01.30 PM",
+              "data": {
+                "id": "342",
+                "title": "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods",
+                "authors": "Farhana Akter Sunny, Md Imran Khan, Md Shahriare Satu, and Mohammad Zoynul Abedin",
+                "presenter": "Farhana Akter Sunny",
+                "affiliation": "Green University of Bangladesh, Bangladesh"
+              }
+            },
+            {
+              "type": "break",
+              "time": "01.30 PM - 02.00 PM"
+            },
+            {
+              "type": "keynote",
+              "time": "02.00 PM - 03.00 PM",
+              "data": {
+                "name": "Prof. Harri Hakula",
+                "institute": "Aalto University, Finland",
+                "topic": "FEM-approach to capacity (and conformal mapping) computations"
+              }
+            }
+          ]
         }
       ]
     }
