@@ -13,7 +13,9 @@
         </div>
         <div class="session-tables">
             <% const sessionsCat = [ { tables: this.sessions.math, cat: 'math' }, { tables:
-            this.sessions.comp, cat: 'comp' } ] %> <% sessionsCat.forEach(item => { %>
+            this.sessions.comp, cat: 'comp' } ] %>
+            <!-- sections -->
+            <% sessionsCat.forEach(item => { %>
             <div id="sessions-<%= item.cat %>">
                 <!-- tables -->
                 <% item.tables.forEach(table => { %>
@@ -22,7 +24,7 @@
                     <tr class="session-header-row">
                         <% if (i === 0) { %>
                         <td
-                            rowspan="<%= 2 + table.sessions[0].entries.length+table.sessions[1].entries.length %>"
+                            rowspan="<%= 2 + table.sessions.map(session => session.entries.length).reduce((a, b) => a + b) %>"
                             class="session-day"
                         >
                             <div>
