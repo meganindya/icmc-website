@@ -62,7 +62,9 @@
                         <td colspan="5">
                             <p>Keynote speech by <strong><%= entry.data.name %></strong></p>
                             <p><%= entry.data.institute %></p>
+                            <% if (entry.data.topic) { %>
                             <p>Topic: <i><%= entry.data.topic %></i></p>
+                            <% } %>
                         </td>
                     </tr>
                     <% } else if (entry.type === 'paper') { %>
