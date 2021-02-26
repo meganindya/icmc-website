@@ -68,8 +68,10 @@
                         <td><%= entry.time.split(" - ").join('\n') %></td>
                         <% if (entry.data.chair) { %>
                         <td rowspan="<%= entry.data.chair.span %>" class="session-paper-chair">
-                            <p><%= entry.data.chair.name %></p>
-                            <p><%= entry.data.chair.institute %></p>
+                            <% entry.data.chair.names.forEach(chair => { %>
+                            <p class="session-chair-name"><%= chair.name %></p>
+                            <p class="session-chair-institute"><%= chair.institute %></p>
+                            <% }) %>
                         </td>
                         <% } %>
                         <td class="session-paper-id"><%= entry.data.id %></td>

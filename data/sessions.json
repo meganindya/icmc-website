@@ -35,8 +35,12 @@
                 "presenter": "Subhasis Koley",
                 "affiliation": "Indian Statistical Institute Kolkata, India",
                 "chair": {
-                  "name": "Dr. Pratulananda Das",
-                  "institute": "Jadavpur University, India",
+                  "names": [
+                    {
+                      "name": "Dr. Pratulananda Das",
+                      "institute": "Jadavpur University, India"
+                    }
+                  ],
                   "span": 3
                 }
               }
@@ -82,8 +86,12 @@
                 "presenter": "Prachi Gupta",
                 "affiliation": "University of Delhi, India",
                 "chair": {
-                  "name": "Dr. Pratulananda Das",
-                  "institute": "Jadavpur University, India",
+                  "names": [
+                    {
+                      "name": "Dr. Pratulananda Das",
+                      "institute": "Jadavpur University, India"
+                    }
+                  ],
                   "span": 2
                 }
               }
@@ -131,9 +139,13 @@
                 "presenter": "Basua Debananda",
                 "affiliation": "BITS - Pilani, Hyderabad Campus, India",
                 "chair": {
-                  "name": "Dr. A K Dhar",
-                  "institute": "IIEST Shibpur, India",
-                  "span": 5
+                  "names": [
+                    {
+                      "name": "Dr. A K Dhar",
+                      "institute": "IIEST Shibpur, India"
+                    }
+                  ],
+                  "span": 4
                 }
               }
             },
@@ -214,8 +226,12 @@
                 "presenter": "Sarada Ghosh",
                 "affiliation": "Gurudas College",
                 "chair": {
-                  "name": "Dr. Guru Prasad Samanta",
-                  "institute": "IIEST Shibpur, India",
+                  "names": [
+                    {
+                      "name": "Dr. Guru Prasad Samanta",
+                      "institute": "IIEST Shibpur, India"
+                    }
+                  ],
                   "span": 6
                 }
               }
@@ -307,8 +323,12 @@
                 "presenter": "Barsha Pradhan",
                 "affiliation": "Sikkim Manipal Institute of Technology, India",
                 "chair": {
-                  "name": "Dr. Susmita Sarkar",
-                  "institute": "University of Calcutta, India",
+                  "names": [
+                    {
+                      "name": "Dr. Susmita Sarkar",
+                      "institute": "University of Calcutta, India"
+                    }
+                  ],
                   "span": 3
                 }
               }
@@ -374,8 +394,12 @@
                 "presenter": "Ashwini Kumar",
                 "affiliation": "Jaypee University of Information and Technology, India",
                 "chair": {
-                  "name": "Dr. Seema Sarkar (Mondal)",
-                  "institute": "NIT Durgapur, India",
+                  "names": [
+                    {
+                      "name": "Dr. Seema Sarkar (Mondal)",
+                      "institute": "NIT Durgapur, India"
+                    }
+                  ],
                   "span": 6
                 }
               }
@@ -476,8 +500,12 @@
                 "presenter": "Hidekazu Yoshioka",
                 "affiliation": "Shimane University, Japan",
                 "chair": {
-                  "name": "Prof. Sugata Gangopadhyay",
-                  "institute": "IIT Roorkee, India",
+                  "names": [
+                    {
+                      "name": "Prof. Sugata Gangopadhyay",
+                      "institute": "IIT Roorkee, India"
+                    }
+                  ],
                   "span": 6
                 }
               }
@@ -581,8 +609,12 @@
                 "presenter": "Shuvasree Karmakar ",
                 "affiliation": "Kazi Nazrul University, India",
                 "chair": {
-                  "name": " Prof. Gopal Chandra Shit",
-                  "institute": "Jadavpur University, India",
+                  "names": [
+                    {
+                      "name": " Prof. Gopal Chandra Shit",
+                      "institute": "Jadavpur University, India"
+                    }
+                  ],
                   "span": 6
                 }
               }
@@ -674,8 +706,12 @@
                 "presenter": "Pankaj Dadure",
                 "affiliation": "National Institute of Technology Silchar, India",
                 "chair": {
-                  "name": "",
-                  "institute": "",
+                  "names": [
+                    {
+                      "name": "",
+                      "institute": ""
+                    }
+                  ],
                   "span": 3
                 }
               }
@@ -740,8 +776,16 @@
                 "presenter": "Vishakh Rao",
                 "affiliation": "National Institute of Technology Karnataka Surathkal, India",
                 "chair": {
-                  "name": "Dr. Saravanan Chandran",
-                  "institute": "NIT Durgapur, India",
+                  "names": [
+                    {
+                      "name": "Dr. Saravanan Chandran",
+                      "institute": "NIT Durgapur, India"
+                    },
+                    {
+                      "name": "Dr. Sanjay Saha",
+                      "institute": "Jadavpur University, India"
+                    }
+                  ],
                   "span": 3
                 }
               }
@@ -787,9 +831,17 @@
                 "presenter": "Shahid Aziz",
                 "affiliation": "National Institute of Technology Patna, India",
                 "chair": {
-                  "name": "Prof. Sanjay Saha",
-                  "institute": "Jadavpur University, India",
-                  "span": 2
+                  "names": [
+                    {
+                      "name": "Dr. Saravanan Chandran",
+                      "institute": "NIT Durgapur, India"
+                    },
+                    {
+                      "name": "Dr. Sanjay Saha",
+                      "institute": "Jadavpur University, India"
+                    }
+                  ],
+                  "span": 3
                 }
               }
             },
@@ -836,8 +888,16 @@
                 "presenter": "Laba Sa",
                 "affiliation": "University of Hyderabad, India",
                 "chair": {
-                  "name": "Dr. Bibhas Ch Dhara",
-                  "institute": "Jadavpur University, India",
+                  "names": [
+                    {
+                      "name": "Dr. Bibhas Ch Dhara",
+                      "institute": "Jadavpur University, India"
+                    },
+                    {
+                      "name": "Dr. Bubu Bhuyan",
+                      "institute": "North Eastern Hill University, India"
+                    }
+                  ],
                   "span": 7
                 }
               }
@@ -952,8 +1012,12 @@
                 "presenter": "Salankara Mukherjee",
                 "affiliation": "West Bengal University of Technology, India",
                 "chair": {
-                  "name": "Dr. Jaya Sil",
-                  "institute": "IIEST Shibpur, India",
+                  "names": [
+                    {
+                      "name": "Dr. Jaya Sil",
+                      "institute": "IIEST Shibpur, India"
+                    }
+                  ],
                   "span": 7
                 }
               }
@@ -1056,8 +1120,16 @@
                 "presenter": "Aniruddh Vyas",
                 "affiliation": "Mukesh Patel School of Technology Management and Engineering, India",
                 "chair": {
-                  "name": "Dr. Sanjit Kumar Setua",
-                  "institute": "University of Calcutta, India",
+                  "names": [
+                    {
+                      "name": "Dr. Sanjit Kumar Setua",
+                      "institute": "University of Calcutta, India"
+                    },
+                    {
+                      "name": "Dr. Suvamoy Changder",
+                      "institute": "NIT Durgapur, India"
+                    }
+                  ],
                   "span": 6
                 }
               }
@@ -1156,8 +1228,16 @@
                 "presenter": "Sandeep Saini",
                 "affiliation": "The LNM Institute of Information Technology, India",
                 "chair": {
-                  "name": "Dr. Ratnakar Das",
-                  "institute": "NIT Rourkela, India",
+                  "names": [
+                    {
+                      "name": "Dr. Ratnakar Das",
+                      "institute": "NIT Rourkela, India"
+                    },
+                    {
+                      "name": "Dr. Biswapati Jana",
+                      "institute": "Vidyasagar University, India"
+                    }
+                  ],
                   "span": 7
                 }
               }
@@ -1269,8 +1349,16 @@
                 "presenter": "Ghurumuruhan Ganesan",
                 "affiliation": "Institute of Mathematical Sciences Chennai, India",
                 "chair": {
-                  "name": "Dr. Indrajit Bannerjee",
-                  "institute": "IIEST Shibpur, India",
+                  "names": [
+                    {
+                      "name": "Dr. Indrajit Bannerjee",
+                      "institute": "IIEST Shibpur, India"
+                    },
+                    {
+                      "name": "Dr. Surajeet Ghosh",
+                      "institute": "IIEST Shibpur, India"
+                    }
+                  ],
                   "span": 5
                 }
               }
@@ -1363,8 +1451,16 @@
                 "presenter": "Ajeet Singh",
                 "affiliation": "C R Rao Advanced Institute of Mathematics, India",
                 "chair": {
-                  "name": " Prof. Asit Kumar Das",
-                  "institute": "IIEST Shibpur, India",
+                  "names": [
+                    {
+                      "name": "Prof. Asit Kumar Das",
+                      "institute": "IIEST Shibpur, India"
+                    },
+                    {
+                      "name": "Dr. Bidyut Kr Patra",
+                      "institute": "NIT Rourkela, India"
+                    }
+                  ],
                   "span": 5
                 }
               }
