@@ -12,6 +12,7 @@ smoothscroll.polyfill();
 import { refreshCollbarHeight } from './heights';
 import { registerToggleCards, registerToggleCardContact } from './collbar';
 import { swapSelection, refreshTPCDistribution } from './chair';
+import { swapSessionSelection } from './sessions';
 
 import updateCountdown from './countdown';
 import registerSmoothScrollToSection from './scroll';
@@ -172,8 +173,8 @@ $(document).ready(function () {
             $('#speak'),
             $('#comm'),
             $('#trax'),
-            $('#guide'),
-            $('#reg'),
+            $('#accepted'),
+            $('#sessions'),
             $('#foot')
         ];
         let sec_links = [
@@ -183,7 +184,7 @@ $(document).ready(function () {
             $('#l_comm'),
             $('#l_trax'),
             $('#l_accepted'),
-            $('#l_reg'),
+            $('#l_sess'),
             $('#foot')
         ];
 
@@ -220,7 +221,7 @@ $(document).ready(function () {
             '#l_comm': '#comm',
             '#l_trax': '#trax',
             '#l_accepted': '#accepted',
-            '#l_reg': '#reg',
+            '#l_sess': '#sessions',
             '#btn-top': null
         },
         navbar_size
@@ -261,4 +262,7 @@ $(document).ready(function () {
 
     // technical-committee chair selection
     $('.chair-selector-btn').click((event) => swapSelection(event.target));
+
+    // sessions selection
+    $('.session-selector-btn').click((event) => swapSessionSelection(event.target));
 });

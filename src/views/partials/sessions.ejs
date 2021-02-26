@@ -1,0 +1,101 @@
+<div class="titled-card">
+    <div class="titled-card-head">
+        <h4>Session&nbsp;&nbsp;Chart</h4>
+    </div>
+    <div class="titled-card-body">
+        <div id="session-selector">
+            <div id="session-selector-btn-1" class="session-selector-btn session-selected">
+                <p>Mathematics</p>
+            </div>
+            <div id="session-selector-btn-2" class="session-selector-btn">
+                <p>Computing</p>
+            </div>
+        </div>
+        <div class="session-tables">
+            <% const sessionsCat = [ { tables: this.sessions.math, cat: 'math' }, { tables:
+            this.sessions.comp, cat: 'comp' } ] %>
+            <!-- sections -->
+            <% sessionsCat.forEach(item => { %>
+            <div id="sessions-<%= item.cat %>">
+                <!-- tables -->
+                <% item.tables.forEach(table => { %>
+                <table>
+                    <% table.sessions.forEach((session, i) => { %>
+                    <tr class="session-header-row">
+                        <% if (i === 0) { %>
+                        <td
+                            rowspan="<%= 2 + table.sessions.map(session => session.entries.length).reduce((a, b) => a + b) %>"
+                            class="session-day"
+                        >
+                            <div>
+                                <p><%= table.day.date %></p>
+                                <p><%= table.day.weekday %></p>
+                            </div>
+                        </td>
+                        <% } %>
+                        <th colspan="6" class="session-header"><%= session.name %></th>
+                    </tr>
+                    <% session.entries.forEach(entry => { %>
+                    <!-- entry start -->
+                    <% if (entry.type === 'inauguration') { %>
+                    <tr class="session-inauguration-row">
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
+                        <td colspan="5">Inauguration</td>
+                    </tr>
+                    <% } else if (entry.type === 'break') { %>
+                    <tr class="session-break-row">
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
+                        <td colspan="5">Break</td>
+                    </tr>
+                    <% } else if (entry.type === 'header') { %>
+                    <tr class="session-papers-header-row">
+                        <td>Duration</td>
+                        <td>Chair</td>
+                        <td>Paper ID</td>
+                        <td>Paper Title</td>
+                        <td>Presenter</td>
+                        <td>Affiliation</td>
+                    </tr>
+                    <% } else if (entry.type === 'keynote') { %>
+                    <tr class="session-keynote-row">
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
+                        <td colspan="5">
+                            <p>Keynote speech by <strong><%= entry.data.name %></strong></p>
+                            <p><%= entry.data.institute %></p>
+                            <% if (entry.data.topic) { %>
+                            <p>Topic: <i><%= entry.data.topic %></i></p>
+                            <% } %>
+                        </td>
+                    </tr>
+                    <% } else if (entry.type === 'paper') { %>
+                    <tr class="session-paper-row">
+                        <td><%= entry.time.split(" - ").join('\n') %></td>
+                        <% if (entry.data.chair) { %>
+                        <td rowspan="<%= entry.data.chair.span %>" class="session-paper-chair">
+                            <% entry.data.chair.names.forEach(chair => { %>
+                            <p class="session-chair-name"><%= chair.name %></p>
+                            <p class="session-chair-institute"><%= chair.institute %></p>
+                            <% }) %>
+                        </td>
+                        <% } %>
+                        <td class="session-paper-id"><%= entry.data.id %></td>
+                        <td class="session-paper-title">
+                            <p><%= entry.data.title %></p>
+                            <p><%= entry.data.authors %></p>
+                        </td>
+                        <td class="session-paper-presenter"><%= entry.data.presenter %></td>
+                        <td class="session-paper-affiliation"><%= entry.data.affiliation %></td>
+                    </tr>
+                    <!-- entry end -->
+                    <% } %>
+                    <!-- entries end -->
+                    <% }) %>
+                    <!-- session end -->
+                    <% }) %>
+                </table>
+                <% }) %>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+</div>

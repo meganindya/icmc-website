@@ -9,6 +9,7 @@ const committee = require('./data/committee.json');
 const comp = require('./data/comm_comp.json');
 const math = require('./data/comm_math.json');
 const accepted = require('./data/accepted.json');
+const sessions = require('./data/sessions.json');
 
 module.exports = {
     entry: './src/js/app.js',
@@ -29,7 +30,8 @@ module.exports = {
                                 metadata,
                                 speakers,
                                 committee: { ...committee, comp, math },
-                                accepted
+                                accepted,
+                                sessions
                             }
                         }
                     }
