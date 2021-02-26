@@ -11,7 +11,7 @@
           "entries": [
             {
               "type": "inauguration",
-              "time": "9:30 AM - 10:30 AM"
+              "time": "09:30 AM - 10:30 AM"
             },
             {
               "type": "keynote",
@@ -19,7 +19,7 @@
               "data": {
                 "name": "Prof. Balasubramanian Ramachandran",
                 "institute": "Institute of Mathematical Sciences Chennai, India",
-                "topic": "Ellicptic Curve Cryptography"
+                "topic": "Elliptic Curve Cryptography"
               }
             },
             {
@@ -30,13 +30,13 @@
               "time": "11:30 AM - 11:45 AM",
               "data": {
                 "id": "127",
-                "title": "Deriving bounds on L(k_1, k_2) labelling of triangular lattice by exploring underlined graph structures",
+                "title": "Deriving bounds on (k_1, k_2) labelling of triangular lattice by exploring underlined graph structures",
                 "authors": "Subhasis Koley and Sasthi C Ghosh",
                 "presenter": "Subhasis Koley",
                 "affiliation": "Indian Statistical Institute Kolkata, India",
                 "chair": {
-                  "name": "Dr Pratulananda Das",
-                  "institute": "Jadavpur University",
+                  "name": "Dr. Pratulananda Das",
+                  "institute": "Jadavpur University, India",
                   "span": 3
                 }
               }
@@ -49,7 +49,7 @@
                 "title": "The Spanning Maximal Planar Subgraph Problem for Some Classes of Complete 4-Partite Graphs",
                 "authors": "Tjaart Jan Estrada and Isagani Jos",
                 "presenter": "Tjaart Jan Estrada",
-                "affiliation": "Don Mariano Marcos Memorial State University"
+                "affiliation": "Don Mariano Marcos Memorial State University, Philippines"
               }
             },
             {
@@ -58,50 +58,50 @@
               "data": {
                 "id": "138",
                 "title": "On Column Competent Matrices and Linear Complementarity Problem",
-                "authors": "Aritra Dutta, Rwitam Jana and Arup Kumar Das",
+                "authors": "Aritra Dutta, Rwitam Jana, and Arup Kumar Das",
                 "presenter": "Aritra Dutta",
                 "affiliation": "Jadavpur University, India"
               }
             },
             {
               "type": "keynote",
-              "time": "12:15 PM - 1:15 PM",
+              "time": "12:15 PM - 01:15 PM",
               "data": {
                 "name": "Prof. Aikaterini Mitrokotsa",
-                "institute": "Chalmers University of Technology (Sweden) and at the University of St. Gallen (Switzerland)",
+                "institute": "Chalmers University of Technology, Sweden and University of St. Gallen, Switzerland",
                 "topic": "Outsourcing computations to a cloud that you don't trust"
               }
             },
             {
               "type": "paper",
-              "time": "1:15 PM - 1:30 PM",
+              "time": "01:15 PM - 01:30 PM",
               "data": {
                 "id": "157",
-                "title": "On differential uniformity & nonlinearity of permutations on Zn",
-                "authors": "Prachi Gupta, P R Mishra and Atul Gaur",
+                "title": "On differential uniformity & nonlinearity of permutations on ℤₙ",
+                "authors": "Prachi Gupta, P R Mishra, and Atul Gaur",
                 "presenter": "Prachi Gupta",
-                "affiliation": "University of Delhi",
+                "affiliation": "University of Delhi, India",
                 "chair": {
-                  "name": "Dr Pratulananda Das",
-                  "institute": "Jadavpur University",
+                  "name": "Dr. Pratulananda Das",
+                  "institute": "Jadavpur University, India",
                   "span": 2
                 }
               }
             },
             {
               "type": "paper",
-              "time": "1:30 PM - 1:45 PM",
+              "time": "01:30 PM - 01:45 PM",
               "data": {
                 "id": "164",
                 "title": "Computing the 2-adic Canonical Lift of Genus 2",
                 "authors": "Abdoulaye Maiga and Damien Robert",
                 "presenter": "Abdoulaye Maiga",
-                "affiliation": "FST-Cheikh Anta Diop University"
+                "affiliation": "FST - Cheikh Anta Diop University, Senegal"
               }
             },
             {
               "type": "break",
-              "time": "1:45 PM - 2:00 PM"
+              "time": "01:45 PM - 02:00 PM"
             }
           ]
         },
@@ -110,7 +110,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "2:00 PM - 3:00 PM",
+              "time": "02:00 PM - 03:00 PM",
               "data": {
                 "name": "Prof. Bimal Kumar Roy",
                 "institute": "Indian Statistical Institute Kolkata, India",
@@ -119,19 +119,19 @@
             },
             {
               "type": "break",
-              "time": "3:00 PM - 3:15 PM"
+              "time": "03:00 PM - 03:15 PM"
             },
             {
               "type": "paper",
-              "time": "3:15 PM - 3:30 PM",
+              "time": "03:15 PM - 03:30 PM",
               "data": {
                 "id": "22",
                 "title": "Lyapunov-type Inequalities for Fractional Differential Operators with Non-singular Kernels",
                 "authors": "Basua Debananda and Jagan Mohan Jonnalagadda",
                 "presenter": "Basua Debananda",
-                "affiliation": "BITS Pilani",
+                "affiliation": "BITS - Pilani, Hyderabad Campus, India",
                 "chair": {
-                  "name": "Dr A K Dhar",
+                  "name": "Dr. A K Dhar",
                   "institute": "IIEST Shibpur, India",
                   "span": 5
                 }
@@ -139,46 +139,35 @@
             },
             {
               "type": "paper",
-              "time": "3:30 PM - 3:45 PM",
+              "time": "03:30 PM - 03:45 PM",
               "data": {
                 "id": "30",
-                "title": "The Spanning Maximal Planar Subgraph Problem for Some Classes of Complete 4-Partite Graphs",
-                "authors": "Tjaart Jan Estrada and Isagani Jos",
-                "presenter": "Tjaart Jan Estrada",
-                "affiliation": "Don Mariano Marcos Memorial State University"
+                "title": "Chebyshev Spectral projection methods for Fredholm integral equations of the second kind",
+                "authors": "Bijaya Laxmi Panigrahi, Jitendra Malik",
+                "presenter": "Bijaya Laxmi Panigrahi",
+                "affiliation": "Gangadhar Meher University, India"
               }
             },
             {
               "type": "paper",
-              "time": "3:45 PM - 4:00 PM",
+              "time": "03:45 PM - 04:00 PM",
               "data": {
                 "id": "84",
-                "title": "On Column Competent Matrices and Linear Complementarity Problem",
-                "authors": "Aritra Dutta, Rwitam Jana and Arup Kumar Das",
-                "presenter": "Aritra Dutta",
-                "affiliation": "Jadavpur University, India"
+                "title": "Some sequence spaces of weight f",
+                "authors": "Ekrem Savas",
+                "presenter": "Ekrem Savas",
+                "affiliation": "Usak University, Turkey"
               }
             },
             {
               "type": "paper",
-              "time": "4:00 PM - 4:15 PM",
+              "time": "04:00 PM - 04:15 PM",
               "data": {
                 "id": "271",
-                "title": "On differential uniformity & nonlinearity of permutations on Zn",
-                "authors": "Prachi Gupta, P R Mishra and Atul Gaur",
-                "presenter": "Prachi Gupta",
-                "affiliation": "University of Delhi"
-              }
-            },
-            {
-              "type": "paper",
-              "time": "4:15 PM - 4:30 PM",
-              "data": {
-                "id": "361",
-                "title": "On differential uniformity & nonlinearity of permutations on Zn",
-                "authors": "Prachi Gupta, P R Mishra and Atul Gaur",
-                "presenter": "Prachi Gupta",
-                "affiliation": "University of Delhi"
+                "title": "Generalized Libera operator on mixed norm spaces",
+                "authors": "Sunanda Naik, Karabi Rajbangshi",
+                "presenter": "Karabi Rajbangshi",
+                "affiliation": "Morgaon College, Gauhati University, India"
               }
             }
           ]
@@ -198,8 +187,8 @@
               "type": "keynote",
               "time": "10:00 AM - 11:00 AM",
               "data": {
-                "name": "Prof. Sandeep K. Shukla",
-                "institute": "Indian Institute of Technology, Kanpur",
+                "name": "Prof. Sandeep K Shukla",
+                "institute": "Indian Institute of Technology Kanpur, India",
                 "topic": "Cyber Security and Machine Learning"
               }
             },
@@ -207,9 +196,9 @@
               "type": "keynote",
               "time": "11:00 AM - 12:00 PM",
               "data": {
-                "name": "Prof. S. Ponnusamy",
-                "institute": "Indian Institute of Technology, Madras",
-                "topic": "Recent Approaches To  Bohr's Inequality"
+                "name": "Prof. S Ponnusamy",
+                "institute": "Indian Institute of Technology Madras, India",
+                "topic": "Recent Approaches to Bohr's Inequality"
               }
             },
             {
@@ -221,12 +210,12 @@
               "data": {
                 "id": "65",
                 "title": "Improving the monitoring of mortality surveillance by analyzing regression approach",
-                "authors": "Sarada Ghosh and Guruprasad Samanta",
+                "authors": "Sarada Ghosh and Guru Prasad Samanta",
                 "presenter": "Sarada Ghosh",
                 "affiliation": "Gurudas College",
                 "chair": {
-                  "name": "Dr Guru Prasad Samanta",
-                  "institute": "IIEST, Shibpur",
+                  "name": "Dr. Guru Prasad Samanta",
+                  "institute": "IIEST Shibpur, India",
                   "span": 6
                 }
               }
@@ -239,7 +228,7 @@
                 "title": "Motion Forecast of Dynamical Systems",
                 "authors": "Yuri Menshikov",
                 "presenter": "Yuri Menshikov",
-                "affiliation": "Dnepropetrovsk University"
+                "affiliation": "Dnipropetrovsk State University, Ukraine"
               }
             },
             {
@@ -250,40 +239,40 @@
                 "title": "Modeling of nonlinear wave phenomena in interstellar superthermal plasma",
                 "authors": "Punam Kumari Prasad and Asit Saha",
                 "presenter": "Punam Kumari Prasad",
-                "affiliation": "Sikkim Manipal Institute of Technology"
+                "affiliation": "Sikkim Manipal Institute of Technology, India"
               }
             },
             {
               "type": "paper",
-              "time": "12:45 PM - 1:00 PM",
+              "time": "12:45 PM - 01:00 PM",
               "data": {
                 "id": "117",
                 "title": "Application of Group Methods in Solving Wave Equation",
                 "authors": "Jervin Zen Lobo",
                 "presenter": "Jervin Zen Lobo",
-                "affiliation": "St. Xavier's College, Goa"
+                "affiliation": "St. Xavier's College Mapusa, India"
               }
             },
             {
               "type": "paper",
-              "time": "1:00 PM - 1:15 PM",
+              "time": "01:00 PM - 01:15 PM",
               "data": {
                 "id": "123",
                 "title": "Traveling wave solutions of some coupled nonlinear systems by sine-cosine approach",
                 "authors": "Sideshwar Behera",
                 "presenter": "Sideshwar Behera",
-                "affiliation": "Veer Surendra Sai University of Technology"
+                "affiliation": "Veer Surendra Sai University of Technology, India"
               }
             },
             {
               "type": "paper",
-              "time": "1:15 PM - 1:30 PM",
+              "time": "01:15 PM - 01:30 PM",
               "data": {
                 "id": "124",
                 "title": "Several families of new exact solutions for wave-like equations with variable coefficients",
                 "authors": "Subin P Joseph",
                 "presenter": "Subin P Joseph",
-                "affiliation": "Govt. Engineering College, Wayanad"
+                "affiliation": "Govt. Engineering College Wayanad, India"
               }
             },
             {
@@ -297,20 +286,20 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "2:00 PM - 3:00 PM",
+              "time": "02:00 PM - 03:00 PM",
               "data": {
-                "name": "Dr Carmit Hazay",
+                "name": "Dr. Carmit Hazay",
                 "institute": "Bar-Ilan University, Israel",
                 "topic": "Secure Computation"
               }
             },
             {
               "type": "break",
-              "time": "3:00 PM - 3:15 PM"
+              "time": "03:00 PM - 03:15 PM"
             },
             {
               "type": "paper",
-              "time": "3:15 PM - 3:30 PM",
+              "time": "03:15 PM - 03:30 PM",
               "data": {
                 "id": "137",
                 "title": "Coexistence of chaotic, quasiperiodic and multiperiodic features in quantum plasma",
@@ -318,37 +307,15 @@
                 "presenter": "Barsha Pradhan",
                 "affiliation": "Sikkim Manipal Institute of Technology, India",
                 "chair": {
-                  "name": "Dr Susmita Sarkar",
-                  "institute": "University of Calcutta",
-                  "span": 5
+                  "name": "Dr. Susmita Sarkar",
+                  "institute": "University of Calcutta, India",
+                  "span": 3
                 }
               }
             },
             {
               "type": "paper",
-              "time": "3:30 PM - 3:45 PM",
-              "data": {
-                "id": "155",
-                "title": "A Numerical investigation of forced convection Casson nanofluid flow past a edge with melting process",
-                "authors": "Mehari Fentahun Endalew and Subharthi Sarkar",
-                "presenter": "",
-                "affiliation": ""
-              }
-            },
-            {
-              "type": "paper",
-              "time": "3:45 PM - 4:00 PM",
-              "data": {
-                "id": "167",
-                "title": "Dynamical properties of shock and snoidal waves in a superthermal multi-ion dusty plasma",
-                "authors": "Satyajit Sarkar, Ruchi Thapa, Asit Saha, and Kajal Kumar Mondal",
-                "presenter": "Satyajit Sarkar",
-                "affiliation": "Sikkim Manipal Institute of Technology, India"
-              }
-            },
-            {
-              "type": "paper",
-              "time": "4:00 PM - 4:15 PM",
+              "time": "03:30 PM - 03:45 PM",
               "data": {
                 "id": "79",
                 "title": "New classes of exact solutions to three dimensional Schrodinger equation",
@@ -359,13 +326,13 @@
             },
             {
               "type": "paper",
-              "time": "4:15 PM - 4:30 PM",
+              "time": "03:45 PM - 04:00 PM",
               "data": {
-                "id": "97",
-                "title": "Some Study on Solitary Traveling Wave Solutions for Nonlinear Evolution Equations",
-                "authors": "Jasvinderpal Singh Virdi",
-                "presenter": "Jasvinderpal Singh Virdi",
-                "affiliation": ""
+                "id": "167",
+                "title": "Dynamical properties of shock and snoidal waves in a superthermal multi-ion dusty plasma",
+                "authors": "Satyajit Sarkar, Ruchi Thapa, Asit Saha, and Kajal Kumar Mondal",
+                "presenter": "Satyajit Sarkar",
+                "affiliation": "Sikkim Manipal Institute of Technology, India"
               }
             }
           ]
@@ -386,7 +353,7 @@
               "time": "10.00 AM - 11.00 AM",
               "data": {
                 "name": "Prof. Sugata Gangopadhyay",
-                "institute": "Indian Institute of Technology, Roorkee",
+                "institute": "Indian Institute of Technology Roorkee, India",
                 "topic": "Time-Memory Trade-off Attack"
               }
             },
@@ -402,13 +369,13 @@
               "time": "11.15 AM - 11.30 AM",
               "data": {
                 "id": "320",
-                "title": "Application of T-Direct codes in Multiple rate Codes",
+                "title": "Application of 𝓣-Direct codes in Multiple rate Codes",
                 "authors": "Ashwini Kumar and Raja Durai",
                 "presenter": "Ashwini Kumar",
-                "affiliation": "Jaypee University of Information and Technology",
+                "affiliation": "Jaypee University of Information and Technology, India",
                 "chair": {
-                  "name": "Seema Sarkar (Mondal)",
-                  "institute": "NIT Durgapur",
+                  "name": "Dr. Seema Sarkar (Mondal)",
+                  "institute": "NIT Durgapur, India",
                   "span": 6
                 }
               }
@@ -421,7 +388,7 @@
                 "title": "Sufficient Optimality Criteria for Optimization Problem Involving Pseudoconvex Interval Objective Function",
                 "authors": "Priyanka Roy and Geetanjali Panda",
                 "presenter": "Priyanka Roy",
-                "affiliation": "IIT Kharagpur"
+                "affiliation": "Indian Institute of Technology Kharagpur, India"
               }
             },
             {
@@ -430,9 +397,9 @@
               "data": {
                 "id": "150",
                 "title": "Sufficient conditions for the uniqueness of solution of the weighted norm minimization problem",
-                "authors": "Najiya K Z, Munnu Sonkar and C S Sastry",
+                "authors": "Najiya K Z, Munnu Sonkar, and C S Sastry",
                 "presenter": "Najiya K Z",
-                "affiliation": "IIT Hyderabad"
+                "affiliation": "Indian Institute of Technology Hyderabad, India"
               }
             },
             {
@@ -440,10 +407,10 @@
               "time": "12.00 PM - 12.15 PM",
               "data": {
                 "id": "48",
-                "title": "On the Exponential Diophantine Equation  p^x+q^y=z^3: Theorems and Conjectures",
+                "title": "On the Exponential Diophantine Equation pˣ+qʸ=z³: Theorems and Conjectures",
                 "authors": "Ronald Aquino and Jerico Bacani",
-                "presenter": "Jerico Bravo Bacani",
-                "affiliation": "University Of The Philippines, Baguio"
+                "presenter": "Jerico Bacani",
+                "affiliation": "University of The Philippines Baguio, Philippines"
               }
             },
             {
@@ -451,10 +418,10 @@
               "time": "12.15 PM - 12.30 PM",
               "data": {
                 "id": "68",
-                "title": "On the Construction of 4 × 4 Lightweight Involutory MDS Matrices over F2^8",
-                "authors": "Meltem Kurt Pehlivanoğlu, Fatma Büyüksaraçoğlu Sakallı, Sedat Akleylek and Muharrem Tolga Sakallı",
+                "title": "On the Construction of 4 × 4 Lightweight Involutory MDS Matrices over F2⁸",
+                "authors": "Meltem Kurt Pehlivanoğlu, Fatma Büyüksaraçoğlu Sakallı, Sedat Akleylek, and Muharrem Tolga Sakallı",
                 "presenter": "Meltem Kurt Pehlivanoğlu",
-                "affiliation": "Kocaeli University, Umuttepe Campus"
+                "affiliation": "Kocaeli University - Umuttepe Campus, Turkey"
               }
             },
             {
@@ -465,7 +432,7 @@
                 "title": "Factual Power Loss Reduction by Meadow Fritillary Butterfly Optimization Algorithm",
                 "authors": "Lenin Kanagasabai",
                 "presenter": "K.Lenin",
-                "affiliation": "Prasad V.Potluri Siddhartha Institute of Technology"
+                "affiliation": "Prasad V Potluri Siddhartha Institute of Technology, India"
               }
             },
             {
@@ -481,8 +448,8 @@
               "type": "keynote",
               "time": "02.00 PM - 03.00 PM",
               "data": {
-                "name": "Dr. Svetla Nikova",
-                "institute": "KU Leuven, Belgium",
+                "name": "Dr. Svetla Petkova-Nikova",
+                "institute": "ESAT-COSIC, KU Leuven, Belgium",
                 "topic": "Threshold Cryptography against combined physical attacks"
               }
             },
@@ -490,8 +457,8 @@
               "type": "keynote",
               "time": "03.00 PM - 04.00 PM",
               "data": {
-                "name": "Prof. Mohamed M.S. Nasser",
-                "institute": "Qatar University ",
+                "name": "Prof. Mohamed M S Nasser",
+                "institute": "Qatar University, Qatar",
                 "topic": "Numerical computation of capacity of condensers"
               }
             },
@@ -507,10 +474,10 @@
                 "title": "A simple model on streamflow management with a dynamic risk measure",
                 "authors": "Hidekazu Yoshioka and Yumi Yoshioka",
                 "presenter": "Hidekazu Yoshioka",
-                "affiliation": "Shimane University",
+                "affiliation": "Shimane University, Japan",
                 "chair": {
                   "name": "Prof. Sugata Gangopadhyay",
-                  "institute": "IIT Roorkee",
+                  "institute": "IIT Roorkee, India",
                   "span": 6
                 }
               }
@@ -521,9 +488,9 @@
               "data": {
                 "id": "34",
                 "title": "A new class of quantum codes associate with a class of maps",
-                "authors": "Debashis Bhowmik, Dipendu Maity and Ashish Kumar Upadhyay",
+                "authors": "Debashis Bhowmik, Dipendu Maity, and Ashish Kumar Upadhyay",
                 "presenter": "Debashis Bhowmik",
-                "affiliation": "IIT Patna"
+                "affiliation": "Indian Institute of Technology Patna, India"
               }
             },
             {
@@ -532,9 +499,9 @@
               "data": {
                 "id": "86",
                 "title": "Implementation report of the Kohel-Lauter-Petit-Tignol algorithm for the constructive Deuring correspondence",
-                "authors": "Yuta Kambda, Yusuke Aikawa, Momonari Kudo, Katsuyuki Takashima, Masaya Yasuda and Kazuhiro Yokoyama",
+                "authors": "Yuta Kambda, Yusuke Aikawa, Momonari Kudo, Katsuyuki Takashima, Masaya Yasuda, and Kazuhiro Yokoyama",
                 "presenter": "Masaya Yasuda",
-                "affiliation": "Rikkyo University"
+                "affiliation": "Rikkyo University, Japan"
               }
             },
             {
@@ -542,10 +509,10 @@
               "time": "05.00 PM - 05.15 PM",
               "data": {
                 "id": "332",
-                "title": "Results on Competitiveness of Online Shortest Remaining Processing Time(SRPT) Scheduling with Special Classes of Inputs",
-                "authors": "Sheetal Swain, Rakesh Mohanty and Debasis Dwibedy",
-                "presenter": "",
-                "affiliation": ""
+                "title": "Results on Competitiveness of Online Shortest Remaining Processing Time (SRPT) Scheduling with Special Classes of Inputs",
+                "authors": "Sheetal Swain, Rakesh Mohanty, and Debasis Dwibedy",
+                "presenter": "Rakesh Mohanty",
+                "affiliation": "Veer Surendra Sai University of Technology Burla, India"
               }
             },
             {
@@ -556,7 +523,7 @@
                 "title": "Perturbation Technique on MHD Slip Flow of an Accelerated Plate with Hall Current",
                 "authors": "Satish Papolu and Linga Raju T",
                 "presenter": "Satish Papolu",
-                "affiliation": "Aditya Engineering College (A), Surampalem"
+                "affiliation": "Aditya Engineering College Surampalem, India"
               }
             },
             {
@@ -565,7 +532,7 @@
               "data": {
                 "id": "351",
                 "title": "Simulation of two dimensional nonlinear model for washing of pulp fibre bed using quintic Hermite interpolation polynomials",
-                "authors": "Satinder Pal Kaur, Ajay Kumar Mittal and Vijay Kumar Kukreja",
+                "authors": "Satinder Pal Kaur, Ajay Kumar Mittal, and Vijay Kumar Kukreja",
                 "presenter": "Satinder Pal Kaur",
                 "affiliation": "Maharaja Ranjit Singh Punjab Technical University, Bathinda"
               }
@@ -588,7 +555,7 @@
               "time": "10.00 AM - 11.00 AM",
               "data": {
                 "name": "Prof. Bhavani Thuraisingham",
-                "institute": "The University of Texas at Dallas",
+                "institute": "The University of Texas at Dallas, USA",
                 "topic": ""
               }
             },
@@ -596,8 +563,8 @@
               "type": "keynote",
               "time": "11.00 AM - 12.00 PM",
               "data": {
-                "name": "Prof. Francisco Rodr´ıguez-Henr´ıquez",
-                "institute": " Advanced Research Center (CINVESTAV-IPN) at Mexico",
+                "name": "Prof. Francisco Rodríguez Henríquez",
+                "institute": " Advanced Research Center (CINVESTAV-IPN), Mexico",
                 "topic": "Pre-quantum and post-quantum variants of the Diffie-Hellman protocol"
               }
             },
@@ -612,10 +579,10 @@
                 "title": "A Novel Ranking-based Non-linear Programming Approach to Solve Bi-Matrix Games in Dense Fuzzy Environment",
                 "authors": "Shuvasree Karmakar and Mijanur Rahaman Seikh",
                 "presenter": "Shuvasree Karmakar ",
-                "affiliation": "Kazi Nazrul University",
+                "affiliation": "Kazi Nazrul University, India",
                 "chair": {
                   "name": " Prof. Gopal Chandra Shit",
-                  "institute": "Jadavpur University",
+                  "institute": "Jadavpur University, India",
                   "span": 6
                 }
               }
@@ -628,7 +595,7 @@
                 "title": "Semi-Markov decision processes with vector pay-offs",
                 "authors": "Kushal Guha Bakshi",
                 "presenter": "Kushal Guha Bakshi",
-                "affiliation": "Jadavpur University"
+                "affiliation": "Jadavpur University, India"
               }
             },
             {
@@ -637,9 +604,9 @@
               "data": {
                 "id": "214",
                 "title": "Sonar Sensing Based Human Leg Localization Using Gaussian Process Regression",
-                "authors": "Pritam Paral, Amitava Chatterjee and Anjan Rakshit",
+                "authors": "Pritam Paral, Amitava Chatterjee, and Anjan Rakshit",
                 "presenter": "Pritam Paral",
-                "affiliation": "Jadavpur University"
+                "affiliation": "Jadavpur University, India"
               }
             },
             {
@@ -650,7 +617,7 @@
                 "title": "Steady-state analysis of a vacation queue with random serving capacity and batch-size-dependent service",
                 "authors": "Nilanjan Nandy and Sourav Pradhan",
                 "presenter": "Nilanjan Nandy",
-                "affiliation": "Visvesvaraya National Institute of Technology, Nagpur"
+                "affiliation": "Visvesvaraya National Institute of Technology Nagpur, India"
               }
             },
             {
@@ -661,7 +628,7 @@
                 "title": "Computing Prices for Target Profits in Contracts",
                 "authors": "Ghurumuruhan Ganesan",
                 "presenter": "Ghurumuruhan Ganesan",
-                "affiliation": "Institute of Mathematical Sciences, Chennai"
+                "affiliation": "Institute of Mathematical Sciences Chennai, India"
               }
             },
             {
@@ -672,7 +639,7 @@
                 "title": "On the solution of Bush and Wilson's stochastic model for two-choice behavior of the paradise fish approached by the fixed point method",
                 "authors": "Ali Turab and Wutiphol Sintunavarat",
                 "presenter": "Ali Turab",
-                "affiliation": "Thammasat University"
+                "affiliation": "Thammasat University, Thailand"
               }
             },
             {
@@ -688,9 +655,9 @@
               "type": "keynote",
               "time": "02.00 PM - 03.00 PM",
               "data": {
-                "name": "",
-                "institute": "",
-                "topic": ""
+                "name": "Prof. Harri Hakula",
+                "institute": "Aalto University, Finland",
+                "topic": "FEM-approach to capacity (and conformal mapping) computations"
               }
             },
             {
@@ -705,7 +672,7 @@
                 "title": "A Fine-tuning Retrieval System for Mathematical Information",
                 "authors": "Pankaj Dadure, Partha Pakray and Sivaji Bandyopadhyay",
                 "presenter": "Pankaj Dadure",
-                "affiliation": "NIT Silchar",
+                "affiliation": "National Institute of Technology Silchar, India",
                 "chair": {
                   "name": "",
                   "institute": "",
@@ -719,9 +686,9 @@
               "data": {
                 "id": "105",
                 "title": "Hardware Implementation of Multiplication over Quartic Extension Fields",
-                "authors": "Arthur Lavice, Nadia El Mrabet, Alexandre Berzati and Jean-Baptiste Rigaud",
+                "authors": "Arthur Lavice, Nadia El Mrabet, Alexandre Berzati, and Jean-Baptiste Rigaud",
                 "presenter": "Arthur Lavice",
-                "affiliation": "Thales/EMSE/ARMINES"
+                "affiliation": "Thales/EMSE/ARMINES, France"
               }
             },
             {
@@ -732,7 +699,7 @@
                 "title": "Wind Responses Evaluation of Limbs Shifted U Shaped Building Using CFD",
                 "authors": "Shanku Mandal, Sujit Kumar Dalui and Soumya Bhattarcharjya",
                 "presenter": "Shanku Mandal",
-                "affiliation": "IIEST, Shibpur"
+                "affiliation": "Indian Institute of Engineering Science and Technology Shibpur, India"
               }
             }
           ]
