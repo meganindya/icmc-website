@@ -1,9 +1,9 @@
 [
   {
-    "link": "https://www.eng.biu.ac.il/hazay/",
-    "name": "Carmit Hazay",
-    "institute": "Bar-Ilan University, Israel",
-    "topic": "Secure Computation"
+    "link": "https://www.imsc.res.in/balasubramanian_ramachandran",
+    "name": "Balasubramanian Ramachandran",
+    "institute": "Institute of Mathematical Sciences Chennai",
+    "topic": "Elliptic Curve Cryptography"
   },
   {
     "link": "https://www.chalmers.se/en/staff/Pages/aikmitr.aspx",
@@ -14,29 +14,21 @@
   },
   {
     "link": "https://www.isical.ac.in/~bimal/",
-    "name": "Bimal Roy",
+    "name": "Bimal Kumar Roy",
     "institute": "Indian Statistical Institute Kolkata",
     "topic": "Issues in e-voting",
     "abstract": "Following are the issues in e-voting.\n\n1. Voter authentication i.e. each registered voter votes her own vote; no one else can.\n2. Each voter is able to verify if her vote has been cast as intended.\n3. Each voter is able to verify if her vote is recorded as cast.\n4. Anyone can verify if all the votes are tallied as recorded.\n5. If multiple EVMs are used, the voting pattern in each machine is not disclosed; only the SUM over all the machines are disclosed.\n\nWill discuss possible solutions to address all the issues."
   },
   {
-    "link": "https://homes.esat.kuleuven.be/~snikova/",
-    "name": "Svetla Petkova-Nikova",
-    "institute": "ESAT-COSIC, KU Leuven, Belgium",
-    "topic": "Threshold Cryptography against combined physical attacks"
+    "link": "https://www.utu.fi/en/people/matti-vuorinen",
+    "name": "Matti Vuorinen",
+    "institute": "University of Turku, Finland"
   },
   {
-    "link": "http://delta.cs.cinvestav.mx/~francisco/",
-    "name": "Francisco Rodríguez Henríquez",
-    "institute": "CINVESTAV-IPN, Mexico City, Mexico",
-    "topic": "Pre-quantum and post-quantum variants of the Diffie-Hellman protocol"
-  },
-  {
-    "link": "https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata",
-    "name": "Sugata Gangopadhyay",
-    "institute": "Indian Institute of Technology Roorkee",
-    "topic": "Time-Memory Trade-off Attack",
-    "abstract": "In the late seventies, after acceptance of DES as the encryption standard, Martin Hellman [4] proposed a time-memory tradeoff (TMTO) attack on DES. Babbage [1] and Goli´c [3] proposed time-memory tradeoffs for stream ciphers. Biryukov and Shamir [2] combined these approaches and proposed an improved time-memory-data tradeoff (TMDO) for stream ciphers. We will discuss these attack principles and some recent results that we have obtained for stream ciphers.\n\nReferences:\n\n1. S. Babbage, A Space/Time Tradeoff in Exhaustive Search Attacks on Stream Ciphers, European Convention on Security and Detection, IEE Conference Publication, No. 408, 1995.\n\n2. A. Biryukov and A. Shamir, Cryptanalytic time/memory/data tradeoffs for stream ciphers, ASI-ACRYPT 2000, Lecture Notes in Computer Science, vol. 1976, pp. 1–13, 2000.\n\n3. J. D. Goli´c, Cryptanalysis of Alleged A5 Stream Cipher, EUROCRYPT 1997, Lecture Notes in Computer Science, vol. 1233, pages 239–255, 1997.\n\n4. M. E. Hellman, A cryptanalytic time-memory trade-off, IEEE Transactions on Information Theory, vol. 26(4), pp. 401–406, 1980."
+    "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
+    "name": "Sandeep K Shukla",
+    "institute": "Indian Institute of Technology Kanpur",
+    "topic": "Cyber Security and Machine Learning"
   },
   {
     "link": "https://sites.google.com/site/samy8560/",
@@ -46,10 +38,29 @@
     "abstract": "In the recent years, the classical Bohr inequality attracted the attention of many. In this talk, I shall try to give a overview on this and some recent approaches to the Bohr inequality for various settings."
   },
   {
-    "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
-    "name": "Sandeep K Shukla",
-    "institute": "Indian Institute of Technology Kanpur",
-    "topic": "Cyber Security and Machine Learning"
+    "link": "https://www.eng.biu.ac.il/hazay/",
+    "name": "Carmit Hazay",
+    "institute": "Bar-Ilan University, Israel",
+    "topic": "Secure Computation"
+  },
+  {
+    "link": "https://www.iitr.ac.in/~CSE/Gangopadhyay_Sugata",
+    "name": "Sugata Gangopadhyay",
+    "institute": "Indian Institute of Technology Roorkee",
+    "topic": "Time-Memory Trade-off Attack",
+    "abstract": "In the late seventies, after acceptance of DES as the encryption standard, Martin Hellman [4] proposed a time-memory tradeoff (TMTO) attack on DES. Babbage [1] and Goli´c [3] proposed time-memory tradeoffs for stream ciphers. Biryukov and Shamir [2] combined these approaches and proposed an improved time-memory-data tradeoff (TMDO) for stream ciphers. We will discuss these attack principles and some recent results that we have obtained for stream ciphers.\n\nReferences:\n\n1. S. Babbage, A Space/Time Tradeoff in Exhaustive Search Attacks on Stream Ciphers, European Convention on Security and Detection, IEE Conference Publication, No. 408, 1995.\n\n2. A. Biryukov and A. Shamir, Cryptanalytic time/memory/data tradeoffs for stream ciphers, ASI-ACRYPT 2000, Lecture Notes in Computer Science, vol. 1976, pp. 1–13, 2000.\n\n3. J. D. Goli´c, Cryptanalysis of Alleged A5 Stream Cipher, EUROCRYPT 1997, Lecture Notes in Computer Science, vol. 1233, pages 239–255, 1997.\n\n4. M. E. Hellman, A cryptanalytic time-memory trade-off, IEEE Transactions on Information Theory, vol. 26(4), pp. 401–406, 1980."
+  },
+  {
+    "link": "https://homes.esat.kuleuven.be/~snikova/",
+    "name": "Svetla Petkova-Nikova",
+    "institute": "ESAT-COSIC, KU Leuven, Belgium",
+    "topic": "Threshold Cryptography against combined physical attacks"
+  },
+  {
+    "link": "http://qufaculty.qu.edu.qa/mms-nasser/",
+    "name": "Mohamed M S Nasser",
+    "institute": "Qatar University, Qatar",
+    "topic": "Numerical computation of capacity of condensers"
   },
   {
     "link": "https://personal.utdallas.edu/~bxt043000/",
@@ -57,21 +68,10 @@
     "institute": "The University of Texas at Dallas, USA"
   },
   {
-    "link": "https://www.utu.fi/en/people/matti-vuorinen",
-    "name": "Matti Vuorinen",
-    "institute": "University of Turku, Finland"
-  },
-  {
-    "link": "https://www.imsc.res.in/balasubramanian_ramachandran",
-    "name": "Balasubramanian Ramachandran",
-    "institute": "Institute of Mathematical Sciences Chennai",
-    "topic": "Elliptic Curve Cryptography"
-  },
-  {
-    "link": "http://qufaculty.qu.edu.qa/mms-nasser/",
-    "name": "Mohamed M S Nasser",
-    "institute": "Qatar University, Qatar",
-    "topic": "Numerical computation of capacity of condensers"
+    "link": "http://delta.cs.cinvestav.mx/~francisco/",
+    "name": "Francisco Rodríguez Henríquez",
+    "institute": "CINVESTAV-IPN, Mexico City, Mexico",
+    "topic": "Pre-quantum and post-quantum variants of the Diffie-Hellman protocol"
   },
   {
     "link": "https://math.aalto.fi/en/people/harri.hakula",

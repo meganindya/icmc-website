@@ -1,17 +1,7 @@
 &:nth-of-type(1) .speak-photo {
-  background: url('../img/speakers/carmithazay.jpg') no-repeat;
-  background-size: 100% auto;
+  background: url('../img/speakers/balasubramanian.jpg') no-repeat;
+  background-size: auto 115%;
   background-position: 50% 0%;
-
-  @media only screen and (max-width: 991px) {
-    background-size: 100% auto;
-    background-position: center 0;
-  }
-
-  @media only screen and (max-width: 767px) {
-    background-size: 100% auto;
-    background-position: center 0;
-  }
 }
 
 &:nth-of-type(2) .speak-photo {
@@ -27,6 +17,46 @@
 }
 
 &:nth-of-type(4) .speak-photo {
+  background: url('../img/speakers/vuorinen.jpg') no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+&:nth-of-type(5) .speak-photo {
+  background: url('../img/speakers/skshukla.jpg') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
+&:nth-of-type(6) .speak-photo {
+  background: url('../img/speakers/ponnusamy.jpg') no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+}
+
+&:nth-of-type(7) .speak-photo {
+  background: url('../img/speakers/carmithazay.jpg') no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 0%;
+
+  @media only screen and (max-width: 991px) {
+    background-size: 100% auto;
+    background-position: center 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    background-size: 100% auto;
+    background-position: center 0;
+  }
+}
+
+&:nth-of-type(8) .speak-photo {
+  background: url('../img/speakers/sugata.jpg') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
+&:nth-of-type(9) .speak-photo {
   background: url('../img/speakers/snikova.jpg') no-repeat;
   background-size: 150% auto;
   background-position: 65% 0%;
@@ -37,7 +67,19 @@
   }
 }
 
-&:nth-of-type(5) .speak-photo {
+&:nth-of-type(10) .speak-photo {
+  background: url('../img/speakers/nasser.jpg') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
+&:nth-of-type(11) .speak-photo {
+  background: url('../img/speakers/bthuraisingham.jpg') no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 0%;
+}
+
+&:nth-of-type(12) .speak-photo {
   background: url('../img/speakers/frodriguez.jpg') no-repeat;
   background-size: 100% auto;
   background-position: center 100%;
@@ -51,48 +93,6 @@
     background-size: 100% auto;
     background-position: center 100%;
   }
-}
-
-&:nth-of-type(6) .speak-photo {
-  background: url('../img/speakers/sugata.jpg') no-repeat;
-  background-size: auto 100%;
-  background-position: 50% 0%;
-}
-
-&:nth-of-type(7) .speak-photo {
-  background: url('../img/speakers/ponnusamy.jpg') no-repeat;
-  background-size: 100% auto;
-  background-position: 50% 0%;
-}
-
-&:nth-of-type(8) .speak-photo {
-  background: url('../img/speakers/skshukla.jpg') no-repeat;
-  background-size: auto 100%;
-  background-position: 50% 0%;
-}
-
-&:nth-of-type(9) .speak-photo {
-  background: url('../img/speakers/bthuraisingham.jpg') no-repeat;
-  background-size: auto 100%;
-  background-position: 50% 0%;
-}
-
-&:nth-of-type(10) .speak-photo {
-  background: url('../img/speakers/vuorinen.jpg') no-repeat;
-  background-size: 100% auto;
-  background-position: 50% 0%;
-}
-
-&:nth-of-type(11) .speak-photo {
-  background: url('../img/speakers/balasubramanian.jpg') no-repeat;
-  background-size: auto 115%;
-  background-position: 50% 0%;
-}
-
-&:nth-of-type(12) .speak-photo {
-  background: url('../img/speakers/nasser.jpg') no-repeat;
-  background-size: auto 100%;
-  background-position: 50% 0%;
 }
 
 &:nth-of-type(13) .speak-photo {
