@@ -126,12 +126,16 @@
               }
             },
             {
-              "type": "break",
-              "time": "03:00 PM - 03:15 PM"
+              "type": "keynote",
+              "time": "03:00 PM - 04:00 PM",
+              "data": {
+                "name": "Prof. Matti Vuorinen",
+                "institute": "University of Turku, Finland"
+              }
             },
             {
               "type": "paper",
-              "time": "03:15 PM - 03:30 PM",
+              "time": "04:00 PM - 04:15 PM",
               "data": {
                 "id": "22",
                 "title": "Lyapunov-type Inequalities for Fractional Differential Operators with Non-singular Kernels",
@@ -151,7 +155,7 @@
             },
             {
               "type": "paper",
-              "time": "03:30 PM - 03:45 PM",
+              "time": "04:15 PM - 04:30 PM",
               "data": {
                 "id": "30",
                 "title": "Chebyshev Spectral projection methods for Fredholm integral equations of the second kind",
@@ -162,7 +166,7 @@
             },
             {
               "type": "paper",
-              "time": "03:45 PM - 04:00 PM",
+              "time": "04:30 PM - 04:45 PM",
               "data": {
                 "id": "84",
                 "title": "Some sequence spaces of weight f",
@@ -173,7 +177,7 @@
             },
             {
               "type": "paper",
-              "time": "04:00 PM - 04:15 PM",
+              "time": "04:45 PM - 05:00 PM",
               "data": {
                 "id": "271",
                 "title": "Generalized Libera operator on mixed norm spaces",
@@ -878,12 +882,16 @@
               }
             },
             {
-              "type": "break",
-              "time": "03:00 PM - 03:15 PM"
+              "type": "keynote",
+              "time": "03:00 PM - 04:00 PM",
+              "data": {
+                "name": "Prof. Matti Vuorinen",
+                "institute": "University of Turku, Finland"
+              }
             },
             {
               "type": "paper",
-              "time": "03:15 PM - 03:30 PM",
+              "time": "04:00 PM - 04:15 PM",
               "data": {
                 "id": "26",
                 "title": "A Blind Signature Scheme based on Bilinear Pairings",
@@ -907,7 +915,7 @@
             },
             {
               "type": "paper",
-              "time": "03:30 PM - 03:45 PM",
+              "time": "04:15 PM - 04:30 PM",
               "data": {
                 "id": "93",
                 "title": "Security Analysis via Algebraic Attack Against \"A New Encryption Scheme for Multivariate Quadratic System\"",
@@ -918,7 +926,7 @@
             },
             {
               "type": "paper",
-              "time": "03:45 PM - 04:00 PM",
+              "time": "04:30 PM - 04:45 PM",
               "data": {
                 "id": "147",
                 "title": "CArrency: An Energy-Efficient Proof-of-Work Scheme for Crypto-Currencies",
@@ -929,7 +937,7 @@
             },
             {
               "type": "paper",
-              "time": "04:00 PM - 04:15 PM",
+              "time": "04:45 PM - 05:00 PM",
               "data": {
                 "id": "156",
                 "title": "A study on randomness used in signature generation of UOV",
@@ -940,7 +948,7 @@
             },
             {
               "type": "paper",
-              "time": "04:15 PM - 04:30 PM",
+              "time": "05:00 PM - 05:15 PM",
               "data": {
                 "id": "166",
                 "title": "Chaos Based Uncompressed Frame Level Video Encryption",
@@ -951,7 +959,7 @@
             },
             {
               "type": "paper",
-              "time": "04:30 PM - 04:45 PM",
+              "time": "05:15 PM - 05:30 PM",
               "data": {
                 "id": "207",
                 "title": "A New Identity-Based Multivariate Signature Scheme",
@@ -962,7 +970,7 @@
             },
             {
               "type": "paper",
-              "time": "04:45 PM - 05:00 PM",
+              "time": "05:30 PM - 05:45 PM",
               "data": {
                 "id": "293",
                 "title": "Encrypted operator design with domain aware practical performance improvement",
