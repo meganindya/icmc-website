@@ -173,8 +173,10 @@ $(document).ready(function () {
             $('#speak'),
             $('#comm'),
             $('#trax'),
+            $('#guide'),
             $('#accepted'),
             $('#sessions'),
+            $('#reg'),
             $('#foot')
         ];
         let sec_links = [
@@ -183,14 +185,18 @@ $(document).ready(function () {
             $('#l_speak'),
             $('#l_comm'),
             $('#l_trax'),
+            null,
             $('#l_accepted'),
             $('#l_sess'),
+            null,
             $('#foot')
         ];
 
         for (let i = 0; i < sec_elems.length; i++) {
             sec_tops[i] = sec_elems[i].position().top;
-            sec_links[i].removeClass('active');
+            if (sec_links[i] !== null) {
+                sec_links[i].removeClass('active');
+            }
         }
 
         let index = -1;
