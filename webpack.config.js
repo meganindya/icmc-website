@@ -110,7 +110,7 @@ module.exports = {
                         method: () => true
                     }
                 ],
-                exclude: ['./dist/.git']
+                exclude: ['./dist/.git', './dist/.htaccess']
             }
         })
     ],
