@@ -61,7 +61,6 @@
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 0.95rem;
       color: #333;
-      overflow-x: auto;
 
       #sessions-math {
         display: block;
@@ -71,196 +70,199 @@
         display: none;
       }
 
-      table {
-        margin-top: 1rem;
-        border-bottom: 1px solid #ccc;
-        background: #f7f7f7;
+      .session-table-wrapper {
+        overflow-x: auto;
 
-        .session-header-row {
-          .session-day {
-            padding: 0;
-            font-size: 1.1rem;
-            font-weight: bold;
-            color: #005;
-            background: #ccc;
+        table {
+          margin-top: 1rem;
+          border-bottom: 1px solid #ccc;
+          background: #f7f7f7;
 
-            div {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: space-evenly;
-              box-sizing: content-box;
-              width: 3rem;
+          .session-header-row {
+            .session-day {
+              padding: 0;
+              font-size: 1.1rem;
+              font-weight: bold;
+              color: #005;
+              background: #ccc;
+
+              div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                box-sizing: content-box;
+                width: 2rem;
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+                transform: rotate(180deg);
+
+                p {
+                  margin: 0;
+                  padding: 0;
+                  letter-spacing: 0.25rem;
+                }
+              }
+            }
+
+            .session-header {
               padding: 0.5rem;
-              writing-mode: vertical-lr;
-              text-orientation: mixed;
-              transform: rotate(180deg);
+              text-align: center;
+              letter-spacing: 0.125rem;
+              color: #ccc;
+              background: #333;
+            }
+          }
 
-              p {
-                margin: 0;
-                padding: 0;
-                letter-spacing: 0.25rem;
+          tr:not(.session-header-row) {
+            td {
+              padding: 0.5rem;
+              text-align: center;
+
+              &:nth-of-type(1) {
+                background: #f7f7f7;
               }
             }
           }
 
-          .session-header {
-            padding: 0.5rem;
-            text-align: center;
-            letter-spacing: 0.125rem;
-            color: #ccc;
-            background: #333;
-          }
-        }
-
-        tr:not(.session-header-row) {
-          td {
-            padding: 0.5rem;
-            text-align: center;
-
-            &:nth-of-type(1) {
-              background: #f7f7f7;
+          .session-inauguration-row,
+          .session-break-row {
+            td {
+              &:nth-of-type(2) {
+                font-style: italic;
+                background: #eee;
+              }
             }
           }
-        }
 
-        .session-inauguration-row,
-        .session-break-row {
-          td {
-            &:nth-of-type(2) {
-              font-style: italic;
-              background: #eee;
-            }
+          .session-inauguration-row {
+            border-bottom: 1px solid #ccc;
           }
-        }
 
-        .session-inauguration-row {
-          border-bottom: 1px solid #ccc;
-        }
-
-        .session-break-row {
-          border-top: 1px solid #ccc;
-          border-bottom: 1px solid #ccc;
-        }
-
-        .session-papers-header-row {
-          background: #f7f7f7;
-
-          td {
+          .session-break-row {
             border-top: 1px solid #ccc;
             border-bottom: 1px solid #ccc;
-            font-weight: bold;
-
-            &:nth-of-type(1) {
-              width: 5rem;
-            }
-
-            &:nth-of-type(2) {
-              box-sizing: content-box;
-              width: 6rem;
-            }
-
-            &:nth-of-type(3) {
-              width: 5rem;
-            }
-
-            &:nth-of-type(even) {
-              background: #eee;
-            }
           }
-        }
 
-        .session-keynote-row {
-          td:nth-of-type(2) {
-            color: white;
-            background: #494949;
+          .session-papers-header-row {
+            background: #f7f7f7;
 
-            p {
-              margin: 0.5rem 0 0 0;
-              padding: 0;
+            td {
+              border-top: 1px solid #ccc;
+              border-bottom: 1px solid #ccc;
+              font-weight: bold;
+
+              &:nth-of-type(even) {
+                background: #eee;
+              }
 
               &:nth-of-type(1) {
-                margin-top: 0;
-                color: #ccc;
-
-                strong {
-                  margin-left: 0.5rem;
-                  letter-spacing: 0.125rem;
-                  color: #80ebff;
-                }
+                min-width: 4.75rem;
               }
 
               &:nth-of-type(2) {
-                color: #eee;
+                box-sizing: content-box;
+                width: 6rem;
               }
 
               &:nth-of-type(3) {
-                color: #ccc;
+                width: 4.5rem;
+              }
+            }
+          }
 
-                i {
-                  margin-left: 0.25rem;
-                  color: #80ebff;
+          .session-keynote-row {
+            td:nth-of-type(2) {
+              color: white;
+              background: #494949;
+
+              p {
+                margin: 0.5rem 0 0 0;
+                padding: 0;
+
+                &:nth-of-type(1) {
+                  margin-top: 0;
+                  color: #ccc;
+
+                  strong {
+                    margin-left: 0.5rem;
+                    letter-spacing: 0.125rem;
+                    color: #80ebff;
+                  }
+                }
+
+                &:nth-of-type(2) {
+                  color: #eee;
+                }
+
+                &:nth-of-type(3) {
+                  color: #ccc;
+
+                  i {
+                    margin-left: 0.25rem;
+                    color: #80ebff;
+                  }
                 }
               }
             }
           }
-        }
 
-        .session-paper-row {
-          &:nth-of-type(odd) {
-            .session-paper-title,
-            .session-paper-affiliation {
+          .session-paper-row {
+            &:nth-of-type(odd) {
+              .session-paper-title,
+              .session-paper-affiliation {
+                background: #eee;
+              }
+            }
+
+            .session-paper-chair {
               background: #eee;
-            }
-          }
 
-          .session-paper-chair {
-            background: #eee;
+              p {
+                margin: 0.5rem;
+                padding: 0;
 
-            p {
-              margin: 0.5rem;
-              padding: 0;
+                &.session-chair-name {
+                  font-weight: bold;
+                }
 
-              &.session-chair-name {
-                font-weight: bold;
-              }
+                &.session-chair-institute {
+                  margin-top: 0;
 
-              &.session-chair-institute {
-                margin-top: 0;
-
-                &:nth-child(2) {
-                  margin-bottom: 1rem;
+                  &:nth-child(2) {
+                    margin-bottom: 1rem;
+                  }
                 }
               }
             }
-          }
 
-          // .session-paper-id {
-          // }
+            // .session-paper-id {
+            // }
 
-          .session-paper-title {
-            p {
-              margin: 0;
-              padding: 0;
-              text-align: justify;
+            .session-paper-title {
+              p {
+                margin: 0;
+                padding: 0;
+                text-align: justify;
 
-              &:nth-of-type(1) {
-                font-style: italic;
-              }
+                &:nth-of-type(1) {
+                  font-style: italic;
+                }
 
-              &:nth-of-type(2) {
-                margin-top: 0.5rem;
-                color: #005;
+                &:nth-of-type(2) {
+                  margin-top: 0.5rem;
+                  color: #005;
+                }
               }
             }
-          }
 
-          .session-paper-presenter {
-            color: #005;
-          }
+            .session-paper-presenter {
+              color: #005;
+            }
 
-          .session-paper-affiliation {
-            text-align: left;
+            .session-paper-affiliation {
+              text-align: left;
+            }
           }
         }
       }
