@@ -209,20 +209,15 @@
               }
             },
             {
-              "type": "keynote",
-              "time": "11:00 AM - 12:00 PM",
-              "data": {
-                "name": "Prof. S Ponnusamy",
-                "institute": "Indian Institute of Technology Madras, India",
-                "topic": "Recent Approaches to Bohr's Inequality"
-              }
+              "type": "break",
+              "time": "11:00 AM - 11:15 AM"
             },
             {
               "type": "header"
             },
             {
               "type": "paper",
-              "time": "12:00 PM - 12:15 PM",
+              "time": "11:15 PM - 11:30 PM",
               "data": {
                 "id": "65",
                 "title": "Improving the monitoring of mortality surveillance by analyzing regression approach",
@@ -242,7 +237,7 @@
             },
             {
               "type": "paper",
-              "time": "12:15 PM - 12:30 PM",
+              "time": "11:30 PM - 11:45 PM",
               "data": {
                 "id": "71",
                 "title": "Motion Forecast of Dynamical Systems",
@@ -253,7 +248,7 @@
             },
             {
               "type": "paper",
-              "time": "12:30 PM - 12:45 PM",
+              "time": "11:45 PM - 12:00 PM",
               "data": {
                 "id": "100",
                 "title": "Modeling of nonlinear wave phenomena in interstellar superthermal plasma",
@@ -264,7 +259,7 @@
             },
             {
               "type": "paper",
-              "time": "12:45 PM - 01:00 PM",
+              "time": "12:00 PM - 12:15 PM",
               "data": {
                 "id": "117",
                 "title": "Application of Group Methods in Solving Wave Equation",
@@ -275,7 +270,7 @@
             },
             {
               "type": "paper",
-              "time": "01:00 PM - 01:15 PM",
+              "time": "12:15 PM - 12:30 PM",
               "data": {
                 "id": "123",
                 "title": "Traveling wave solutions of some coupled nonlinear systems by sine-cosine approach",
@@ -286,7 +281,7 @@
             },
             {
               "type": "paper",
-              "time": "01:15 PM - 01:30 PM",
+              "time": "12:30 PM - 12:45 PM",
               "data": {
                 "id": "124",
                 "title": "Several families of new exact solutions for wave-like equations with variable coefficients",
@@ -297,7 +292,7 @@
             },
             {
               "type": "break",
-              "time": "1:30 PM - 2:00 PM"
+              "time": "12:45 PM - 02:00 PM"
             }
           ]
         },
@@ -374,7 +369,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "10.00 AM - 11.00 AM",
+              "time": "10:00 AM - 11:00 AM",
               "data": {
                 "name": "Prof. Sugata Gangopadhyay",
                 "institute": "Indian Institute of Technology Roorkee, India",
@@ -382,15 +377,20 @@
               }
             },
             {
-              "type": "break",
-              "time": "11.00 PM - 11.15 PM"
+              "type": "keynote",
+              "time": "11:00 AM - 12:00 PM",
+              "data": {
+                "name": "Prof. S Ponnusamy",
+                "institute": "Indian Institute of Technology Madras, India",
+                "topic": "Recent Approaches to Bohr's Inequality"
+              }
             },
             {
               "type": "header"
             },
             {
               "type": "paper",
-              "time": "11.15 AM - 11.30 AM",
+              "time": "12:00 PM - 12:15 PM",
               "data": {
                 "id": "320",
                 "title": "Application of 𝓣-Direct codes in Multiple rate Codes",
@@ -410,7 +410,7 @@
             },
             {
               "type": "paper",
-              "time": "11.30 AM - 11.45 AM",
+              "time": "12:15 PM - 12:30 PM",
               "data": {
                 "id": "362",
                 "title": "Sufficient Optimality Criteria for Optimization Problem Involving Pseudoconvex Interval Objective Function",
@@ -421,7 +421,7 @@
             },
             {
               "type": "paper",
-              "time": "11.45 AM - 12.00 PM",
+              "time": "12:30 PM - 12:45 PM",
               "data": {
                 "id": "150",
                 "title": "Sufficient conditions for the uniqueness of solution of the weighted norm minimization problem",
@@ -432,7 +432,7 @@
             },
             {
               "type": "paper",
-              "time": "12.00 PM - 12.15 PM",
+              "time": "12:45 PM - 01:00 PM",
               "data": {
                 "id": "48",
                 "title": "On the Exponential Diophantine Equation pˣ+qʸ=z³: Theorems and Conjectures",
@@ -443,7 +443,7 @@
             },
             {
               "type": "paper",
-              "time": "12.15 PM - 12.30 PM",
+              "time": "01:00 PM - 01:15 PM",
               "data": {
                 "id": "68",
                 "title": "On the Construction of 4 × 4 Lightweight Involutory MDS Matrices over F2⁸",
@@ -454,7 +454,7 @@
             },
             {
               "type": "paper",
-              "time": "12.30 PM - 12.45 PM",
+              "time": "01:15 PM - 01:30 PM",
               "data": {
                 "id": "114",
                 "title": "Factual Power Loss Reduction by Meadow Fritillary Butterfly Optimization Algorithm",
@@ -465,7 +465,7 @@
             },
             {
               "type": "break",
-              "time": "12.45 PM - 02.00 PM"
+              "time": "01:30 PM - 02:00 PM"
             }
           ]
         },
@@ -474,7 +474,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "02.00 PM - 03.00 PM",
+              "time": "02:00 PM - 03:00 PM",
               "data": {
                 "name": "Dr. Svetla Petkova-Nikova",
                 "institute": "ESAT-COSIC, KU Leuven, Belgium",
@@ -483,7 +483,7 @@
             },
             {
               "type": "keynote",
-              "time": "03.00 PM - 04.00 PM",
+              "time": "03:00 PM - 04:00 PM",
               "data": {
                 "name": "Prof. Mohamed M S Nasser",
                 "institute": "Qatar University, Qatar",
@@ -492,11 +492,11 @@
             },
             {
               "type": "break",
-              "time": "04.00 PM - 04.15 PM"
+              "time": "04:00 PM - 04:15 PM"
             },
             {
               "type": "paper",
-              "time": "04.15 PM - 04.30 PM",
+              "time": "04:15 PM - 04:30 PM",
               "data": {
                 "id": "29",
                 "title": "A simple model on streamflow management with a dynamic risk measure",
@@ -516,7 +516,7 @@
             },
             {
               "type": "paper",
-              "time": "04.30 PM - 04.45 PM",
+              "time": "04:30 PM - 04:45 PM",
               "data": {
                 "id": "34",
                 "title": "A new class of quantum codes associate with a class of maps",
@@ -527,7 +527,7 @@
             },
             {
               "type": "paper",
-              "time": "04.45 PM - 05.00 PM",
+              "time": "04:45 PM - 05:00 PM",
               "data": {
                 "id": "86",
                 "title": "Implementation report of the Kohel-Lauter-Petit-Tignol algorithm for the constructive Deuring correspondence",
@@ -538,7 +538,7 @@
             },
             {
               "type": "paper",
-              "time": "05.00 PM - 05.15 PM",
+              "time": "05:00 PM - 05:15 PM",
               "data": {
                 "id": "332",
                 "title": "Results on Competitiveness of Online Shortest Remaining Processing Time (SRPT) Scheduling with Special Classes of Inputs",
@@ -549,7 +549,7 @@
             },
             {
               "type": "paper",
-              "time": "05.15 PM - 05.30 PM",
+              "time": "05:15 PM - 05:30 PM",
               "data": {
                 "id": "337",
                 "title": "Perturbation Technique on MHD Slip Flow of an Accelerated Plate with Hall Current",
@@ -560,7 +560,7 @@
             },
             {
               "type": "paper",
-              "time": "05.30 PM - 05.45 PM",
+              "time": "05:30 PM - 05:45 PM",
               "data": {
                 "id": "351",
                 "title": "Simulation of two dimensional nonlinear model for washing of pulp fibre bed using quintic Hermite interpolation polynomials",
@@ -584,7 +584,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "10.00 AM - 11.00 AM",
+              "time": "10:00 AM - 11:00 AM",
               "data": {
                 "name": "Prof. Bhavani Thuraisingham",
                 "institute": "The University of Texas at Dallas, USA",
@@ -593,7 +593,7 @@
             },
             {
               "type": "keynote",
-              "time": "11.00 AM - 12.00 PM",
+              "time": "11:00 AM - 12:00 PM",
               "data": {
                 "name": "Prof. Francisco Rodríguez Henríquez",
                 "institute": " Advanced Research Center (CINVESTAV-IPN), Mexico",
@@ -605,7 +605,7 @@
             },
             {
               "type": "paper",
-              "time": "12.00 PM - 12.15 PM",
+              "time": "12:00 PM - 12:15 PM",
               "data": {
                 "id": "118",
                 "title": "A Novel Ranking-based Non-linear Programming Approach to Solve Bi-Matrix Games in Dense Fuzzy Environment",
@@ -625,7 +625,7 @@
             },
             {
               "type": "paper",
-              "time": "12.15 PM - 12.30 PM",
+              "time": "12:15 PM - 12:30 PM",
               "data": {
                 "id": "139",
                 "title": "Semi-Markov decision processes with vector pay-offs",
@@ -636,7 +636,7 @@
             },
             {
               "type": "paper",
-              "time": "12.30 PM - 12.45 PM",
+              "time": "12:30 PM - 12:45 PM",
               "data": {
                 "id": "214",
                 "title": "Sonar Sensing Based Human Leg Localization Using Gaussian Process Regression",
@@ -647,7 +647,7 @@
             },
             {
               "type": "paper",
-              "time": "12.45 PM - 01.00 PM",
+              "time": "12:45 PM - 01:00 PM",
               "data": {
                 "id": "217",
                 "title": "Steady-state analysis of a vacation queue with random serving capacity and batch-size-dependent service",
@@ -658,7 +658,7 @@
             },
             {
               "type": "paper",
-              "time": "01.15 PM - 01.30 PM",
+              "time": "01:15 PM - 01:30 PM",
               "data": {
                 "id": "223",
                 "title": "Computing Prices for Target Profits in Contracts",
@@ -669,7 +669,7 @@
             },
             {
               "type": "paper",
-              "time": "01.30 PM - 01.45 PM",
+              "time": "01:30 PM - 01:45 PM",
               "data": {
                 "id": "273",
                 "title": "On the solution of Bush and Wilson's stochastic model for two-choice behavior of the paradise fish approached by the fixed point method",
@@ -680,7 +680,7 @@
             },
             {
               "type": "break",
-              "time": "01.45 PM - 02.00 PM"
+              "time": "01:45 PM - 02:00 PM"
             }
           ]
         },
@@ -689,7 +689,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "02.00 PM - 03.00 PM",
+              "time": "02:00 PM - 03:00 PM",
               "data": {
                 "name": "Prof. Harri Hakula",
                 "institute": "Aalto University, Finland",
@@ -698,11 +698,11 @@
             },
             {
               "type": "break",
-              "time": "03.00 PM - 03.15 PM"
+              "time": "03:00 PM - 03:15 PM"
             },
             {
               "type": "paper",
-              "time": "03.15 PM - 03.30 PM",
+              "time": "03:15 PM - 03:30 PM",
               "data": {
                 "id": "67",
                 "title": "A Fine-tuning Retrieval System for Mathematical Information",
@@ -722,7 +722,7 @@
             },
             {
               "type": "paper",
-              "time": "03.30 PM - 03.45 PM",
+              "time": "03:30 PM - 03:45 PM",
               "data": {
                 "id": "105",
                 "title": "Hardware Implementation of Multiplication over Quartic Extension Fields",
@@ -733,7 +733,7 @@
             },
             {
               "type": "paper",
-              "time": "03.45 PM - 04.00 PM",
+              "time": "03:45 PM - 04:00 PM",
               "data": {
                 "id": "359",
                 "title": "Wind Responses Evaluation of Limbs Shifted U Shaped Building Using CFD",
@@ -759,7 +759,7 @@
           "entries": [
             {
               "type": "inauguration",
-              "time": "9:30 AM - 10:30 AM"
+              "time": "09:30 AM - 10:30 AM"
             },
             {
               "type": "keynote",
@@ -1002,20 +1002,15 @@
               }
             },
             {
-              "type": "keynote",
-              "time": "11:00 AM - 12:00 PM",
-              "data": {
-                "name": "Prof. S Ponnusamy",
-                "institute": "Indian Institute of Technology Madras, India",
-                "topic": "Recent Approaches to Bohr's Inequality"
-              }
+              "type": "break",
+              "time": "11:00 AM - 11:15 AM"
             },
             {
               "type": "header"
             },
             {
               "type": "paper",
-              "time": "12:00 PM - 12:15 PM",
+              "time": "11:15 AM - 11:30 AM",
               "data": {
                 "id": "103",
                 "title": "Big-Five Personality Prediction from Handwritten Character Features and Word 'of' using Multi-label Classification",
@@ -1035,7 +1030,7 @@
             },
             {
               "type": "paper",
-              "time": "12:15 PM - 12:30 PM",
+              "time": "11:30 AM - 11:45 AM",
               "data": {
                 "id": "116",
                 "title": "A Comparative Study of Pre-trained Gene Embedding for COVID-19 mRNA Vaccine Degradation Prediction",
@@ -1046,7 +1041,7 @@
             },
             {
               "type": "paper",
-              "time": "12:30 PM - 12:45 PM",
+              "time": "11:45 AM - 12:00 PM",
               "data": {
                 "id": "237",
                 "title": "MACI: Malicious API Call Identifier Model to Secure the Host Platform",
@@ -1057,7 +1052,7 @@
             },
             {
               "type": "paper",
-              "time": "12:45 PM - 01:00 PM",
+              "time": "12:00 PM - 12:15 PM",
               "data": {
                 "id": "263",
                 "title": "Multivariate Deep Learning Model with Ensemble Pruning for Time Series Forecasting",
@@ -1068,7 +1063,7 @@
             },
             {
               "type": "paper",
-              "time": "01:00 PM - 01:15 PM",
+              "time": "12:15 PM - 12:30 PM",
               "data": {
                 "id": "285",
                 "title": "Deep Photo Classification Based on Geometrical Shape of Principal Object Presents in Photographs via VGG16 DCNN",
@@ -1079,7 +1074,7 @@
             },
             {
               "type": "paper",
-              "time": "01:15 PM - 01:30 PM",
+              "time": "12:30 PM - 12:45 PM",
               "data": {
                 "id": "340",
                 "title": "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods",
@@ -1090,7 +1085,7 @@
             },
             {
               "type": "paper",
-              "time": "01:30 PM - 01:45 PM",
+              "time": "12:45 PM - 01:00 PM",
               "data": {
                 "id": "352",
                 "title": "Genetic Algorithm based Deep Learning Models: A Design Perspective",
@@ -1101,7 +1096,7 @@
             },
             {
               "type": "break",
-              "time": "1:45 PM - 2:00 PM"
+              "time": "01:00 PM - 02:00 PM"
             }
           ]
         },
@@ -1215,7 +1210,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "10.00 AM - 11.00 AM",
+              "time": "10:00 AM - 11:00 AM",
               "data": {
                 "name": "Prof. Sugata Gangopadhyay",
                 "institute": "Indian Institute of Technology Roorkee, India",
@@ -1223,15 +1218,20 @@
               }
             },
             {
-              "type": "break",
-              "time": "11.00 PM - 11.15 PM"
+              "type": "keynote",
+              "time": "11:00 AM - 12:00 PM",
+              "data": {
+                "name": "Prof. S Ponnusamy",
+                "institute": "Indian Institute of Technology Madras, India",
+                "topic": "Recent Approaches to Bohr's Inequality"
+              }
             },
             {
               "type": "header"
             },
             {
               "type": "paper",
-              "time": "11.15 AM - 11.30 AM",
+              "time": "12:00 PM - 12:15 PM",
               "data": {
                 "id": "16",
                 "title": "Stock Market Predictions Using FastRNN Based model",
@@ -1255,7 +1255,7 @@
             },
             {
               "type": "paper",
-              "time": "11.30 AM - 11.45 AM",
+              "time": "12:15 PM - 12:30 PM",
               "data": {
                 "id": "20",
                 "title": "Automated System for Face-mask Detection using Convolutional Neural Network",
@@ -1266,7 +1266,7 @@
             },
             {
               "type": "paper",
-              "time": "11.45 AM - 12.00 PM",
+              "time": "12:30 PM - 12:45 PM",
               "data": {
                 "id": "327",
                 "title": "Using protein interactome similarity to improve random walk with restart model for drug repurposing",
@@ -1277,7 +1277,7 @@
             },
             {
               "type": "paper",
-              "time": "12.00 PM - 12.15 PM",
+              "time": "12:45 PM - 01:00 PM",
               "data": {
                 "id": "131",
                 "title": "COVID-19 Detection on Chest X-Ray and CT Scan Images Using Multi-image Augmented Deep Learning Model",
@@ -1288,7 +1288,7 @@
             },
             {
               "type": "paper",
-              "time": "12.15 PM - 12.30 PM",
+              "time": "01:00 PM - 01:15 PM",
               "data": {
                 "id": "249",
                 "title": "Identification of Relevant Quantities in Arithmetic Word Problems using Siamese Neural Network",
@@ -1299,7 +1299,7 @@
             },
             {
               "type": "paper",
-              "time": "12.30 PM - 12.45 PM",
+              "time": "01:15 PM - 01:30 PM",
               "data": {
                 "id": "356",
                 "title": "A Binary Multi-objective Multi-verse Optimization-based Time Series Forecasting",
@@ -1310,7 +1310,7 @@
             },
             {
               "type": "paper",
-              "time": "12.45 PM - 01.00 PM",
+              "time": "01:30 PM - 01:45 PM",
               "data": {
                 "id": "234",
                 "title": "Hybrid Computing Scheme for Quasi-based Deployment in the Internet of Things",
@@ -1321,7 +1321,7 @@
             },
             {
               "type": "break",
-              "time": "01.00 PM - 02.00 PM"
+              "time": "01:45 PM - 02:00 PM"
             }
           ]
         },
@@ -1330,7 +1330,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "02.00 PM - 03.00 PM",
+              "time": "02:00 PM - 03:00 PM",
               "data": {
                 "name": "Dr. Svetla Petkova-Nikova",
                 "institute": "ESAT-COSIC, KU Leuven, Belgium",
@@ -1339,7 +1339,7 @@
             },
             {
               "type": "keynote",
-              "time": "03.00 PM - 04.00 PM",
+              "time": "03:00 PM - 04:00 PM",
               "data": {
                 "name": "Prof. Mohamed M S Nasser",
                 "institute": "Qatar University, Qatar",
@@ -1348,11 +1348,11 @@
             },
             {
               "type": "break",
-              "time": "04.00 PM - 04.15 PM"
+              "time": "04:00 PM - 04:15 PM"
             },
             {
               "type": "paper",
-              "time": "04.15 PM - 04.30 PM",
+              "time": "04:15 PM - 04:30 PM",
               "data": {
                 "id": "45",
                 "title": "Real-time error correction codes for deletable errors",
@@ -1376,7 +1376,7 @@
             },
             {
               "type": "paper",
-              "time": "04.30 PM - 04.45 PM",
+              "time": "04:30 PM - 04:45 PM",
               "data": {
                 "id": "109",
                 "title": "An Enhanced Quality of Service based Trust Model for Cloud Computing",
@@ -1387,7 +1387,7 @@
             },
             {
               "type": "paper",
-              "time": "04.45 PM - 05.00 PM",
+              "time": "04:45 PM - 05:00 PM",
               "data": {
                 "id": "191",
                 "title": "DEA for measuring the performance of Higher Education Sector: A case study of Myanmar",
@@ -1398,7 +1398,7 @@
             },
             {
               "type": "paper",
-              "time": "05.00 PM - 05.15 PM",
+              "time": "05:00 PM - 05:15 PM",
               "data": {
                 "id": "204",
                 "title": "Synchronizing Words for Real-Time Deterministic Pushdown Automata",
@@ -1409,7 +1409,7 @@
             },
             {
               "type": "paper",
-              "time": "05.15 PM - 05.30 PM",
+              "time": "05:15 PM - 05:30 PM",
               "data": {
                 "id": "205",
                 "title": "A 2-Competitive Largest Job on Least Loaded Machine Online Algorithm based on the Multi List Scheduling Model",
@@ -1433,7 +1433,7 @@
           "entries": [
             {
               "type": "keynote",
-              "time": "10.00 AM - 11.00 AM",
+              "time": "10:00 AM - 11:00 AM",
               "data": {
                 "name": "Prof. Bhavani Thuraisingham",
                 "institute": "The University of Texas at Dallas, USA",
@@ -1442,7 +1442,7 @@
             },
             {
               "type": "keynote",
-              "time": "11.00 AM - 12.00 PM",
+              "time": "11:00 AM - 12:00 PM",
               "data": {
                 "name": "Prof. Francisco Rodríguez Henríquez",
                 "institute": " Advanced Research Center (CINVESTAV-IPN), Mexico",
@@ -1454,7 +1454,7 @@
             },
             {
               "type": "paper",
-              "time": "12.00 PM - 12.15 PM",
+              "time": "12:00 PM - 12:15 PM",
               "data": {
                 "id": "23",
                 "title": "Ceiling Improvement on Breast Cancer Prediction Accuracy using Unary KNN and Binary LightGBM Stacked Ensemble Learning",
@@ -1478,7 +1478,7 @@
             },
             {
               "type": "paper",
-              "time": "12.15 PM - 12.30 PM",
+              "time": "12:15 PM - 12:30 PM",
               "data": {
                 "id": "73",
                 "title": "An opportunistic ensemble learning framework for network traffic classification in IoT environments",
@@ -1489,7 +1489,7 @@
             },
             {
               "type": "paper",
-              "time": "12.30 PM - 12.45 PM",
+              "time": "12:30 PM - 12:45 PM",
               "data": {
                 "id": "242",
                 "title": "Predicting and analysing pedestrian injury severity: A machine learning-based approach",
@@ -1500,7 +1500,7 @@
             },
             {
               "type": "paper",
-              "time": "12.45 PM - 01.00 PM",
+              "time": "12:45 PM - 01:00 PM",
               "data": {
                 "id": "247",
                 "title": "Fog Computing Applications with Decentralized Computing Infrastructure- Systematic Review",
@@ -1511,7 +1511,7 @@
             },
             {
               "type": "paper",
-              "time": "01.15 PM - 01.30 PM",
+              "time": "01:15 PM - 01:30 PM",
               "data": {
                 "id": "342",
                 "title": "Investigating External Audit Records to Detect Fraudulent Firms Employing Various Machine Learning Methods",
@@ -1522,11 +1522,11 @@
             },
             {
               "type": "break",
-              "time": "01.30 PM - 02.00 PM"
+              "time": "01:30 PM - 02:00 PM"
             },
             {
               "type": "keynote",
-              "time": "02.00 PM - 03.00 PM",
+              "time": "02:00 PM - 03:00 PM",
               "data": {
                 "name": "Prof. Harri Hakula",
                 "institute": "Aalto University, Finland",

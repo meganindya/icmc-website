@@ -280,35 +280,37 @@
       }
 
       #sessions-math {
-        table {
+        .session-table-wrapper {
           &:nth-of-type(1) {
-            tr {
-              &:nth-of-type(14) {
-                @include keynote-separator-border;
-              }
-            }
-          }
-
-          &:nth-of-type(2) {
-            tr {
-              &:nth-of-type(3) {
-                @include keynote-separator-border;
+            table {
+              tr {
+                &:nth-of-type(14) {
+                  @include keynote-separator-border;
+                }
               }
             }
           }
 
           &:nth-of-type(3) {
-            tr {
-              &:nth-of-type(14) {
-                @include keynote-separator-border;
+            table {
+              tr {
+                &:nth-of-type(3) {
+                  @include keynote-separator-border;
+                }
+
+                &:nth-of-type(14) {
+                  @include keynote-separator-border;
+                }
               }
             }
           }
 
           &:nth-of-type(4) {
-            tr {
-              &:nth-of-type(3) {
-                @include keynote-separator-border;
+            table {
+              tr {
+                &:nth-of-type(3) {
+                  @include keynote-separator-border;
+                }
               }
             }
           }
@@ -316,40 +318,42 @@
       }
 
       #sessions-comp {
-        table {
+        .session-table-wrapper {
           &:nth-of-type(1) {
-            tr {
-              &:nth-of-type(14) {
-                @include keynote-separator-border;
-              }
-            }
-          }
-
-          &:nth-of-type(2) {
-            tr {
-              &:nth-of-type(3) {
-                @include keynote-separator-border;
+            table {
+              tr {
+                &:nth-of-type(14) {
+                  @include keynote-separator-border;
+                }
               }
             }
           }
 
           &:nth-of-type(3) {
-            tr {
-              &:nth-of-type(15) {
-                @include keynote-separator-border;
+            table {
+              tr {
+                &:nth-of-type(3) {
+                  @include keynote-separator-border;
+                }
+
+                &:nth-of-type(15) {
+                  @include keynote-separator-border;
+                }
               }
             }
           }
 
           &:nth-of-type(4) {
-            tr {
-              &:nth-of-type(3) {
-                @include keynote-separator-border;
-              }
+            table {
+              tr {
+                &:nth-of-type(3) {
+                  @include keynote-separator-border;
+                }
 
-              &:last-of-type {
-                td {
-                  border-bottom: 1px solid #ccc;
+                &:last-of-type {
+                  td {
+                    border-bottom: 1px solid #ccc;
+                  }
                 }
               }
             }
