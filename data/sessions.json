@@ -52,7 +52,7 @@
                 "id": "122",
                 "title": "The Spanning Maximal Planar Subgraph Problem for Some Classes of Complete 4-Partite Graphs",
                 "authors": "Tjaart Jan Estrada and Isagani Jos",
-                "presenter": "Tjaart Jan Estrada",
+                "presenter": "Tjaart Jan B Estrada",
                 "affiliation": "Don Mariano Marcos Memorial State University, Philippines"
               }
             },
@@ -1073,7 +1073,7 @@
                 "id": "285",
                 "title": "Deep Photo Classification Based on Geometrical Shape of Principal Object Presents in Photographs via VGG16 DCNN",
                 "authors": "Soma Debnath, Molla Saroyar Hossain, and Suvamoy Changder",
-                "presenter": "Soma Debnath",
+                "presenter": "Soma Debnath\nMolla Saroyar Hossain",
                 "affiliation": "National Institute of Technology Durgapur, India"
               }
             },
@@ -1128,7 +1128,7 @@
                 "id": "276",
                 "title": "A Comprehensive Review of Fraudulent Email Detection Models",
                 "authors": "Hitesh Soneji, Aniruddh Soman, Aniruddh Vyas, and Shubha Puthran",
-                "presenter": "Aniruddh Vyas",
+                "presenter": "Aniruddh Vyas\nAniruddh Sajith Soman\nHitesh Narayan Soneji",
                 "affiliation": "Mukesh Patel School of Technology Management and Engineering, India",
                 "chair": {
                   "names": [
@@ -1174,7 +1174,7 @@
                 "id": "163",
                 "title": "OpenPGP Email Forwarding Via Diverted Elliptic Curve Diffie-Hellman Key Exchanges",
                 "authors": "Aron Wussler and Francisco José Vial Prado",
-                "presenter": "Aron Wussler",
+                "presenter": "Aron Wussler\nFrancisco José Vial Prado",
                 "affiliation": "Proton Technologies AG, Switzerland"
               }
             },
