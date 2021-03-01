@@ -15,6 +15,15 @@
                     <%= item.topic ? item.topic : '' %>
                 </span>
             </p>
+            <% } else if (item.file) { %>
+            <p>
+                Topic:<br />
+                <span>
+                    <a href="<%= item.file %>" target="_blank">
+                        <%= item.topic ? item.topic : '' %>
+                    </a>
+                </span>
+            </p>
             <% } else { %>
             <p>
                 <%= item.topic ? 'Topic:' : '' %><br />

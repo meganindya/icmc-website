@@ -140,7 +140,7 @@
             font-weight: bold;
 
             @media only screen and (min-width: 1200px) {
-              padding-top: 0.5rem;
+              padding-top: 0.25rem;
             }
 
             @media only screen and (max-width: 575px) {
@@ -156,18 +156,19 @@
 
           &:nth-child(3) {
             padding-top: 0;
-            font-size: 1rem;
+            font-size: 0.9rem;
 
             @media only screen and (min-width: 1200px) {
               padding-top: 0.25rem;
             }
 
-            @media only screen and (max-width: 375px) {
-              font-size: 0.9rem;
-            }
-
             span {
               color: #005;
+
+              a {
+                color: #005;
+                text-decoration: none;
+              }
 
               &.speaker-abstract {
                 cursor: pointer;
