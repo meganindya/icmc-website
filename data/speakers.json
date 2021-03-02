@@ -20,9 +20,9 @@
     "abstract": "Following are the issues in e-voting.\n\n1. Voter authentication i.e. each registered voter votes her own vote; no one else can.\n2. Each voter is able to verify if her vote has been cast as intended.\n3. Each voter is able to verify if her vote is recorded as cast.\n4. Anyone can verify if all the votes are tallied as recorded.\n5. If multiple EVMs are used, the voting pattern in each machine is not disclosed; only the SUM over all the machines are disclosed.\n\nWill discuss possible solutions to address all the issues."
   },
   {
-    "link": "https://www.utu.fi/en/people/matti-vuorinen",
-    "name": "Matti Vuorinen",
-    "institute": "University of Turku, Finland"
+    "link": "https://people.aalto.fi/ville.vuorinen",
+    "name": "Ville Vuorinen",
+    "institute": "Aalto University, Finland"
   },
   {
     "link": "https://www.iitk.ac.in/new/sandeep-k-shukla",
