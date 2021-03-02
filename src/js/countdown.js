@@ -7,6 +7,7 @@ const countDownDate = new Date('Mar 2, 2021 11:00:00').getTime();
 export default function updateCountdown(countdown) {
     /** stores time remaining in milliseconds */
     const diffMillis = countDownDate - Date.now();
+    console.log(diffMillis);
 
     if (diffMillis < 0) {
         if (countdown) clearInterval(countdown);
@@ -14,6 +15,7 @@ export default function updateCountdown(countdown) {
         document.getElementById('days').innerHTML = '00';
         document.getElementById('hours').innerHTML = '00';
         document.getElementById('mins').innerHTML = '00';
+        return;
     }
 
     const [days, hours, mins] = [
